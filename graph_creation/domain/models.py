@@ -18,6 +18,20 @@ class Municipality:
 
 @dataclass(frozen=True)
 class Flight:
-    flight_icao: str
+    icao: str
+    callsign: str
     dep_icao: str
     arr_icao: str
+
+
+# placeholder domain models for future enrichment
+@dataclass(frozen=True)
+class FlightType:
+    icao_type: str
+    description: str = ""
+
+
+@dataclass(frozen=True)
+class Company:
+    name: str
+    code: str = ""

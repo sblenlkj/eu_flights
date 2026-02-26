@@ -76,22 +76,35 @@ class OpenSkyFlightProvider(FlightProvider):
 
         print(f"loaded {len(data)} flights from OpenSky")
         unknown_flights_number = 0
+        empty_icao_or_callsign_number = 0
 
         for f in data:
             if not self._is_valid_flight(f):
                 unknown_flights_number += 1
                 continue
 
+            if not self._icao_and_callsign_present(f):
+                empty_icao_or_callsign_number += 1
+                continue
+
             yield Flight(
-                flight_icao=f["icao24"],
+                icao=f["icao24"],
+                callsign=f["callsign"].strip(),
                 dep_icao=f["estDepartureAirport"],
                 arr_icao=f["estArrivalAirport"],
             )
         
         print(f"flights with empty arr/dep = {unknown_flights_number}")
+        print(f"flights with empty icao or callsign = {empty_icao_or_callsign_number}")
 
     @staticmethod
     def _is_valid_flight(f: dict) -> bool:
         return (f.get("estDepartureAirport") is not None 
                 and f.get("estArrivalAirport") is not None
+        )
+
+    @staticmethod
+    def _icao_and_callsign_present(f: dict) -> bool:
+        return (f.get("icao24") is not None
+                and f.get("callsign") is not None
         )

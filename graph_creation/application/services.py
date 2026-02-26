@@ -51,6 +51,7 @@ class CreateGraphService:
 
         print(f"unknown or non-eu departures: {graph.unknown_or_non_eu_dep}")
         print(f"unknown or non-eu arrivals: {graph.unknown_or_non_eu_arr}")
+        print(f"self loops (flights within the same municipality): {graph.loops}")
 
         return graph.to_graph()
 

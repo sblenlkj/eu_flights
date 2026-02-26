@@ -16,13 +16,16 @@ class NetworkXAdapter():
         for node in graph.nodes:
             nx_graph.add_node(
                 node.id,
-                size=node_weight_to_size_translator(node.weight),
+                size=node_weight_to_size_translator(node.out_flights_number),
                 label=node.name,
                 iso_country=node.iso_country,
                 iso_region=node.iso_region,
                 latitude=node.latitude,
                 longitude=node.longitude,
                 airports=node.airports,
+                in_flights_number=node.in_flights_number,
+                out_flights_number=node.out_flights_number,
+                nut3_code=node.nut3_code,
             )
 
         # Add edges
@@ -31,6 +34,7 @@ class NetworkXAdapter():
                 edge.from_id,
                 edge.to_id,
                 weight=edge.weight,
+                distance=edge.distance,
             )
 
         return nx_graph

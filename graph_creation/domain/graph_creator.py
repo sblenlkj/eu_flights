@@ -3,22 +3,29 @@ from typing import List, Dict
 
 from .models import Municipality, Flight
 from .graph import Graph, Node, Edge
+from graph_creation.utils import calculate_distance
 
 @dataclass
 class EdgeMunicipalityCreator:
     from_id: str
     to_id: str
     weight: int = 0
+    # internal map (icao,callsign) -> count
+    flights: Dict[tuple[str,str], int] = field(default_factory=dict)
 
     def increment(self, by: int = 1) -> None:
         self.weight += by
+
+    def add_flight(self, icao: str, callsign: str) -> None:
+        key = (icao, callsign)
+        self.flights[key] = self.flights.get(key, 0) + 1
 
 @dataclass
 class EdgesFromMunicipalityCreator:
     municipality_id: str
     edges: Dict[str, EdgeMunicipalityCreator] = field(default_factory=dict)
 
-    def increment(self, to_id: str) -> None:
+    def increment(self, to_id: str, flight_icao: str, callsign: str) -> None:
         if to_id not in self.edges:
             self.edges[to_id] = EdgeMunicipalityCreator(
                 from_id=self.municipality_id,
@@ -26,6 +33,7 @@ class EdgesFromMunicipalityCreator:
                 weight=0,
             )
         self.edges[to_id].increment()
+        self.edges[to_id].add_flight(flight_icao, callsign)
 
     def __len__(self):
         return len(self.edges)
@@ -35,11 +43,11 @@ class EdgesFromMunicipalityCreator:
 class MunicipalityNodeCreator:
     municipality: Municipality
     edges: EdgesFromMunicipalityCreator
-    weight: int = 0  # total outgoing weight
+    out_flights_number: int = 0  # total outgoing flights
 
-    def increment_edge(self, to_id: str):
-        self.weight += 1
-        self.edges.increment(to_id)
+    def increment_edge(self, to_id: str, flight_icao: str, callsign: str):
+        self.out_flights_number += 1
+        self.edges.increment(to_id, flight_icao, callsign)
 
 
 class GraphCreator:
@@ -53,6 +61,8 @@ class GraphCreator:
         self.unknown_or_non_eu_arr = 0
         self.begin = begin
         self.end = end
+        self.flights_number = 0
+        self.loops = 0
 
         for m in municipalities:
             node = MunicipalityNodeCreator(
@@ -75,10 +85,16 @@ class GraphCreator:
             self.unknown_or_non_eu_arr += 1
             return
         
+        if src == dst:
+            # ignore self loops (flights within the same municipality)
+            self.loops += 1
+            return
+
         self.used_nodes.add(src.municipality.id)
         self.used_nodes.add(dst.municipality.id)
 
-        src.increment_edge(dst.municipality.id)
+        src.increment_edge(dst.municipality.id, flight.icao, flight.callsign)
+        self.flights_number += 1
 
     def to_graph(self) -> Graph:
         nodes: list[Node] = []
@@ -88,18 +104,48 @@ class GraphCreator:
         for node in self.nodes.values():
             for edge in node.edges.edges.values():
                 if edge.weight > 0:
+                    # convert internal flights dict -> list of FlightNumber
+                    flights_list = []
+                    from graph_creation.domain.graph import FlightInEdge, FlightNumber
+                    for (icao, callsign), cnt in edge.flights.items():
+                        flights_list.append(
+                            FlightNumber(
+                                flight=FlightInEdge(icao=icao, callsign=callsign),
+                                count=cnt,
+                            )
+                        )
+                    
+                    # Calculate distance between municipalities
+                    from_node = self.nodes[edge.from_id]
+                    to_node = self.nodes[edge.to_id]
+                    distance = calculate_distance(
+                        from_node.municipality.latitude,
+                        from_node.municipality.longitude,
+                        to_node.municipality.latitude,
+                        to_node.municipality.longitude,
+                    )
+                    
                     edges.append(
                         Edge(
                             from_id=edge.from_id,
                             to_id=edge.to_id,
                             weight=edge.weight,
+                            flights=flights_list,
+                            distance=distance,
                         )
                     )
 
         # build nodes: include both sources and pure-destinations
+        # compute incoming flights per node
+        incoming_counts: Dict[str, int] = {}
+        for e in edges:
+            incoming_counts[e.to_id] = incoming_counts.get(e.to_id, 0) + e.weight
+
         for node_id in self.used_nodes:
             node = self.nodes[node_id]
             m = node.municipality
+            out_num = node.out_flights_number
+            in_num = incoming_counts.get(m.id, 0)
             nodes.append(
                 Node(
                     id=m.id,
@@ -109,10 +155,14 @@ class GraphCreator:
                     latitude=m.latitude,
                     longitude=m.longitude,
                     airports=list(m.airports),
-                    weight=node.weight,  # outgoing total; incoming-only nodes will be 0, and that's OK
+                    out_flights_number=out_num,
+                    in_flights_number=in_num,
+                    nut3_code=None,
                 )
             )
+        total_flights = self.flights_number
 
+        print(f"Graph created with {len(nodes)} nodes and {len(edges)} edges, flights: {total_flights}")
         return Graph(
             nodes=nodes,
             edges=edges,
@@ -120,4 +170,8 @@ class GraphCreator:
             unknown_or_non_eu_arr=self.unknown_or_non_eu_arr,
             begin=self.begin,
             end=self.end,
+            nodes_number=len(nodes),
+            edges_number=len(edges),
+            flights_number=total_flights,
+            loops_number=self.loops,
         )

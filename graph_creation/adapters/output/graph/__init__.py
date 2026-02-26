@@ -1,1 +1,2 @@
 from .networkx_adapter import NetworkXAdapter
+from .pandas_adapter import GraphPandasAdapter
