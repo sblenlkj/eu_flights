@@ -1,10 +1,27 @@
 # EU flights 
-I have collected graph flights in EU for one week (16-22.02.2026). I will add more data for edges (airplane type, company) that will be used for edge embedings and will map target - gpd - to the municipality (ps our node) later. Now the graph is ready for 70% of the project - you can load from csv and experiment. I have agregated it into 3 csv - nodes, edges, flights - they are located in `data/graph_csv`. You can load with pandas, convert to graph with networkx. 
+I have collected flights across EU countries in a graph during one week (16-22.02.2026). What can we do:
+- Create a network. There should be some attributes of nodes (**done**): cities (they are called municipalities) are our nodes and existing flight routes are edges. The graph is directional, edges have weights (number of flights), nodes have also weights (in-flights and out-flights number). For other attributes look at the data. Right now nodes=762, edges=7932; we can also add extra countries like Switzerland and Norway.
+- Describe what does it contain (what are nodes and edges, which attributes) 
+- Visualize network - we can visualise with html map / networks. 
+- Give basic characteristics (number of nodes, number of edges, clustering coef., see Lecture 1)
+- Analyze degree distribution (Compare with power law, binominal, compute hyperparameters – find parameters of the distributions)
+- Compare with network models (ER, BA, WS)
+- Compute centralities, PageRank/HITS for directed graphs
+- Investigate node similarity, assortative mixing
+- Find communities using different algorithms
 
-The graph can be loaded from json as well. It is located in `data/flights_week_graph.json`. Domain model for graph is called Graph :). I have written some adapters for it, but matrix and message passing adapters are not ready yet. 
+All above can be done right now. The graph is stored both in json and csv formats; 3 csv - nodes, edges, flights - are located in `data/graph_csv`. You can load with pandas, convert to graph with networkx. For more, look at `eu_flights_data_collection.ipynb`. If you do sm, pleasee, create a new ipynb file. 
 
 How the data was collected can be seen from `eu_flights_data_collection.ipynb`
 
+PS The python folder contains some code that is usefull to save/load the graph, convert it from one implementation to another (for example, adjacency matrix, networkx, pandas df). I operate on graph domain model for graph that is called Graph :) I have some adapters for it, but matrix and message passing adapters are not ready yet.
+
+## ML Task
+Describe and solve ML task (node classification/link prediction/etc., check several models/approaches). 
+
+We can predict gpd per inhabitants based on flight activity. I will add more data soon:
+- For edges I will add airplane type and company that will be used for edge embedings
+- For nodes I will map target varriable to nodes. The field is None right now. 
 
 ## How to load python dependencies 
 - clone to your mac with git 
