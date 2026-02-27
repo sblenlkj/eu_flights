@@ -22,7 +22,7 @@ PS The python folder contains some code that is usefull to save/load the graph, 
 Describe and solve ML task (node classification/link prediction/etc., check several models/approaches). 
 
 We can predict gpd per inhabitants based on flight activity. 
-We can also predict the number of flights (our edges) between cities and their attributes (what company operates the flight, what airplane model is used, etc.). This information is include at embeddings. 
+We can also predict the number of flights (our edges) between cities and their attributes (what company operates the flight, what airplane model is used, etc.). This information is included at embeddings. 
 
 ## How to load python dependencies 
 - clone to your mac with git 

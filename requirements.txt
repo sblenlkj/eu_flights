@@ -6,38 +6,58 @@ certifi==2026.2.25
     # via requests
 charset-normalizer==3.4.4
     # via requests
+contourpy==1.3.3
+    # via matplotlib
 country-converter==1.3.2
     # via eu-flights (pyproject.toml)
+cycler==0.12.1
+    # via matplotlib
 dotenv==0.9.9
     # via eu-flights (pyproject.toml)
 et-xmlfile==2.0.0
     # via openpyxl
 folium==0.20.0
     # via eu-flights (pyproject.toml)
+fonttools==4.61.1
+    # via matplotlib
 idna==3.11
     # via requests
 jinja2==3.1.6
     # via
     #   branca
     #   folium
+kiwisolver==1.4.9
+    # via matplotlib
 markupsafe==3.0.3
     # via jinja2
+matplotlib==3.10.8
+    # via eu-flights (pyproject.toml)
 networkx==3.6.1
     # via eu-flights (pyproject.toml)
 numpy==2.4.2
     # via
+    #   contourpy
     #   folium
+    #   matplotlib
     #   pandas
 openpyxl==3.1.5
     # via eu-flights (pyproject.toml)
+packaging==26.0
+    # via matplotlib
 pandas==3.0.1
     # via
     #   eu-flights (pyproject.toml)
     #   country-converter
+pillow==12.1.1
+    # via matplotlib
 pycountry==26.2.16
     # via eu-flights (pyproject.toml)
+pyparsing==3.3.2
+    # via matplotlib
 python-dateutil==2.9.0.post0
-    # via pandas
+    # via
+    #   matplotlib
+    #   pandas
 python-dotenv==1.2.1
     # via dotenv
 requests==2.32.5
