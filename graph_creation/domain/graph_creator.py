@@ -5,11 +5,14 @@ from .models import Municipality, Flight
 from .graph import Graph, Node, Edge
 from graph_creation.utils import calculate_distance
 
+MIN_DISTANCE = 150
+
 @dataclass
 class EdgeMunicipalityCreator:
     from_id: str
     to_id: str
     weight: int = 0
+    distance: float = 0
     # internal map (icao,callsign) -> count
     flights: Dict[tuple[str,str], int] = field(default_factory=dict)
 
@@ -25,11 +28,12 @@ class EdgesFromMunicipalityCreator:
     municipality_id: str
     edges: Dict[str, EdgeMunicipalityCreator] = field(default_factory=dict)
 
-    def increment(self, to_id: str, flight_icao: str, callsign: str) -> None:
+    def increment(self, to_id: str, flight_icao: str, callsign: str, distance: float) -> None:
         if to_id not in self.edges:
             self.edges[to_id] = EdgeMunicipalityCreator(
                 from_id=self.municipality_id,
                 to_id=to_id,
+                distance=distance,
                 weight=0,
             )
         self.edges[to_id].increment()
@@ -45,9 +49,9 @@ class MunicipalityNodeCreator:
     edges: EdgesFromMunicipalityCreator
     out_flights_number: int = 0  # total outgoing flights
 
-    def increment_edge(self, to_id: str, flight_icao: str, callsign: str):
+    def increment_edge(self, to_id: str, flight_icao: str, callsign: str, distance: float):
         self.out_flights_number += 1
-        self.edges.increment(to_id, flight_icao, callsign)
+        self.edges.increment(to_id, flight_icao, callsign, distance)
 
 
 class GraphCreator:
@@ -63,6 +67,7 @@ class GraphCreator:
         self.end = end
         self.flights_number = 0
         self.loops = 0
+        self.not_enough_distance = 0
 
         for m in municipalities:
             node = MunicipalityNodeCreator(
@@ -89,11 +94,22 @@ class GraphCreator:
             # ignore self loops (flights within the same municipality)
             self.loops += 1
             return
+        
+        distance = calculate_distance(
+            src.municipality.latitude,
+            src.municipality.longitude,
+            dst.municipality.latitude,
+            dst.municipality.longitude,
+        )
+
+        if distance < MIN_DISTANCE:
+            self.not_enough_distance += 1
+            return 
 
         self.used_nodes.add(src.municipality.id)
         self.used_nodes.add(dst.municipality.id)
 
-        src.increment_edge(dst.municipality.id, flight.icao, flight.callsign)
+        src.increment_edge(dst.municipality.id, flight.icao, flight.callsign, distance)
         self.flights_number += 1
 
     def to_graph(self) -> Graph:
@@ -115,23 +131,13 @@ class GraphCreator:
                             )
                         )
                     
-                    # Calculate distance between municipalities
-                    from_node = self.nodes[edge.from_id]
-                    to_node = self.nodes[edge.to_id]
-                    distance = calculate_distance(
-                        from_node.municipality.latitude,
-                        from_node.municipality.longitude,
-                        to_node.municipality.latitude,
-                        to_node.municipality.longitude,
-                    )
-                    
                     edges.append(
                         Edge(
                             from_id=edge.from_id,
                             to_id=edge.to_id,
                             weight=edge.weight,
                             flights=flights_list,
-                            distance=distance,
+                            distance=edge.distance,
                         )
                     )
 

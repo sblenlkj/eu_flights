@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "purpose": "Aggregate flight callsign prefixes into embedding-friendly airline/operator buckets (reduce sparse categorical cardinality while preserving signal for route/country prediction).",
+    "key": "callsign_prefix",
+    "source_field": "callsign (flight record), typically from OpenSky; prefixes are derived from the first 3 letters after normalization",
+    "normalization_tip": [
+      "CAST TO STRING",
+      "STRIP (OpenSky callsign often has trailing spaces)",
+      "UPPERCASE",
+      "REMOVE INTERNAL SPACES if present (optional)",
+      "EXTRACT PREFIX = first 3 alphabetic characters (recommended) OR first 3 chars after cleanup",
+      "IF prefix is empty/null -> UNKNOWN"
+    ],
+    "mapping_rules": {
+      "match_strategy": "exact match on normalized 3-letter prefix",
+      "fallbacks": {
+        "unknown": "if prefix is null/empty/non-alphabetic -> UNKNOWN",
+        "other": "if prefix not found in mapping -> OTHER"
+      },
+      "ambiguity_policy": "If a prefix can refer to multiple operators historically or via wet-lease, map it to the dominant operator in your dataset (or keep a neutral 'operator_group' label)."
+    },
+    "recommended_fields_per_group": {
+      "label": "stable machine-friendly bucket id (snake_case)",
+      "codes": "list of callsign prefixes belonging to this bucket (strings)",
+      "description": "human description of operator bucket",
+      "flags": {
+        "operator_type": "e.g., scheduled_airline | low_cost | charter | cargo | business_aviation | military | government | unknown",
+        "region_focus": "e.g., europe | uk_ie | nordics | dache | iberia | csee | global",
+        "alliance": "optional: star_alliance | oneworld | skyteam | none/unknown",
+        "is_cargo": "boolean",
+        "is_low_cost": "boolean",
+        "is_charter": "boolean"
+      }
+    },
+    "notes": [
+      "These are ICAO-style callsign prefixes seen in the callsign field; they are NOT IATA codes.",
+      "Callsigs may be missing, malformed, or not airline-related (private/military/GA). Keep UNKNOWN/OTHER buckets to avoid dropping rows.",
+      "If you later add aircraft-type features, consider separating 'business_aviation' from 'scheduled_airline' even more aggressively—those patterns correlate strongly with airports/regions."
+    ],
+    "version": "1.0"
+  },
+  "groups": [
+    {
+      "group_id": "LH_GROUP_PASSENGER",
+      "label": "Lufthansa Group (passenger)",
+      "codes": ["DLH", "AUA", "EWG"],
+      "category": "network+lcc",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "Lufthansa Group passenger operators (Lufthansa mainline, Austrian, Eurowings). Strongly predictive of DACH/central-European hubs and intra-European flows."
+    },
+    {
+      "group_id": "AF_KLM_GROUP",
+      "label": "Air France–KLM Group",
+      "codes": ["AFR", "KLM", "TRA", "TVF"],
+      "category": "network+lcc",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "Air France/KLM plus Transavia (NL/FR). Strong signal for CDG/ORY/AMS-centric networks and leisure routes."
+    },
+    {
+      "group_id": "IAG_GROUP",
+      "label": "IAG (Iberia/Vueling/Aer Lingus)",
+      "codes": ["IBE", "VLG", "EIN"],
+      "category": "network+lcc",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "IAG-related operators in your set. Strong signal for Spain/UK/Ireland connectivity and major hubs."
+    },
+    {
+      "group_id": "TURKISH_GROUP",
+      "label": "Turkish Airlines (hub carrier)",
+      "codes": ["THY"],
+      "category": "network",
+      "region_focus": "Europe+ME",
+      "is_major": true,
+      "description": "Large hub-and-spoke operator centered on IST; frequent across Europe and highly informative for international legs."
+    },
+    {
+      "group_id": "NORDICS_FLAG",
+      "label": "Nordics / North Atlantic flag carriers",
+      "codes": ["SAS", "FIN", "ICE"],
+      "category": "network",
+      "region_focus": "Nordics",
+      "is_major": true,
+      "description": "Major Nordic operators (Scandinavia, Finland) plus Icelandair; useful for Nordic airports and North Atlantic patterns."
+    },
+    {
+      "group_id": "SOUTH_EU_FLAG",
+      "label": "Southern Europe flag carriers",
+      "codes": ["TAP", "ITY", "AEE"],
+      "category": "network",
+      "region_focus": "Southern Europe",
+      "is_major": true,
+      "description": "Portugal/Italy/Greece mainline carriers. Good signal for LIS/OPO, FCO/MXP, ATH hubs and regional connectivity."
+    },
+    {
+      "group_id": "CEE_BENELUX_FLAG",
+      "label": "Central/Eastern Europe & Benelux flag carriers",
+      "codes": ["LOT", "BEL"],
+      "category": "network",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "LOT + Brussels Airlines. Useful for WAW and BRU-centric patterns and connections across Europe."
+    },
+    {
+      "group_id": "RYANAIR_GROUP",
+      "label": "Ryanair Group",
+      "codes": ["RYR", "RYS"],
+      "category": "lcc",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "High-volume European LCC; extremely predictive of secondary airports and cross-border point-to-point flows."
+    },
+    {
+      "group_id": "EASYJET_GROUP",
+      "label": "easyJet (all AOCs)",
+      "codes": ["EZY", "EJU", "EZS"],
+      "category": "lcc",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "easyJet group AOCs (UK/Europe/Switzerland). Strong signal for Western Europe city-pairs."
+    },
+    {
+      "group_id": "WIZZ_AIR",
+      "label": "Wizz Air",
+      "codes": ["WZZ"],
+      "category": "lcc",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "High-volume LCC with strong CEE/SEE footprint; informative for regional airport patterns."
+    },
+    {
+      "group_id": "EU_LCC_OTHER",
+      "label": "Other major EU LCC / leisure-LCC",
+      "codes": ["VOE", "PGT", "SXS"],
+      "category": "lcc",
+      "region_focus": "Europe+Turkey",
+      "is_major": true,
+      "description": "Volotea + Pegasus + SunExpress. Useful volume without exploding the vocabulary."
+    },
+    {
+      "group_id": "EU_LEISURE_CHARTER",
+      "label": "EU leisure / charter airlines",
+      "codes": ["TUI", "TOM", "TFL", "BLX", "JAF", "CFG", "TVS", "NOS"],
+      "category": "leisure_charter",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "TUI family + Condor + Smartwings + Neos. Strong seasonality and leisure-destination signal."
+    },
+    {
+      "group_id": "DHL_AVIATION_CARGO",
+      "label": "DHL Aviation",
+      "codes": ["BCS", "DHK", "BOX"],
+      "category": "cargo_integrator",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "DHL Aviation-related operators; highly predictive for cargo hubs and night-wave patterns."
+    },
+    {
+      "group_id": "EU_CARGO_NETWORK",
+      "label": "European cargo network carriers",
+      "codes": ["CLX", "GEC", "TAY", "ABR"],
+      "category": "cargo",
+      "region_focus": "Europe",
+      "is_major": true,
+      "description": "Cargolux + Lufthansa Cargo + ASL cargo operators. Strong signal for LUX/LEJ/CGN/LGG-type hubs."
+    },
+    {
+      "group_id": "GLOBAL_INTEGRATOR_CARGO",
+      "label": "Global cargo / integrators",
+      "codes": ["UPS", "FDX", "GTI", "NCA"],
+      "category": "cargo_integrator",
+      "region_focus": "Global",
+      "is_major": true,
+      "description": "UPS/FedEx plus major long-haul cargo carriers. Useful for intercontinental freight patterns."
+    },
+    {
+      "group_id": "MIDDLE_EAST_LONGHAUL",
+      "label": "Middle East global hubs",
+      "codes": ["UAE", "QTR", "ETD"],
+      "category": "longhaul",
+      "region_focus": "Global",
+      "is_major": true,
+      "description": "Emirates/Qatar/Etihad-style long-haul hub operators; strong signal for intercontinental legs into Europe."
+    },
+    {
+      "group_id": "INTERCONTINENTAL_OTHER",
+      "label": "Other intercontinental majors",
+      "codes": ["DAL", "ANA", "EVA", "CPA", "SIA", "CES", "MAS", "RAM", "MSR", "ELY"],
+      "category": "longhaul",
+      "region_focus": "Global",
+      "is_major": true,
+      "description": "Non-European majors that commonly appear in Europe (US/Asia/Africa/Israel). Helpful without overfitting to many singletons."
+    },
+    {
+      "group_id": "BIZJET_FRACTIONAL",
+      "label": "Business aviation / fractional",
+      "codes": ["NJE", "EJM", "VJT"],
+      "category": "bizjet_ga",
+      "region_focus": "Europe+Global",
+      "is_major": false,
+      "description": "NetJets/Executive Jet Management/VistaJet-type patterns. Keep separate because their airport usage differs from airlines."
+    },
+    {
+      "group_id": "SPECIAL_MISSION",
+      "label": "Special mission / air ambulance / misc ops",
+      "codes": ["SWE"],
+      "category": "special_mission",
+      "region_focus": "Europe",
+      "is_major": false,
+      "description": "Non-scheduled/special-purpose operator(s) you may want isolated from commercial patterns."
+    },
+    {
+      "group_id": "OTHER",
+      "label": "Other / long tail operators",
+      "codes": [],
+      "category": "other",
+      "region_focus": "Unknown",
+      "is_major": false,
+      "catch_all": true,
+      "description": "Catch-all bucket for everything not matched above (small charter, GA, tiny cargo, local operators, etc.)."
+    }
+  ]
+}

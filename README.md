@@ -12,6 +12,8 @@ I have collected flights across EU countries in a graph during one week (16-22.0
 
 All above can be done right now. The graph is stored both in json and csv formats; 3 csv - nodes, edges, flights - are located in `data/graph_csv`. You can load with pandas, convert to graph with networkx. For more, look at `eu_flights_data_collection.ipynb`. If you do sm, pleasee, create a new ipynb file. 
 
+I also created embedings for edges: airplane models based on icao code, you can find them in `data/embedings_from_icao.json`, airplane company based on callsign code (`data/embedings_from_callsign.json`).
+
 How the data was collected can be seen from `eu_flights_data_collection.ipynb`
 
 PS The python folder contains some code that is usefull to save/load the graph, convert it from one implementation to another (for example, adjacency matrix, networkx, pandas df). I operate on graph domain model for graph that is called Graph :) I have some adapters for it, but matrix and message passing adapters are not ready yet.
@@ -19,9 +21,8 @@ PS The python folder contains some code that is usefull to save/load the graph, 
 ## ML Task
 Describe and solve ML task (node classification/link prediction/etc., check several models/approaches). 
 
-We can predict gpd per inhabitants based on flight activity. I will add more data soon:
-- For edges I will add airplane type and company that will be used for edge embedings
-- For nodes I will map target varriable to nodes. The field is None right now. 
+We can predict gpd per inhabitants based on flight activity. 
+We can also predict the number of flights (our edges) between cities and their attributes (what company operates the flight, what airplane model is used, etc.). This information is include at embeddings. 
 
 ## How to load python dependencies 
 - clone to your mac with git 

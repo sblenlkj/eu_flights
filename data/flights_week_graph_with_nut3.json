@@ -12,7 +12,7 @@
       ],
       "out_flights_number": 12,
       "in_flights_number": 22,
-      "nut3_code": null
+      "nut3_code": "ES11"
     },
     {
       "id": "Bastia, FR",
@@ -26,7 +26,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 49,
-      "nut3_code": null
+      "nut3_code": "FRD12"
     },
     {
       "id": "Braunschweig, DE",
@@ -40,7 +40,7 @@
       ],
       "out_flights_number": 31,
       "in_flights_number": 29,
-      "nut3_code": null
+      "nut3_code": "DE91"
     },
     {
       "id": "Ponta Delgada, PT",
@@ -54,7 +54,7 @@
       ],
       "out_flights_number": 20,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "PT200"
     },
     {
       "id": "Szymany, PL",
@@ -68,7 +68,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "PL62"
     },
     {
       "id": "Kos Island, GR",
@@ -82,7 +82,7 @@
       ],
       "out_flights_number": 27,
       "in_flights_number": 29,
-      "nut3_code": null
+      "nut3_code": "EL62"
     },
     {
       "id": "Charmeil, Allier, FR",
@@ -96,7 +96,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 21,
-      "nut3_code": null
+      "nut3_code": "FRK11"
     },
     {
       "id": "Maastricht, NL",
@@ -110,7 +110,7 @@
       ],
       "out_flights_number": 19,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "NL423"
     },
     {
       "id": "Rodez/Marcillac, FR",
@@ -124,7 +124,7 @@
       ],
       "out_flights_number": 14,
       "in_flights_number": 14,
-      "nut3_code": null
+      "nut3_code": "FRJ22"
     },
     {
       "id": "Göteborg, SE",
@@ -139,7 +139,7 @@
       ],
       "out_flights_number": 300,
       "in_flights_number": 295,
-      "nut3_code": null
+      "nut3_code": "SE232"
     },
     {
       "id": "Linz, AT",
@@ -154,7 +154,7 @@
       ],
       "out_flights_number": 38,
       "in_flights_number": 35,
-      "nut3_code": null
+      "nut3_code": "AT12"
     },
     {
       "id": "Jyväskylän Maalaiskunta, FI",
@@ -168,7 +168,7 @@
       ],
       "out_flights_number": 19,
       "in_flights_number": 19,
-      "nut3_code": null
+      "nut3_code": "FI1D5"
     },
     {
       "id": "Brno, CZ",
@@ -182,7 +182,7 @@
       ],
       "out_flights_number": 23,
       "in_flights_number": 22,
-      "nut3_code": null
+      "nut3_code": "CZ064"
     },
     {
       "id": "Helsinki (Vantaa), FI",
@@ -196,7 +196,7 @@
       ],
       "out_flights_number": 808,
       "in_flights_number": 790,
-      "nut3_code": null
+      "nut3_code": "FI1B1"
     },
     {
       "id": "Innsbruck, AT",
@@ -210,7 +210,7 @@
       ],
       "out_flights_number": 115,
       "in_flights_number": 113,
-      "nut3_code": null
+      "nut3_code": "AT33"
     },
     {
       "id": "Örebro, SE",
@@ -224,7 +224,7 @@
       ],
       "out_flights_number": 15,
       "in_flights_number": 19,
-      "nut3_code": null
+      "nut3_code": "SE124"
     },
     {
       "id": "Tallinn, EE",
@@ -238,7 +238,7 @@
       ],
       "out_flights_number": 214,
       "in_flights_number": 206,
-      "nut3_code": null
+      "nut3_code": "EE001"
     },
     {
       "id": "Tours, Indre-et-Loire, FR",
@@ -252,7 +252,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FRB04"
     },
     {
       "id": "Seville, ES",
@@ -266,7 +266,7 @@
       ],
       "out_flights_number": 461,
       "in_flights_number": 472,
-      "nut3_code": null
+      "nut3_code": "ES42"
     },
     {
       "id": "Funchal, PT",
@@ -280,7 +280,7 @@
       ],
       "out_flights_number": 206,
       "in_flights_number": 215,
-      "nut3_code": null
+      "nut3_code": "PT300"
     },
     {
       "id": "L'Hôpital-le-Mercier, Saône-et-Loire, FR",
@@ -294,7 +294,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "FRC13"
     },
     {
       "id": "Vila Baleira, PT",
@@ -308,7 +308,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "PT300"
     },
     {
       "id": "Luxembourg, LU",
@@ -322,7 +322,7 @@
       ],
       "out_flights_number": 351,
       "in_flights_number": 366,
-      "nut3_code": null
+      "nut3_code": "LU000"
     },
     {
       "id": "Kiel, DE",
@@ -336,7 +336,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 10,
-      "nut3_code": null
+      "nut3_code": "DEF0"
     },
     {
       "id": "Halmstad, SE",
@@ -350,7 +350,7 @@
       ],
       "out_flights_number": 19,
       "in_flights_number": 17,
-      "nut3_code": null
+      "nut3_code": "SE231"
     },
     {
       "id": "Erzurum, TR",
@@ -364,7 +364,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "TRA11"
     },
     {
       "id": "Köln (Cologne), DE",
@@ -378,7 +378,7 @@
       ],
       "out_flights_number": 501,
       "in_flights_number": 505,
-      "nut3_code": null
+      "nut3_code": "DEA2"
     },
     {
       "id": "Bordeaux, FR",
@@ -392,7 +392,7 @@
       ],
       "out_flights_number": 277,
       "in_flights_number": 268,
-      "nut3_code": null
+      "nut3_code": "FRB06"
     },
     {
       "id": "Trabzon, TR",
@@ -406,7 +406,7 @@
       ],
       "out_flights_number": 84,
       "in_flights_number": 95,
-      "nut3_code": null
+      "nut3_code": "TR901"
     },
     {
       "id": "Gaziemir, TR",
@@ -420,7 +420,7 @@
       ],
       "out_flights_number": 141,
       "in_flights_number": 23,
-      "nut3_code": null
+      "nut3_code": "TR310"
     },
     {
       "id": "Comiso, IT",
@@ -434,7 +434,7 @@
       ],
       "out_flights_number": 23,
       "in_flights_number": 24,
-      "nut3_code": null
+      "nut3_code": "ITG1"
     },
     {
       "id": "Friedrichshafen, DE",
@@ -448,7 +448,7 @@
       ],
       "out_flights_number": 46,
       "in_flights_number": 49,
-      "nut3_code": null
+      "nut3_code": "DE14"
     },
     {
       "id": "Dole, FR",
@@ -462,7 +462,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Málaga, ES",
@@ -476,7 +476,7 @@
       ],
       "out_flights_number": 840,
       "in_flights_number": 851,
-      "nut3_code": null
+      "nut3_code": "ES42"
     },
     {
       "id": "Montpellier/Méditerranée, FR",
@@ -490,7 +490,7 @@
       ],
       "out_flights_number": 97,
       "in_flights_number": 52,
-      "nut3_code": null
+      "nut3_code": "FRI32"
     },
     {
       "id": "Stockholm / Västerås, SE",
@@ -504,7 +504,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "SE110"
     },
     {
       "id": "Hamburg, DE",
@@ -519,7 +519,7 @@
       ],
       "out_flights_number": 659,
       "in_flights_number": 665,
-      "nut3_code": null
+      "nut3_code": "DE60"
     },
     {
       "id": "Brest, FR",
@@ -533,7 +533,7 @@
       ],
       "out_flights_number": 58,
       "in_flights_number": 58,
-      "nut3_code": null
+      "nut3_code": "FRC23"
     },
     {
       "id": "Thessaloniki, GR",
@@ -547,7 +547,7 @@
       ],
       "out_flights_number": 283,
       "in_flights_number": 328,
-      "nut3_code": null
+      "nut3_code": "EL52"
     },
     {
       "id": "Gdańsk, PL",
@@ -561,7 +561,7 @@
       ],
       "out_flights_number": 191,
       "in_flights_number": 121,
-      "nut3_code": null
+      "nut3_code": "PL63"
     },
     {
       "id": "Girona, ES",
@@ -575,7 +575,7 @@
       ],
       "out_flights_number": 25,
       "in_flights_number": 7,
-      "nut3_code": null
+      "nut3_code": "ES51"
     },
     {
       "id": "Vigo, ES",
@@ -589,7 +589,7 @@
       ],
       "out_flights_number": 59,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "ES11"
     },
     {
       "id": "Bacău, RO",
@@ -603,7 +603,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 12,
-      "nut3_code": null
+      "nut3_code": "RO211"
     },
     {
       "id": "Avignon, FR",
@@ -617,7 +617,7 @@
       ],
       "out_flights_number": 10,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "FRB01"
     },
     {
       "id": "Istanbul, TR",
@@ -633,7 +633,7 @@
       ],
       "out_flights_number": 2188,
       "in_flights_number": 2031,
-      "nut3_code": null
+      "nut3_code": "TR100"
     },
     {
       "id": "Szczecin(Glewice), PL",
@@ -647,7 +647,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 13,
-      "nut3_code": null
+      "nut3_code": "PL42"
     },
     {
       "id": "Copenhagen, DK",
@@ -661,7 +661,7 @@
       ],
       "out_flights_number": 1354,
       "in_flights_number": 1356,
-      "nut3_code": null
+      "nut3_code": "DK011"
     },
     {
       "id": "Kittilä, FI",
@@ -675,7 +675,7 @@
       ],
       "out_flights_number": 10,
       "in_flights_number": 21,
-      "nut3_code": null
+      "nut3_code": "FI1D7"
     },
     {
       "id": "Timişoara, RO",
@@ -689,7 +689,7 @@
       ],
       "out_flights_number": 63,
       "in_flights_number": 23,
-      "nut3_code": null
+      "nut3_code": "RO424"
     },
     {
       "id": "Kefallinia Island, GR",
@@ -703,7 +703,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "EL62"
     },
     {
       "id": "Busevec, HR",
@@ -717,7 +717,7 @@
       ],
       "out_flights_number": 13,
       "in_flights_number": 14,
-      "nut3_code": null
+      "nut3_code": "HR065"
     },
     {
       "id": "Çorlu, TR",
@@ -731,7 +731,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "TR211"
     },
     {
       "id": "Eindhoven, NL",
@@ -745,7 +745,7 @@
       ],
       "out_flights_number": 219,
       "in_flights_number": 219,
-      "nut3_code": null
+      "nut3_code": "NL414"
     },
     {
       "id": "Béziers, FR",
@@ -759,7 +759,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FRJ13"
     },
     {
       "id": "Venegono Superiore (VA), IT",
@@ -773,7 +773,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "ITC4"
     },
     {
       "id": "Zaragoza, ES",
@@ -787,7 +787,7 @@
       ],
       "out_flights_number": 44,
       "in_flights_number": 49,
-      "nut3_code": null
+      "nut3_code": "ES24"
     },
     {
       "id": "Capua, IT",
@@ -801,7 +801,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 9,
-      "nut3_code": null
+      "nut3_code": "ITF3"
     },
     {
       "id": "Nowy Dwór Mazowiecki, PL",
@@ -815,7 +815,7 @@
       ],
       "out_flights_number": 111,
       "in_flights_number": 99,
-      "nut3_code": null
+      "nut3_code": "PL91"
     },
     {
       "id": "Colombier-Saugnieu, Rhône, FR",
@@ -829,7 +829,7 @@
       ],
       "out_flights_number": 503,
       "in_flights_number": 518,
-      "nut3_code": null
+      "nut3_code": "FRK26"
     },
     {
       "id": "Linköping, SE",
@@ -843,7 +843,7 @@
       ],
       "out_flights_number": 19,
       "in_flights_number": 17,
-      "nut3_code": null
+      "nut3_code": "SE121"
     },
     {
       "id": "Rheinmünster, DE",
@@ -857,7 +857,7 @@
       ],
       "out_flights_number": 51,
       "in_flights_number": 20,
-      "nut3_code": null
+      "nut3_code": "DE12"
     },
     {
       "id": "Prague, CZ",
@@ -871,7 +871,7 @@
       ],
       "out_flights_number": 658,
       "in_flights_number": 665,
-      "nut3_code": null
+      "nut3_code": "CZ010"
     },
     {
       "id": "Cascais, PT",
@@ -885,7 +885,7 @@
       ],
       "out_flights_number": 27,
       "in_flights_number": 30,
-      "nut3_code": null
+      "nut3_code": "PT1A0"
     },
     {
       "id": "Shannon, IE",
@@ -899,7 +899,7 @@
       ],
       "out_flights_number": 55,
       "in_flights_number": 62,
-      "nut3_code": null
+      "nut3_code": "IE041"
     },
     {
       "id": "Granada, ES",
@@ -913,7 +913,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 20,
-      "nut3_code": null
+      "nut3_code": "ES11"
     },
     {
       "id": "Boos, FR",
@@ -927,7 +927,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FRD22"
     },
     {
       "id": "Kaunas, LT",
@@ -941,7 +941,7 @@
       ],
       "out_flights_number": 45,
       "in_flights_number": 42,
-      "nut3_code": null
+      "nut3_code": "LT022"
     },
     {
       "id": "Almería, ES",
@@ -955,7 +955,7 @@
       ],
       "out_flights_number": 51,
       "in_flights_number": 55,
-      "nut3_code": null
+      "nut3_code": "ES61"
     },
     {
       "id": "Figari, FR",
@@ -969,7 +969,7 @@
       ],
       "out_flights_number": 26,
       "in_flights_number": 21,
-      "nut3_code": null
+      "nut3_code": "FRJ23"
     },
     {
       "id": "Nyköping, SE",
@@ -983,7 +983,7 @@
       ],
       "out_flights_number": 9,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "SE122"
     },
     {
       "id": "Madrid, ES",
@@ -998,7 +998,7 @@
       ],
       "out_flights_number": 2175,
       "in_flights_number": 2194,
-      "nut3_code": null
+      "nut3_code": "ES24"
     },
     {
       "id": "Carcassonne, FR",
@@ -1012,7 +1012,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRJ11"
     },
     {
       "id": "Malmö, SE",
@@ -1026,7 +1026,7 @@
       ],
       "out_flights_number": 70,
       "in_flights_number": 69,
-      "nut3_code": null
+      "nut3_code": "SE224"
     },
     {
       "id": "Bremen, DE",
@@ -1040,7 +1040,7 @@
       ],
       "out_flights_number": 114,
       "in_flights_number": 113,
-      "nut3_code": null
+      "nut3_code": "DE50"
     },
     {
       "id": "Paphos, CY",
@@ -1054,7 +1054,7 @@
       ],
       "out_flights_number": 16,
       "in_flights_number": 59,
-      "nut3_code": null
+      "nut3_code": "CY000"
     },
     {
       "id": "Aarhus, DK",
@@ -1068,7 +1068,7 @@
       ],
       "out_flights_number": 13,
       "in_flights_number": 9,
-      "nut3_code": null
+      "nut3_code": "DK042"
     },
     {
       "id": "Balice, PL",
@@ -1082,7 +1082,7 @@
       ],
       "out_flights_number": 457,
       "in_flights_number": 451,
-      "nut3_code": null
+      "nut3_code": "PL21"
     },
     {
       "id": "Bolzano (BZ), IT",
@@ -1096,7 +1096,7 @@
       ],
       "out_flights_number": 52,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Biarritz, FR",
@@ -1110,7 +1110,7 @@
       ],
       "out_flights_number": 57,
       "in_flights_number": 45,
-      "nut3_code": null
+      "nut3_code": "FRI15"
     },
     {
       "id": "Piešťany, SK",
@@ -1124,7 +1124,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "SK021"
     },
     {
       "id": "Falconara Marittima (AN), IT",
@@ -1138,7 +1138,7 @@
       ],
       "out_flights_number": 14,
       "in_flights_number": 48,
-      "nut3_code": null
+      "nut3_code": "ITF6"
     },
     {
       "id": "Aalborg, DK",
@@ -1152,7 +1152,7 @@
       ],
       "out_flights_number": 129,
       "in_flights_number": 132,
-      "nut3_code": null
+      "nut3_code": "DK050"
     },
     {
       "id": "Frankfurt am Main, DE",
@@ -1166,7 +1166,7 @@
       ],
       "out_flights_number": 1940,
       "in_flights_number": 2016,
-      "nut3_code": null
+      "nut3_code": "DE71"
     },
     {
       "id": "Forlì (FC), IT",
@@ -1180,7 +1180,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "ITF2"
     },
     {
       "id": "Montichiari (BS), IT",
@@ -1194,7 +1194,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 23,
-      "nut3_code": null
+      "nut3_code": "ITC4"
     },
     {
       "id": "Perugia (PG), IT",
@@ -1208,7 +1208,7 @@
       ],
       "out_flights_number": 11,
       "in_flights_number": 9,
-      "nut3_code": null
+      "nut3_code": "ITI2"
     },
     {
       "id": "Erfurt, DE",
@@ -1222,7 +1222,7 @@
       ],
       "out_flights_number": 10,
       "in_flights_number": 7,
-      "nut3_code": null
+      "nut3_code": "DEE0"
     },
     {
       "id": "Ronchi dei Legionari/Trieste, IT",
@@ -1236,7 +1236,7 @@
       ],
       "out_flights_number": 73,
       "in_flights_number": 67,
-      "nut3_code": null
+      "nut3_code": "ITH2"
     },
     {
       "id": "Grenoble, FR",
@@ -1250,7 +1250,7 @@
       ],
       "out_flights_number": 35,
       "in_flights_number": 50,
-      "nut3_code": null
+      "nut3_code": "FRK24"
     },
     {
       "id": "Strasbourg, FR",
@@ -1264,7 +1264,7 @@
       ],
       "out_flights_number": 66,
       "in_flights_number": 64,
-      "nut3_code": null
+      "nut3_code": "FRF11"
     },
     {
       "id": "Billund, DK",
@@ -1278,7 +1278,7 @@
       ],
       "out_flights_number": 173,
       "in_flights_number": 173,
-      "nut3_code": null
+      "nut3_code": "DK032"
     },
     {
       "id": "Treviso (TV), IT",
@@ -1292,7 +1292,7 @@
       ],
       "out_flights_number": 69,
       "in_flights_number": 27,
-      "nut3_code": null
+      "nut3_code": "ITC4"
     },
     {
       "id": "Wilhelmshaven, DE",
@@ -1306,7 +1306,7 @@
       ],
       "out_flights_number": 5,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "DE94"
     },
     {
       "id": "Chabeuil, Drôme, FR",
@@ -1320,7 +1320,7 @@
       ],
       "out_flights_number": 9,
       "in_flights_number": 12,
-      "nut3_code": null
+      "nut3_code": "FRK23"
     },
     {
       "id": "Tampere / Pirkkala, FI",
@@ -1334,7 +1334,7 @@
       ],
       "out_flights_number": 22,
       "in_flights_number": 21,
-      "nut3_code": null
+      "nut3_code": "FI1D7"
     },
     {
       "id": "Luleå, SE",
@@ -1348,7 +1348,7 @@
       ],
       "out_flights_number": 81,
       "in_flights_number": 75,
-      "nut3_code": null
+      "nut3_code": "SE332"
     },
     {
       "id": "Venezia (VE), IT",
@@ -1362,7 +1362,7 @@
       ],
       "out_flights_number": 448,
       "in_flights_number": 142,
-      "nut3_code": null
+      "nut3_code": "ITH3"
     },
     {
       "id": "Skellefteå, SE",
@@ -1376,7 +1376,7 @@
       ],
       "out_flights_number": 23,
       "in_flights_number": 31,
-      "nut3_code": null
+      "nut3_code": "SE331"
     },
     {
       "id": "Toulouse/Blagnac, FR",
@@ -1390,7 +1390,7 @@
       ],
       "out_flights_number": 467,
       "in_flights_number": 462,
-      "nut3_code": null
+      "nut3_code": "FRC22"
     },
     {
       "id": "Palermo, IT",
@@ -1405,7 +1405,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 336,
-      "nut3_code": null
+      "nut3_code": "ITG1"
     },
     {
       "id": "Alicante, ES",
@@ -1419,7 +1419,7 @@
       ],
       "out_flights_number": 537,
       "in_flights_number": 520,
-      "nut3_code": null
+      "nut3_code": "ES22"
     },
     {
       "id": "Alghero, IT",
@@ -1433,7 +1433,7 @@
       ],
       "out_flights_number": 62,
       "in_flights_number": 62,
-      "nut3_code": null
+      "nut3_code": "ITG2"
     },
     {
       "id": "Pau/Pyrénées (Uzein), FR",
@@ -1447,7 +1447,7 @@
       ],
       "out_flights_number": 42,
       "in_flights_number": 42,
-      "nut3_code": null
+      "nut3_code": "FRB03"
     },
     {
       "id": "Turku, FI",
@@ -1461,7 +1461,7 @@
       ],
       "out_flights_number": 29,
       "in_flights_number": 19,
-      "nut3_code": null
+      "nut3_code": "FI1C1"
     },
     {
       "id": "Weeze, DE",
@@ -1475,7 +1475,7 @@
       ],
       "out_flights_number": 51,
       "in_flights_number": 52,
-      "nut3_code": null
+      "nut3_code": "DEA1"
     },
     {
       "id": "Trémuson, Côtes-d'Armor, FR",
@@ -1489,7 +1489,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "FRH01"
     },
     {
       "id": "Mönchengladbach, DE",
@@ -1503,7 +1503,7 @@
       ],
       "out_flights_number": 23,
       "in_flights_number": 21,
-      "nut3_code": null
+      "nut3_code": "DEA1"
     },
     {
       "id": "Velika Gorica, HR",
@@ -1517,7 +1517,7 @@
       ],
       "out_flights_number": 185,
       "in_flights_number": 94,
-      "nut3_code": null
+      "nut3_code": "HR065"
     },
     {
       "id": "Palanga, LT",
@@ -1531,7 +1531,7 @@
       ],
       "out_flights_number": 29,
       "in_flights_number": 22,
-      "nut3_code": null
+      "nut3_code": "LT023"
     },
     {
       "id": "Kiruna, SE",
@@ -1545,7 +1545,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "SE332"
     },
     {
       "id": "Valletta, MT",
@@ -1559,7 +1559,7 @@
       ],
       "out_flights_number": 388,
       "in_flights_number": 396,
-      "nut3_code": null
+      "nut3_code": "MT001"
     },
     {
       "id": "Hörselberg-Hainich, DE",
@@ -1573,7 +1573,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DEG0"
     },
     {
       "id": "Kuressaare, EE",
@@ -1587,7 +1587,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 9,
-      "nut3_code": null
+      "nut3_code": "EE004"
     },
     {
       "id": "Nowe Kramsko, PL",
@@ -1601,7 +1601,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "PL43"
     },
     {
       "id": "Cork, IE",
@@ -1615,7 +1615,7 @@
       ],
       "out_flights_number": 58,
       "in_flights_number": 61,
-      "nut3_code": null
+      "nut3_code": "IE053"
     },
     {
       "id": "Otopeni, RO",
@@ -1629,7 +1629,7 @@
       ],
       "out_flights_number": 496,
       "in_flights_number": 528,
-      "nut3_code": null
+      "nut3_code": "RO322"
     },
     {
       "id": "Ferno (VA), IT",
@@ -1643,7 +1643,7 @@
       ],
       "out_flights_number": 1012,
       "in_flights_number": 1008,
-      "nut3_code": null
+      "nut3_code": "ITC4"
     },
     {
       "id": "Laage, DE",
@@ -1657,7 +1657,7 @@
       ],
       "out_flights_number": 18,
       "in_flights_number": 24,
-      "nut3_code": null
+      "nut3_code": "DE80"
     },
     {
       "id": "Nantes, FR",
@@ -1671,7 +1671,7 @@
       ],
       "out_flights_number": 284,
       "in_flights_number": 302,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Lublin, PL",
@@ -1685,7 +1685,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "PL22"
     },
     {
       "id": "Vaasa, FI",
@@ -1699,7 +1699,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FI19"
     },
     {
       "id": "Annecy, FR",
@@ -1713,7 +1713,7 @@
       ],
       "out_flights_number": 17,
       "in_flights_number": 27,
-      "nut3_code": null
+      "nut3_code": "FR104"
     },
     {
       "id": "Alajero, La Gomera Island, ES",
@@ -1727,7 +1727,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 10,
-      "nut3_code": null
+      "nut3_code": "ES41"
     },
     {
       "id": "Wrocław, PL",
@@ -1741,7 +1741,7 @@
       ],
       "out_flights_number": 203,
       "in_flights_number": 197,
-      "nut3_code": null
+      "nut3_code": "PL51"
     },
     {
       "id": "Oostende, BE",
@@ -1755,7 +1755,7 @@
       ],
       "out_flights_number": 27,
       "in_flights_number": 20,
-      "nut3_code": null
+      "nut3_code": "BE255"
     },
     {
       "id": "Saint-Nazaire/Montoir, FR",
@@ -1769,7 +1769,7 @@
       ],
       "out_flights_number": 18,
       "in_flights_number": 13,
-      "nut3_code": null
+      "nut3_code": "FRE12"
     },
     {
       "id": "Badajoz, ES",
@@ -1783,7 +1783,7 @@
       ],
       "out_flights_number": 14,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "ES43"
     },
     {
       "id": "Maribor, SI",
@@ -1797,7 +1797,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 7,
-      "nut3_code": null
+      "nut3_code": "SI032"
     },
     {
       "id": "Ravenna (RA), IT",
@@ -1811,7 +1811,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "ITH5"
     },
     {
       "id": "Poznań, PL",
@@ -1825,7 +1825,7 @@
       ],
       "out_flights_number": 145,
       "in_flights_number": 146,
-      "nut3_code": null
+      "nut3_code": "PL41"
     },
     {
       "id": "La Virgen Del Camino, ES",
@@ -1839,7 +1839,7 @@
       ],
       "out_flights_number": 11,
       "in_flights_number": 9,
-      "nut3_code": null
+      "nut3_code": "ES41"
     },
     {
       "id": "Vienna, AT",
@@ -1853,7 +1853,7 @@
       ],
       "out_flights_number": 1093,
       "in_flights_number": 1115,
-      "nut3_code": null
+      "nut3_code": "AT13"
     },
     {
       "id": "Salzburg, AT",
@@ -1867,7 +1867,7 @@
       ],
       "out_flights_number": 187,
       "in_flights_number": 197,
-      "nut3_code": null
+      "nut3_code": "AT32"
     },
     {
       "id": "Grâce-Hollogne, BE",
@@ -1881,7 +1881,7 @@
       ],
       "out_flights_number": 92,
       "in_flights_number": 78,
-      "nut3_code": null
+      "nut3_code": "BE332"
     },
     {
       "id": "Reggio Calabria, IT",
@@ -1895,7 +1895,7 @@
       ],
       "out_flights_number": 55,
       "in_flights_number": 58,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Ronneby, SE",
@@ -1909,7 +1909,7 @@
       ],
       "out_flights_number": 24,
       "in_flights_number": 24,
-      "nut3_code": null
+      "nut3_code": "SE221"
     },
     {
       "id": "Gran Canaria Island, ES",
@@ -1924,7 +1924,7 @@
       ],
       "out_flights_number": 10,
       "in_flights_number": 38,
-      "nut3_code": null
+      "nut3_code": "ES70"
     },
     {
       "id": "Munich, DE",
@@ -1938,7 +1938,7 @@
       ],
       "out_flights_number": 1649,
       "in_flights_number": 1691,
-      "nut3_code": null
+      "nut3_code": "DE21"
     },
     {
       "id": "Jerez de la Frontera, ES",
@@ -1952,7 +1952,7 @@
       ],
       "out_flights_number": 26,
       "in_flights_number": 33,
-      "nut3_code": null
+      "nut3_code": "ES61"
     },
     {
       "id": "Ordu, TR",
@@ -1966,7 +1966,7 @@
       ],
       "out_flights_number": 19,
       "in_flights_number": 24,
-      "nut3_code": null
+      "nut3_code": "TR902"
     },
     {
       "id": "Ampugnano (SI), IT",
@@ -1980,7 +1980,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 7,
-      "nut3_code": null
+      "nut3_code": "ITI1"
     },
     {
       "id": "Ranón, ES",
@@ -1994,7 +1994,7 @@
       ],
       "out_flights_number": 97,
       "in_flights_number": 7,
-      "nut3_code": null
+      "nut3_code": "ES12"
     },
     {
       "id": "Lamezia Terme (CZ), IT",
@@ -2008,7 +2008,7 @@
       ],
       "out_flights_number": 144,
       "in_flights_number": 147,
-      "nut3_code": null
+      "nut3_code": "ITF6"
     },
     {
       "id": "Arvidsjaur, SE",
@@ -2022,7 +2022,7 @@
       ],
       "out_flights_number": 20,
       "in_flights_number": 24,
-      "nut3_code": null
+      "nut3_code": "SE332"
     },
     {
       "id": "Bologna, IT",
@@ -2036,7 +2036,7 @@
       ],
       "out_flights_number": 390,
       "in_flights_number": 394,
-      "nut3_code": null
+      "nut3_code": "ITF1"
     },
     {
       "id": "Segrate (MI), IT",
@@ -2050,7 +2050,7 @@
       ],
       "out_flights_number": 755,
       "in_flights_number": 700,
-      "nut3_code": null
+      "nut3_code": "ITC4"
     },
     {
       "id": "Reus, ES",
@@ -2064,7 +2064,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "ES51"
     },
     {
       "id": "Pamplona, ES",
@@ -2078,7 +2078,7 @@
       ],
       "out_flights_number": 12,
       "in_flights_number": 13,
-      "nut3_code": null
+      "nut3_code": "ES22"
     },
     {
       "id": "Amsterdam, NL",
@@ -2092,7 +2092,7 @@
       ],
       "out_flights_number": 2029,
       "in_flights_number": 2008,
-      "nut3_code": null
+      "nut3_code": "NL32B"
     },
     {
       "id": "Lisbon, PT",
@@ -2106,7 +2106,7 @@
       ],
       "out_flights_number": 986,
       "in_flights_number": 814,
-      "nut3_code": null
+      "nut3_code": "PT1"
     },
     {
       "id": "Dresden, DE",
@@ -2120,7 +2120,7 @@
       ],
       "out_flights_number": 66,
       "in_flights_number": 73,
-      "nut3_code": null
+      "nut3_code": "DED2"
     },
     {
       "id": "Zaventem, BE",
@@ -2134,7 +2134,7 @@
       ],
       "out_flights_number": 361,
       "in_flights_number": 739,
-      "nut3_code": null
+      "nut3_code": "BE241"
     },
     {
       "id": "Colmar, FR",
@@ -2148,7 +2148,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FRF12"
     },
     {
       "id": "Paris, FR",
@@ -2165,7 +2165,7 @@
       ],
       "out_flights_number": 3279,
       "in_flights_number": 3301,
-      "nut3_code": null
+      "nut3_code": "FR101"
     },
     {
       "id": "Dublin, IE",
@@ -2179,7 +2179,7 @@
       ],
       "out_flights_number": 904,
       "in_flights_number": 868,
-      "nut3_code": null
+      "nut3_code": "IE061"
     },
     {
       "id": "Toussus-le-Noble, Yvelines, FR",
@@ -2193,7 +2193,7 @@
       ],
       "out_flights_number": 30,
       "in_flights_number": 24,
-      "nut3_code": null
+      "nut3_code": "FR103"
     },
     {
       "id": "Lesquin, FR",
@@ -2207,7 +2207,7 @@
       ],
       "out_flights_number": 51,
       "in_flights_number": 51,
-      "nut3_code": null
+      "nut3_code": "FRD11"
     },
     {
       "id": "Sečovlje, SI",
@@ -2221,7 +2221,7 @@
       ],
       "out_flights_number": 12,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "SI044"
     },
     {
       "id": "Mahón (Maó), ES",
@@ -2235,7 +2235,7 @@
       ],
       "out_flights_number": 19,
       "in_flights_number": 25,
-      "nut3_code": null
+      "nut3_code": "ES53"
     },
     {
       "id": "Edremit, TR",
@@ -2249,7 +2249,7 @@
       ],
       "out_flights_number": 11,
       "in_flights_number": 10,
-      "nut3_code": null
+      "nut3_code": "TR221"
     },
     {
       "id": "Porto, PT",
@@ -2263,7 +2263,7 @@
       ],
       "out_flights_number": 661,
       "in_flights_number": 687,
-      "nut3_code": null
+      "nut3_code": "PT193"
     },
     {
       "id": "Vilnius, LT",
@@ -2277,7 +2277,7 @@
       ],
       "out_flights_number": 249,
       "in_flights_number": 243,
-      "nut3_code": null
+      "nut3_code": "LT011"
     },
     {
       "id": "Győr, HU",
@@ -2291,7 +2291,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "HU213"
     },
     {
       "id": "Castres, FR",
@@ -2305,7 +2305,7 @@
       ],
       "out_flights_number": 11,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "FRJ27"
     },
     {
       "id": "Albert, FR",
@@ -2319,7 +2319,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Marignane, Bouches-du-Rhône, FR",
@@ -2333,7 +2333,7 @@
       ],
       "out_flights_number": 494,
       "in_flights_number": 475,
-      "nut3_code": null
+      "nut3_code": "FRL04"
     },
     {
       "id": "Košice, SK",
@@ -2347,7 +2347,7 @@
       ],
       "out_flights_number": 36,
       "in_flights_number": 36,
-      "nut3_code": null
+      "nut3_code": "SK042"
     },
     {
       "id": "Antwerp, BE",
@@ -2361,7 +2361,7 @@
       ],
       "out_flights_number": 43,
       "in_flights_number": 42,
-      "nut3_code": null
+      "nut3_code": "BE211"
     },
     {
       "id": "Caselle Torinese (TO), IT",
@@ -2375,7 +2375,7 @@
       ],
       "out_flights_number": 244,
       "in_flights_number": 228,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Palma de Mallorca, ES",
@@ -2389,7 +2389,7 @@
       ],
       "out_flights_number": 765,
       "in_flights_number": 751,
-      "nut3_code": null
+      "nut3_code": "ES53"
     },
     {
       "id": "Ibiza (Eivissa), ES",
@@ -2403,7 +2403,7 @@
       ],
       "out_flights_number": 171,
       "in_flights_number": 162,
-      "nut3_code": null
+      "nut3_code": "ES24"
     },
     {
       "id": "Tymbou (Kirklar), CY",
@@ -2417,7 +2417,7 @@
       ],
       "out_flights_number": 173,
       "in_flights_number": 196,
-      "nut3_code": null
+      "nut3_code": "CY000"
     },
     {
       "id": "Barcelona, ES",
@@ -2431,7 +2431,7 @@
       ],
       "out_flights_number": 1937,
       "in_flights_number": 1956,
-      "nut3_code": null
+      "nut3_code": "ES51"
     },
     {
       "id": "Sta Cruz de la Palma, La Palma Island, ES",
@@ -2445,7 +2445,7 @@
       ],
       "out_flights_number": 32,
       "in_flights_number": 30,
-      "nut3_code": null
+      "nut3_code": "ES70"
     },
     {
       "id": "Levaldigi (CN), IT",
@@ -2459,7 +2459,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Hradec Králové, CZ",
@@ -2473,7 +2473,7 @@
       ],
       "out_flights_number": 5,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "CZ052"
     },
     {
       "id": "La Roche-sur-Yon, FR",
@@ -2487,7 +2487,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRG05"
     },
     {
       "id": "Mannheim, DE",
@@ -2501,7 +2501,7 @@
       ],
       "out_flights_number": 22,
       "in_flights_number": 26,
-      "nut3_code": null
+      "nut3_code": "DE12"
     },
     {
       "id": "Catania, IT",
@@ -2515,7 +2515,7 @@
       ],
       "out_flights_number": 18,
       "in_flights_number": 40,
-      "nut3_code": null
+      "nut3_code": "ITG1"
     },
     {
       "id": "Perpignan/Rivesaltes, FR",
@@ -2529,7 +2529,7 @@
       ],
       "out_flights_number": 18,
       "in_flights_number": 21,
-      "nut3_code": null
+      "nut3_code": "FRJ15"
     },
     {
       "id": "Samsun, TR",
@@ -2543,7 +2543,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "TR831"
     },
     {
       "id": "Saint-Tropez, FR",
@@ -2557,7 +2557,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 17,
-      "nut3_code": null
+      "nut3_code": "FRL05"
     },
     {
       "id": "Kithira Island, GR",
@@ -2571,7 +2571,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "EL30"
     },
     {
       "id": "Sylt, DE",
@@ -2585,7 +2585,7 @@
       ],
       "out_flights_number": 17,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "DEF0"
     },
     {
       "id": "Parma (PR), IT",
@@ -2599,7 +2599,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "ITH5"
     },
     {
       "id": "Nice, Alpes-Maritimes, FR",
@@ -2613,7 +2613,7 @@
       ],
       "out_flights_number": 177,
       "in_flights_number": 340,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "San Javier, ES",
@@ -2627,7 +2627,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "ES22"
     },
     {
       "id": "Weßling, DE",
@@ -2641,7 +2641,7 @@
       ],
       "out_flights_number": 37,
       "in_flights_number": 39,
-      "nut3_code": null
+      "nut3_code": "DE21"
     },
     {
       "id": "Visby, SE",
@@ -2655,7 +2655,7 @@
       ],
       "out_flights_number": 5,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "SE214"
     },
     {
       "id": "Odense, DK",
@@ -2669,7 +2669,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "DK031"
     },
     {
       "id": "Rhodes, GR",
@@ -2683,7 +2683,7 @@
       ],
       "out_flights_number": 29,
       "in_flights_number": 53,
-      "nut3_code": null
+      "nut3_code": "EL42"
     },
     {
       "id": "Augsburg, DE",
@@ -2697,7 +2697,7 @@
       ],
       "out_flights_number": 33,
       "in_flights_number": 30,
-      "nut3_code": null
+      "nut3_code": "DE27"
     },
     {
       "id": "Katowice, PL",
@@ -2711,7 +2711,7 @@
       ],
       "out_flights_number": 177,
       "in_flights_number": 174,
-      "nut3_code": null
+      "nut3_code": "PL22"
     },
     {
       "id": "Hannover, DE",
@@ -2725,7 +2725,7 @@
       ],
       "out_flights_number": 259,
       "in_flights_number": 255,
-      "nut3_code": null
+      "nut3_code": "DE92"
     },
     {
       "id": "Roskilde, DK",
@@ -2739,7 +2739,7 @@
       ],
       "out_flights_number": 29,
       "in_flights_number": 34,
-      "nut3_code": null
+      "nut3_code": "DK021"
     },
     {
       "id": "Cannes, FR",
@@ -2753,7 +2753,7 @@
       ],
       "out_flights_number": 5,
       "in_flights_number": 55,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Feldkirchen bei Graz, AT",
@@ -2767,7 +2767,7 @@
       ],
       "out_flights_number": 71,
       "in_flights_number": 70,
-      "nut3_code": null
+      "nut3_code": "AT22"
     },
     {
       "id": "Constanța, RO",
@@ -2781,7 +2781,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "RO223"
     },
     {
       "id": "Donegal, IE",
@@ -2795,7 +2795,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "IE041"
     },
     {
       "id": "Lahr/Schwarzwald, DE",
@@ -2809,7 +2809,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "DE13"
     },
     {
       "id": "Antalya, TR",
@@ -2823,7 +2823,7 @@
       ],
       "out_flights_number": 373,
       "in_flights_number": 252,
-      "nut3_code": null
+      "nut3_code": "TR611"
     },
     {
       "id": "Mošnov, CZ",
@@ -2837,7 +2837,7 @@
       ],
       "out_flights_number": 26,
       "in_flights_number": 29,
-      "nut3_code": null
+      "nut3_code": "CZ080"
     },
     {
       "id": "Ajaccio, FR",
@@ -2851,7 +2851,7 @@
       ],
       "out_flights_number": 77,
       "in_flights_number": 73,
-      "nut3_code": null
+      "nut3_code": "FRM01"
     },
     {
       "id": "Stockholm, SE",
@@ -2866,7 +2866,7 @@
       ],
       "out_flights_number": 1100,
       "in_flights_number": 1098,
-      "nut3_code": null
+      "nut3_code": "SE110"
     },
     {
       "id": "Samos Island, GR",
@@ -2880,7 +2880,7 @@
       ],
       "out_flights_number": 10,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "EL41"
     },
     {
       "id": "Schkeuditz, DE",
@@ -2894,7 +2894,7 @@
       ],
       "out_flights_number": 312,
       "in_flights_number": 323,
-      "nut3_code": null
+      "nut3_code": "DED5"
     },
     {
       "id": "Joensuu, FI",
@@ -2908,7 +2908,7 @@
       ],
       "out_flights_number": 5,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FI1DC"
     },
     {
       "id": "Nîmes/Garons, FR",
@@ -2922,7 +2922,7 @@
       ],
       "out_flights_number": 18,
       "in_flights_number": 20,
-      "nut3_code": null
+      "nut3_code": "FRJ12"
     },
     {
       "id": "Jönköping, SE",
@@ -2936,7 +2936,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "SE211"
     },
     {
       "id": "Wevelgem, BE",
@@ -2950,7 +2950,7 @@
       ],
       "out_flights_number": 18,
       "in_flights_number": 19,
-      "nut3_code": null
+      "nut3_code": "BE254"
     },
     {
       "id": "Chambéry, FR",
@@ -2964,7 +2964,7 @@
       ],
       "out_flights_number": 61,
       "in_flights_number": 78,
-      "nut3_code": null
+      "nut3_code": "FRK27"
     },
     {
       "id": "Charleroi, BE",
@@ -2978,7 +2978,7 @@
       ],
       "out_flights_number": 372,
       "in_flights_number": 377,
-      "nut3_code": null
+      "nut3_code": "BE32B"
     },
     {
       "id": "Umeå, SE",
@@ -2992,7 +2992,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 7,
-      "nut3_code": null
+      "nut3_code": "SE331"
     },
     {
       "id": "Saarbrücken, DE",
@@ -3006,7 +3006,7 @@
       ],
       "out_flights_number": 13,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "DEC0"
     },
     {
       "id": "Aix en Provence, FR",
@@ -3020,7 +3020,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "FRL04"
     },
     {
       "id": "Greven, DE",
@@ -3034,7 +3034,7 @@
       ],
       "out_flights_number": 56,
       "in_flights_number": 55,
-      "nut3_code": null
+      "nut3_code": "DE80"
     },
     {
       "id": "Egelsbach, DE",
@@ -3048,7 +3048,7 @@
       ],
       "out_flights_number": 15,
       "in_flights_number": 12,
-      "nut3_code": null
+      "nut3_code": "DE11"
     },
     {
       "id": "Bydgoszcz, PL",
@@ -3062,7 +3062,7 @@
       ],
       "out_flights_number": 15,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "PL61"
     },
     {
       "id": "Clermont-Ferrand, FR",
@@ -3076,7 +3076,7 @@
       ],
       "out_flights_number": 29,
       "in_flights_number": 12,
-      "nut3_code": null
+      "nut3_code": "FRK14"
     },
     {
       "id": "Wurster Nordseeküste, DE",
@@ -3090,7 +3090,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "DE93"
     },
     {
       "id": "Manching, DE",
@@ -3104,7 +3104,7 @@
       ],
       "out_flights_number": 11,
       "in_flights_number": 9,
-      "nut3_code": null
+      "nut3_code": "DE21"
     },
     {
       "id": "Warsaw, PL",
@@ -3119,7 +3119,7 @@
       ],
       "out_flights_number": 1127,
       "in_flights_number": 1150,
-      "nut3_code": null
+      "nut3_code": "PL91"
     },
     {
       "id": "Recea, RO",
@@ -3133,7 +3133,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 9,
-      "nut3_code": null
+      "nut3_code": "RO113"
     },
     {
       "id": "Santiago de Compostela, ES",
@@ -3147,7 +3147,7 @@
       ],
       "out_flights_number": 82,
       "in_flights_number": 60,
-      "nut3_code": null
+      "nut3_code": "ES11"
     },
     {
       "id": "Foggia (FG), IT",
@@ -3161,7 +3161,7 @@
       ],
       "out_flights_number": 11,
       "in_flights_number": 12,
-      "nut3_code": null
+      "nut3_code": "ITF4"
     },
     {
       "id": "Bazan, BG",
@@ -3175,7 +3175,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "BG323"
     },
     {
       "id": "Lelystad, NL",
@@ -3189,7 +3189,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "NL230"
     },
     {
       "id": "Kuopio / Siilinjärvi, FI",
@@ -3203,7 +3203,7 @@
       ],
       "out_flights_number": 35,
       "in_flights_number": 35,
-      "nut3_code": null
+      "nut3_code": "FI1DB"
     },
     {
       "id": "Pescara, IT",
@@ -3217,7 +3217,7 @@
       ],
       "out_flights_number": 50,
       "in_flights_number": 49,
-      "nut3_code": null
+      "nut3_code": "ITF1"
     },
     {
       "id": "Bratislava, SK",
@@ -3231,7 +3231,7 @@
       ],
       "out_flights_number": 130,
       "in_flights_number": 125,
-      "nut3_code": null
+      "nut3_code": "SK010"
     },
     {
       "id": "Spata-Artemida, GR",
@@ -3245,7 +3245,7 @@
       ],
       "out_flights_number": 1065,
       "in_flights_number": 640,
-      "nut3_code": null
+      "nut3_code": "EL30"
     },
     {
       "id": "Rochefort/Saint-Agnant, FR",
@@ -3259,7 +3259,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "FR103"
     },
     {
       "id": "Rota, ES",
@@ -3273,7 +3273,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "ES21"
     },
     {
       "id": "Budapest, HU",
@@ -3288,7 +3288,7 @@
       ],
       "out_flights_number": 665,
       "in_flights_number": 670,
-      "nut3_code": null
+      "nut3_code": "HU110"
     },
     {
       "id": "Caselle (VR), IT",
@@ -3302,7 +3302,7 @@
       ],
       "out_flights_number": 120,
       "in_flights_number": 108,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Chassieu, Lyon, FR",
@@ -3316,7 +3316,7 @@
       ],
       "out_flights_number": 29,
       "in_flights_number": 24,
-      "nut3_code": null
+      "nut3_code": "FRK26"
     },
     {
       "id": "Mytilene, GR",
@@ -3330,7 +3330,7 @@
       ],
       "out_flights_number": 38,
       "in_flights_number": 44,
-      "nut3_code": null
+      "nut3_code": "EL41"
     },
     {
       "id": "Melilla, ES",
@@ -3344,7 +3344,7 @@
       ],
       "out_flights_number": 34,
       "in_flights_number": 49,
-      "nut3_code": null
+      "nut3_code": "ES11"
     },
     {
       "id": "Beauvais, FR",
@@ -3358,7 +3358,7 @@
       ],
       "out_flights_number": 170,
       "in_flights_number": 152,
-      "nut3_code": null
+      "nut3_code": "FRE22"
     },
     {
       "id": "Culleredo, ES",
@@ -3372,7 +3372,7 @@
       ],
       "out_flights_number": 83,
       "in_flights_number": 87,
-      "nut3_code": null
+      "nut3_code": "ES11"
     },
     {
       "id": "Capannori (LU), IT",
@@ -3386,7 +3386,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 40,
-      "nut3_code": null
+      "nut3_code": "ITI1"
     },
     {
       "id": "Frankfurt am Main (Lautzenhausen), DE",
@@ -3400,7 +3400,7 @@
       ],
       "out_flights_number": 54,
       "in_flights_number": 50,
-      "nut3_code": null
+      "nut3_code": "DE71"
     },
     {
       "id": "Zgornji Brnik, SI",
@@ -3414,7 +3414,7 @@
       ],
       "out_flights_number": 83,
       "in_flights_number": 93,
-      "nut3_code": null
+      "nut3_code": "SI042"
     },
     {
       "id": "Alexandroupolis, GR",
@@ -3428,7 +3428,7 @@
       ],
       "out_flights_number": 14,
       "in_flights_number": 39,
-      "nut3_code": null
+      "nut3_code": "EL"
     },
     {
       "id": "Dortmund, DE",
@@ -3442,7 +3442,7 @@
       ],
       "out_flights_number": 71,
       "in_flights_number": 76,
-      "nut3_code": null
+      "nut3_code": "DEA5"
     },
     {
       "id": "Kokkola / Kruunupyy, FI",
@@ -3456,7 +3456,7 @@
       ],
       "out_flights_number": 11,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "FI1D5"
     },
     {
       "id": "Uherské Hradiště, CZ",
@@ -3470,7 +3470,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "CZ072"
     },
     {
       "id": "Le Mans, Sarthe, FR",
@@ -3484,7 +3484,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "FRG04"
     },
     {
       "id": "Düsseldorf, DE",
@@ -3498,7 +3498,7 @@
       ],
       "out_flights_number": 695,
       "in_flights_number": 722,
-      "nut3_code": null
+      "nut3_code": "DEA1"
     },
     {
       "id": "Poprad, SK",
@@ -3512,7 +3512,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "SK041"
     },
     {
       "id": "Bucharest, RO",
@@ -3526,7 +3526,7 @@
       ],
       "out_flights_number": 69,
       "in_flights_number": 67,
-      "nut3_code": null
+      "nut3_code": "RO321"
     },
     {
       "id": "Andrézieux-Bouthéon, Loire, FR",
@@ -3540,7 +3540,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRK25"
     },
     {
       "id": "Farranfore, IE",
@@ -3554,7 +3554,7 @@
       ],
       "out_flights_number": 17,
       "in_flights_number": 17,
-      "nut3_code": null
+      "nut3_code": "IE053"
     },
     {
       "id": "Büren, DE",
@@ -3568,7 +3568,7 @@
       ],
       "out_flights_number": 25,
       "in_flights_number": 20,
-      "nut3_code": null
+      "nut3_code": "DE94"
     },
     {
       "id": "Poitiers/Biard, FR",
@@ -3582,7 +3582,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FRI34"
     },
     {
       "id": "Larnaca, CY",
@@ -3596,7 +3596,7 @@
       ],
       "out_flights_number": 199,
       "in_flights_number": 202,
-      "nut3_code": null
+      "nut3_code": "CY000"
     },
     {
       "id": "Sønderborg, DK",
@@ -3610,7 +3610,7 @@
       ],
       "out_flights_number": 27,
       "in_flights_number": 29,
-      "nut3_code": null
+      "nut3_code": "DK032"
     },
     {
       "id": "Eskişehir, TR",
@@ -3624,7 +3624,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "TR411"
     },
     {
       "id": "Napoli, IT",
@@ -3638,7 +3638,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 123,
-      "nut3_code": null
+      "nut3_code": "ITF3"
     },
     {
       "id": "Klagenfurt am Wörthersee, AT",
@@ -3652,7 +3652,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "AT21"
     },
     {
       "id": "Genova (GE), IT",
@@ -3666,7 +3666,7 @@
       ],
       "out_flights_number": 82,
       "in_flights_number": 82,
-      "nut3_code": null
+      "nut3_code": "ITC3"
     },
     {
       "id": "Limnos Island, GR",
@@ -3680,7 +3680,7 @@
       ],
       "out_flights_number": 13,
       "in_flights_number": 19,
-      "nut3_code": null
+      "nut3_code": "EL41"
     },
     {
       "id": "Nuremberg, DE",
@@ -3694,7 +3694,7 @@
       ],
       "out_flights_number": 184,
       "in_flights_number": 192,
-      "nut3_code": null
+      "nut3_code": "DE25"
     },
     {
       "id": "Rimini (RN), IT",
@@ -3708,7 +3708,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "ITH5"
     },
     {
       "id": "Saint-Léger-sur-Roanne, FR",
@@ -3722,7 +3722,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRK25"
     },
     {
       "id": "Riga, LV",
@@ -3737,7 +3737,7 @@
       ],
       "out_flights_number": 366,
       "in_flights_number": 352,
-      "nut3_code": null
+      "nut3_code": "LV00"
     },
     {
       "id": "Osijek(Klisa), HR",
@@ -3751,7 +3751,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "HR025"
     },
     {
       "id": "Memmingen, DE",
@@ -3765,7 +3765,7 @@
       ],
       "out_flights_number": 71,
       "in_flights_number": 71,
-      "nut3_code": null
+      "nut3_code": "DE27"
     },
     {
       "id": "Oulu / Oulunsalo, FI",
@@ -3779,7 +3779,7 @@
       ],
       "out_flights_number": 54,
       "in_flights_number": 55,
-      "nut3_code": null
+      "nut3_code": "FI1D9"
     },
     {
       "id": "Firenze (FI), IT",
@@ -3793,7 +3793,7 @@
       ],
       "out_flights_number": 140,
       "in_flights_number": 77,
-      "nut3_code": null
+      "nut3_code": "ITI1"
     },
     {
       "id": "Hyères, Var, FR",
@@ -3807,7 +3807,7 @@
       ],
       "out_flights_number": 14,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "FRL05"
     },
     {
       "id": "Valencia, ES",
@@ -3821,7 +3821,7 @@
       ],
       "out_flights_number": 274,
       "in_flights_number": 287,
-      "nut3_code": null
+      "nut3_code": "ES41"
     },
     {
       "id": "Groningen, NL",
@@ -3835,7 +3835,7 @@
       ],
       "out_flights_number": 16,
       "in_flights_number": 22,
-      "nut3_code": null
+      "nut3_code": "NL115"
     },
     {
       "id": "Angers, FR",
@@ -3849,7 +3849,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Saint-Jacques-de-la-Lande, Ille-et-Vilaine, FR",
@@ -3863,7 +3863,7 @@
       ],
       "out_flights_number": 61,
       "in_flights_number": 64,
-      "nut3_code": null
+      "nut3_code": "FRH03"
     },
     {
       "id": "Łódź, PL",
@@ -3877,7 +3877,7 @@
       ],
       "out_flights_number": 12,
       "in_flights_number": 16,
-      "nut3_code": null
+      "nut3_code": "PL71"
     },
     {
       "id": "Wiener Neustadt, AT",
@@ -3892,7 +3892,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "AT12"
     },
     {
       "id": "Orio al Serio (BG), IT",
@@ -3906,7 +3906,7 @@
       ],
       "out_flights_number": 510,
       "in_flights_number": 487,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Bodrum, TR",
@@ -3921,7 +3921,7 @@
       ],
       "out_flights_number": 42,
       "in_flights_number": 27,
-      "nut3_code": null
+      "nut3_code": "TR323"
     },
     {
       "id": "Tarbes/Lourdes/Pyrénées, FR",
@@ -3935,7 +3935,7 @@
       ],
       "out_flights_number": 17,
       "in_flights_number": 21,
-      "nut3_code": null
+      "nut3_code": "FRJ26"
     },
     {
       "id": "Faro, PT",
@@ -3949,7 +3949,7 @@
       ],
       "out_flights_number": 184,
       "in_flights_number": 200,
-      "nut3_code": null
+      "nut3_code": "PT112"
     },
     {
       "id": "Ängelholm, SE",
@@ -3963,7 +3963,7 @@
       ],
       "out_flights_number": 31,
       "in_flights_number": 29,
-      "nut3_code": null
+      "nut3_code": "SE224"
     },
     {
       "id": "Rotterdam, NL",
@@ -3977,7 +3977,7 @@
       ],
       "out_flights_number": 105,
       "in_flights_number": 115,
-      "nut3_code": null
+      "nut3_code": "NL366"
     },
     {
       "id": "El Matorral, ES",
@@ -3991,7 +3991,7 @@
       ],
       "out_flights_number": 10,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "ES70"
     },
     {
       "id": "Rome, IT",
@@ -4006,7 +4006,7 @@
       ],
       "out_flights_number": 1632,
       "in_flights_number": 1563,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Tenerife, ES",
@@ -4021,7 +4021,7 @@
       ],
       "out_flights_number": 60,
       "in_flights_number": 204,
-      "nut3_code": null
+      "nut3_code": "ES70"
     },
     {
       "id": "Norrköping, SE",
@@ -4035,7 +4035,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "SE123"
     },
     {
       "id": "Siljansnäs, SE",
@@ -4049,7 +4049,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "SE312"
     },
     {
       "id": "Caen, FR",
@@ -4063,7 +4063,7 @@
       ],
       "out_flights_number": 18,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "FRD11"
     },
     {
       "id": "Calden, DE",
@@ -4077,7 +4077,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 7,
-      "nut3_code": null
+      "nut3_code": "DE73"
     },
     {
       "id": "Pisa (PI), IT",
@@ -4091,7 +4091,7 @@
       ],
       "out_flights_number": 139,
       "in_flights_number": 94,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Stuttgart, DE",
@@ -4105,7 +4105,7 @@
       ],
       "out_flights_number": 389,
       "in_flights_number": 404,
-      "nut3_code": null
+      "nut3_code": "DE11"
     },
     {
       "id": "Jasionka, PL",
@@ -4119,7 +4119,7 @@
       ],
       "out_flights_number": 66,
       "in_flights_number": 50,
-      "nut3_code": null
+      "nut3_code": "PL82"
     },
     {
       "id": "Kavala, GR",
@@ -4133,7 +4133,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 11,
-      "nut3_code": null
+      "nut3_code": "EL51"
     },
     {
       "id": "Berlin, DE",
@@ -4147,7 +4147,7 @@
       ],
       "out_flights_number": 979,
       "in_flights_number": 988,
-      "nut3_code": null
+      "nut3_code": "DE14"
     },
     {
       "id": "Burbach, DE",
@@ -4161,7 +4161,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "DEB2"
     },
     {
       "id": "Villanova d'Albenga (SV), IT",
@@ -4175,7 +4175,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Pori, FI",
@@ -4189,7 +4189,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FI1C2"
     },
     {
       "id": "El Hierro Island, ES",
@@ -4203,7 +4203,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "ES42"
     },
     {
       "id": "Valladolid, ES",
@@ -4217,7 +4217,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "ES41"
     },
     {
       "id": "Šiauliai, LT",
@@ -4231,7 +4231,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "LT024"
     },
     {
       "id": "Rijeka(Omišalj), HR",
@@ -4245,7 +4245,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "HR031"
     },
     {
       "id": "Zakynthos, GR",
@@ -4259,7 +4259,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "EL62"
     },
     {
       "id": "Angoulême, FR",
@@ -4273,7 +4273,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FRI31"
     },
     {
       "id": "Kajaani, FI",
@@ -4287,7 +4287,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FI1D8"
     },
     {
       "id": "Kozani, GR",
@@ -4301,7 +4301,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "EL53"
     },
     {
       "id": "Cluj-Napoca, RO",
@@ -4315,7 +4315,7 @@
       ],
       "out_flights_number": 5,
       "in_flights_number": 17,
-      "nut3_code": null
+      "nut3_code": "RO113"
     },
     {
       "id": "Hoeven, NL",
@@ -4329,7 +4329,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "NL411"
     },
     {
       "id": "Cahors, FR",
@@ -4343,7 +4343,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRJ25"
     },
     {
       "id": "Deventer, NL",
@@ -4357,7 +4357,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "NL212"
     },
     {
       "id": "Laval, Mayenne, FR",
@@ -4371,7 +4371,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Borlange, SE",
@@ -4385,7 +4385,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "SE312"
     },
     {
       "id": "Västervik, SE",
@@ -4399,7 +4399,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "SE213"
     },
     {
       "id": "Lübeck, DE",
@@ -4413,7 +4413,7 @@
       ],
       "out_flights_number": 14,
       "in_flights_number": 15,
-      "nut3_code": null
+      "nut3_code": "DEF0"
     },
     {
       "id": "Portimão, PT",
@@ -4427,7 +4427,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "PT150"
     },
     {
       "id": "Flensburg, DE",
@@ -4441,7 +4441,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DEF0"
     },
     {
       "id": "Le Castellet, Var, FR",
@@ -4455,7 +4455,7 @@
       ],
       "out_flights_number": 7,
       "in_flights_number": 8,
-      "nut3_code": null
+      "nut3_code": "FRL05"
     },
     {
       "id": "Dinard, FR",
@@ -4469,7 +4469,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FR101"
     },
     {
       "id": "Calais, FR",
@@ -4483,7 +4483,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "San Bartolomé, ES",
@@ -4497,7 +4497,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 14,
-      "nut3_code": null
+      "nut3_code": "ES41"
     },
     {
       "id": "Loreo (RO), IT",
@@ -4511,7 +4511,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "ITH3"
     },
     {
       "id": "Karlstad, SE",
@@ -4525,7 +4525,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "SE311"
     },
     {
       "id": "Torino (TO), IT",
@@ -4539,7 +4539,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Albi, FR",
@@ -4553,7 +4553,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Vila Real, PT",
@@ -4567,7 +4567,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "PT11D"
     },
     {
       "id": "Skiros Island, GR",
@@ -4581,7 +4581,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "EL"
     },
     {
       "id": "Vodochody, CZ",
@@ -4595,7 +4595,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "CZ020"
     },
     {
       "id": "Mnichovo Hradiště, CZ",
@@ -4609,7 +4609,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "CZ020"
     },
     {
       "id": "Beja, PT",
@@ -4623,7 +4623,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "PT1C2"
     },
     {
       "id": "Saint-Denis-de-l'Hôtel, Loiret, FR",
@@ -4637,7 +4637,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRB06"
     },
     {
       "id": "La Baule-Escoublac, FR",
@@ -4651,7 +4651,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRG01"
     },
     {
       "id": "Mariehamn, FI",
@@ -4665,7 +4665,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "FI200"
     },
     {
       "id": "Savonlinna, FI",
@@ -4679,7 +4679,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FI1D7"
     },
     {
       "id": "Reggio Emilia (RE), IT",
@@ -4693,7 +4693,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Cormeilles-en-Vexin, Val-d'Oise, FR",
@@ -4707,7 +4707,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "FR108"
     },
     {
       "id": "Radom, PL",
@@ -4721,7 +4721,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "PL61"
     },
     {
       "id": "Le Havre, FR",
@@ -4735,7 +4735,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "FRD22"
     },
     {
       "id": "Kristianstad, SE",
@@ -4749,7 +4749,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "SE224"
     },
     {
       "id": "Arad, RO",
@@ -4763,7 +4763,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "RO412"
     },
     {
       "id": "Deauville, FR",
@@ -4777,7 +4777,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FR103"
     },
     {
       "id": "Pardubice, CZ",
@@ -4791,7 +4791,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "CZ053"
     },
     {
       "id": "Isola di Capo Rizzuto (KR), IT",
@@ -4805,7 +4805,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 6,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Selçuk, TR",
@@ -4819,7 +4819,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 72,
-      "nut3_code": null
+      "nut3_code": "TR310"
     },
     {
       "id": "Lappeenranta, FI",
@@ -4833,7 +4833,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FI1C5"
     },
     {
       "id": "Trollhättan, SE",
@@ -4847,7 +4847,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "SE232"
     },
     {
       "id": "Waterford, IE",
@@ -4861,7 +4861,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "IE052"
     },
     {
       "id": "Dalaman, TR",
@@ -4875,7 +4875,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 10,
-      "nut3_code": null
+      "nut3_code": "TR323"
     },
     {
       "id": "Pécs, HU",
@@ -4889,7 +4889,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "HU213"
     },
     {
       "id": "Merville, Nord, FR",
@@ -4903,7 +4903,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FR108"
     },
     {
       "id": "Weert, NL",
@@ -4917,7 +4917,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "NL422"
     },
     {
       "id": "Varna, BG",
@@ -4931,7 +4931,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "BG331"
     },
     {
       "id": "Essen, DE",
@@ -4945,7 +4945,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "DE22"
     },
     {
       "id": "Agen, FR",
@@ -4959,7 +4959,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Zweibrücken, DE",
@@ -4973,7 +4973,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "DEB3"
     },
     {
       "id": "Nobitz, DE",
@@ -4987,7 +4987,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DEG0"
     },
     {
       "id": "Trento (TN), IT",
@@ -5001,7 +5001,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 49,
-      "nut3_code": null
+      "nut3_code": "ITF3"
     },
     {
       "id": "Växjö, SE",
@@ -5015,7 +5015,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "SE212"
     },
     {
       "id": "Sindal, DK",
@@ -5029,7 +5029,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DK050"
     },
     {
       "id": "Eskilstuna, SE",
@@ -5043,7 +5043,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "SE122"
     },
     {
       "id": "Çanakkale, TR",
@@ -5057,7 +5057,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "TR222"
     },
     {
       "id": "Calvi, FR",
@@ -5071,7 +5071,7 @@
       ],
       "out_flights_number": 8,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRI11"
     },
     {
       "id": "Lorient/Lann/Bihoué, FR",
@@ -5085,7 +5085,7 @@
       ],
       "out_flights_number": 5,
       "in_flights_number": 5,
-      "nut3_code": null
+      "nut3_code": "FRH04"
     },
     {
       "id": "Tartu, EE",
@@ -5099,7 +5099,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "EE008"
     },
     {
       "id": "Esbjerg, DK",
@@ -5113,7 +5113,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "DK032"
     },
     {
       "id": "Charlestown, IE",
@@ -5127,7 +5127,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "IE042"
     },
     {
       "id": "Sofia, BG",
@@ -5141,7 +5141,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "BG411"
     },
     {
       "id": "Akrotiri, CY",
@@ -5155,7 +5155,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "CY000"
     },
     {
       "id": "Atting, DE",
@@ -5169,7 +5169,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "DE22"
     },
     {
       "id": "Oskarshamn, SE",
@@ -5183,7 +5183,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "SE213"
     },
     {
       "id": "Bielefeld, DE",
@@ -5197,7 +5197,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DEA4"
     },
     {
       "id": "Vannes/Meucon, FR",
@@ -5211,7 +5211,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FRC14"
     },
     {
       "id": "Hof, DE",
@@ -5225,7 +5225,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "DE21"
     },
     {
       "id": "Hondarribia, ES",
@@ -5239,7 +5239,7 @@
       ],
       "out_flights_number": 6,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "ES21"
     },
     {
       "id": "Chalons en Champagne, FR",
@@ -5253,7 +5253,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "FRF21"
     },
     {
       "id": "Plzen, CZ",
@@ -5267,7 +5267,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "CZ032"
     },
     {
       "id": "Tomblaine, Meurthe-et-Moselle, FR",
@@ -5281,7 +5281,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FRF31"
     },
     {
       "id": "Aurillac, FR",
@@ -5295,7 +5295,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FRI12"
     },
     {
       "id": "Giebelstadt, DE",
@@ -5309,7 +5309,7 @@
       ],
       "out_flights_number": 2,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "DE26"
     },
     {
       "id": "Argos Orestiko, GR",
@@ -5323,7 +5323,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "EL53"
     },
     {
       "id": "Kalmar, SE",
@@ -5337,7 +5337,7 @@
       ],
       "out_flights_number": 3,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "SE213"
     },
     {
       "id": "Coimbra, PT",
@@ -5351,7 +5351,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "PT192"
     },
     {
       "id": "Lycksele, SE",
@@ -5365,7 +5365,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "SE331"
     },
     {
       "id": "Souda, GR",
@@ -5379,7 +5379,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "EL43"
     },
     {
       "id": "Kartepe, TR",
@@ -5393,7 +5393,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "TR421"
     },
     {
       "id": "Belluno (BL), IT",
@@ -5407,7 +5407,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "ITH3"
     },
     {
       "id": "Mikkeli, FI",
@@ -5421,7 +5421,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FI1D7"
     },
     {
       "id": "Trollenhagen, DE",
@@ -5435,7 +5435,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DE80"
     },
     {
       "id": "Tuzla, RO",
@@ -5449,7 +5449,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "RO223"
     },
     {
       "id": "Limoges/Bellegarde, FR",
@@ -5463,7 +5463,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Burgos, ES",
@@ -5477,7 +5477,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "ES24"
     },
     {
       "id": "Råda, SE",
@@ -5491,7 +5491,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "SE110"
     },
     {
       "id": "Campo nell'Elba (LI), IT",
@@ -5505,7 +5505,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Kalymnos Island, GR",
@@ -5519,7 +5519,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "EL42"
     },
     {
       "id": "České Budějovice, CZ",
@@ -5533,7 +5533,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "CZ031"
     },
     {
       "id": "Oesterdeichstrich, DE",
@@ -5547,7 +5547,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DEF0"
     },
     {
       "id": "Emden, DE",
@@ -5561,7 +5561,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "DE94"
     },
     {
       "id": "Vilhelmina, SE",
@@ -5575,7 +5575,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "SE331"
     },
     {
       "id": "Quimper/Pluguffan, FR",
@@ -5589,7 +5589,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRH02"
     },
     {
       "id": "Bilbao, ES",
@@ -5603,7 +5603,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "ES21"
     },
     {
       "id": "Santander, ES",
@@ -5617,7 +5617,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "ES13"
     },
     {
       "id": "Mora, SE",
@@ -5631,7 +5631,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "SE312"
     },
     {
       "id": "Megève, FR",
@@ -5645,7 +5645,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRK28"
     },
     {
       "id": "Leixlip, IE",
@@ -5659,7 +5659,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "IE062"
     },
     {
       "id": "Pantelleria (TP), IT",
@@ -5673,7 +5673,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "ITG1"
     },
     {
       "id": "Île d'Yeu, FR",
@@ -5687,7 +5687,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "FRG05"
     },
     {
       "id": "Saint-Bon, FR",
@@ -5701,7 +5701,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "FRB01"
     },
     {
       "id": "Vercelli (VC), IT",
@@ -5715,7 +5715,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "ITC1"
     },
     {
       "id": "Lannion, FR",
@@ -5729,7 +5729,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "FR102"
     },
     {
       "id": "Olbia (SS), IT",
@@ -5743,7 +5743,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 4,
-      "nut3_code": null
+      "nut3_code": "ITC4"
     },
     {
       "id": "Limerick, IE",
@@ -5757,7 +5757,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 2,
-      "nut3_code": null
+      "nut3_code": "IE051"
     },
     {
       "id": "Les Allues, FR",
@@ -5771,7 +5771,7 @@
       ],
       "out_flights_number": 4,
       "in_flights_number": 3,
-      "nut3_code": null
+      "nut3_code": "FR103"
     },
     {
       "id": "Astypalaia Island, GR",
@@ -5785,7 +5785,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "EL42"
     },
     {
       "id": "Lleida, ES",
@@ -5799,7 +5799,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "ES11"
     },
     {
       "id": "Babięta, PL",
@@ -5813,7 +5813,7 @@
       ],
       "out_flights_number": 0,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "PL62"
     },
     {
       "id": "Yenişehir, TR",
@@ -5827,7 +5827,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 1,
-      "nut3_code": null
+      "nut3_code": "TR412"
     },
     {
       "id": "Monflorite/Alcalá del Obispo, ES",
@@ -5841,7 +5841,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "ES24"
     },
     {
       "id": "Karlovy Vary, CZ",
@@ -5855,7 +5855,7 @@
       ],
       "out_flights_number": 1,
       "in_flights_number": 0,
-      "nut3_code": null
+      "nut3_code": "CZ041"
     }
   ],
   "edges": [

@@ -1,11 +1,14 @@
 import folium
+import math
 from graph_creation.domain import Graph
 from graph_creation.application.ports import GraphExporter
 from graph_creation.utils import build_output_path
 
 
 def node_weight_to_size_translator(w: int):
-    return w
+    if w == 0:
+        return 0
+    return round(math.log(w, 1.5)*2)
 
 
 class FoliumMapExporter(GraphExporter):

@@ -14,7 +14,7 @@ class FlightNumber:
     count: int
 
 
-@dataclass(frozen=True)
+@dataclass()
 class Node:
     id: str
     name: str
@@ -28,7 +28,7 @@ class Node:
     nut3_code: Optional[str] = None
 
 
-@dataclass(frozen=True)
+@dataclass()
 class Edge:
     from_id: str
     to_id: str
@@ -37,7 +37,7 @@ class Edge:
     distance: float  # in kilometers
 
 
-@dataclass(frozen=True)
+@dataclass()
 class Graph:
     nodes: List[Node]
     edges: List[Edge]

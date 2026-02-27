@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "purpose": "Very coarse aircraft-model aggregation for embeddings (8 groups).",
+    "recommended_pipeline": {
+      "normalize": [
+        "uppercase",
+        "strip",
+        "collapse multiple spaces",
+        "optionally remove parentheses and normalize hyphens to spaces consistently"
+      ],
+      "fallbacks": {
+        "unknown": "if model is null/empty -> UNKNOWN",
+        "other": "if model not in mapping -> OTHER"
+      }
+    },
+    "notes": [
+      "All Airbus A319/A320/A321 ceo variants are collapsed into one bucket.",
+      "All Airbus A320/A321 neo variants are collapsed into one bucket.",
+      "All Boeing 737NG + 737 MAX 8 (as represented by 737-8AS strings) are collapsed into one bucket.",
+      "Regional jets + regional turboprops are collapsed into one bucket.",
+      "Passenger widebodies are one bucket; cargo widebodies are one bucket.",
+      "All business jets + business turboprops are collapsed into one bucket."
+    ]
+  },
+  "groups": [
+    {
+      "label": "airbus_narrowbody_ceo",
+      "models": [
+        "A319 112",
+        "A319 132",
+        "A319-111",
+        "A319 114",
+        "A319 111",
+        "A320 214",
+        "A320 214SL",
+        "A320-214",
+        "A320 232SL",
+        "A320 232",
+        "A320-216",
+        "A320 216",
+        "A321 231SL",
+        "A321 231",
+        "A321 131",
+        "A321 211SL",
+        "A321 211"
+      ],
+      "description": "Airbus A319/A320/A321 (ceo generation) narrowbody passenger aircraft. Includes Sharklets variants (SL).",
+      "flags": {
+        "manufacturer": "Airbus",
+        "category": "commercial_passenger",
+        "segment": "narrowbody",
+        "generation": "ceo",
+        "propulsion": "jet"
+      }
+    },
+    {
+      "label": "airbus_narrowbody_neo",
+      "models": [
+        "A320 251NSL",
+        "A320-251N",
+        "A320-271N",
+        "A321-271NX"
+      ],
+      "description": "Airbus A320/A321 neo (new engine option) narrowbody passenger aircraft.",
+      "flags": {
+        "manufacturer": "Airbus",
+        "category": "commercial_passenger",
+        "segment": "narrowbody",
+        "generation": "neo",
+        "propulsion": "jet"
+      }
+    },
+    {
+      "label": "boeing_737_family",
+      "models": [
+        "BOEING 737-8AS",
+        "Boeing 737-8AS (W)",
+        "737-8AS (W)",
+        "737-8AS",
+        "Boeing 737-8AS",
+        "737NG 8F2/W",
+        "737NG 8K2/W",
+        "737NG 800/W",
+        "737NG 9F2ER/W",
+        "737NG 85P/W",
+        "737NG 86J/W"
+      ],
+      "description": "Boeing 737 family bucket (737NG + 737 MAX 8 variants in your dataset). Customer-code and winglet markers ignored at this granularity.",
+      "flags": {
+        "manufacturer": "Boeing",
+        "category": "commercial_passenger",
+        "segment": "narrowbody",
+        "family": "737",
+        "propulsion": "jet"
+      }
+    },
+    {
+      "label": "regional_aircraft",
+      "models": [
+        "EMB-195 LR",
+        "EMB-190 LR",
+        "EMB-190 STD",
+        "EMB-170 STD",
+        "CRJ 900 LR NG",
+        "CRJ 1000 NG",
+        "ATR 72 500",
+        "ATR 72 600",
+        "DHC-8 402 NG"
+      ],
+      "description": "Regional aircraft (regional jets + regional turboprops). Short-haul network feeders.",
+      "flags": {
+        "category": "commercial_passenger",
+        "segment": "regional",
+        "propulsion": "mixed_jet_turboprop"
+      }
+    },
+    {
+      "label": "widebody_passenger",
+      "models": [
+        "A330 303",
+        "A330 343E",
+        "787 8"
+      ],
+      "description": "Widebody passenger aircraft (long-haul). Airbus A330 variants + Boeing 787-8.",
+      "flags": {
+        "category": "commercial_passenger",
+        "segment": "widebody",
+        "propulsion": "jet"
+      }
+    },
+    {
+      "label": "widebody_cargo",
+      "models": [
+        "777F",
+        "777-FS2",
+        "767-34AF",
+        "A330 243F",
+        "A300 B4-622RF"
+      ],
+      "description": "Widebody freighters / cargo aircraft.",
+      "flags": {
+        "category": "commercial_cargo",
+        "segment": "widebody",
+        "propulsion": "jet"
+      }
+    },
+    {
+      "label": "business_aviation_jet",
+      "models": [
+        "Phenom 300",
+        "Phenom 100",
+        "Citation CJ2+",
+        "Citation CJ1",
+        "Citation Mustang",
+        "Premier I",
+        "Citation XLS",
+        "Challenger 350",
+        "Bombardier Challenger 604",
+        "Global Express XRS",
+        "Bombardier Global 6000"
+      ],
+      "description": "Business aviation jets (very light → ultra-long-range).",
+      "flags": {
+        "category": "business_aviation",
+        "segment": "bizjet",
+        "propulsion": "jet"
+      }
+    },
+    {
+      "label": "business_aviation_turboprop",
+      "models": [
+        "PC-XII 47E",
+        "TBM 700"
+      ],
+      "description": "Business/utility turboprops (single-engine).",
+      "flags": {
+        "category": "business_aviation",
+        "segment": "biz_turboprop",
+        "propulsion": "turboprop"
+      }
+    },
+    {
+      "label": "other",
+      "models": [],
+      "description": "Catch-all bucket for any models not matching above groups.",
+      "flags": {
+        "category": "other",
+        "segment": "other",
+        "propulsion": "other"
+      },
+    "catch_all": true
+    }
+  ]
+}
