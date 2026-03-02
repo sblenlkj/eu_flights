@@ -37,4 +37,7 @@ class NetworkXAdapter():
                 distance=edge.distance,
             )
 
+        # record global graph attributes (countries list is recent addition)
+        nx_graph.graph["countries"] = graph.countries
+
         return nx_graph

@@ -117,6 +117,123 @@ EFTP,Tampere-Pirkkala Airport,large_airport,FI,FI-11,Tampere / Pirkkala,61.41410
 EFTU,Turku Airport,large_airport,FI,FI-19,Turku,60.514099,22.2628
 EFVA,Vaasa Airport,large_airport,FI,FI-12,Vaasa,63.05023,21.762543
 EFVR,Varkaus Airport,medium_airport,FI,FI-04,Varkaus / Joroinen,62.171101,27.868601
+EGAA,Belfast International Airport,large_airport,GB,GB-NIR,Belfast,54.6575012207,-6.2158298492399995
+EGAB,Enniskillen/St Angelo Airport,medium_airport,GB,GB-NIR,"Enniskillen, Fermanagh and Omagh",54.398274,-7.651179
+EGAC,George Best Belfast City Airport,medium_airport,GB,GB-NIR,Belfast,54.618099,-5.8725
+EGAD,Newtownards Airport,small_airport,GB,GB-NIR,"Newtownards, Ards and North Down",54.5811,-5.69194
+EGAE,City of Derry Airport,medium_airport,GB,GB-NIR,"Derry, Derry and Strabane",55.042801,-7.16111
+EGBB,Birmingham Airport,large_airport,GB,GB-ENG,"Birmingham, West Midlands",52.453899,-1.74803
+EGBE,Coventry Airport,medium_airport,GB,GB-ENG,"Coventry, West Midlands",52.369701,-1.47972
+EGBF,Bedford Aerodrome,small_airport,GB,GB-ENG,"Bedford, Bedford",52.23071,-0.463825
+EGBG,Leicester Airport,small_airport,GB,GB-ENG,"Leicester, Leicestershire",52.606574,-1.030226
+EGBJ,Gloucestershire Airport,medium_airport,GB,GB-ENG,"Staverton, Gloucestershire",51.894199,-2.16722
+EGBK,Sywell Aerodrome,small_airport,GB,GB-ENG,"Northampton, Northamptonshire",52.305302,-0.793056
+EGBN,Nottingham City Airport,medium_airport,GB,GB-ENG,"Nottingham, Nottinghamshire",52.919998,-1.07917
+EGBO,Wolverhampton Halfpenny Green Airport,small_airport,GB,GB-ENG,"Wolverhampton, Staffordshire",52.517502,-2.25944
+EGBP,Cotswold Airport,small_airport,GB,GB-ENG,"Cirencester, Gloucestershire",51.668528,-2.056599
+EGBT,Turweston Aerodrome,small_airport,GB,GB-ENG,Turweston,52.040798,-1.09556
+EGCC,Manchester Airport,large_airport,GB,GB-ENG,"Manchester, Greater Manchester",53.349375,-2.279521
+EGDJ,Upavon Aerodrome,small_airport,GB,GB-ENG,"Pewsey, Wiltshire",51.28657,-1.782239
+EGDY,RNAS Yeovilton,medium_airport,GB,GB-ENG,"Yeovil, Somerset",51.009399,-2.63882
+EGEC,Campbeltown Airport,medium_airport,GB,GB-SCT,Campbeltown,55.437199,-5.68639
+EGED,Eday Airport,medium_airport,GB,GB-SCT,Eday,59.19060134887695,-2.7722198963165283
+EGEF,Fair Isle Airport,small_airport,GB,GB-SCT,Fair Isle,59.534721,-1.628509
+EGEH,Whalsay Airstrip,small_airport,GB,GB-SCT,"Whalsay, Shetlands",60.376835,-0.927229
+EGEI,Broadford Airstrip,small_airport,GB,GB-SCT,"Ashaig, Highland",57.253131,-5.827755
+EGEN,North Ronaldsay Airport,small_airport,GB,GB-SCT,North Ronaldsay,59.3675003052,-2.43443989754
+EGEO,Oban Airport,small_airport,GB,GB-SCT,North Connel,56.463501,-5.39967
+EGEP,Papa Westray Airport,small_airport,GB,GB-SCT,"Papa Westray, Orkney Islands",59.351012,-2.900353
+EGER,Stronsay Airport,small_airport,GB,GB-SCT,Stronsay,59.1553,-2.64139
+EGES,Sanday Airport,small_airport,GB,GB-SCT,Sanday,59.250301,-2.57667
+EGET,Lerwick / Tingwall Airport,small_airport,GB,GB-SCT,"Lerwick, Shetland Islands",60.1922,-1.24361
+EGEW,Westray Airport,small_airport,GB,GB-SCT,"Westray, Orkney Islands",59.350475,-2.950062
+EGFE,Haverfordwest Airport,medium_airport,GB,GB-WLS,Haverfordwest,51.833099365234375,-4.9611101150512695
+EGFF,Cardiff International Airport,large_airport,GB,GB-WLS,Cardiff,51.396702,-3.34333
+EGFH,Swansea Airport,medium_airport,GB,GB-WLS,Swansea,51.601366,-4.071006
+EGGD,Bristol Airport,large_airport,GB,GB-ENG,Bristol,51.382326,-2.716453
+EGGP,Liverpool John Lennon Airport,large_airport,GB,GB-ENG,Liverpool,53.334863,-2.849637
+EGGW,London Luton Airport,large_airport,GB,GB-ENG,"Luton, Luton",51.874699,-0.368333
+EGHC,Land's End Airport,small_airport,GB,GB-ENG,"Land's End, Cornwall",50.102798,-5.67056
+EGHE,St. Mary's Airport,small_airport,GB,GB-ENG,"St. Mary's, Isles of Scilly",49.913375,-6.291894
+EGHH,Bournemouth Airport,medium_airport,GB,GB-ENG,Bournemouth,50.780483,-1.839576
+EGHI,Southampton Airport,medium_airport,GB,GB-ENG,Southampton,50.950298,-1.3568
+EGHJ,Bembridge Airport,small_airport,GB,GB-ENG,"Bembridge, Isle of Wight",50.678101,-1.10944
+EGHQ,Cornwall Airport Newquay,medium_airport,GB,GB-ENG,Newquay,50.440601,-4.99541
+EGHR,Goodwood Aerodrome,small_airport,GB,GB-ENG,"Chichester, West Sussex",50.859832,-0.760073
+EGKA,Brighton City Airport,medium_airport,GB,GB-ENG,"Brighton, East Sussex",50.835602,-0.297222
+EGKB,London Biggin Hill Airport,medium_airport,GB,GB-ENG,London,51.33079910279999,0.0324999988079
+EGKK,London Gatwick Airport,large_airport,GB,GB-ENG,London,51.148744,-0.185739
+EGKR,Redhill Aerodrome,small_airport,GB,GB-ENG,"Redhill, Surrey",51.2136,-0.138611
+EGLC,London City Airport,medium_airport,GB,GB-ENG,London,51.505299,0.055278
+EGLF,Farnborough Airport,medium_airport,GB,GB-ENG,"Farnborough, Hampshire",51.275799,-0.776333
+EGLK,Blackbushe Airport,medium_airport,GB,GB-ENG,"Camberley, Surrey",51.323898,-0.8475
+EGLL,London Heathrow Airport,large_airport,GB,GB-ENG,London,51.470748,-0.459909
+EGMC,London Southend Airport,medium_airport,GB,GB-ENG,"Southend-on-Sea, Essex",51.570562,0.693627
+EGMD,Lydd London Ashford Airport,medium_airport,GB,GB-ENG,"Romney Marsh, Kent",50.956246,0.939074
+EGML,Damyns Hall Aerodrome,small_airport,GB,GB-ENG,"Upminster, Greater London",51.527561,0.244189
+EGNC,Carlisle Lake District Airport,medium_airport,GB,GB-ENG,"Carlisle, Cumbria",54.9375,-2.80917
+EGNE,Retford Gamston Airport,small_airport,GB,GB-ENG,"Retford, Nottinghamshire",53.280602,-0.951389
+EGNH,Blackpool Airport,medium_airport,GB,GB-ENG,Blackpool,53.771702,-3.02861
+EGNJ,Humberside Airport,medium_airport,GB,GB-ENG,"Grimsby, Lincolnshire",53.576152,-0.34954
+EGNL,Barrow Walney Island Airport,medium_airport,GB,GB-ENG,Barrow-in-Furness,54.1286111,-3.2675
+EGNM,Leeds Bradford Airport,large_airport,GB,GB-ENG,"Leeds, West Yorkshire",53.865898,-1.66057
+EGNO,Warton Aerodrome,medium_airport,GB,GB-ENG,Warton,53.745098,-2.88306
+EGNR,Hawarden Airport,medium_airport,GB,GB-WLS,Broughton,53.178101,-2.97778
+EGNT,Newcastle International Airport,large_airport,GB,GB-ENG,"Newcastle upon Tyne, Tyne and Wear",55.037958,-1.689577
+EGNV,Teesside International Airport,medium_airport,GB,GB-ENG,"Darlington, Durham",54.509201,-1.42941
+EGNW,Wickenby Aerodrome,small_airport,GB,GB-ENG,"Lincoln, Lincolnshire",53.3167,-0.349722
+EGNX,East Midlands Airport,large_airport,GB,GB-ENG,"Nottingham, Leicestershire",52.8311,-1.32806
+EGOS,RAF Shawbury,medium_airport,GB,GB-ENG,"Shrewsbury, Shropshire",52.798199,-2.66804
+EGOV,Anglesey Airport,medium_airport,GB,GB-WLS,Angelsey,53.2481,-4.53534
+EGOW,RAF Woodvale,small_airport,GB,GB-ENG,"Southport, Sefton",53.5816,-3.05552
+EGPA,Kirkwall Airport,medium_airport,GB,GB-SCT,"Kirkwall, Orkney Islands",58.957903,-2.905077
+EGPB,Sumburgh Airport,medium_airport,GB,GB-SCT,"Lerwick, Shetland",59.878899,-1.29556
+EGPC,Wick John O'Groats Airport,medium_airport,GB,GB-SCT,Wick,58.4589,-3.09306
+EGPD,Aberdeen International Airport,large_airport,GB,GB-SCT,Aberdeen,57.2019,-2.19778
+EGPE,Inverness Airport,medium_airport,GB,GB-SCT,Inverness,57.5425,-4.0475
+EGPF,Glasgow Airport,large_airport,GB,GB-SCT,Glasgow,55.871899,-4.43306
+EGPH,Edinburgh Airport,large_airport,GB,GB-SCT,Edinburgh,55.950145,-3.372288
+EGPI,Islay Airport,medium_airport,GB,GB-SCT,"Isle of Islay, Argyll and Bute",55.682708,-6.257525
+EGPK,Glasgow Prestwick Airport,large_airport,GB,GB-SCT,"Prestwick, South Ayrshire",55.501499,-4.577182
+EGPL,Benbecula Airport,medium_airport,GB,GB-SCT,Balivanich,57.481098,-7.36278
+EGPN,Dundee Airport,medium_airport,GB,GB-SCT,Dundee,56.452499,-3.02583
+EGPO,Stornoway Airport,medium_airport,GB,GB-SCT,"Stornoway, Western Isles",58.215599,-6.33111
+EGPR,Barra Airport,medium_airport,GB,GB-SCT,Eoligarry,57.0228,-7.44306
+EGPT,Perth/Scone Airport,small_airport,GB,GB-SCT,"Perth, Perth and Kinross",56.439201,-3.37222
+EGPU,Tiree Airport,medium_airport,GB,GB-SCT,"Balemartine, Argyll and Bute",56.499199,-6.86917
+EGQS,RAF Lossiemouth,medium_airport,GB,GB-SCT,"Lossiemouth, Moray",57.7052,-3.33917
+EGSC,Cambridge City Airport,medium_airport,GB,GB-ENG,"Cambridge, Cambridgeshire",52.205002,0.175
+EGSD,Great Yarmouth - North Denes Airport,small_airport,GB,GB-ENG,"Great Yarmouth, Norfolk",52.635576,1.723016
+EGSF,Peterborough Business Airport,small_airport,GB,GB-ENG,"Peterborough, Cambridgeshire",52.468102,-0.251111
+EGSG,Stapleford Aerodrome,small_airport,GB,GB-ENG,"Romford, Greater London",51.6525,0.155833
+EGSH,Norwich Airport,medium_airport,GB,GB-ENG,"Norwich, Norfolk",52.6758,1.28278
+EGSL,Andrewsfield Aerodrome,small_airport,GB,GB-ENG,"Braintree, Essex",51.895,0.449167
+EGSS,London Stansted Airport,large_airport,GB,GB-ENG,"London, Essex",51.884998,0.235
+EGSU,Duxford Aerodrome,small_airport,GB,GB-ENG,"Duxford, Cambridgeshire",52.090801,0.131944
+EGTB,Wycombe Air Park,small_airport,GB,GB-ENG,"Marlow, Buckinghamshire",51.61177,-0.808316
+EGTC,Cranfield Airport,medium_airport,GB,GB-ENG,"Cranfield, Central Bedfordshire",52.072201,-0.616667
+EGTD,Dunsfold Aerodrome,small_airport,GB,GB-ENG,"Cranleigh, Surrey",51.117199,-0.535833
+EGTE,Exeter International Airport,medium_airport,GB,GB-ENG,"Exeter, Devon",50.734261,-3.413984
+EGTF,Fairoaks Airport,small_airport,GB,GB-ENG,"Woking, Surrey",51.348099,-0.558889
+EGTK,London Oxford Airport,medium_airport,GB,GB-ENG,"Kidlington, Oxfordshire",51.836899,-1.32
+EGTO,Rochester Airport,small_airport,GB,GB-ENG,"Rochester, Kent",51.351898,0.503333
+EGUB,RAF Benson,medium_airport,GB,GB-ENG,"Wallingford, Oxfordshire",51.614366,-1.095991
+EGUL,RAF Lakenheath,medium_airport,GB,GB-ENG,"Brandon, Suffolk",52.40954,0.561161
+EGUN,RAF Mildenhall,medium_airport,GB,GB-ENG,"Bury Saint Edmunds, Suffolk",52.3619,0.486406
+EGVA,RAF Fairford,medium_airport,GB,GB-ENG,"Fairford, Gloucestershire",51.683568,-1.789172
+EGVN,RAF Brize Norton,medium_airport,GB,GB-ENG,"Carterton, Oxfordshire",51.75,-1.58362
+EGVO,RAF Odiham,medium_airport,GB,GB-ENG,"Hook, Hampshire",51.2341,-0.942825
+EGWN,RAF Halton,small_airport,GB,GB-ENG,"Halton, Buckinghamshire",51.790699,-0.737972
+EGWU,RAF Northolt,medium_airport,GB,GB-ENG,"Northolt, Greater London",51.553001,-0.418167
+EGXC,RAF Coningsby,medium_airport,GB,GB-ENG,"Lincoln, Lincolnshire",53.092999,-0.166014
+EGCM,Leeds East Airport,medium_airport,GB,GB-ENG,"Tadcaster, North Yorkshire",53.834747,-1.194678
+EGXH,RAF Honington,medium_airport,GB,GB-ENG,"Bury Saint Edmunds, Suffolk",52.342602,0.772939
+EGXT,RAF Wittering,medium_airport,GB,GB-ENG,"Peterborough, Cambridgeshire",52.612598,-0.476453
+EGXW,RAF Waddington,medium_airport,GB,GB-ENG,"Lincoln, Lincolnshire",53.166199,-0.523811
+EGXY,RAF Syerston,small_airport,GB,GB-ENG,"Newark on Trent, Nottinghamshire",53.0228,-0.911111
+EGYD,RAF Cranwell,medium_airport,GB,GB-ENG,"Sleaford, Lincolnshire",53.027308,-0.493104
+EGYE,RAF Barkston Heath,medium_airport,GB,GB-ENG,"Grantham, Lincolnshire",52.960616,-0.559428
+EGYM,RAF Marham,medium_airport,GB,GB-ENG,"King's Lynn, Norfolk",52.648395,0.550692
 EHAL,Ameland Airport Ballum,small_airport,NL,NL-FR,Ballum,53.453612,5.678396
 EHAM,Amsterdam Airport Schiphol,large_airport,NL,NL-NH,Amsterdam,52.308601,4.76389
 EHBD,Kempen Airport Budel,medium_airport,NL,NL-NB,Weert,51.255299,5.60139
@@ -167,6 +284,57 @@ EKTS,Thisted Airport,medium_airport,DK,DK-81,Thisted,57.068802,8.70522
 EKVJ,Stauning Vestjylland  Airport,medium_airport,DK,DK-82,Skjern,55.990101,8.35391
 EKYT,Aalborg Airport,large_airport,DK,DK-81,Aalborg,57.094763,9.84993
 ELLX,Luxembourg-Findel International Airport,large_airport,LU,LU-L,Luxembourg,49.626845,6.212134
+ENAL,Ålesund Airport,large_airport,NO,NO-15,Ålesund,62.560443,6.110845
+ENAN,"Andøya Airport, Andenes",medium_airport,NO,NO-18,Andenes,69.295193,16.139379
+ENAT,Alta Airport,medium_airport,NO,NO-56,Alta,69.976097,23.3717
+ENBL,"Førde Airport, Bringeland",small_airport,NO,NO-46,Førde,61.391102,5.75694
+ENBN,"Brønnøysund Airport, Brønnøy",medium_airport,NO,NO-18,Brønnøy,65.461098,12.2175
+ENBO,Bodø Airport,large_airport,NO,NO-18,Bodø,67.269203,14.3653
+ENBR,"Bergen Airport, Flesland",large_airport,NO,NO-46,Bergen,60.2934,5.21814
+ENBS,Båtsfjord Airport,medium_airport,NO,NO-56,Båtsfjord,70.60025,29.692612
+ENBV,Berlevåg Airport,medium_airport,NO,NO-56,Berlevåg,70.871517,29.034097
+ENCN,Kristiansand Airport,large_airport,NO,NO-42,Kristiansand(Kjevik),58.204201,8.08537
+ENDU,Bardufoss Airport,medium_airport,NO,NO-55,Målselv,69.055801,18.5404
+ENEV,Harstad/Narvik Airport,large_airport,NO,NO-18,Evenes,68.491302,16.678101
+ENFL,Florø Airport,medium_airport,NO,NO-46,Florø,61.583599090576,5.0247201919556
+ENGM,Oslo-Gardermoen International Airport,large_airport,NO,NO-32,Oslo (Gardermoen),60.193901,11.1004
+ENHA,"Hamar Lufthavn, Stavsberg",small_airport,NO,NO-34,Hamar,60.8181,11.068
+ENHD,"Haugesund Airport, Karmøy",medium_airport,NO,NO-11,Karmøy,59.345299,5.20836
+ENHF,Hammerfest Airport,medium_airport,NO,NO-56,Hammerfest,70.679703,23.6686
+ENHK,Hasvik Airport,small_airport,NO,NO-56,Hasvik,70.486702,22.1397
+ENHV,"Honningsvåg Airport, Valan",medium_airport,NO,NO-56,Honningsvåg,71.009697,25.983601
+ENKB,"Kristiansund Airport, Kvernberget",medium_airport,NO,NO-15,Kvernberget,63.111801,7.82452
+ENKL,Gol Airport,small_airport,NO,NO-33,Klanten flyplass,60.791066,9.048672
+ENKR,"Kirkenes Airport, Høybuktmoen",medium_airport,NO,NO-56,Kirkenes,69.7258,29.8913
+ENLK,Leknes Airport,medium_airport,NO,NO-18,Leknes,68.152496337891,13.609399795532
+ENMH,Mehamn Airport,medium_airport,NO,NO-56,Mehamn,71.029701,27.8267
+ENML,"Molde Airport, Årø",medium_airport,NO,NO-15,Årø,62.744701,7.2625
+ENMS,"Mosjøen Airport, Kjærstad",medium_airport,NO,NO-18,Mosjøen,65.783997,13.2149
+ENNA,"Lakselv Airport, Banak",medium_airport,NO,NO-56,Lakselv,70.068802,24.973499
+ENNM,Namsos Airport,small_airport,NO,NO-50,Namsos,64.472198,11.5786
+ENNO,Notodden Airport,medium_airport,NO,NO-40,Notodden,59.565071,9.213152
+ENOL,Ørland Airport,medium_airport,NO,NO-50,Ørland,63.69889831542969,9.604000091552734
+ENOV,"Ørsta-Volda Airport, Hovden",medium_airport,NO,NO-15,Ørsta,62.180000305176,6.0741000175476
+ENRA,"Mo i Rana Airport, Røssvoll",medium_airport,NO,NO-18,Mo i Rana,66.363899230957,14.301400184631
+ENRM,"Rørvik Airport, Ryum",medium_airport,NO,NO-50,Rørvik,64.838302612305,11.14610004425
+ENRO,Røros Airport,medium_airport,NO,NO-50,Røros,62.578399658203,11.342300415039
+ENRS,Røst Airport,small_airport,NO,NO-18,Røst,67.526482,12.101575
+ENRY,"Moss Airport, Rygge",medium_airport,NO,NO-31,Oslo,59.378817,10.785439
+ENSB,"Svalbard Airport, Longyear",medium_airport,NO,NO-21,Longyearbyen,78.246101,15.4656
+ENSD,"Sandane Airport, Anda",small_airport,NO,NO-46,Sandane,61.830002,6.10583
+ENSG,"Sogndal Airport, Haukåsen",small_airport,NO,NO-46,Sogndal,61.156101,7.13778
+ENSH,"Svolvær Airport, Helle",medium_airport,NO,NO-18,Svolvær,68.243301,14.6692
+ENSK,"Stokmarknes Airport, Skagen",medium_airport,NO,NO-18,Hadsel,68.578827,15.033417
+ENSN,Skien Airport,medium_airport,NO,NO-40,Geiteryggen,59.185001,9.56694
+ENSO,"Stord Airport, Sørstokken",medium_airport,NO,NO-46,Leirvik,59.791901,5.34085
+ENSR,Sørkjosen Airport,medium_airport,NO,NO-55,Sørkjosen,69.786797,20.9594
+ENSS,"Vardø Airport, Svartnes",medium_airport,NO,NO-56,Vardø,70.3554,31.044901
+ENST,"Sandnessjøen Airport, Stokka",medium_airport,NO,NO-18,Alstahaug,65.956802,12.4689
+ENTC,Tromsø Airport,large_airport,NO,NO-55,Tromsø,69.683296,18.9189
+ENTO,"Sandefjord Airport, Torp",large_airport,NO,NO-39,Sandefjord(Torp),59.186699,10.2586
+ENVA,"Trondheim Airport, Værnes",large_airport,NO,NO-50,Trondheim,63.457802,10.924
+ENVD,Vadsø Airport,medium_airport,NO,NO-56,Vadsø,70.0653,29.8447
+ENZV,"Stavanger Airport, Sola",large_airport,NO,NO-11,Stavanger,58.876701,5.63778
 EPBB,Babięta,small_airport,PL,PL-WN,Babięta,53.667905,21.255426
 EPBC,Warsaw Babice Airport,small_airport,PL,PL-MZ,Warsaw,52.269199,20.907203
 EPBY,Ignacy Jan Paderewski Bydgoszcz Airport,medium_airport,PL,PL-KP,Bydgoszcz,53.096802,17.977699
@@ -249,6 +417,8 @@ EYPA,Palanga International Airport,large_airport,LT,LT-KL,Palanga,55.973202,21.0
 EYSA,Šiauliai International Airport,medium_airport,LT,LT-SA,Šiauliai,55.89390182495117,23.395000457763672
 EYVI,Vilnius International Airport,large_airport,LT,LT-VL,Vilnius,54.634102,25.285801
 LFTA,La Tranche-sur-Mer ULM,small_airport,FR,FR-PDL,La Tranche-sur-Mer,46.363534,-1.427364
+EGTN,Enstone Aerodrome,small_airport,GB,GB-ENG,"Chipping Norton, Oxfordshire",51.928167,-1.4285
+EGUY,RAF Wyton,small_airport,GB,GB-ENG,"St Ives, Cambridgeshire",52.357117,-0.107787
 GCFV,Fuerteventura Airport,large_airport,ES,ES-CN,El Matorral,28.4527,-13.8638
 GCGM,La Gomera Airport,small_airport,ES,ES-CN,"Alajero, La Gomera Island",28.0296,-17.2146
 GCHI,El Hierro Airport,medium_airport,ES,ES-CN,El Hierro Island,27.8148,-17.8871
@@ -619,6 +789,24 @@ LRTC,Tulcea Danube Delta Airport,medium_airport,RO,RO-TL,Mihail Kogălniceanu,45
 LRTM,Târgu Mureş Transilvania International Airport,medium_airport,RO,RO-MS,Recea,46.467701,24.4125
 LRTR,Timișoara Traian Vuia International Airport,large_airport,RO,RO-TM,Timişoara,45.809898,21.3379
 LRTZ,Tuzla Airport,small_airport,RO,RO-CT,Tuzla,43.984493,28.606225
+LSGC,Les Eplatures Airport,medium_airport,CH,CH-NE,La Chaux-de-Fonds,47.0839004517,6.792840003970001
+LSGG,Geneva Cointrin International Airport,large_airport,CH,CH-GE,Geneva,46.238098,6.10895
+LSGS,Sion Airport,medium_airport,CH,CH-VS,Sion,46.219166,7.326944
+LSPM,Ambri Airport,small_airport,CH,CH-TI,Quinto,46.512501,8.68978
+LSVD,Clariden-Hüfifirn Mountain Landing Site,small_airport,CH,CH-GL,Plateau nördlich Planurahütte,46.821944,8.880277
+LSVP,Petersgrat Mountain Landing Site,small_airport,CH,CH-BE,Firnplateau,46.468889,7.828333
+LSVV,Vorabgletscher Mountain Landing Site,small_airport,CH,CH-GR,Sattel,46.878333,9.151944
+LSYI,Limmerenfirn Mountain Landing Site,small_airport,CH,CH-GL,Oberer Firnrand,46.810556,8.967778
+LSYK,Kanderfirn Mountain Landing Site,small_airport,CH,CH-BE,West of Mutthorn hut,46.485833,7.828333
+LSYR,Rosa Blanche Mountain Landing Site,small_airport,CH,CH-VS,Grat südlich Gipfel,46.060833,7.354722
+LSYX,Glacier du Trient Mountain Landing Site,small_airport,CH,CH-VS,Firnrand,45.9883,7.0425
+LSZA,Lugano Airport,medium_airport,CH,CH-TI,Agno,46.004299,8.91058
+LSZB,Bern Airport,medium_airport,CH,CH-BE,Bern,46.912736,7.498819
+LSZC,Buochs Airport,small_airport,CH,CH-NW,Buochs,46.974444,8.396944
+LSZH,Zürich Airport,large_airport,CH,CH-ZH,Zurich,47.458056,8.548056
+LSZL,Locarno Airport,small_airport,CH,CH-TI,Locarno,46.160801,8.87861
+LSZR,Sankt Gallen Altenrhein Airport,medium_airport,CH,CH-SG,St. Gallen,47.485001,9.56077
+LSZS,Samedan Airport,medium_airport,CH,CH-GR,Samedan,46.5341,9.88411
 LTAB,Güvercinlik Airport,small_airport,TR,TR-06,Ankara,39.935001,32.740799
 LTAC,Esenboğa International Airport,large_airport,TR,TR-06,Ankara,40.128101,32.995098
 LTAF,Adana Şakirpaşa Airport,large_airport,TR,TR-01,Seyhan,36.982201,35.280399

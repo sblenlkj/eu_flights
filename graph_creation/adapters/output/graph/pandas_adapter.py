@@ -34,16 +34,22 @@ class GraphPandasAdapter:
     def edges_to_df(self) -> pd.DataFrame:
         """Return a DataFrame with one row per edge.
 
-        We omit the ``flights`` list for now.
+        We omit the ``flights`` list for now.  If the graph has
+        ``edge_embedding_columns`` defined and the edges have
+        ``embeddings`` vectors, those values are added as separate columns.
         """
         records = []
         for e in self.graph.edges:
-            records.append({
+            rec = {
                 "from_id": e.from_id,
                 "to_id": e.to_id,
                 "weight": e.weight,
                 "distance": e.distance,
-            })
+            }
+            if self.graph.edge_embedding_columns is not None and e.embeddings is not None:
+                for name, val in zip(self.graph.edge_embedding_columns, e.embeddings):
+                    rec[name] = val
+            records.append(rec)
         return pd.DataFrame(records)
 
     def flights_to_df(self) -> pd.DataFrame:

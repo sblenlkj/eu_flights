@@ -20,7 +20,9 @@ class GraphJsonExporter:
         nodes_list = [n.__dict__ for n in graph.nodes]
         edges_list = []
         for e in graph.edges:
-            # convert flights to simple dicts
+            # convert flights to simple dicts.  embeddings (if present) are
+            # intentionally omitted from the exported payload; they are only
+            # used for in‑memory analytics / CSV adapters.
             flights_serial = []
             for fn in e.flights:
                 flights_serial.append({
@@ -40,6 +42,7 @@ class GraphJsonExporter:
             "edges": edges_list,
             "unknown_or_non_eu_dep": graph.unknown_or_non_eu_dep,
             "unknown_or_non_eu_arr": graph.unknown_or_non_eu_arr,
+            "countries": graph.countries,
             "begin": _ts_to_human(graph.begin) if isinstance(graph.begin, int) else graph.begin,
             "end": _ts_to_human(graph.end) if isinstance(graph.end, int) else graph.end,
             "nodes_number": graph.nodes_number,

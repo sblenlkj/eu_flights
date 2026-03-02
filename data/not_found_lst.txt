@@ -1,0 +1,90 @@
+Mehamn, NO
+Antalya, TR
+Charlestown, IE
+Sečovlje, SI
+Mytilene, GR
+Trabzon, TR
+Geneva, CH
+Dublin, IE
+Leirvik, NO
+Timişoara, RO
+Prague, CZ
+Farranfore, IE
+Busevec, HR
+Pamplona, ES
+Aix en Provence, FR
+Samsun, TR
+Vilnius, LT
+Edremit, TR
+Helsinki (Vantaa), FI
+Siljansnäs, SE
+Kuressaare, EE
+Bacău, RO
+Nuremberg, DE
+Rørvik, NO
+Erzurum, TR
+Visby, SE
+Turku, FI
+Istanbul, TR
+El Matorral, ES
+Kokkola / Kruunupyy, FI
+Vienna, AT
+Constanța, RO
+Mahón (Maó), ES
+Valletta, MT
+Balice, PL
+Ampugnano (SI), IT
+Szymany, PL
+Jyväskylän Maalaiskunta, FI
+Spata-Artemida, GR
+Eskişehir, TR
+Kithira Island, GR
+Palma de Mallorca, ES
+Alexandroupolis, GR
+Oulu / Oulunsalo, FI
+Palanga, LT
+Vaasa, FI
+Limnos Island, GR
+Zurich, CH
+Ranón, ES
+Tymbou (Kirklar), CY
+Kaunas, LT
+Kefallinia Island, GR
+Bazan, BG
+Lisbon, PT
+Warsaw, PL
+Oostende, BE
+Paphos, CY
+Zgornji Brnik, SI
+Rhodes, GR
+Gaziemir, TR
+Bucharest, RO
+Vila Baleira, PT
+Tampere / Pirkkala, FI
+Nowe Kramsko, PL
+Larnaca, CY
+Levaldigi (CN), IT
+Munich, DE
+Jasionka, PL
+Copenhagen, DK
+Antwerp, BE
+La Virgen Del Camino, ES
+Borlange, SE
+Hoeven, NL
+Savonlinna, FI
+Lappeenranta, FI
+Sindal, DK
+Skiros Island, GR
+Çanakkale, TR
+Pori, FI
+Kajaani, FI
+Šiauliai, LT
+Enontekio, FI
+Chalons en Champagne, FR
+Mikkeli, FI
+Sofia, BG
+Astypalaia Island, GR
+Babięta, PL
+Île d'Yeu, FR
+Florø, NO
+Yenişehir, TR

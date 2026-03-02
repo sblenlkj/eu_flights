@@ -1,6 +1,6 @@
 # EU flights 
 I have collected flights across EU countries in a graph during one week (16-22.02.2026). What can we do:
-- Create a network. There should be some attributes of nodes (**done**): cities (they are called municipalities) are our nodes and existing flight routes are edges. The graph is directional, edges have weights (number of flights), nodes have also weights (in-flights and out-flights number). For other attributes look at the data. Right now nodes=762, edges=7932; we can also add extra countries like Switzerland and Norway.
+- Create a network. There should be some attributes of nodes (**done**): cities (they are called municipalities) are our nodes and existing flight routes are edges. The graph is directional, edges have weights (number of flights), nodes have also weights (in-flights and out-flights number). For other attributes look at the data. Right now nodes=513, edges=10236; we can also add extra countries like Switzerland and Norway.
 - Describe what does it contain (what are nodes and edges, which attributes) 
 - Visualize network - we can visualise with html map / networks. 
 - Give basic characteristics (number of nodes, number of edges, clustering coef., see Lecture 1)
@@ -12,7 +12,7 @@ I have collected flights across EU countries in a graph during one week (16-22.0
 
 All above can be done right now. The graph is stored both in json and csv formats; 3 csv - nodes, edges, flights - are located in `data/graph_csv`. You can load with pandas, convert to graph with networkx. For more, look at `eu_flights_data_collection.ipynb`. If you do sm, pleasee, create a new ipynb file. 
 
-I also created embedings for edges: airplane models based on icao code, you can find them in `data/embedings_from_icao.json`, airplane company based on callsign code (`data/embedings_from_callsign.json`).
+- I also created embedings for edges: airplane models based on icao code, you can find them in `data/embedings_from_icao.json`, airplane company based on callsign code (`data/embedings_from_callsign.json`).  The domain model now supports attaching an embedding vector per edge; call `graph.create_edge_embeddings(...)` with your embedding schemas and pass `assign_to_edges=True` to populate each edge and have the pandas adapter expose the values as separate columns.  Column names are kept in `Graph.edge_embedding_columns`.
 
 How the data was collected can be seen from `eu_flights_data_collection.ipynb`
 

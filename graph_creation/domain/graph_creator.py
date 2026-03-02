@@ -55,11 +55,24 @@ class MunicipalityNodeCreator:
 
 
 class GraphCreator:
+    """Builds a flight graph incrementally from municipality and flight data.
+
+    The resulting :class:`Graph` object has its ``countries`` attribute set to the
+    list of ISO country codes corresponding to nodes that actually participate
+    in at least one non‑loop flight.  Internally ``countries`` is a set that is
+    updated as flights are added; ``to_graph`` converts it to a sorted list.
+    """
+
     def __init__(self, municipalities: List[Municipality], begin: int | None = None, end: int | None = None):
         # begin/end define the timeframe (unix timestamps) for which the graph was created
         self.nodes: Dict[str, MunicipalityNodeCreator] = {}
         self.used_nodes: set[str] = set()
         self.airport_index: Dict[str, MunicipalityNodeCreator] = {}
+
+        # keep track of which ISO country codes are represented by *used* nodes
+        # (nodes that actually participate in flights).  we populate this set
+        # while adding flights, then pass the sorted list to the final Graph.
+        self.countries: set[str] = set()
 
         self.unknown_or_non_eu_dep = 0
         self.unknown_or_non_eu_arr = 0
@@ -108,6 +121,9 @@ class GraphCreator:
 
         self.used_nodes.add(src.municipality.id)
         self.used_nodes.add(dst.municipality.id)
+        # update country set for all municipalities that are actually used
+        self.countries.add(src.municipality.iso_country)
+        self.countries.add(dst.municipality.iso_country)
 
         src.increment_edge(dst.municipality.id, flight.icao, flight.callsign, distance)
         self.flights_number += 1
@@ -168,12 +184,16 @@ class GraphCreator:
             )
         total_flights = self.flights_number
 
+        # convert set -> list; sort for determinism (tests rely on order)
+        countries_list = list(sorted(self.countries))
+
         print(f"Graph created with {len(nodes)} nodes and {len(edges)} edges, flights: {total_flights}")
         return Graph(
             nodes=nodes,
             edges=edges,
             unknown_or_non_eu_dep=self.unknown_or_non_eu_dep,
             unknown_or_non_eu_arr=self.unknown_or_non_eu_arr,
+            countries=countries_list,
             begin=self.begin,
             end=self.end,
             nodes_number=len(nodes),

@@ -3,7 +3,7 @@ EU_COUNTRY_CODES = [
     "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", 
     "SI", "ES", "SE"
 ]
-NOT_EU_COUNTRY_CODES = ['LI', 'TR', 'MK']
+NOT_EU_COUNTRY_CODES = ['LI', 'TR', 'MK', 'NO', 'CH', 'GB']
 
 def get_our_countries():
     lst = EU_COUNTRY_CODES.copy()

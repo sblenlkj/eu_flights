@@ -13,3 +13,4 @@ no_track/
 
 # Large files
 data/raw/aircraft_database_complete.csv
+*tests/

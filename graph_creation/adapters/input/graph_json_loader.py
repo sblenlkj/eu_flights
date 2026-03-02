@@ -1,6 +1,5 @@
 import json
-from graph_creation.domain.graph import Graph, Node, Edge
-
+from graph_creation.domain.graph import Graph, Node, Edge, FlightInEdge, FlightNumber
 
 class GraphJsonLoader:
 
@@ -10,8 +9,7 @@ class GraphJsonLoader:
 
         nodes = [Node(**n) for n in data.get("nodes", [])]
         edges = []
-        # manually build edges to convert nested flight records
-        from graph_creation.domain.graph import FlightInEdge, FlightNumber
+        
         for e in data.get("edges", []):
             flights_list = []
             for fn in e.get("flights", []):
@@ -37,6 +35,7 @@ class GraphJsonLoader:
             edges=edges,
             unknown_or_non_eu_dep=data.get("unknown_or_non_eu_dep", 0),
             unknown_or_non_eu_arr=data.get("unknown_or_non_eu_arr", 0),
+            countries=data.get("countries", []),
             begin=data.get("begin"),
             end=data.get("end"),
             nodes_number=data.get("nodes_number", len(nodes)),

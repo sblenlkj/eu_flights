@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import List, Optional, Dict
 
 
 @dataclass(frozen=True)
@@ -12,6 +12,18 @@ class FlightInEdge:
 class FlightNumber:
     flight: FlightInEdge
     count: int
+
+
+@dataclass(frozen=True)
+class Embedding:
+    """Simple holder for an embedding schema used when counting matches.
+
+    The ``embedding`` attribute can be any vector representation (float list).  The
+    ``matching_columns`` list contains the raw codes or identifiers that should
+    be compared with either flight callsign prefixes or ICAO codes.
+    """
+    name: str
+    matching_columns: List[str]
 
 
 @dataclass()
@@ -35,6 +47,9 @@ class Edge:
     weight: int
     flights: List[FlightNumber]
     distance: float  # in kilometers
+    # optional embedding vector; not serialized by JSON exporter but used in
+    # pandas adapter when present.  Length matches ``graph.edge_embedding_columns``.
+    embeddings: Optional[List[int]] = None
 
 
 @dataclass()
@@ -43,6 +58,11 @@ class Graph:
     edges: List[Edge]
     unknown_or_non_eu_dep: int
     unknown_or_non_eu_arr: int
+    # list of country ISO codes representing countries of the remaining nodes
+    countries: List[str]
+    # column names associated with ``Edge.embeddings``; if ``None`` no
+    # embeddings are attached.
+    edge_embedding_columns: Optional[List[str]] = None
     begin: str | None = None
     end: str | None = None
     nodes_number: int = 0
@@ -52,11 +72,13 @@ class Graph:
 
 
     def __repr__(self):
-        return (f"Graph(nodes={len(self.nodes)}, edges={len(self.edges)}, "
+        return (f"Graph(nodes_number={self.nodes_number}, edges_number={self.edges_number}, "
                 f"unknown_or_non_eu_dep={self.unknown_or_non_eu_dep}, "
                 f"unknown_or_non_eu_arr={self.unknown_or_non_eu_arr}, "
+                f"countries={self.countries}, "
                 f"begin={self.begin}, end={self.end})")
     
+
     def __add__(self, other: "Graph") -> "Graph":
         """Merge two Graphs into a new Graph.
 
@@ -93,9 +115,6 @@ class Graph:
                 )
 
         merged_nodes = list(nodes_map.values())
-
-        # Merge edges
-        from collections import defaultdict
 
         edges_map: dict[tuple[str, str], dict] = {}
 
@@ -155,11 +174,26 @@ class Graph:
         merged_begin = min(begins) if begins else None
         merged_end = max(ends) if ends else None
 
+        # union country lists, preserving order but deduplicating
+        merged_countries = []
+        for lst in (self.countries or [], other.countries or []):
+            for c in lst:
+                if c not in merged_countries:
+                    merged_countries.append(c)
+
+        # embeddings cannot be reliably preserved through a merge; drop
+        # them and force callers to recompute if desired.
+        merged_edge_cols = None
+        for e in merged_edges:
+            e.embeddings = None
+
         merged_graph = Graph(
             nodes=merged_nodes,
             edges=merged_edges,
             unknown_or_non_eu_dep=merged_unknown_dep,
             unknown_or_non_eu_arr=merged_unknown_arr,
+            countries=merged_countries,
+            edge_embedding_columns=merged_edge_cols,
             begin=merged_begin,
             end=merged_end,
             nodes_number=len(merged_nodes),
@@ -169,3 +203,168 @@ class Graph:
         )
 
         return merged_graph
+
+    # --- additional helpers -------------------------------------------------
+    def copy(self) -> "Graph":
+        """Return a shallow-deep hybrid copy: new container objects, copied records."""
+        nodes_copy = [Node(**vars(n)) for n in (self.nodes or [])]
+        # copy flights inside edges too
+        edges_copy = []
+        for e in (self.edges or []):
+            flights_copy = [FlightNumber(flight=FlightInEdge(**vars(fn.flight)), count=fn.count) for fn in e.flights]
+            edges_copy.append(
+                Edge(
+                    from_id=e.from_id,
+                    to_id=e.to_id,
+                    weight=e.weight,
+                    flights=flights_copy,
+                    distance=e.distance,
+                    embeddings=list(e.embeddings) if e.embeddings is not None else None,
+                )
+            )
+
+        # for old version, when countries attribute was None
+        if self.countries is not None:
+            countries_copy = list(self.countries)
+        else:
+            print("countries attribute is None")
+
+        # edge columns
+        cols_copy = list(self.edge_embedding_columns) if self.edge_embedding_columns is not None else None
+
+        return Graph(
+            nodes=nodes_copy,
+            edges=edges_copy,
+            unknown_or_non_eu_dep=self.unknown_or_non_eu_dep,
+            unknown_or_non_eu_arr=self.unknown_or_non_eu_arr,
+            countries=countries_copy,
+            edge_embedding_columns=cols_copy,
+            begin=self.begin,
+            end=self.end,
+            nodes_number=self.nodes_number,
+            edges_number=self.edges_number,
+            flights_number=self.flights_number,
+            loops_number=self.loops_number,
+        )
+
+    def drop_countries(self, country_codes: List[str]) -> None:
+        """Remove nodes from `country_code` and adjust edge weights / node counters.
+
+        This mutates the graph in-place: nodes from the provided country are
+        deleted, any edges touching those nodes are removed, and remaining
+        nodes' in/out counters are decremented by the weights of removed edges.
+        """
+        to_remove = {n.id for n in (self.nodes or []) if n.iso_country in country_codes}
+        if not to_remove:
+            return
+
+        out_adjust: dict[str, int] = {}
+        in_adjust: dict[str, int] = {}
+        removed_flights = 0
+
+        new_edges: list[Edge] = []
+        for e in (self.edges or []):
+            if e.from_id in to_remove or e.to_id in to_remove:
+                removed_flights += e.weight
+                # if only one side is removed, decrement the other's counters
+                if e.from_id not in to_remove:
+                    out_adjust[e.from_id] = out_adjust.get(e.from_id, 0) + e.weight
+                
+                if e.to_id not in to_remove:
+                    in_adjust[e.to_id] = in_adjust.get(e.to_id, 0) + e.weight
+
+                continue
+            new_edges.append(e)
+
+        # build new node list applying adjustments
+        new_nodes: list[Node] = []
+        for n in (self.nodes or []):
+            if n.id in to_remove:
+                continue
+            
+            # create a new Node instance to avoid mutating potential external refs
+            out_num = n.out_flights_number - out_adjust.get(n.id, 0)
+            in_num = n.in_flights_number - in_adjust.get(n.id, 0)
+            if out_num < 0:
+                out_num = 0
+            if in_num < 0:
+                in_num = 0
+            new_nodes.append(
+                Node(
+                    id=n.id,
+                    name=n.name,
+                    iso_country=n.iso_country,
+                    iso_region=n.iso_region,
+                    latitude=n.latitude,
+                    longitude=n.longitude,
+                    airports=list(n.airports),
+                    out_flights_number=out_num,
+                    in_flights_number=in_num,
+                    nut3_code=n.nut3_code,
+                )
+            )
+
+        self.nodes = new_nodes
+        self.edges = new_edges
+        self.nodes_number = len(new_nodes)
+        self.edges_number = len(new_edges)
+        self.flights_number = max(0, (self.flights_number or 0) - removed_flights)
+        if self.countries:
+            self.countries = [c for c in self.countries if c not in country_codes]
+
+    def create_edge_embeddings(
+        self,
+        callsign_embeddings: List["Embedding"],
+        icao_embeddings: List["Embedding"],
+        icao_to_model_dct: Dict[str, str],
+        assign_to_edges: bool = False,
+    ) -> List[List[int]]:
+        """Create count-vectors per edge matching flights against provided embeddings.
+
+        The output list aligns with `self.edges` order. The vector layout is
+        [callsign_embeddings..., icao_embeddings...], each value equals the sum
+        of `count` for flights matching that embedding's `matching_columns`.
+
+        If ``assign_to_edges`` is ``True`` the resulting vectors are written to
+        ``Edge.embeddings`` and the graph's
+        ``edge_embedding_columns`` field is populated with the corresponding
+        embedding names, allowing downstream code (e.g. pandas adapter) to
+        expose them as separate columns.  By default the method is pure and
+        returns the matrix only.
+        """
+        def callsign_cleaning(s: str):
+            return s[:3] if s[:3].isalpha() else None
+
+        def icao_cleaning(s: str):
+            return s
+
+        result: List[List[int]] = []
+        for e in (self.edges or []):
+            counts = [0] * (len(callsign_embeddings) + len(icao_embeddings))
+            for fn in e.flights:
+                # callsign block
+                callsign = callsign_cleaning(fn.flight.callsign)
+                if callsign is not None:
+                    for idx, emb in enumerate(callsign_embeddings):
+                        if callsign in emb.matching_columns:
+                            counts[idx] += fn.count
+                
+                # icao block
+                icao = icao_cleaning(fn.flight.icao)
+                if icao is not None and icao in icao_to_model_dct:
+                    model = icao_to_model_dct[icao]
+                    offset = len(callsign_embeddings)
+                    for idx, emb in enumerate(icao_embeddings):
+                        if model in emb.matching_columns:
+                            counts[offset + idx] += fn.count
+
+            result.append(counts)
+
+        if assign_to_edges:
+            # attach back to edge objects and remember column names
+            names = [emb.name for emb in callsign_embeddings] + [emb.name for emb in icao_embeddings]
+            self.edge_embedding_columns = names
+            for e, vec in zip(self.edges or [], result):
+                e.embeddings = vec.copy()
+
+        return result
