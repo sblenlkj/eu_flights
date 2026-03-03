@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Union, Set, Self
 
 
 @dataclass(frozen=True)
@@ -247,30 +247,29 @@ class Graph:
             loops_number=self.loops_number,
         )
 
-    def drop_countries(self, country_codes: List[str]) -> None:
+    def drop_nodes(self, node_ids: Union[List[str], Set[str]]) -> Self:
         """Remove nodes from `country_code` and adjust edge weights / node counters.
 
         This mutates the graph in-place: nodes from the provided country are
         deleted, any edges touching those nodes are removed, and remaining
         nodes' in/out counters are decremented by the weights of removed edges.
         """
-        to_remove = {n.id for n in (self.nodes or []) if n.iso_country in country_codes}
-        if not to_remove:
-            return
-
+        if isinstance(node_ids, list):
+            node_ids = set(node_ids)
+        
         out_adjust: dict[str, int] = {}
         in_adjust: dict[str, int] = {}
         removed_flights = 0
 
         new_edges: list[Edge] = []
         for e in (self.edges or []):
-            if e.from_id in to_remove or e.to_id in to_remove:
+            if e.from_id in node_ids or e.to_id in node_ids:
                 removed_flights += e.weight
                 # if only one side is removed, decrement the other's counters
-                if e.from_id not in to_remove:
+                if e.from_id not in node_ids:
                     out_adjust[e.from_id] = out_adjust.get(e.from_id, 0) + e.weight
                 
-                if e.to_id not in to_remove:
+                if e.to_id not in node_ids:
                     in_adjust[e.to_id] = in_adjust.get(e.to_id, 0) + e.weight
 
                 continue
@@ -278,8 +277,9 @@ class Graph:
 
         # build new node list applying adjustments
         new_nodes: list[Node] = []
+        countries = set()
         for n in (self.nodes or []):
-            if n.id in to_remove:
+            if n.id in node_ids:
                 continue
             
             # create a new Node instance to avoid mutating potential external refs
@@ -289,6 +289,7 @@ class Graph:
                 out_num = 0
             if in_num < 0:
                 in_num = 0
+
             new_nodes.append(
                 Node(
                     id=n.id,
@@ -303,14 +304,29 @@ class Graph:
                     nut3_code=n.nut3_code,
                 )
             )
+            countries.add(n.iso_country)
 
         self.nodes = new_nodes
         self.edges = new_edges
         self.nodes_number = len(new_nodes)
         self.edges_number = len(new_edges)
         self.flights_number = max(0, (self.flights_number or 0) - removed_flights)
-        if self.countries:
-            self.countries = [c for c in self.countries if c not in country_codes]
+        if countries != {None}:
+            self.countries = list(countries)
+        
+        return self
+
+
+    def drop_countries(self, country_codes: List[str]) -> Self:
+        """Helper for drop_nodes methods. 
+        It allows to drop nodes from the specific countries
+        """
+        to_remove = {n.id for n in (self.nodes or []) if n.iso_country in country_codes}
+        if not to_remove:
+            print('No nodes for the countries found. Nothing is deleted!')
+            return self
+        return self.drop_nodes(to_remove)
+
 
     def create_edge_embeddings(
         self,
@@ -337,6 +353,12 @@ class Graph:
 
         def icao_cleaning(s: str):
             return s
+        
+        def check_model(model: str, matching_columns: List[str]):
+            for one in matching_columns:
+                if one in model:
+                    return True
+            return False
 
         result: List[List[int]] = []
         for e in (self.edges or []):
@@ -355,7 +377,7 @@ class Graph:
                     model = icao_to_model_dct[icao]
                     offset = len(callsign_embeddings)
                     for idx, emb in enumerate(icao_embeddings):
-                        if model in emb.matching_columns:
+                        if check_model(model, emb.matching_columns):
                             counts[offset + idx] += fn.count
 
             result.append(counts)

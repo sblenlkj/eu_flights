@@ -31,7 +31,7 @@ class GraphPandasAdapter:
             records.append(rec)
         return pd.DataFrame(records)
 
-    def edges_to_df(self) -> pd.DataFrame:
+    def edges_to_df(self, with_embedings: bool = False) -> pd.DataFrame:
         """Return a DataFrame with one row per edge.
 
         We omit the ``flights`` list for now.  If the graph has
@@ -46,7 +46,7 @@ class GraphPandasAdapter:
                 "weight": e.weight,
                 "distance": e.distance,
             }
-            if self.graph.edge_embedding_columns is not None and e.embeddings is not None:
+            if with_embedings and self.graph.edge_embedding_columns is not None and e.embeddings is not None:
                 for name, val in zip(self.graph.edge_embedding_columns, e.embeddings):
                     rec[name] = val
             records.append(rec)

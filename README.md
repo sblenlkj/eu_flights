@@ -12,9 +12,9 @@ I have collected flights across EU countries in a graph during one week (16-22.0
 
 All above can be done right now. The graph is stored both in json and csv formats; 3 csv - nodes, edges, flights - are located in `data/graph_csv`. You can load with pandas, convert to graph with networkx. For more, look at `eu_flights_data_collection.ipynb`. If you do sm, pleasee, create a new ipynb file. 
 
-- I also created embedings for edges: airplane models based on icao code, you can find them in `data/embedings_from_icao.json`, airplane company based on callsign code (`data/embedings_from_callsign.json`).  The domain model now supports attaching an embedding vector per edge; call `graph.create_edge_embeddings(...)` with your embedding schemas and pass `assign_to_edges=True` to populate each edge and have the pandas adapter expose the values as separate columns.  Column names are kept in `Graph.edge_embedding_columns`.
+- I also created embedings for edges: airplane models based on icao code, you can find them in `data/embedings_from_icao.json`, airplane company based on callsign code (`data/embedings_from_callsign.json`). 
 
-How the data was collected can be seen from `eu_flights_data_collection.ipynb`
+How the data was collected can be seen from `eu_flights_data_collection.ipynb`, i started analysing the graph in `eu_flights_graph.ipynb`.
 
 PS The python folder contains some code that is usefull to save/load the graph, convert it from one implementation to another (for example, adjacency matrix, networkx, pandas df). I operate on graph domain model for graph that is called Graph :) I have some adapters for it, but matrix and message passing adapters are not ready yet.
 
