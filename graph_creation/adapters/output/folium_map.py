@@ -1,8 +1,9 @@
 import folium
 import math
-from graph_creation.domain import Graph
 from graph_creation.application.ports import GraphExporter
 from graph_creation.utils import build_output_path
+
+from graph_creation.domain.graph import Graph, GraphType, Node
 
 
 def node_weight_to_size_translator(w: int):
@@ -22,12 +23,19 @@ class FoliumMapExporter(GraphExporter):
 
         # Add nodes
         for node in graph.nodes:
-            popup_text = f"{node.name} (out:{node.out_flights_number}, in:{node.in_flights_number})"
+            if graph.graph_type == GraphType.DIRECTED:
+                popup_text = f"{node.name} (out:{node.out_flights_number}, in:{node.in_flights_number})"
+                weight = (node.out_flights_number or 0) + (node.in_flights_number or 0)
+            else:
+                popup_text = f"{node.name} (traffic:{node.traffic})"
+                weight = node.traffic or 0
+
             if node.nut3_code:
                 popup_text += f"\nNUT3: {node.nut3_code}"
+
             folium.CircleMarker(
                 location=(node.latitude, node.longitude),
-                radius=2 + node_weight_to_size_translator(node.out_flights_number),
+                radius=2 + node_weight_to_size_translator(weight),
                 popup=popup_text,
                 fill=True,
             ).add_to(fmap)
@@ -47,7 +55,7 @@ class FoliumMapExporter(GraphExporter):
                     (src.latitude, src.longitude),
                     (dst.latitude, dst.longitude),
                 ],
-                weight=max(1, edge.weight / 10),
+                weight=max(1, math.log(edge.weight + 1)),
                 opacity=0.6,
             ).add_to(fmap)
 

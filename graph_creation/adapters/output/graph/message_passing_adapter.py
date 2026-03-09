@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from typing import Dict, List, Optional
 import numpy as np
 
-from graph_creation.domain import Graph
+from graph_creation.domain.graph import Graph, GraphType
 
 
 @dataclass(frozen=True)
@@ -19,18 +19,19 @@ class MessagePassingGraph:
 
 class MessagePassingAdapter:
     """
-    Converts your domain Graph into a message-passing friendly representation.
+    Converts your domain Graph into a message-passing friendly representation, exactly what GNN frameworks expect
     """
 
     @staticmethod
     def from_graph(
         graph: Graph,
         *,
-        add_reverse_edges: bool = False,
         add_self_loops: bool = False,
-        make_undirected: bool = False,   # if True, adds reverse edges (same as add_reverse_edges)
         dtype_weight=np.float32,
     ) -> MessagePassingGraph:
+        if graph.graph_type != GraphType.UNDIRECTED:
+            raise ValueError("MessagePassingAdapter requires UNDIRECTED graph")
+
         node_ids = [n.id for n in graph.nodes]
         node_index = {node_id: i for i, node_id in enumerate(node_ids)}
 
@@ -48,9 +49,9 @@ class MessagePassingAdapter:
             w.append(weight)
 
         for e in graph.edges:
+            # this ensures symmetric edges for message passing.
             _add(e.from_id, e.to_id, float(e.weight))
-            if make_undirected or add_reverse_edges:
-                _add(e.to_id, e.from_id, float(e.weight))
+            _add(e.to_id, e.from_id, float(e.weight))
 
         if add_self_loops:
             for node_id in node_ids:

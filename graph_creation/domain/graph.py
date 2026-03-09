@@ -1,5 +1,11 @@
 from dataclasses import dataclass
-from typing import List, Optional, Dict, Union, Set, Self
+from typing import List, Optional, Dict, Union, Set, Self, Tuple
+from enum import Enum
+from collections import defaultdict
+
+class GraphType(str, Enum):
+    DIRECTED = "directed"
+    UNDIRECTED = "undirected"
 
 
 @dataclass(frozen=True)
@@ -35,8 +41,11 @@ class Node:
     latitude: float
     longitude: float
     airports: List[str]
-    out_flights_number: int
-    in_flights_number: int
+
+    out_flights_number: Optional[int] = None
+    in_flights_number: Optional[int] = None
+
+    traffic: Optional[int] = None
     nut3_code: Optional[str] = None
 
 
@@ -60,6 +69,8 @@ class Graph:
     unknown_or_non_eu_arr: int
     # list of country ISO codes representing countries of the remaining nodes
     countries: List[str]
+
+    graph_type: GraphType = GraphType.DIRECTED
     # column names associated with ``Edge.embeddings``; if ``None`` no
     # embeddings are attached.
     edge_embedding_columns: Optional[List[str]] = None
@@ -72,11 +83,18 @@ class Graph:
 
 
     def __repr__(self):
-        return (f"Graph(nodes_number={self.nodes_number}, edges_number={self.edges_number}, "
-                f"unknown_or_non_eu_dep={self.unknown_or_non_eu_dep}, "
-                f"unknown_or_non_eu_arr={self.unknown_or_non_eu_arr}, "
-                f"countries={self.countries}, "
-                f"begin={self.begin}, end={self.end})")
+        if self.graph_type == GraphType.DIRECTED:
+            return (
+                f"Graph(type=DIRECTED, nodes={self.nodes_number}, edges={self.edges_number}, "
+                f"flights={self.flights_number}, countries={len(self.countries)}, "
+                f"begin={self.begin}, end={self.end})"
+            )
+
+        return (
+            f"Graph(type=UNDIRECTED, nodes={self.nodes_number}, edges={self.edges_number}, "
+            f"flights={self.flights_number}, countries={len(self.countries)}, "
+            f"begin={self.begin}, end={self.end})"
+        )
     
 
     def __add__(self, other: "Graph") -> "Graph":
@@ -88,6 +106,13 @@ class Graph:
         Distances are combined as a weighted average by edge weight when possible.
         Summary counters are summed and timeframe spans are combined.
         """
+
+        if self.graph_type != GraphType.DIRECTED or other.graph_type != GraphType.DIRECTED:
+            raise ValueError(
+                "__add__ only supported for DIRECTED graphs. "
+                "Convert graphs before merging or merge raw directed graphs."
+            )
+
         # Merge nodes
         nodes_map: dict[str, Node] = {}
         for n in (self.nodes or []) + (other.nodes or []):
@@ -203,10 +228,23 @@ class Graph:
         )
 
         return merged_graph
+    
+    def _validate_node_semantics(self):
+        if self.graph_type == GraphType.DIRECTED:
+            for n in self.nodes:
+                if n.traffic is not None:
+                    raise ValueError("Directed nodes must not have traffic")
+
+        else:
+            for n in self.nodes:
+                if n.in_flights_number is not None or n.out_flights_number is not None:
+                    raise ValueError("Undirected nodes must not have in/out counters")
 
     # --- additional helpers -------------------------------------------------
     def copy(self) -> "Graph":
         """Return a shallow-deep hybrid copy: new container objects, copied records."""
+        self._validate_node_semantics()
+    
         nodes_copy = [Node(**vars(n)) for n in (self.nodes or [])]
         # copy flights inside edges too
         edges_copy = []
@@ -235,6 +273,7 @@ class Graph:
         return Graph(
             nodes=nodes_copy,
             edges=edges_copy,
+            graph_type=self.graph_type,
             unknown_or_non_eu_dep=self.unknown_or_non_eu_dep,
             unknown_or_non_eu_arr=self.unknown_or_non_eu_arr,
             countries=countries_copy,
@@ -278,32 +317,55 @@ class Graph:
         # build new node list applying adjustments
         new_nodes: list[Node] = []
         countries = set()
+
         for n in (self.nodes or []):
             if n.id in node_ids:
                 continue
-            
-            # create a new Node instance to avoid mutating potential external refs
-            out_num = n.out_flights_number - out_adjust.get(n.id, 0)
-            in_num = n.in_flights_number - in_adjust.get(n.id, 0)
-            if out_num < 0:
-                out_num = 0
-            if in_num < 0:
-                in_num = 0
 
-            new_nodes.append(
-                Node(
-                    id=n.id,
-                    name=n.name,
-                    iso_country=n.iso_country,
-                    iso_region=n.iso_region,
-                    latitude=n.latitude,
-                    longitude=n.longitude,
-                    airports=list(n.airports),
-                    out_flights_number=out_num,
-                    in_flights_number=in_num,
-                    nut3_code=n.nut3_code,
+            if self.graph_type == GraphType.DIRECTED:
+                # create a new Node instance to avoid mutating potential external refs
+                out_num = n.out_flights_number - out_adjust.get(n.id, 0)
+                in_num = n.in_flights_number - in_adjust.get(n.id, 0)
+                out_num = max(out_num, 0)
+                in_num = max(in_num, 0)
+
+                new_nodes.append(
+                    Node(
+                        id=n.id,
+                        name=n.name,
+                        iso_country=n.iso_country,
+                        iso_region=n.iso_region,
+                        latitude=n.latitude,
+                        longitude=n.longitude,
+                        airports=list(n.airports),
+                        out_flights_number=out_num,
+                        in_flights_number=in_num,
+                        traffic=None,
+                        nut3_code=n.nut3_code,
+                    )
                 )
-            )
+
+            else:  # UNDIRECTED
+                traffic = n.traffic - (
+                    out_adjust.get(n.id, 0) + in_adjust.get(n.id, 0)
+                )
+                traffic = max(traffic, 0)
+
+                new_nodes.append(
+                    Node(
+                        id=n.id,
+                        name=n.name,
+                        iso_country=n.iso_country,
+                        iso_region=n.iso_region,
+                        latitude=n.latitude,
+                        longitude=n.longitude,
+                        airports=list(n.airports),
+                        out_flights_number=None,
+                        in_flights_number=None,
+                        traffic=traffic,
+                        nut3_code=n.nut3_code,
+                    )
+                )
             countries.add(n.iso_country)
 
         self.nodes = new_nodes
@@ -321,7 +383,12 @@ class Graph:
         """Helper for drop_nodes methods. 
         It allows to drop nodes from the specific countries
         """
-        to_remove = {n.id for n in (self.nodes or []) if n.iso_country in country_codes}
+        to_remove = {
+            n.id
+            for n in (self.nodes or [])
+            if n.iso_country in country_codes
+        }
+
         if not to_remove:
             print('No nodes for the countries found. Nothing is deleted!')
             return self
@@ -390,3 +457,83 @@ class Graph:
                 e.embeddings = vec.copy()
 
         return result
+
+    def to_undirected(self) -> "Graph":
+        """Return a new graph where A→B and B→A edges are merged."""
+        self._validate_node_semantics()
+
+        if self.graph_type == GraphType.UNDIRECTED:
+            return self.copy()
+
+        edge_map: Dict[Tuple, Dict[str, Union[float, Dict[Tuple, int]]]] = {}
+
+        def edge_key(a, b):
+            return (a, b) if a < b else (b, a)
+
+        for e in self.edges:
+            key = edge_key(e.from_id, e.to_id)
+
+            if key not in edge_map:
+                edge_map[key] = {
+                    "distance": e.distance,
+                    "flights": defaultdict(int),
+                }
+
+            rec = edge_map[key]
+            for fn in e.flights:
+                k = (fn.flight.icao, fn.flight.callsign)
+                rec["flights"][k] = max(fn.count, rec["flights"][k])
+
+        new_edges: List[Edge] = []
+        for (id1, id2), rec in edge_map.items():
+
+            flights = [
+                FlightNumber(
+                    flight=FlightInEdge(icao=icao, callsign=callsign),
+                    count=count
+                )
+                for (icao, callsign), count in rec["flights"].items()
+            ]
+            weight = sum(fn.count for fn in flights)
+
+            new_edges.append(
+                Edge(
+                    from_id=id1,
+                    to_id=id2,
+                    weight=weight,
+                    flights=flights,
+                    distance=rec["distance"],
+                )
+            )
+
+        # recompute node counters
+        node_map = {n.id: Node(**vars(n)) for n in self.nodes}
+
+        for n in node_map.values():
+            n.in_flights_number = None
+            n.out_flights_number = None
+            n.traffic = 0
+
+        for e in new_edges:
+            node_map[e.from_id].traffic += e.weight
+            node_map[e.to_id].traffic += e.weight
+
+        new_nodes = list(node_map.values())
+
+        g = Graph(
+            nodes=new_nodes,
+            edges=new_edges,
+            graph_type=GraphType.UNDIRECTED,
+            unknown_or_non_eu_dep=self.unknown_or_non_eu_dep,
+            unknown_or_non_eu_arr=self.unknown_or_non_eu_arr,
+            countries=list(self.countries),
+            begin=self.begin,
+            end=self.end,
+            nodes_number=len(new_nodes),
+            edges_number=len(new_edges),
+            flights_number=self.flights_number,
+            loops_number=self.loops_number,
+        )
+        g._validate_node_semantics()
+
+        return g

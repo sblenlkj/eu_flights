@@ -1,6 +1,7 @@
 from typing import Dict, List, Tuple
 import numpy as np
-from graph_creation.domain import Graph
+
+from graph_creation.domain.graph import Graph, GraphType
 
 
 class ConnectivityMatrixAdapter:
@@ -21,6 +22,9 @@ class ConnectivityMatrixAdapter:
         include_self_loops: bool = False,
         normalize: str | None = None,  # None | "row" | "sym"
     ) -> Tuple[np.ndarray, List[str], Dict[str, int]]:
+        if graph.graph_type != GraphType.UNDIRECTED:
+            raise ValueError("MessagePassingAdapter requires UNDIRECTED graph")
+
         # stable ordering for reproducibility
         node_ids = [n.id for n in graph.nodes]
         index = {node_id: i for i, node_id in enumerate(node_ids)}
@@ -36,6 +40,7 @@ class ConnectivityMatrixAdapter:
                 # graph should be consistent, but be defensive
                 continue
             A[i, j] += e.weight
+            A[j, i] += e.weight
 
         if include_self_loops:
             np.fill_diagonal(A, 1.0)

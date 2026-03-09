@@ -1,8 +1,12 @@
 import pandas as pd
 from typing import List
 
-from graph_creation.domain.graph import Graph
+from graph_creation.domain.graph import Graph, GraphType
 
+def _node_weight(self, node):
+    if self.graph.graph_type == GraphType.DIRECTED:
+        return (node.out_flights_number or 0) + (node.in_flights_number or 0)
+    return node.traffic or 0
 
 class GraphPandasAdapter:
     def __init__(self, graph: Graph):
@@ -23,11 +27,20 @@ class GraphPandasAdapter:
                 "iso_region": n.iso_region,
                 "latitude": n.latitude,
                 "longitude": n.longitude,
+                "airports": ", ".join(n.airports),
                 "airports_count": len(n.airports),
+
                 "out_flights_number": n.out_flights_number,
                 "in_flights_number": n.in_flights_number,
+                "traffic": n.traffic,
+
                 "nut3_code": n.nut3_code,
             }
+
+            if self.graph.graph_type == GraphType.DIRECTED:
+                rec["node_degree"] = (n.out_flights_number or 0) + (n.in_flights_number or 0)
+            else:
+                rec["node_degree"] = n.traffic or 0
             records.append(rec)
         return pd.DataFrame(records)
 

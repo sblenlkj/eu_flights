@@ -1,34 +1,31 @@
 import networkx as nx
-from graph_creation.domain import Graph
+from graph_creation.domain.graph import Graph, GraphType
 
 
-def node_weight_to_size_translator(w: int):
-    return w
-
-
-class NetworkXAdapter():
+class NetworkXAdapter:
 
     @staticmethod
-    def from_graph(graph: Graph) -> nx.DiGraph:
-        nx_graph = nx.DiGraph()
+    def from_graph(graph: Graph) -> nx.Graph:
 
-        # Add nodes
+        if graph.graph_type != GraphType.UNDIRECTED:
+            raise ValueError("NetworkXAdapter only supports UNDIRECTED graphs")
+
+        nx_graph = nx.Graph()
+
         for node in graph.nodes:
             nx_graph.add_node(
                 node.id,
-                size=node_weight_to_size_translator(node.out_flights_number),
+                size=node.traffic,
                 label=node.name,
                 iso_country=node.iso_country,
                 iso_region=node.iso_region,
                 latitude=node.latitude,
                 longitude=node.longitude,
                 airports=node.airports,
-                in_flights_number=node.in_flights_number,
-                out_flights_number=node.out_flights_number,
+                traffic=node.traffic,
                 nut3_code=node.nut3_code,
             )
 
-        # Add edges
         for edge in graph.edges:
             nx_graph.add_edge(
                 edge.from_id,
@@ -37,7 +34,6 @@ class NetworkXAdapter():
                 distance=edge.distance,
             )
 
-        # record global graph attributes (countries list is recent addition)
         nx_graph.graph["countries"] = graph.countries
 
         return nx_graph

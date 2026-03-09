@@ -170,7 +170,7 @@ EGLK,Blackbushe Airport,medium_airport,GB,GB-ENG,"Camberley, Surrey",51.323898,-
 EGLL,London Heathrow Airport,large_airport,GB,GB-ENG,London,51.470748,-0.459909
 EGMC,London Southend Airport,medium_airport,GB,GB-ENG,"Southend-on-Sea, Essex",51.570562,0.693627
 EGMD,Lydd London Ashford Airport,medium_airport,GB,GB-ENG,"Romney Marsh, Kent",50.956246,0.939074
-EGML,Damyns Hall Aerodrome,small_airport,GB,GB-ENG,"Upminster, Greater London",51.527561,0.244189
+EGML,Damyns Hall Aerodrome,small_airport,GB,GB-ENG,London,51.527561,0.244189
 EGNC,Carlisle Lake District Airport,medium_airport,GB,GB-ENG,"Carlisle, Cumbria",54.9375,-2.80917
 EGNE,Retford Gamston Airport,small_airport,GB,GB-ENG,"Retford, Nottinghamshire",53.280602,-0.951389
 EGNH,Blackpool Airport,medium_airport,GB,GB-ENG,Blackpool,53.771702,-3.02861
@@ -205,10 +205,10 @@ EGQS,RAF Lossiemouth,medium_airport,GB,GB-SCT,"Lossiemouth, Moray",57.7052,-3.33
 EGSC,Cambridge City Airport,medium_airport,GB,GB-ENG,"Cambridge, Cambridgeshire",52.205002,0.175
 EGSD,Great Yarmouth - North Denes Airport,small_airport,GB,GB-ENG,"Great Yarmouth, Norfolk",52.635576,1.723016
 EGSF,Peterborough Business Airport,small_airport,GB,GB-ENG,"Peterborough, Cambridgeshire",52.468102,-0.251111
-EGSG,Stapleford Aerodrome,small_airport,GB,GB-ENG,"Romford, Greater London",51.6525,0.155833
+EGSG,Stapleford Aerodrome,small_airport,GB,GB-ENG,London,51.6525,0.155833
 EGSH,Norwich Airport,medium_airport,GB,GB-ENG,"Norwich, Norfolk",52.6758,1.28278
 EGSL,Andrewsfield Aerodrome,small_airport,GB,GB-ENG,"Braintree, Essex",51.895,0.449167
-EGSS,London Stansted Airport,large_airport,GB,GB-ENG,"London, Essex",51.884998,0.235
+EGSS,London Stansted Airport,large_airport,GB,GB-ENG,London,51.884998,0.235
 EGSU,Duxford Aerodrome,small_airport,GB,GB-ENG,"Duxford, Cambridgeshire",52.090801,0.131944
 EGTB,Wycombe Air Park,small_airport,GB,GB-ENG,"Marlow, Buckinghamshire",51.61177,-0.808316
 EGTC,Cranfield Airport,medium_airport,GB,GB-ENG,"Cranfield, Central Bedfordshire",52.072201,-0.616667
@@ -224,7 +224,7 @@ EGVA,RAF Fairford,medium_airport,GB,GB-ENG,"Fairford, Gloucestershire",51.683568
 EGVN,RAF Brize Norton,medium_airport,GB,GB-ENG,"Carterton, Oxfordshire",51.75,-1.58362
 EGVO,RAF Odiham,medium_airport,GB,GB-ENG,"Hook, Hampshire",51.2341,-0.942825
 EGWN,RAF Halton,small_airport,GB,GB-ENG,"Halton, Buckinghamshire",51.790699,-0.737972
-EGWU,RAF Northolt,medium_airport,GB,GB-ENG,"Northolt, Greater London",51.553001,-0.418167
+EGWU,RAF Northolt,medium_airport,GB,GB-ENG,London,51.553001,-0.418167
 EGXC,RAF Coningsby,medium_airport,GB,GB-ENG,"Lincoln, Lincolnshire",53.092999,-0.166014
 EGCM,Leeds East Airport,medium_airport,GB,GB-ENG,"Tadcaster, North Yorkshire",53.834747,-1.194678
 EGXH,RAF Honington,medium_airport,GB,GB-ENG,"Bury Saint Edmunds, Suffolk",52.342602,0.772939
@@ -781,7 +781,7 @@ LRCS,Caransebeş Airport,medium_airport,RO,RO-CS,Caransebeş,45.420142,22.252507
 LRCV,Craiova International Airport,large_airport,RO,RO-DJ,Craiova,44.3181,23.888599
 LRIA,Iaşi International Airport,large_airport,RO,RO-IS,Iaşi,47.179633,27.621431
 LROD,Oradea International Airport,large_airport,RO,RO-BH,Oradea,47.025299,21.9025
-LROP,Bucharest Henri Coandă International Airport,large_airport,RO,RO-IF,Otopeni,44.571792,26.103285
+LROP,Bucharest Henri Coandă International Airport,large_airport,RO,RO-IF,Bucharest,44.571792,26.103285
 LRSB,Sibiu International Airport,large_airport,RO,RO-SB,Sibiu,45.785841,24.086666
 LRSM,Satu Mare International Airport,medium_airport,RO,RO-SM,Satu Mare,47.7033,22.8857
 LRSV,Suceava Ștefan cel Mare International Airport,large_airport,RO,RO-SV,Suceava,47.6875,26.354099
