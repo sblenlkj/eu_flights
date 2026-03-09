@@ -1,4 +1,4 @@
-from_id,to_id,weight,distance
+id1,id2,weight,distance
 "Aalborg, DK","Billund, DK",3,156.52
 "Aalborg, DK","Oslo (Gardermoen), NO",11,352.10999999999996
 "Aalborg, DK","Copenhagen, DK",167,238.40000000000003

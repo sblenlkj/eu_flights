@@ -3,11 +3,6 @@ from typing import List
 
 from graph_creation.domain.graph import Graph, GraphType
 
-def _node_weight(self, node):
-    if self.graph.graph_type == GraphType.DIRECTED:
-        return (node.out_flights_number or 0) + (node.in_flights_number or 0)
-    return node.traffic or 0
-
 class GraphPandasAdapter:
     def __init__(self, graph: Graph):
         self.graph = graph
@@ -52,10 +47,15 @@ class GraphPandasAdapter:
         ``embeddings`` vectors, those values are added as separate columns.
         """
         records = []
+
+        from_id, to_id = "from_id", "to_id"
+        if self.graph.graph_type == GraphType.UNDIRECTED:
+            from_id, to_id = "id1", "id2"
+
         for e in self.graph.edges:
             rec = {
-                "from_id": e.from_id,
-                "to_id": e.to_id,
+                from_id: e.from_id,
+                to_id: e.to_id,
                 "weight": e.weight,
                 "distance": e.distance,
             }
