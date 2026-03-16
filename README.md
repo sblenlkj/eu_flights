@@ -1,36 +1,23 @@
-# EU flights 
-I have collected flights across EU countries in a graph during one week (16-22.02.2026). What can we do:
-- Create a network. There should be some attributes of nodes (**done**): cities (they are called municipalities) are our nodes and existing flight routes are edges. The graph is directional, edges have weights (number of flights), nodes have also weights (in-flights and out-flights number). For other attributes look at the data. Right now nodes=513, edges=10236; we can also add extra countries like Switzerland and Norway.
-- Describe what does it contain (what are nodes and edges, which attributes) 
-- Visualize network - we can visualise with html map / networks. 
-- Give basic characteristics (number of nodes, number of edges, clustering coef., see Lecture 1)
-- Analyze degree distribution (Compare with power law, binominal, compute hyperparameters – find parameters of the distributions)
-- Compare with network models (ER, BA, WS)
-- Compute centralities, PageRank/HITS for directed graphs
-- Investigate node similarity, assortative mixing
-- Find communities using different algorithms
+# What was done and where it is located
 
-All above can be done right now. The graph is stored both in json and csv formats; 3 csv - nodes, edges, flights - are located in `data/graph_csv`. You can load with pandas, convert to graph with networkx. For more, look at `eu_flights_data_collection.ipynb`. If you do sm, pleasee, create a new ipynb file. 
+Our project studies a European flights network collected for the period **16–22.02.2026**.  
+The work is organized into three main notebooks:
 
-- I also created embedings for edges: airplane models based on icao code, you can find them in `data/embedings_from_icao.json`, airplane company based on callsign code (`data/embedings_from_callsign.json`). 
+- **`1_eu_flights_data_collection.ipynb`**  
+  Data collection and preprocessing, construction of the flights dataset, preparation of node and edge tables, and export of the graph data used in the rest of the project.
 
-How the data was collected can be seen from `eu_flights_data_collection.ipynb`, i started analysing the graph in `eu_flights_graph.ipynb`.
+- **`2_eu_flights_graph_basic_statistics_distribution_network_models_comparing_centralities.ipynb`**  
+  Core structural analysis of the graph: basic statistics, degree distribution analysis, comparison with classical network models, and centrality analysis.
 
-PS The python folder contains some code that is usefull to save/load the graph, convert it from one implementation to another (for example, adjacency matrix, networkx, pandas df). I operate on graph domain model for graph that is called Graph :) I have some adapters for it, but matrix and message passing adapters are not ready yet.
+- **`3_eu_flights_graph_visualisation_communities_similarity_ml.ipynb`**  
+  Graph visualization, community detection, node similarity / assortative mixing analysis, and ML experiments.
 
-## ML Task
-Describe and solve ML task (node classification/link prediction/etc., check several models/approaches). 
+Overall, much part of the code was written in .py files and located in the [private github project](https://github.com/sblenlkj/eu_flights/tree/main). To run the code you must clone the repo, otherwise all the imports of custom classes and functions will fail.
 
-We can predict gpd per inhabitants based on flight activity. 
-We can also predict the number of flights (our edges) between cities and their attributes (what company operates the flight, what airplane model is used, etc.). This information is included at embeddings. 
+## AI use in the project
 
-## How to load python dependencies 
-- clone to your mac with git 
-- open in vs code 
-- create venv 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-- select it as virtual enviroment in vs code
+I, Dima, write code in Vs Code and rely a lot on Windsurf autocompletion and and refactor  - I do not write prompts. I used chatgpt/google ai serach / perplexity several times in the project and placed prompts under `./data/raw/prompts` folder. While writing py files I used gemini CLI / aider CLI to rename attributes and methods, this is also not "prompt-engineering" business.  
+
+Chatgpt was used to write conclusions for my part with prompt "summarise and write a conclusion". By the way, this file was also generated with its help. 
+
+
