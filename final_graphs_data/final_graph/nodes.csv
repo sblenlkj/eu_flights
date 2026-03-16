@@ -1,4 +1,4 @@
-id,name,iso_country,iso_region,latitude,longitude,airports,airports_count,node_degree,node_type,weighted_degree
+id,name,iso_country,iso_region,latitude,longitude,airports,airports_count,edges_count,node_type,node_degree
 "Tymbou (Kirklar), CY",Tymbou (Kirklar),CY,CY-02,35.153064,33.507352,LCEN,1,6,medium,367
 "Warsaw, PL",Warsaw,PL,PL-MZ,52.217449,20.9371515,"EPBC, EPWA",2,101,large,2552
 "Saint-Nazaire/Montoir, FR",Saint-Nazaire/Montoir,FR,FR-PDL,47.31142,-2.152634,LFRZ,1,3,small,29
