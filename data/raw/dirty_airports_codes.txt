@@ -1,0 +1,509 @@
+Tymbou (Kirklar), CY: LCEN
+Warsaw, PL: EPBCEPWA
+Saint-Nazaire/Montoir, FR: LFRZ
+Skellefteå, SE: ESNS
+Memmingen, DE: EDJA
+Blackpool, GB: EGNH
+Southend-on-Sea, Essex, GB: EGMC
+Staverton, Gloucestershire, GB: EGBJ
+Foggia (FG), IT: LIBF
+Brno, CZ: LKTB
+Pisa (PI), IT: LIRP
+Akrotiri, CY: LCRA
+Chassieu, Lyon, FR: LFLY
+Capannori (LU), IT: LIQL
+Napoli, IT: LIRN
+Riga, LV: EVRAEVRS
+Oslo (Gardermoen), NO: ENGM
+Győr, HU: LHPR
+Palanga, LT: EYPA
+Ponta Delgada, PT: LPPD
+Hradec Králové, CZ: LKHK
+Vaasa, FI: EFVA
+Faro, PT: LPFR
+Newcastle upon Tyne, Tyne and Wear, GB: EGNT
+Caselle Torinese (TO), IT: LIMF
+London, GB: EGKBEGKKEGLCEGLLEGMLEGSGEGSSEGWU
+Kefallinia Island, GR: LGKF
+Beja, PT: LPBJ
+Genova (GE), IT: LIMJ
+Cardiff, GB: EGFF
+Reggio Calabria, IT: LICR
+Leirvik, NO: ENSO
+Almería, ES: LEAM
+Norwich, Norfolk, GB: EGSH
+Glasgow, GB: EGPF
+Sylt, DE: EDXW
+Umeå, SE: ESNU
+Dresden, DE: EDDC
+Rimini (RN), IT: LIPR
+Dole, FR: LFGJ
+Ordu, TR: LTCB
+Dublin, IE: EIDW
+Inverness, GB: EGPE
+Kokkola / Kruunupyy, FI: EFKK
+Montpellier/Méditerranée, FR: LFMT
+Ranón, ES: LEAS
+Falconara Marittima (AN), IT: LIPY
+Lübeck, DE: EDHL
+Madrid, ES: LECULEMD
+Retford, Nottinghamshire, GB: EGNE
+Leeds, West Yorkshire, GB: EGNM
+Prestwick, South Ayrshire, GB: EGPK
+Bordeaux, FR: LFBD
+Forlì (FC), IT: LIPK
+Brest, FR: LFRB
+Melilla, ES: GEML
+Bacău, RO: LRBC
+L'Hôpital-le-Mercier, Saône-et-Loire, FR: LFLN
+Angelsey, GB: EGOV
+Le Mans, Sarthe, FR: LFRM
+Valencia, ES: LEVC
+Alava, ES: LEVT
+Frankfurt am Main (Lautzenhausen), DE: EDFH
+Copenhagen, DK: EKCH
+Saint-Tropez, FR: LFTZ
+Málaga, ES: LEMG
+Oostende, BE: EBOS
+Weert, NL: EHBD
+Caen, FR: LFRK
+Wiener Neustadt, AT: LOANLOXN
+Kos Island, GR: LGKO
+Weßling, DE: EDMO
+Kiruna, SE: ESNQ
+King's Lynn, Norfolk, GB: EGYM
+Montichiari (BS), IT: LIPO
+Tarbes/Lourdes/Pyrénées, FR: LFBT
+Pau/Pyrénées (Uzein), FR: LFBP
+Rodez/Marcillac, FR: LFCR
+Egelsbach, DE: EDFE
+Boos, FR: LFOP
+Szymany, PL: EPSY
+Donegal, IE: EIDL
+Kavala, GR: LGKV
+Paphos, CY: LCPH
+Agno, CH: LSZA
+Thessaloniki, GR: LGTS
+Kittilä, FI: EFKT
+Ferno (VA), IT: LIMC
+Farnborough, Hampshire, GB: EGLF
+Visby, SE: ESSV
+Antwerp, BE: EBAW
+Vigo, ES: LEVX
+Lahr/Schwarzwald, DE: EDTL
+Rørvik, NO: ENRM
+Haverfordwest, GB: EGFE
+North Connel, GB: EGEO
+Ravenna (RA), IT: LIDR
+Nottingham, Nottinghamshire, GB: EGBN
+Jerez de la Frontera, ES: LEJR
+Greven, DE: EDDG
+Gaziemir, TR: LTBJ
+Cambridge, Cambridgeshire, GB: EGSC
+Helsinki (Vantaa), FI: EFHK
+Halmstad, SE: ESMT
+Schkeuditz, DE: EDDP
+Clermont-Ferrand, FR: LFLC
+Bazan, BG: LBBZ
+Nowe Kramsko, PL: EPZG
+Tampere / Pirkkala, FI: EFTP
+Marlow, Buckinghamshire, GB: EGTB
+Kiel, DE: EDHK
+Caselle (VR), IT: LIPX
+Luleå, SE: ESPA
+Jönköping, SE: ESGJ
+Hyères, Var, FR: LFTH
+Saarbrücken, DE: EDDR
+Nîmes/Garons, FR: LFTW
+Oulu / Oulunsalo, FI: EFOU
+Ajaccio, FR: LFKJ
+Stockholm / Västerås, SE: ESOW
+Odense, DK: EKOD
+Annecy, FR: LFLP
+Mönchengladbach, DE: EDLN
+Friedrichshafen, DE: EDNY
+Castres, FR: LFCK
+Jasionka, PL: EPRZ
+Grenoble, FR: LFLS
+Eindhoven, NL: EHEH
+Ålesund, NO: ENAL
+Recea, RO: LRTM
+Sandefjord(Torp), NO: ENTO
+Land's End, Cornwall, GB: EGHC
+Košice, SK: LZKZ
+Mahón (Maó), ES: LEMH
+Lincoln, Lincolnshire, GB: EGNWEGXCEGXW
+El Matorral, ES: GCFV
+Busevec, HR: LDZB
+Zgornji Brnik, SI: LJLJ
+Munich, DE: EDDM
+Catania, IT: LICC
+Szczecin(Glewice), PL: EPSC
+Kaunas, LT: EYKA
+Roskilde, DK: EKRK
+Aarhus, DK: EKAH
+Pamplona, ES: LEPP
+Larnaca, CY: LCLK
+Charleroi, BE: EBCI
+Salzburg, AT: LOWS
+Comiso, IT: LICB
+Colmar, FR: LFGA
+Sečovlje, SI: LJPZ
+Tours, Indre-et-Loire, FR: LFOT
+Ibiza (Eivissa), ES: LEIB
+Feldkirchen bei Graz, AT: LOWG
+Rotterdam, NL: EHRD
+Wurster Nordseeküste, DE: ETMN
+Vilnius, LT: EYVI
+Hamburg, DE: EDDHEDHI
+Shannon, IE: EINN
+Tallinn, EE: EETN
+Joensuu, FI: EFJO
+Manching, DE: ETSI
+Vienna, AT: LOWW
+Sta Cruz de la Palma, La Palma Island, ES: GCLA
+Wilhelmshaven, DE: EDWI
+Turweston, GB: EGBT
+Köln (Cologne), DE: EDDK
+Bristol, GB: EGGD
+Hörselberg-Hainich, DE: EDGE
+Bastia, FR: LFKB
+Prague, CZ: LKPR
+Exeter, Devon, GB: EGTE
+Venezia (VE), IT: LIPZ
+Kuopio / Siilinjärvi, FI: EFKU
+La Virgen Del Camino, ES: LELN
+Grimsby, Lincolnshire, GB: EGNJ
+Mošnov, CZ: LKMT
+Ängelholm, SE: ESTA
+Andrézieux-Bouthéon, Loire, FR: LFMH
+Ronchi dei Legionari/Trieste, IT: LIPQ
+Figari, FR: LFKF
+Bologna, IT: LIPE
+Norrköping, SE: ESSP
+Trabzon, TR: LTCG
+Charmeil, Allier, FR: LFLV
+Trondheim, NO: ENVA
+Bremen, DE: EDDW
+Erzurum, TR: LTCE
+Arvidsjaur, SE: ESNX
+Balice, PL: EPKK
+Nuremberg, DE: EDDN
+Darlington, Durham, GB: EGNV
+Funchal, PT: LPMA
+Timişoara, RO: LRTR
+Stavanger, NO: ENZV
+Bern, CH: LSZB
+Nottingham, Leicestershire, GB: EGNX
+Saint-Jacques-de-la-Lande, Ille-et-Vilaine, FR: LFRN
+Augsburg, DE: EDMA
+Bergen, NO: ENBR
+Marignane, Bouches-du-Rhône, FR: LFML
+Levaldigi (CN), IT: LIMZ
+Liverpool, GB: EGGP
+Badajoz, ES: LEBZ
+Southampton, GB: EGHI
+Gran Canaria Island, ES: GCLBGCLP
+Piešťany, SK: LZPP
+Łódź, PL: EPLL
+Barrow-in-Furness, GB: EGNL
+Katowice, PL: EPKT
+Alicante, ES: LEAL
+Woking, Surrey, GB: EGTF
+Seville, ES: LEZL
+Dundee, GB: EGPN
+Trémuson, Côtes-d'Armor, FR: LFRT
+Siljansnäs, SE: ESVS
+Stockholm, SE: ESSAESSB
+Palermo, IT: LICJLICP
+Zaragoza, ES: LEZG
+Eskişehir, TR: LTBY
+Derry, Derry and Strabane, GB: EGAE
+Colombier-Saugnieu, Rhône, FR: LFLL
+Spata-Artemida, GR: LGAV
+Wrocław, PL: EPWR
+Birmingham, West Midlands, GB: EGBB
+Capua, IT: LIAU
+Nice, Alpes-Maritimes, FR: LFMN
+Alajero, La Gomera Island, ES: GCGM
+Carcassonne, FR: LFMK
+Esbjerg, DK: EKEB
+Lublin, PL: EPLB
+Granada, ES: LEGR
+Orio al Serio (BG), IT: LIME
+Nyköping, SE: ESKN
+Calden, DE: EDVK
+Lossiemouth, Moray, GB: EGQS
+Newquay, GB: EGHQ
+Mannheim, DE: EDFM
+Göteborg, SE: ESGGESGP
+Kuressaare, EE: EEKE
+Venegono Superiore (VA), IT: LILN
+Perpignan/Rivesaltes, FR: LFMP
+Weeze, DE: EDLV
+Braunschweig, DE: EDVE
+Villanova d'Albenga (SV), IT: LIMG
+Charlestown, IE: EIKN
+Segrate (MI), IT: LIML
+Nantes, FR: LFRS
+Ampugnano (SI), IT: LIQS
+Velika Gorica, HR: LDZA
+Luton, Luton, GB: EGGW
+Treviso (TV), IT: LIPH
+Antalya, TR: LTAI
+Girona, ES: LEGE
+Poitiers/Biard, FR: LFBI
+Palma de Mallorca, ES: LEPA
+Stuttgart, DE: EDDS
+Wevelgem, BE: EBKT
+Lesquin, FR: LFQQ
+Düsseldorf, DE: EDDL
+Samsun, TR: LTFH
+Rome, IT: LIRALIRF
+Zurich, CH: LSZH
+Manchester, Greater Manchester, GB: EGCC
+Mytilene, GR: LGMT
+Reus, ES: LERS
+Alexandroupolis, GR: LGAL
+Broughton, GB: EGNR
+Klagenfurt am Wörthersee, AT: LOWK
+Jyväskylän Maalaiskunta, FI: EFJY
+Santiago de Compostela, ES: LEST
+Uherské Hradiště, CZ: LKKU
+Rota, ES: LERT
+Maastricht, NL: EHBK
+Kidlington, Oxfordshire, GB: EGTK
+Laage, DE: ETNL
+Paris, FR: LFATLFPBLFPGLFPO
+Burbach, DE: EDGS
+Hannover, DE: EDDV
+Béziers, FR: LFMU
+Rhodes, GR: LGRP
+Lelystad, NL: EHLE
+Bucharest, RO: LRBSLROP
+St. Gallen, CH: LSZR
+Samos Island, GR: LGSM
+Berlin, DE: EDDB
+Cascais, PT: LPCS
+Lamezia Terme (CZ), IT: LICA
+Erfurt, DE: EDDE
+Bolzano (BZ), IT: LIPB
+Strasbourg, FR: LFST
+La Roche-sur-Yon, FR: LFRI
+Ronneby, SE: ESDF
+Gdańsk, PL: EPGD
+Istanbul, TR: LTBALTFJLTFM
+Bratislava, SK: LZIB
+Rheinmünster, DE: EDSB
+Barcelona, ES: LEBL
+Sønderborg, DK: EKSB
+Aalborg, DK: EKYT
+Valletta, MT: LMML
+Mehamn, NO: ENMH
+Billund, DK: EKBI
+Luxembourg, LU: ELLX
+Firenze (FI), IT: LIRQ
+Albert, FR: LFAQ
+Poprad, SK: LZTT
+Innsbruck, AT: LOWI
+Camberley, Surrey, GB: EGLK
+Buochs, CH: LSZC
+Belfast, GB: EGAAEGAC
+Warton, GB: EGNO
+Groningen, NL: EHGG
+Carterton, Oxfordshire, GB: EGVN
+Chambéry, FR: LFLB
+Aberdeen, GB: EGPD
+Linz, AT: LOLOLOWL
+Biarritz, FR: LFBZ
+Locarno, CH: LSZL
+Pescara, IT: LIBP
+San Javier, ES: LELC
+Farranfore, IE: EIKY
+Angers, FR: LFJR
+Loreo (RO), IT: LIDC
+Zaventem, BE: EBBR
+Büren, DE: EDLP
+Lisbon, PT: LPPT
+Avignon, FR: LFMV
+Geneva, CH: LSGG
+Toulouse/Blagnac, FR: LFBO
+Hof, DE: EDQM
+Aix en Provence, FR: LFMA
+Linköping, SE: ESSL
+Grâce-Hollogne, BE: EBLG
+Osijek(Klisa), HR: LDOS
+Samedan, CH: LSZS
+Kithira Island, GR: LGKC
+Constanța, RO: LRCK
+Beauvais, FR: LFOB
+Cranfield, Central Bedfordshire, GB: EGTC
+Toussus-le-Noble, Yvelines, FR: LFPN
+Cannes, FR: LFMD
+Budapest, HU: LHBPLHHH
+Dortmund, DE: EDLW
+Edremit, TR: LTFD
+Poznań, PL: EPPO
+Vila Baleira, PT: LPPS
+Çorlu, TR: LTBU
+Cork, IE: EICK
+Nowy Dwór Mazowiecki, PL: EPMO
+Porto, PT: LPPR
+Chabeuil, Drôme, FR: LFLU
+Rochefort/Saint-Agnant, FR: LFDN
+Karmøy, NO: ENHD
+Kristiansand(Kjevik), NO: ENCN
+Culleredo, ES: LECO
+Örebro, SE: ESOE
+Røros, NO: ENRO
+Alghero, IT: LIEA
+Edinburgh, GB: EGPH
+Parma (PR), IT: LIMP
+Zirchow, DE: EDAH
+Maribor, SI: LJMB
+Malmö, SE: ESMS
+Bodø, NO: ENBO
+Bydgoszcz, PL: EPBY
+Bodrum, TR: LTBVLTFE
+Amsterdam, NL: EHAM
+Perugia (PG), IT: LIRZ
+Perth, Perth and Kinross, GB: EGPT
+Turku, FI: EFTU
+Bournemouth, GB: EGHH
+Leixlip, IE: EIWT
+Frankfurt am Main, DE: EDDF
+Tenerife, ES: GCTSGCXO
+Saint-Léger-sur-Roanne, FR: LFLO
+Romney Marsh, Kent, GB: EGMD
+Limnos Island, GR: LGLM
+Calais, FR: LFAC
+Oslo, NO: ENRY
+Borlange, SE: ESSD
+Wolverhampton, Staffordshire, GB: EGBO
+Valladolid, ES: LEVD
+Radom, PL: EPRA
+Sindal, DK: EKSN
+Saint-Denis-de-l'Hôtel, Loiret, FR: LFOZ
+Laval, Mayenne, FR: LFOV
+San Bartolomé, ES: GCRR
+Torino (TO), IT: LIMA
+Enontekio, FI: EFET
+Portimão, PT: LPPM
+Vila Real, PT: LPVR
+Karlstad, SE: ESOK
+Cormeilles-en-Vexin, Val-d'Oise, FR: LFPT
+Reggio Emilia (RE), IT: LIDE
+Northampton, Northamptonshire, GB: EGBK
+Västervik, SE: ESSW
+Angoulême, FR: LFBU
+Le Havre, FR: LFOH
+Rijeka(Omišalj), HR: LDRI
+Cluj-Napoca, RO: LRCL
+Vodochody, CZ: LKVO
+Pori, FI: EFPO
+Nobitz, DE: EDAC
+Deventer, NL: EHTE
+El Hierro Island, ES: GCHI
+Dinard, FR: LFRD
+La Baule-Escoublac, FR: LFRE
+Mariehamn, FI: EFMA
+Varna, BG: LBWN
+Kristianstad, SE: ESMK
+Swansea, GB: EGFH
+Bury Saint Edmunds, Suffolk, GB: EGUNEGXH
+Trollhättan, SE: ESGT
+Yeovil, Somerset, GB: EGDY
+Essen, DE: EDLE
+Albi, FR: LFCI
+Kozani, GR: LGKZ
+Eskilstuna, SE: ESSU
+Waterford, IE: EIWF
+Çanakkale, TR: LTBH
+Trento (TN), IT: LIDT
+Pula, HR: LDPL
+Sion, CH: LSGS
+Šiauliai, LT: EYSA
+Carlisle, Cumbria, GB: EGNC
+Växjö, SE: ESMX
+Mnichovo Hradiště, CZ: LKMH
+Savonlinna, FI: EFSA
+Merville, Nord, FR: LFQT
+Tartu, EE: EETU
+Cahors, FR: LFCC
+Zweibrücken, DE: EDRZ
+Le Castellet, Var, FR: LFMQ
+Selçuk, TR: LTFB
+Lorient/Lann/Bihoué, FR: LFRH
+Pécs, HU: LHPP
+Zakynthos, GR: LGZA
+Kajaani, FI: EFKI
+Flensburg, DE: EDXF
+Hoeven, NL: EHSE
+Calvi, FR: LFKC
+Skiros Island, GR: LGSY
+Agen, FR: LFBA
+Coventry, West Midlands, GB: EGBE
+Arad, RO: LRAR
+Dalaman, TR: LTBS
+Pardubice, CZ: LKPD
+Deauville, FR: LFRG
+Isola di Capo Rizzuto (KR), IT: LIBC
+Cirencester, Gloucestershire, GB: EGBP
+Lappeenranta, FI: EFLP
+Bielefeld, DE: EDLI
+Tuzla, RO: LRTZ
+Kalymnos Island, GR: LGKY
+České Budějovice, CZ: LKCS
+Burgos, ES: LEBG
+Plzen, CZ: LKLN
+Belluno (BL), IT: LIDB
+Sofia, BG: LBSF
+Souda, GR: LGSA
+Campo nell'Elba (LI), IT: LIRJ
+Limoges/Bellegarde, FR: LFBL
+Argos Orestiko, GR: LGKA
+Quimper/Pluguffan, FR: LFRQ
+Coimbra, PT: LPCO
+Lycksele, SE: ESNL
+Sligo, IE: EISG
+Emden, DE: EDWE
+Aurillac, FR: LFLW
+Oesterdeichstrich, DE: EDXB
+Hondarribia, ES: LESO
+Duxford, Cambridgeshire, GB: EGSU
+Vannes/Meucon, FR: LFRV
+Oskarshamn, SE: ESMO
+Chalons en Champagne, FR: LFOK
+Atting, DE: EDMS
+Kalmar, SE: ESMQ
+Giebelstadt, DE: EDQG
+Kartepe, TR: LTBQ
+Bilbao, ES: LEBB
+Mikkeli, FI: EFMI
+Vilhelmina, SE: ESNV
+Trollenhagen, DE: EDBN
+Tomblaine, Meurthe-et-Moselle, FR: LFSN
+Brighton, East Sussex, GB: EGKA
+Råda, SE: ESOH
+Vercelli (VC), IT: LILI
+Babięta, PL: EPBB
+Hamar, NO: ENHA
+Lannion, FR: LFRO
+Île d'Yeu, FR: LFEY
+Lleida, ES: LEDA
+Limerick, IE: EICN
+Pantelleria (TP), IT: LICG
+Saint-Bon, FR: LFLJ
+Yenişehir, TR: LTBR
+Karlovy Vary, CZ: LKKV
+Newtownards, Ards and North Down, GB: EGAD
+Monflorite/Alcalá del Obispo, ES: LEHC
+Florø, NO: ENFL
+Olbia (SS), IT: LIEO
+Mora, SE: ESKM
+Les Allues, FR: LFKX
+Evenes, NO: ENEV
+Astypalaia Island, GR: LGPL
+Santander, ES: LEXJ
+Megève, FR: LFHM
+Leicester, Leicestershire, GB: EGBG

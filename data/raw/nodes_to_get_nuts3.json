@@ -1,0 +1,988 @@
+{
+  "nodes": [
+    {
+      "id": "Tymbou (Kirklar), CY",
+      "iso-region": "CY-02"
+    },
+    {
+      "id": "Warsaw, PL",
+      "iso-region": "PL-MZ"
+    },
+    {
+      "id": "Skellefte\u00e5, SE",
+      "iso-region": "SE-AC"
+    },
+    {
+      "id": "Memmingen, DE",
+      "iso-region": "DE-BY"
+    },
+    {
+      "id": "Brno, CZ",
+      "iso-region": "CZ-JM"
+    },
+    {
+      "id": "Pisa (PI), IT",
+      "iso-region": "IT-52"
+    },
+    {
+      "id": "Akrotiri, CY",
+      "iso-region": "CY-XX"
+    },
+    {
+      "id": "Chassieu, Lyon, FR",
+      "iso-region": "FR-ARA"
+    },
+    {
+      "id": "Capannori (LU), IT",
+      "iso-region": "IT-52"
+    },
+    {
+      "id": "Riga, LV",
+      "iso-region": "LV-062"
+    },
+    {
+      "id": "Gy\u0151r, HU",
+      "iso-region": "HU-GS"
+    },
+    {
+      "id": "Palanga, LT",
+      "iso-region": "LT-KL"
+    },
+    {
+      "id": "Ponta Delgada, PT",
+      "iso-region": "PT-20"
+    },
+    {
+      "id": "Hradec Kr\u00e1lov\u00e9, CZ",
+      "iso-region": "CZ-KR"
+    },
+    {
+      "id": "Faro, PT",
+      "iso-region": "PT-08"
+    },
+    {
+      "id": "Caselle Torinese (TO), IT",
+      "iso-region": "IT-21"
+    },
+    {
+      "id": "Genova (GE), IT",
+      "iso-region": "IT-42"
+    },
+    {
+      "id": "Reggio Calabria, IT",
+      "iso-region": "IT-78"
+    },
+    {
+      "id": "Almer\u00eda, ES",
+      "iso-region": "ES-AN"
+    },
+    {
+      "id": "Dresden, DE",
+      "iso-region": "DE-SN"
+    },
+    {
+      "id": "Dole, FR",
+      "iso-region": "FR-BFC"
+    },
+    {
+      "id": "Ordu, TR",
+      "iso-region": "TR-52"
+    },
+    {
+      "id": "Dublin, IE",
+      "iso-region": "IE-D"
+    },
+    {
+      "id": "Montpellier/M\u00e9diterran\u00e9e, FR",
+      "iso-region": "FR-OCC"
+    },
+    {
+      "id": "Ran\u00f3n, ES",
+      "iso-region": "ES-AS"
+    },
+    {
+      "id": "Falconara Marittima (AN), IT",
+      "iso-region": "IT-57"
+    },
+    {
+      "id": "L\u00fcbeck, DE",
+      "iso-region": "DE-SH"
+    },
+    {
+      "id": "Madrid, ES",
+      "iso-region": "ES-MD"
+    },
+    {
+      "id": "Bordeaux, FR",
+      "iso-region": "FR-NAQ"
+    },
+    {
+      "id": "Forl\u00ec (FC), IT",
+      "iso-region": "IT-45"
+    },
+    {
+      "id": "Brest, FR",
+      "iso-region": "FR-BRE"
+    },
+    {
+      "id": "Melilla, ES",
+      "iso-region": "ES-ML"
+    },
+    {
+      "id": "Valencia, ES",
+      "iso-region": "ES-VC"
+    },
+    {
+      "id": "Alava, ES",
+      "iso-region": "ES-PV"
+    },
+    {
+      "id": "Frankfurt am Main (Lautzenhausen), DE",
+      "iso-region": "DE-RP"
+    },
+    {
+      "id": "Copenhagen, DK",
+      "iso-region": "DK-84"
+    },
+    {
+      "id": "Saint-Tropez, FR",
+      "iso-region": "FR-PAC"
+    },
+    {
+      "id": "M\u00e1laga, ES",
+      "iso-region": "ES-AN"
+    },
+    {
+      "id": "Oostende, BE",
+      "iso-region": "BE-VWV"
+    },
+    {
+      "id": "Weert, NL",
+      "iso-region": "NL-NB"
+    },
+    {
+      "id": "Caen, FR",
+      "iso-region": "FR-NOR"
+    },
+    {
+      "id": "Kos Island, GR",
+      "iso-region": "GR-L"
+    },
+    {
+      "id": "We\u00dfling, DE",
+      "iso-region": "DE-BY"
+    },
+    {
+      "id": "Montichiari (BS), IT",
+      "iso-region": "IT-25"
+    },
+    {
+      "id": "Tarbes/Lourdes/Pyr\u00e9n\u00e9es, FR",
+      "iso-region": "FR-OCC"
+    },
+    {
+      "id": "Pau/Pyr\u00e9n\u00e9es (Uzein), FR",
+      "iso-region": "FR-NAQ"
+    },
+    {
+      "id": "Egelsbach, DE",
+      "iso-region": "DE-HE"
+    },
+    {
+      "id": "Szymany, PL",
+      "iso-region": "PL-WN"
+    },
+    {
+      "id": "Donegal, IE",
+      "iso-region": "IE-DL"
+    },
+    {
+      "id": "Paphos, CY",
+      "iso-region": "CY-06"
+    },
+    {
+      "id": "Thessaloniki, GR",
+      "iso-region": "GR-B"
+    },
+    {
+      "id": "Kittil\u00e4, FI",
+      "iso-region": "FI-10"
+    },
+    {
+      "id": "Ferno (VA), IT",
+      "iso-region": "IT-25"
+    },
+    {
+      "id": "Antwerp, BE",
+      "iso-region": "BE-VAN"
+    },
+    {
+      "id": "Vigo, ES",
+      "iso-region": "ES-GA"
+    },
+    {
+      "id": "Lahr/Schwarzwald, DE",
+      "iso-region": "DE-BW"
+    },
+    {
+      "id": "Jerez de la Frontera, ES",
+      "iso-region": "ES-AN"
+    },
+    {
+      "id": "Greven, DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Gaziemir, TR",
+      "iso-region": "TR-35"
+    },
+    {
+      "id": "Helsinki (Vantaa), FI",
+      "iso-region": "FI-18"
+    },
+    {
+      "id": "Halmstad, SE",
+      "iso-region": "SE-N"
+    },
+    {
+      "id": "Schkeuditz, DE",
+      "iso-region": "DE-SN"
+    },
+    {
+      "id": "Clermont-Ferrand, FR",
+      "iso-region": "FR-ARA"
+    },
+    {
+      "id": "Nowe Kramsko, PL",
+      "iso-region": "PL-LB"
+    },
+    {
+      "id": "Tampere / Pirkkala, FI",
+      "iso-region": "FI-11"
+    },
+    {
+      "id": "Kiel, DE",
+      "iso-region": "DE-SH"
+    },
+    {
+      "id": "Caselle (VR), IT",
+      "iso-region": "IT-34"
+    },
+    {
+      "id": "Lule\u00e5, SE",
+      "iso-region": "SE-BD"
+    },
+    {
+      "id": "N\u00eemes/Garons, FR",
+      "iso-region": "FR-OCC"
+    },
+    {
+      "id": "Oulu / Oulunsalo, FI",
+      "iso-region": "FI-14"
+    },
+    {
+      "id": "Ajaccio, FR",
+      "iso-region": "FR-COR"
+    },
+    {
+      "id": "Stockholm / V\u00e4ster\u00e5s, SE",
+      "iso-region": "SE-U"
+    },
+    {
+      "id": "Annecy, FR",
+      "iso-region": "FR-ARA"
+    },
+    {
+      "id": "M\u00f6nchengladbach, DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Friedrichshafen, DE",
+      "iso-region": "DE-BW"
+    },
+    {
+      "id": "Jasionka, PL",
+      "iso-region": "PL-PK"
+    },
+    {
+      "id": "Grenoble, FR",
+      "iso-region": "FR-ARA"
+    },
+    {
+      "id": "Eindhoven, NL",
+      "iso-region": "NL-NB"
+    },
+    {
+      "id": "Recea, RO",
+      "iso-region": "RO-MS"
+    },
+    {
+      "id": "Ko\u0161ice, SK",
+      "iso-region": "SK-KI"
+    },
+    {
+      "id": "Mah\u00f3n (Ma\u00f3), ES",
+      "iso-region": "ES-IB"
+    },
+    {
+      "id": "Zgornji Brnik, SI",
+      "iso-region": "SI-012"
+    },
+    {
+      "id": "Munich, DE",
+      "iso-region": "DE-BY"
+    },
+    {
+      "id": "Catania, IT",
+      "iso-region": "IT-82"
+    },
+    {
+      "id": "Kaunas, LT",
+      "iso-region": "LT-KU"
+    },
+    {
+      "id": "Roskilde, DK",
+      "iso-region": "DK-85"
+    },
+    {
+      "id": "Aarhus, DK",
+      "iso-region": "DK-82"
+    },
+    {
+      "id": "Larnaca, CY",
+      "iso-region": "CY-04"
+    },
+    {
+      "id": "Charleroi, BE",
+      "iso-region": "BE-WHT"
+    },
+    {
+      "id": "Salzburg, AT",
+      "iso-region": "AT-5"
+    },
+    {
+      "id": "Comiso, IT",
+      "iso-region": "IT-82"
+    },
+    {
+      "id": "Colmar, FR",
+      "iso-region": "FR-GES"
+    },
+    {
+      "id": "Se\u010dovlje, SI",
+      "iso-region": "SI-090"
+    },
+    {
+      "id": "Ibiza (Eivissa), ES",
+      "iso-region": "ES-IB"
+    },
+    {
+      "id": "Feldkirchen bei Graz, AT",
+      "iso-region": "AT-6"
+    },
+    {
+      "id": "Rotterdam, NL",
+      "iso-region": "NL-ZH"
+    },
+    {
+      "id": "Wurster Nordseek\u00fcste, DE",
+      "iso-region": "DE-NI"
+    },
+    {
+      "id": "Vilnius, LT",
+      "iso-region": "LT-VL"
+    },
+    {
+      "id": "Hamburg, DE",
+      "iso-region": "DE-HH"
+    },
+    {
+      "id": "Shannon, IE",
+      "iso-region": "IE-CE"
+    },
+    {
+      "id": "Tallinn, EE",
+      "iso-region": "EE-37"
+    },
+    {
+      "id": "Manching, DE",
+      "iso-region": "DE-BY"
+    },
+    {
+      "id": "Vienna, AT",
+      "iso-region": "AT-9"
+    },
+    {
+      "id": "Sta Cruz de la Palma, La Palma Island, ES",
+      "iso-region": "ES-CN"
+    },
+    {
+      "id": "Wilhelmshaven, DE",
+      "iso-region": "DE-NI"
+    },
+    {
+      "id": "K\u00f6ln (Cologne), DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Bastia, FR",
+      "iso-region": "FR-COR"
+    },
+    {
+      "id": "Prague, CZ",
+      "iso-region": "CZ-PR"
+    },
+    {
+      "id": "Venezia (VE), IT",
+      "iso-region": "IT-34"
+    },
+    {
+      "id": "Kuopio / Siilinj\u00e4rvi, FI",
+      "iso-region": "FI-15"
+    },
+    {
+      "id": "Mo\u0161nov, CZ",
+      "iso-region": "CZ-MO"
+    },
+    {
+      "id": "\u00c4ngelholm, SE",
+      "iso-region": "SE-M"
+    },
+    {
+      "id": "Ronchi dei Legionari/Trieste, IT",
+      "iso-region": "IT-36"
+    },
+    {
+      "id": "Figari, FR",
+      "iso-region": "FR-COR"
+    },
+    {
+      "id": "Bologna, IT",
+      "iso-region": "IT-45"
+    },
+    {
+      "id": "Trabzon, TR",
+      "iso-region": "TR-61"
+    },
+    {
+      "id": "Bremen, DE",
+      "iso-region": "DE-HB"
+    },
+    {
+      "id": "Arvidsjaur, SE",
+      "iso-region": "SE-BD"
+    },
+    {
+      "id": "Balice, PL",
+      "iso-region": "PL-MA"
+    },
+    {
+      "id": "Nuremberg, DE",
+      "iso-region": "DE-BY"
+    },
+    {
+      "id": "Funchal, PT",
+      "iso-region": "PT-30"
+    },
+    {
+      "id": "Timi\u015foara, RO",
+      "iso-region": "RO-TM"
+    },
+    {
+      "id": "Saint-Jacques-de-la-Lande, Ille-et-Vilaine, FR",
+      "iso-region": "FR-BRE"
+    },
+    {
+      "id": "Augsburg, DE",
+      "iso-region": "DE-BY"
+    },
+    {
+      "id": "Marignane, Bouches-du-Rh\u00f4ne, FR",
+      "iso-region": "FR-PAC"
+    },
+    {
+      "id": "\u0141\u00f3d\u017a, PL",
+      "iso-region": "PL-LD"
+    },
+    {
+      "id": "Katowice, PL",
+      "iso-region": "PL-SL"
+    },
+    {
+      "id": "Alicante, ES",
+      "iso-region": "ES-VC"
+    },
+    {
+      "id": "Seville, ES",
+      "iso-region": "ES-AN"
+    },
+    {
+      "id": "Siljansn\u00e4s, SE",
+      "iso-region": "SE-W"
+    },
+    {
+      "id": "Stockholm, SE",
+      "iso-region": "SE-AB"
+    },
+    {
+      "id": "Palermo, IT",
+      "iso-region": "IT-82"
+    },
+    {
+      "id": "Zaragoza, ES",
+      "iso-region": "ES-AR"
+    },
+    {
+      "id": "Eski\u015fehir, TR",
+      "iso-region": "TR-26"
+    },
+    {
+      "id": "Colombier-Saugnieu, Rh\u00f4ne, FR",
+      "iso-region": "FR-ARA"
+    },
+    {
+      "id": "Spata-Artemida, GR",
+      "iso-region": "GR-I"
+    },
+    {
+      "id": "Wroc\u0142aw, PL",
+      "iso-region": "PL-DS"
+    },
+    {
+      "id": "Capua, IT",
+      "iso-region": "IT-72"
+    },
+    {
+      "id": "Nice, Alpes-Maritimes, FR",
+      "iso-region": "FR-PAC"
+    },
+    {
+      "id": "Alajero, La Gomera Island, ES",
+      "iso-region": "ES-CN"
+    },
+    {
+      "id": "Orio al Serio (BG), IT",
+      "iso-region": "IT-25"
+    },
+    {
+      "id": "Mannheim, DE",
+      "iso-region": "DE-BW"
+    },
+    {
+      "id": "G\u00f6teborg, SE",
+      "iso-region": "SE-Q"
+    },
+    {
+      "id": "Perpignan/Rivesaltes, FR",
+      "iso-region": "FR-OCC"
+    },
+    {
+      "id": "Weeze, DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Braunschweig, DE",
+      "iso-region": "DE-NI"
+    },
+    {
+      "id": "Villanova d'Albenga (SV), IT",
+      "iso-region": "IT-42"
+    },
+    {
+      "id": "Charlestown, IE",
+      "iso-region": "IE-MO"
+    },
+    {
+      "id": "Segrate (MI), IT",
+      "iso-region": "IT-25"
+    },
+    {
+      "id": "Nantes, FR",
+      "iso-region": "FR-PDL"
+    },
+    {
+      "id": "Velika Gorica, HR",
+      "iso-region": "HR-01"
+    },
+    {
+      "id": "Treviso (TV), IT",
+      "iso-region": "IT-34"
+    },
+    {
+      "id": "Antalya, TR",
+      "iso-region": "TR-07"
+    },
+    {
+      "id": "Girona, ES",
+      "iso-region": "ES-CT"
+    },
+    {
+      "id": "Palma de Mallorca, ES",
+      "iso-region": "ES-IB"
+    },
+    {
+      "id": "Stuttgart, DE",
+      "iso-region": "DE-BW"
+    },
+    {
+      "id": "Wevelgem, BE",
+      "iso-region": "BE-VWV"
+    },
+    {
+      "id": "Lesquin, FR",
+      "iso-region": "FR-HDF"
+    },
+    {
+      "id": "D\u00fcsseldorf, DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Samsun, TR",
+      "iso-region": "TR-55"
+    },
+    {
+      "id": "Rome, IT",
+      "iso-region": "IT-62"
+    },
+    {
+      "id": "Mytilene, GR",
+      "iso-region": "GR-K"
+    },
+    {
+      "id": "Alexandroupolis, GR",
+      "iso-region": "GR-A"
+    },
+    {
+      "id": "Jyv\u00e4skyl\u00e4n Maalaiskunta, FI",
+      "iso-region": "FI-08"
+    },
+    {
+      "id": "Santiago de Compostela, ES",
+      "iso-region": "ES-GA"
+    },
+    {
+      "id": "Uhersk\u00e9 Hradi\u0161t\u011b, CZ",
+      "iso-region": "CZ-ZL"
+    },
+    {
+      "id": "Rota, ES",
+      "iso-region": "ES-AN"
+    },
+    {
+      "id": "Maastricht, NL",
+      "iso-region": "NL-LI"
+    },
+    {
+      "id": "Laage, DE",
+      "iso-region": "DE-MV"
+    },
+    {
+      "id": "Paris, FR",
+      "iso-region": "FR-HDF"
+    },
+    {
+      "id": "Burbach, DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Hannover, DE",
+      "iso-region": "DE-NI"
+    },
+    {
+      "id": "Rhodes, GR",
+      "iso-region": "GR-L"
+    },
+    {
+      "id": "Lelystad, NL",
+      "iso-region": "NL-FL"
+    },
+    {
+      "id": "Bucharest, RO",
+      "iso-region": "RO-B"
+    },
+    {
+      "id": "Berlin, DE",
+      "iso-region": "DE-BR"
+    },
+    {
+      "id": "Cascais, PT",
+      "iso-region": "PT-11"
+    },
+    {
+      "id": "Lamezia Terme (CZ), IT",
+      "iso-region": "IT-78"
+    },
+    {
+      "id": "Bolzano (BZ), IT",
+      "iso-region": "IT-32"
+    },
+    {
+      "id": "Strasbourg, FR",
+      "iso-region": "FR-GES"
+    },
+    {
+      "id": "Ronneby, SE",
+      "iso-region": "SE-K"
+    },
+    {
+      "id": "Gda\u0144sk, PL",
+      "iso-region": "PL-PM"
+    },
+    {
+      "id": "Istanbul, TR",
+      "iso-region": "TR-34"
+    },
+    {
+      "id": "Bratislava, SK",
+      "iso-region": "SK-BL"
+    },
+    {
+      "id": "Rheinm\u00fcnster, DE",
+      "iso-region": "DE-BW"
+    },
+    {
+      "id": "Barcelona, ES",
+      "iso-region": "ES-CT"
+    },
+    {
+      "id": "S\u00f8nderborg, DK",
+      "iso-region": "DK-83"
+    },
+    {
+      "id": "Aalborg, DK",
+      "iso-region": "DK-81"
+    },
+    {
+      "id": "Valletta, MT",
+      "iso-region": "MT-25"
+    },
+    {
+      "id": "Billund, DK",
+      "iso-region": "DK-83"
+    },
+    {
+      "id": "Luxembourg, LU",
+      "iso-region": "LU-L"
+    },
+    {
+      "id": "Firenze (FI), IT",
+      "iso-region": "IT-52"
+    },
+    {
+      "id": "Poprad, SK",
+      "iso-region": "SK-PV"
+    },
+    {
+      "id": "Innsbruck, AT",
+      "iso-region": "AT-7"
+    },
+    {
+      "id": "Groningen, NL",
+      "iso-region": "NL-DR"
+    },
+    {
+      "id": "Chamb\u00e9ry, FR",
+      "iso-region": "FR-ARA"
+    },
+    {
+      "id": "Linz, AT",
+      "iso-region": "AT-4"
+    },
+    {
+      "id": "Biarritz, FR",
+      "iso-region": "FR-NAQ"
+    },
+    {
+      "id": "Pescara, IT",
+      "iso-region": "IT-65"
+    },
+    {
+      "id": "Farranfore, IE",
+      "iso-region": "IE-KY"
+    },
+    {
+      "id": "Angers, FR",
+      "iso-region": "FR-PDL"
+    },
+    {
+      "id": "Zaventem, BE",
+      "iso-region": "BE-VBR"
+    },
+    {
+      "id": "B\u00fcren, DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Lisbon, PT",
+      "iso-region": "PT-11"
+    },
+    {
+      "id": "Toulouse/Blagnac, FR",
+      "iso-region": "FR-OCC"
+    },
+    {
+      "id": "Hof, DE",
+      "iso-region": "DE-BY"
+    },
+    {
+      "id": "Link\u00f6ping, SE",
+      "iso-region": "SE-E"
+    },
+    {
+      "id": "Gr\u00e2ce-Hollogne, BE",
+      "iso-region": "BE-WLG"
+    },
+    {
+      "id": "Beauvais, FR",
+      "iso-region": "FR-HDF"
+    },
+    {
+      "id": "Toussus-le-Noble, Yvelines, FR",
+      "iso-region": "FR-IDF"
+    },
+    {
+      "id": "Cannes, FR",
+      "iso-region": "FR-PAC"
+    },
+    {
+      "id": "Budapest, HU",
+      "iso-region": "HU-BU"
+    },
+    {
+      "id": "Dortmund, DE",
+      "iso-region": "DE-NW"
+    },
+    {
+      "id": "Edremit, TR",
+      "iso-region": "TR-10"
+    },
+    {
+      "id": "Pozna\u0144, PL",
+      "iso-region": "PL-WP"
+    },
+    {
+      "id": "Vila Baleira, PT",
+      "iso-region": "PT-30"
+    },
+    {
+      "id": "Cork, IE",
+      "iso-region": "IE-CO"
+    },
+    {
+      "id": "Nowy Dw\u00f3r Mazowiecki, PL",
+      "iso-region": "PL-MZ"
+    },
+    {
+      "id": "Porto, PT",
+      "iso-region": "PT-13"
+    },
+    {
+      "id": "Culleredo, ES",
+      "iso-region": "ES-GA"
+    },
+    {
+      "id": "\u00d6rebro, SE",
+      "iso-region": "SE-T"
+    },
+    {
+      "id": "Alghero, IT",
+      "iso-region": "IT-88"
+    },
+    {
+      "id": "Maribor, SI",
+      "iso-region": "SI-160"
+    },
+    {
+      "id": "Malm\u00f6, SE",
+      "iso-region": "SE-M"
+    },
+    {
+      "id": "Bydgoszcz, PL",
+      "iso-region": "PL-KP"
+    },
+    {
+      "id": "Bodrum, TR",
+      "iso-region": "TR-48"
+    },
+    {
+      "id": "Amsterdam, NL",
+      "iso-region": "NL-NH"
+    },
+    {
+      "id": "Turku, FI",
+      "iso-region": "FI-19"
+    },
+    {
+      "id": "Frankfurt am Main, DE",
+      "iso-region": "DE-HE"
+    },
+    {
+      "id": "Limnos Island, GR",
+      "iso-region": "GR-K"
+    },
+    {
+      "id": "Calais, FR",
+      "iso-region": "FR-HDF"
+    },
+    {
+      "id": "Valladolid, ES",
+      "iso-region": "ES-CL"
+    },
+    {
+      "id": "Saint-Denis-de-l'H\u00f4tel, Loiret, FR",
+      "iso-region": "FR-CVL"
+    },
+    {
+      "id": "Portim\u00e3o, PT",
+      "iso-region": "PT-08"
+    },
+    {
+      "id": "Vila Real, PT",
+      "iso-region": "PT-17"
+    },
+    {
+      "id": "La Baule-Escoublac, FR",
+      "iso-region": "FR-PDL"
+    },
+    {
+      "id": "Trento (TN), IT",
+      "iso-region": "IT-32"
+    },
+    {
+      "id": "\u0160iauliai, LT",
+      "iso-region": "LT-SA"
+    },
+    {
+      "id": "Tartu, EE",
+      "iso-region": "EE-7B"
+    },
+    {
+      "id": "Sel\u00e7uk, TR",
+      "iso-region": "TR-35"
+    },
+    {
+      "id": "P\u00e9cs, HU",
+      "iso-region": "HU-BA"
+    },
+    {
+      "id": "Skiros Island, GR",
+      "iso-region": "GR-H"
+    },
+    {
+      "id": "Pardubice, CZ",
+      "iso-region": "CZ-PA"
+    },
+    {
+      "id": "Kalymnos Island, GR",
+      "iso-region": "GR-L"
+    },
+    {
+      "id": "Chalons en Champagne, FR",
+      "iso-region": "FR-GES"
+    },
+    {
+      "id": "Atting, DE",
+      "iso-region": "DE-BY"
+    }
+  ]
+}

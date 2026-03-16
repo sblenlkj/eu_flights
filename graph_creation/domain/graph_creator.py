@@ -119,6 +119,9 @@ class GraphCreator:
             self.not_enough_distance += 1
             return 
 
+        src.municipality.airports[flight.dep_icao] = True
+        dst.municipality.airports[flight.arr_icao] = True
+
         self.used_nodes.add(src.municipality.id)
         self.used_nodes.add(dst.municipality.id)
         # update country set for all municipalities that are actually used
@@ -176,7 +179,7 @@ class GraphCreator:
                     iso_region=m.iso_region,
                     latitude=m.latitude,
                     longitude=m.longitude,
-                    airports=list(m.airports),
+                    airports=[k for k, v in m.airports.items() if v],
                     out_flights_number=out_num,
                     in_flights_number=in_num,
                     nut3_code=None,

@@ -1,15 +1,15 @@
 from dataclasses import dataclass, field
-from typing import Tuple
+from typing import Dict
 
 
-@dataclass(frozen=True)
+@dataclass
 class Municipality:
     name: str
     iso_country: str
     iso_region: str
     latitude: float
     longitude: float
-    airports: Tuple[str, ...]
+    airports: Dict[str, bool] = field(default_factory=dict)
     id: str = field(init=False)
 
     def __post_init__(self):

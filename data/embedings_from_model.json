@@ -1,0 +1,49 @@
+[
+  {
+    "group_name": "narrowbody_airbus",
+    "explanation": "Main Airbus short- and medium-haul jet families commonly used on dense European scheduled passenger routes.",
+    "models": [
+      "Airbus A220",
+      "Airbus A319",
+      "Airbus A320",
+      "Airbus A321"
+    ]
+  },
+  {
+    "group_name": "narrowbody_boeing",
+    "explanation": "Boeing narrowbody short- and medium-haul family, dominated here by the 737 series and especially relevant for European low-cost and scheduled traffic.",
+    "models": [
+      "Boeing 737"
+    ]
+  },
+  {
+    "group_name": "widebody",
+    "explanation": "Large long-haul or heavy aircraft families, including both Airbus and Boeing widebody platforms; this group may also capture some freight-capable heavy aircraft.",
+    "models": [
+      "Airbus A300",
+      "Airbus A330",
+      "Boeing 747",
+      "Boeing 767",
+      "Boeing 777",
+      "Boeing 787"
+    ]
+  },
+  {
+    "group_name": "regional",
+    "explanation": "Smaller regional jet families typically used on feeder, lower-demand, or thinner intra-European routes.",
+    "models": [
+      "Bombardier",
+      "Embraer",
+      "CRJ900"
+    ]
+  },
+  {
+    "group_name": "business_jet",
+    "explanation": "Business and corporate aviation families, usually associated with private, executive, charter, or special-purpose flights rather than regular mass passenger traffic.",
+    "models": [
+      "Cessna",
+      "Falcon",
+      "Gulfstream"
+    ]
+  }
+]

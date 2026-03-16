@@ -35,13 +35,16 @@ class GraphJsonExporter:
                 "weight": e.weight,
                 "flights": flights_serial,
                 "distance": e.distance,
+                "embeddings": e.embeddings
             })
 
         payload = {
             "nodes": nodes_list,
             "edges": edges_list,
+            "graph_type": graph.graph_type,
             "unknown_or_non_eu_dep": graph.unknown_or_non_eu_dep,
             "unknown_or_non_eu_arr": graph.unknown_or_non_eu_arr,
+            "edge_embedding_columns": graph.edge_embedding_columns,
             "countries": graph.countries,
             "begin": _ts_to_human(graph.begin) if isinstance(graph.begin, int) else graph.begin,
             "end": _ts_to_human(graph.end) if isinstance(graph.end, int) else graph.end,

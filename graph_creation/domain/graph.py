@@ -1,17 +1,18 @@
 from dataclasses import dataclass
 from typing import List, Optional, Dict, Union, Set, Self, Tuple
 from enum import Enum
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 class GraphType(str, Enum):
     DIRECTED = "directed"
     UNDIRECTED = "undirected"
 
 
-@dataclass(frozen=True)
+@dataclass()
 class FlightInEdge:
     icao: str
     callsign: str
+    model: Optional[str] = None
 
 
 @dataclass(frozen=True)
@@ -29,7 +30,7 @@ class Embedding:
     be compared with either flight callsign prefixes or ICAO codes.
     """
     name: str
-    matching_columns: List[str]
+    matching_values: List[str]
 
 
 @dataclass()
@@ -47,6 +48,7 @@ class Node:
 
     traffic: Optional[int] = None
     nut3_code: Optional[str] = None
+    node_type: Optional[str] = None
 
 
 @dataclass()
@@ -124,7 +126,7 @@ class Graph:
                 combined_airports = list(dict.fromkeys(existing.airports + n.airports))
                 combined_out = existing.out_flights_number + n.out_flights_number
                 combined_in = existing.in_flights_number + n.in_flights_number
-                nut3 = existing.nut3_code or n.nut3_code
+
                 # prefer existing metadata values (name, iso, coords)
                 nodes_map[n.id] = Node(
                     id=existing.id,
@@ -136,7 +138,8 @@ class Graph:
                     airports=combined_airports,
                     out_flights_number=combined_out,
                     in_flights_number=combined_in,
-                    nut3_code=nut3,
+                    nut3_code=existing.nut3_code,
+                    node_type=existing.node_type
                 )
 
         merged_nodes = list(nodes_map.values())
@@ -342,6 +345,7 @@ class Graph:
                         in_flights_number=in_num,
                         traffic=None,
                         nut3_code=n.nut3_code,
+                        node_type=n.node_type
                     )
                 )
 
@@ -364,6 +368,7 @@ class Graph:
                         in_flights_number=None,
                         traffic=traffic,
                         nut3_code=n.nut3_code,
+                        node_type=n.node_type
                     )
                 )
             countries.add(n.iso_country)
@@ -397,66 +402,140 @@ class Graph:
 
     def create_edge_embeddings(
         self,
-        callsign_embeddings: List["Embedding"],
-        icao_embeddings: List["Embedding"],
-        icao_to_model_dct: Dict[str, str],
+        callsign_embeddings: List[Embedding],
+        model_embeddings: List[Embedding],
         assign_to_edges: bool = False,
-    ) -> List[List[int]]:
-        """Create count-vectors per edge matching flights against provided embeddings.
-
-        The output list aligns with `self.edges` order. The vector layout is
-        [callsign_embeddings..., icao_embeddings...], each value equals the sum
-        of `count` for flights matching that embedding's `matching_columns`.
-
-        If ``assign_to_edges`` is ``True`` the resulting vectors are written to
-        ``Edge.embeddings`` and the graph's
-        ``edge_embedding_columns`` field is populated with the corresponding
-        embedding names, allowing downstream code (e.g. pandas adapter) to
-        expose them as separate columns.  By default the method is pure and
-        returns the matrix only.
+        normalize: bool = True,
+        add_size_features: bool = True,
+        add_coverage_features: bool = True,
+        keep_raw_counts: bool = False,
+    ) -> List[List[float]]:
         """
-        def callsign_cleaning(s: str):
-            return s[:3] if s[:3].isalpha() else None
+        Create semantic edge feature vectors from flights.
 
-        def icao_cleaning(s: str):
-            return s
-        
-        def check_model(model: str, matching_columns: List[str]):
-            for one in matching_columns:
-                if one in model:
-                    return True
-            return False
+        Layout:
+        - optional raw counts for company groups
+        - optional raw counts for aircraft groups
+        - normalized shares for company groups
+        - normalized shares for aircraft groups
+        - optional coverage features
+        - optional size features
 
-        result: List[List[int]] = []
+        Notes:
+        - callsign group is matched by first 3 chars of callsign
+        - model group is matched by exact `flight.model`
+        - company shares are normalized by matched company flights only
+        - aircraft shares are normalized by matched aircraft flights only
+        - size features are kept separate from semantic shares
+        """
+        result: List[List[float]] = []
+
+        callsign_names = [emb.name for emb in callsign_embeddings]
+        model_names = [emb.name for emb in model_embeddings]
+
+        callsign_lookup: Dict[str, int] = {}
+        for idx, emb in enumerate(callsign_embeddings):
+            for value in emb.matching_values:
+                callsign_lookup[value] = idx
+
+        model_lookup: Dict[str, int] = {}
+        for idx, emb in enumerate(model_embeddings):
+            for value in emb.matching_values:
+                model_lookup[value] = idx
+
+        column_names: List[str] = []
+
+        if keep_raw_counts:
+            column_names.extend([f"cnt_{name}" for name in callsign_names])
+            column_names.extend([f"cnt_{name}" for name in model_names])
+
+        column_names.extend([f"pct_{name}" for name in callsign_names])
+        column_names.extend([f"pct_{name}" for name in model_names])
+
+        if add_coverage_features:
+            column_names.extend([
+                "operator_coverage",
+                "aircraft_coverage",
+            ])
+
+        if add_size_features:
+            column_names.extend([
+                "log_total_flights",
+                "log_unique_callsigns",
+            ])
+
         for e in (self.edges or []):
-            counts = [0] * (len(callsign_embeddings) + len(icao_embeddings))
-            for fn in e.flights:
-                # callsign block
-                callsign = callsign_cleaning(fn.flight.callsign)
-                if callsign is not None:
-                    for idx, emb in enumerate(callsign_embeddings):
-                        if callsign in emb.matching_columns:
-                            counts[idx] += fn.count
-                
-                # icao block
-                icao = icao_cleaning(fn.flight.icao)
-                if icao is not None and icao in icao_to_model_dct:
-                    model = icao_to_model_dct[icao]
-                    offset = len(callsign_embeddings)
-                    for idx, emb in enumerate(icao_embeddings):
-                        if check_model(model, emb.matching_columns):
-                            counts[offset + idx] += fn.count
+            callsign_counts = [0] * len(callsign_embeddings)
+            model_counts = [0] * len(model_embeddings)
 
-            result.append(counts)
+            total_flights = 0
+            matched_callsign_flights = 0
+            matched_model_flights = 0
+            unique_callsigns: Set[str] = set()
+
+            for fn in e.flights:
+                cnt = fn.count
+                total_flights += cnt
+
+                callsign_raw = fn.flight.callsign or ""
+                callsign_prefix = callsign_raw[:3]
+                if callsign_raw:
+                    unique_callsigns.add(callsign_raw)
+
+                callsign_idx = callsign_lookup.get(callsign_prefix)
+                if callsign_idx is not None:
+                    callsign_counts[callsign_idx] += cnt
+                    matched_callsign_flights += cnt
+
+                model_raw = fn.flight.model
+                if model_raw is not None:
+                    model_idx = model_lookup.get(model_raw)
+                    if model_idx is not None:
+                        model_counts[model_idx] += cnt
+                        matched_model_flights += cnt
+
+            row: List[float] = []
+
+            if keep_raw_counts:
+                row.extend(float(x) for x in callsign_counts)
+                row.extend(float(x) for x in model_counts)
+
+            if normalize:
+                if matched_callsign_flights > 0:
+                    row.extend(x / matched_callsign_flights for x in callsign_counts)
+                else:
+                    row.extend(0.0 for _ in callsign_counts)
+
+                if matched_model_flights > 0:
+                    row.extend(x / matched_model_flights for x in model_counts)
+                else:
+                    row.extend(0.0 for _ in model_counts)
+            else:
+                row.extend(float(x) for x in callsign_counts)
+                row.extend(float(x) for x in model_counts)
+
+            if add_coverage_features:
+                if total_flights > 0:
+                    row.append(matched_callsign_flights / total_flights)
+                    row.append(matched_model_flights / total_flights)
+                else:
+                    row.append(0.0)
+                    row.append(0.0)
+
+            if add_size_features:
+                import math
+                row.append(math.log1p(total_flights))
+                row.append(math.log1p(len(unique_callsigns)))
+
+            result.append(row)
 
         if assign_to_edges:
-            # attach back to edge objects and remember column names
-            names = [emb.name for emb in callsign_embeddings] + [emb.name for emb in icao_embeddings]
-            self.edge_embedding_columns = names
+            self.edge_embedding_columns = column_names
             for e, vec in zip(self.edges or [], result):
                 e.embeddings = vec.copy()
 
         return result
+
 
     def to_undirected(self) -> "Graph":
         """Return a new graph where A→B and B→A edges are merged."""
@@ -537,3 +616,117 @@ class Graph:
         g._validate_node_semantics()
 
         return g
+    
+    def populate_node_types(self, airport_label_map: dict[str, str]) -> Counter:
+        """
+        Populate node_type for each node using airport-level labels.
+
+        Rules:
+        - 2+ large airports -> 2plus_large_airports
+        - exactly 2 large airports and only 2 airports total -> 2_large_airports
+        - otherwise if any large airport -> large
+        - otherwise if any medium airport -> medium
+        - otherwise -> small
+
+        Args:
+            airport_label_map:
+                Mapping ICAO -> airport size label ('small', 'medium', 'large')
+            exceptions:
+                Raise an exception when a node contains an airport code missing from airport_label_map or an unsupported label.
+        """
+        def _assign_node_type_from_airport_labels(airport_labels: list[str]) -> str:
+            counts = Counter(airport_labels)
+            n_large = counts.get("large_airport", 0) 
+            n_medium = counts.get("medium_airport", 0)
+            # total = len(airport_labels)
+
+            # if n_large >= 2:
+            #     if n_large == 2 and total == 2:
+            #         return "2_large_airports"
+            #     return "2plus_large_airports"
+
+            if n_large >= 1:
+                return "large"
+
+            if n_medium >= 1:
+                return "medium"
+
+            return "small"
+
+        for node in self.nodes:
+            airport_labels: list[str] = []
+            for code in node.airports:
+                label = airport_label_map.get(code)
+
+                if label is None:
+                    raise ValueError(f"Missing airport label for code={code!r} in node={node.name!r}")
+                if label.strip("_airport") not in {"small", "medium", "large"}:
+                    raise ValueError(f"Unsupported airport label {label!r} for code={code!r}")
+
+                airport_labels.append(label)
+
+
+            node.node_type = _assign_node_type_from_airport_labels(airport_labels)
+
+        return Counter([n.node_type for n in self.nodes])
+    
+    @property
+    def node_types(self):
+        return Counter([n.node_type for n in self.nodes])
+    
+    def filter_edges(self, edges_to_keep: List[List[str]]) -> Self:
+        """Filter the graph to keep only the specified edges.
+
+        For undirected graphs only. Removes edges not in the provided list,
+        removes nodes that are not connected by any remaining edge, and
+        recomputes the traffic attribute for remaining nodes.
+
+        Args:
+            edges_to_keep: List of Edge objects to retain in the graph.
+
+        Returns:
+            Self: The modified graph.
+        """
+        if self.graph_type != GraphType.UNDIRECTED:
+            raise ValueError("filter_edges only supported for undirected graphs")
+
+        # Create a set of edge keys (sorted tuples for undirected comparison)
+        keep_keys = set()
+        for e in edges_to_keep:
+            key = tuple(sorted(e))
+            keep_keys.add(key)
+
+        # Filter edges
+        new_edges: list[Edge] = []
+        for e in self.edges:
+            key = (min(e.from_id, e.to_id), max(e.from_id, e.to_id))
+            if key in keep_keys:
+                new_edges.append(e)
+
+        # Collect node ids present in remaining edges
+        node_ids = set()
+        for e in new_edges:
+            node_ids.add(e.from_id)
+            node_ids.add(e.to_id)
+
+        # Filter nodes
+        new_nodes = [n for n in self.nodes if n.id in node_ids]
+
+        # Recompute traffic
+        traffic = defaultdict(int)
+        for e in new_edges:
+            traffic[e.from_id] += e.weight
+            traffic[e.to_id] += e.weight
+
+        for n in new_nodes:
+            n.traffic = traffic.get(n.id, 0)
+
+        # Update graph attributes
+        self.nodes = new_nodes
+        self.edges = new_edges
+        self.nodes_number = len(new_nodes)
+        self.edges_number = len(new_edges)
+        self.flights_number = sum(e.weight for e in new_edges)
+        self.countries = list(set(n.iso_country for n in new_nodes if n.iso_country))
+
+        return self

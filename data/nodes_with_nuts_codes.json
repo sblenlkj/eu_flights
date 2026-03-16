@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "Tymbou (Kirklar), CY",
+    "iso-region": "CY-02",
+    "nuts2_code": "CY00",
+    "nuts3_code": "CY000"
+  },
+  {
+    "id": "Napoli, IT",
+    "iso-region": "IT-72",
+    "nuts2_code": "ITF3",
+    "nuts3_code": "ITF33"
+  },
+  {
+    "id": "Warsaw, PL",
+    "iso-region": "PL-MZ",
+    "nuts2_code": "PL91",
+    "nuts3_code": "PL911"
+  },
+  {
+    "id": "Skellefteå, SE",
+    "iso-region": "SE-AC",
+    "nuts2_code": "SE33",
+    "nuts3_code": "SE331"
+  },
+  {
+    "id": "Memmingen, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE27",
+    "nuts3_code": "DE274"
+  },
+  {
+    "id": "Brno, CZ",
+    "iso-region": "CZ-JM",
+    "nuts2_code": "CZ06",
+    "nuts3_code": "CZ064"
+  },
+  {
+    "id": "Pisa (PI), IT",
+    "iso-region": "IT-52",
+    "nuts2_code": "ITI1",
+    "nuts3_code": "ITI17"
+  },
+  {
+    "id": "Akrotiri, CY",
+    "iso-region": "CY-XX",
+    "nuts2_code": "CY00",
+    "nuts3_code": "CY000"
+  },
+  {
+    "id": "Chassieu, Lyon, FR",
+    "iso-region": "FR-ARA",
+    "nuts2_code": "FRK2",
+    "nuts3_code": "FRK26"
+  },
+  {
+    "id": "Capannori (LU), IT",
+    "iso-region": "IT-52",
+    "nuts2_code": "ITI1",
+    "nuts3_code": "ITI12"
+  },
+  {
+    "id": "Riga, LV",
+    "iso-region": "LV-062",
+    "nuts2_code": "LV00",
+    "nuts3_code": "LV006"
+  },
+  {
+    "id": "Győr, HU",
+    "iso-region": "HU-GS",
+    "nuts2_code": "HU22",
+    "nuts3_code": "HU221"
+  },
+  {
+    "id": "Palanga, LT",
+    "iso-region": "LT-KL",
+    "nuts2_code": "LT02",
+    "nuts3_code": "LT023"
+  },
+  {
+    "id": "Ponta Delgada, PT",
+    "iso-region": "PT-20",
+    "nuts2_code": "PT20",
+    "nuts3_code": "PT200"
+  },
+  {
+    "id": "Hradec Králové, CZ",
+    "iso-region": "CZ-KR",
+    "nuts2_code": "CZ05",
+    "nuts3_code": "CZ052"
+  },
+  {
+    "id": "Faro, PT",
+    "iso-region": "PT-08",
+    "nuts2_code": "PT15",
+    "nuts3_code": "PT150"
+  },
+  {
+    "id": "Caselle Torinese (TO), IT",
+    "iso-region": "IT-21",
+    "nuts2_code": "ITC1",
+    "nuts3_code": "ITC11"
+  },
+  {
+    "id": "Genova (GE), IT",
+    "iso-region": "IT-42",
+    "nuts2_code": "ITC3",
+    "nuts3_code": "ITC33"
+  },
+  {
+    "id": "Reggio Calabria, IT",
+    "iso-region": "IT-78",
+    "nuts2_code": "ITF6",
+    "nuts3_code": "ITF65"
+  },
+  {
+    "id": "Almería, ES",
+    "iso-region": "ES-AN",
+    "nuts2_code": "ES61",
+    "nuts3_code": "ES611"
+  },
+  {
+    "id": "Dresden, DE",
+    "iso-region": "DE-SN",
+    "nuts2_code": "DED2",
+    "nuts3_code": "DED21"
+  },
+  {
+    "id": "Dole, FR",
+    "iso-region": "FR-BFC",
+    "nuts2_code": "FRC1",
+    "nuts3_code": "FRC12"
+  },
+  {
+    "id": "Ordu, TR",
+    "iso-region": "TR-52",
+    "nuts2_code": "TR90",
+    "nuts3_code": "TR902"
+  },
+  {
+    "id": "Dublin, IE",
+    "iso-region": "IE-D",
+    "nuts2_code": "IE06",
+    "nuts3_code": "IE061"
+  },
+  {
+    "id": "Montpellier/Méditerranée, FR",
+    "iso-region": "FR-OCC",
+    "nuts2_code": "FRJ1",
+    "nuts3_code": "FRJ13"
+  },
+  {
+    "id": "Ranón, ES",
+    "iso-region": "ES-AS",
+    "nuts2_code": "ES12",
+    "nuts3_code": "ES120"
+  },
+  {
+    "id": "Falconara Marittima (AN), IT",
+    "iso-region": "IT-57",
+    "nuts2_code": "ITI3",
+    "nuts3_code": "ITI32"
+  },
+  {
+    "id": "Lübeck, DE",
+    "iso-region": "DE-SH",
+    "nuts2_code": "DEF0",
+    "nuts3_code": "DEF03"
+  },
+  {
+    "id": "Madrid, ES",
+    "iso-region": "ES-MD",
+    "nuts2_code": "ES30",
+    "nuts3_code": "ES300"
+  },
+  {
+    "id": "Bordeaux, FR",
+    "iso-region": "FR-NAQ",
+    "nuts2_code": "FRI1",
+    "nuts3_code": "FRI12"
+  },
+  {
+    "id": "Forlì (FC), IT",
+    "iso-region": "IT-45",
+    "nuts2_code": "ITH5",
+    "nuts3_code": "ITH58"
+  },
+  {
+    "id": "Brest, FR",
+    "iso-region": "FR-BRE",
+    "nuts2_code": "FRH0",
+    "nuts3_code": "FRH02"
+  },
+  {
+    "id": "Melilla, ES",
+    "iso-region": "ES-ML",
+    "nuts2_code": "ES64",
+    "nuts3_code": "ES640"
+  },
+  {
+    "id": "Valencia, ES",
+    "iso-region": "ES-VC",
+    "nuts2_code": "ES52",
+    "nuts3_code": "ES523"
+  },
+  {
+    "id": "Alava, ES",
+    "iso-region": "ES-PV",
+    "nuts2_code": "ES21",
+    "nuts3_code": "ES211"
+  },
+  {
+    "id": "Frankfurt am Main (Lautzenhausen), DE",
+    "iso-region": "DE-RP",
+    "nuts2_code": "DE71",
+    "nuts3_code": "DE712"
+  },
+  {
+    "id": "Copenhagen, DK",
+    "iso-region": "DK-84",
+    "nuts2_code": "DK01",
+    "nuts3_code": "DK011"
+  },
+  {
+    "id": "Saint-Tropez, FR",
+    "iso-region": "FR-PAC",
+    "nuts2_code": "FRL0",
+    "nuts3_code": "FRL05"
+  },
+  {
+    "id": "Málaga, ES",
+    "iso-region": "ES-AN",
+    "nuts2_code": "ES61",
+    "nuts3_code": "ES617"
+  },
+  {
+    "id": "Oostende, BE",
+    "iso-region": "BE-VWV",
+    "nuts2_code": "BE25",
+    "nuts3_code": "BE255"
+  },
+  {
+    "id": "Weert, NL",
+    "iso-region": "NL-NB",
+    "nuts2_code": "NL42",
+    "nuts3_code": "NL422"
+  },
+  {
+    "id": "Caen, FR",
+    "iso-region": "FR-NOR",
+    "nuts2_code": "FRD1",
+    "nuts3_code": "FRD11"
+  },
+  {
+    "id": "Kos Island, GR",
+    "iso-region": "GR-L",
+    "nuts2_code": "EL42",
+    "nuts3_code": "EL422"
+  },
+  {
+    "id": "Weßling, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE21",
+    "nuts3_code": "DE21L"
+  },
+  {
+    "id": "Montichiari (BS), IT",
+    "iso-region": "IT-25",
+    "nuts2_code": "ITC4",
+    "nuts3_code": "ITC47"
+  },
+  {
+    "id": "Tarbes/Lourdes/Pyrénées, FR",
+    "iso-region": "FR-OCC",
+    "nuts2_code": "FRJ2",
+    "nuts3_code": "FRJ26"
+  },
+  {
+    "id": "Pau/Pyrénées (Uzein), FR",
+    "iso-region": "FR-NAQ",
+    "nuts2_code": "FRI1",
+    "nuts3_code": "FRI15"
+  },
+  {
+    "id": "Egelsbach, DE",
+    "iso-region": "DE-HE",
+    "nuts2_code": "DE71",
+    "nuts3_code": "DE713"
+  },
+  {
+    "id": "Szymany, PL",
+    "iso-region": "PL-WN",
+    "nuts2_code": "PL62",
+    "nuts3_code": "PL623"
+  },
+  {
+    "id": "Donegal, IE",
+    "iso-region": "IE-DL",
+    "nuts2_code": "IE04",
+    "nuts3_code": "IE041"
+  },
+  {
+    "id": "Paphos, CY",
+    "iso-region": "CY-06",
+    "nuts2_code": "CY00",
+    "nuts3_code": "CY000"
+  },
+  {
+    "id": "Thessaloniki, GR",
+    "iso-region": "GR-B",
+    "nuts2_code": "EL52",
+    "nuts3_code": "EL522"
+  },
+  {
+    "id": "Kittilä, FI",
+    "iso-region": "FI-10",
+    "nuts2_code": "FI1D",
+    "nuts3_code": "FI1D7"
+  },
+  {
+    "id": "Ferno (VA), IT",
+    "iso-region": "IT-25",
+    "nuts2_code": "ITC4",
+    "nuts3_code": "ITC41"
+  },
+  {
+    "id": "Antwerp, BE",
+    "iso-region": "BE-VAN",
+    "nuts2_code": "BE21",
+    "nuts3_code": "BE211"
+  },
+  {
+    "id": "Vigo, ES",
+    "iso-region": "ES-GA",
+    "nuts2_code": "ES11",
+    "nuts3_code": "ES114"
+  },
+  {
+    "id": "Lahr/Schwarzwald, DE",
+    "iso-region": "DE-BW",
+    "nuts2_code": "DE13",
+    "nuts3_code": "DE133"
+  },
+  {
+    "id": "Jerez de la Frontera, ES",
+    "iso-region": "ES-AN",
+    "nuts2_code": "ES61",
+    "nuts3_code": "ES612"
+  },
+  {
+    "id": "Greven, DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA3",
+    "nuts3_code": "DEA37"
+  },
+  {
+    "id": "Gaziemir, TR",
+    "iso-region": "TR-35",
+    "nuts2_code": "TR31",
+    "nuts3_code": "TR310"
+  },
+  {
+    "id": "Helsinki (Vantaa), FI",
+    "iso-region": "FI-18",
+    "nuts2_code": "FI1B",
+    "nuts3_code": "FI1B1"
+  },
+  {
+    "id": "Halmstad, SE",
+    "iso-region": "SE-N",
+    "nuts2_code": "SE23",
+    "nuts3_code": "SE231"
+  },
+  {
+    "id": "Schkeuditz, DE",
+    "iso-region": "DE-SN",
+    "nuts2_code": "DED1",
+    "nuts3_code": "DED13"
+  },
+  {
+    "id": "Clermont-Ferrand, FR",
+    "iso-region": "FR-ARA",
+    "nuts2_code": "FRK1",
+    "nuts3_code": "FRK14"
+  },
+  {
+    "id": "Nowe Kramsko, PL",
+    "iso-region": "PL-LB",
+    "nuts2_code": "PL43",
+    "nuts3_code": "PL432"
+  },
+  {
+    "id": "Tampere / Pirkkala, FI",
+    "iso-region": "FI-11",
+    "nuts2_code": "FI19",
+    "nuts3_code": "FI19B"
+  },
+  {
+    "id": "Kiel, DE",
+    "iso-region": "DE-SH",
+    "nuts2_code": "DEF0",
+    "nuts3_code": "DEF02"
+  },
+  {
+    "id": "Caselle (VR), IT",
+    "iso-region": "IT-34",
+    "nuts2_code": "ITH3",
+    "nuts3_code": "ITH31"
+  },
+  {
+    "id": "Luleå, SE",
+    "iso-region": "SE-BD",
+    "nuts2_code": "SE33",
+    "nuts3_code": "SE332"
+  },
+  {
+    "id": "Nîmes/Garons, FR",
+    "iso-region": "FR-OCC",
+    "nuts2_code": "FRJ1",
+    "nuts3_code": "FRJ12"
+  },
+  {
+    "id": "Oulu / Oulunsalo, FI",
+    "iso-region": "FI-14",
+    "nuts2_code": "FI1D",
+    "nuts3_code": "FI1D9"
+  },
+  {
+    "id": "Ajaccio, FR",
+    "iso-region": "FR-COR",
+    "nuts2_code": "FRM0",
+    "nuts3_code": "FRM01"
+  },
+  {
+    "id": "Stockholm / Västerås, SE",
+    "iso-region": "SE-U",
+    "nuts2_code": "SE12",
+    "nuts3_code": "SE125"
+  },
+  {
+    "id": "Annecy, FR",
+    "iso-region": "FR-ARA",
+    "nuts2_code": "FRK2",
+    "nuts3_code": "FRK28"
+  },
+  {
+    "id": "Mönchengladbach, DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA1",
+    "nuts3_code": "DEA15"
+  },
+  {
+    "id": "Friedrichshafen, DE",
+    "iso-region": "DE-BW",
+    "nuts2_code": "DE14",
+    "nuts3_code": "DE147"
+  },
+  {
+    "id": "Jasionka, PL",
+    "iso-region": "PL-PK",
+    "nuts2_code": "PL82",
+    "nuts3_code": "PL823"
+  },
+  {
+    "id": "Grenoble, FR",
+    "iso-region": "FR-ARA",
+    "nuts2_code": "FRK2",
+    "nuts3_code": "FRK24"
+  },
+  {
+    "id": "Eindhoven, NL",
+    "iso-region": "NL-NB",
+    "nuts2_code": "NL41",
+    "nuts3_code": "NL414"
+  },
+  {
+    "id": "Recea, RO",
+    "iso-region": "RO-MS",
+    "nuts2_code": "RO11",
+    "nuts3_code": "RO114"
+  },
+  {
+    "id": "Košice, SK",
+    "iso-region": "SK-KI",
+    "nuts2_code": "SK04",
+    "nuts3_code": "SK042"
+  },
+  {
+    "id": "Mahón (Maó), ES",
+    "iso-region": "ES-IB",
+    "nuts2_code": "ES53",
+    "nuts3_code": "ES533"
+  },
+  {
+    "id": "Zgornji Brnik, SI",
+    "iso-region": "SI-012",
+    "nuts2_code": "SI04",
+    "nuts3_code": "SI041"
+  },
+  {
+    "id": "Munich, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE21",
+    "nuts3_code": "DE212"
+  },
+  {
+    "id": "Catania, IT",
+    "iso-region": "IT-82",
+    "nuts2_code": "ITG1",
+    "nuts3_code": "ITG17"
+  },
+  {
+    "id": "Kaunas, LT",
+    "iso-region": "LT-KU",
+    "nuts2_code": "LT02",
+    "nuts3_code": "LT022"
+  },
+  {
+    "id": "Roskilde, DK",
+    "iso-region": "DK-85",
+    "nuts2_code": "DK02",
+    "nuts3_code": "DK022"
+  },
+  {
+    "id": "Aarhus, DK",
+    "iso-region": "DK-82",
+    "nuts2_code": "DK04",
+    "nuts3_code": "DK042"
+  },
+  {
+    "id": "Larnaca, CY",
+    "iso-region": "CY-04",
+    "nuts2_code": "CY00",
+    "nuts3_code": "CY000"
+  },
+  {
+    "id": "Charleroi, BE",
+    "iso-region": "BE-WHT",
+    "nuts2_code": "BE32",
+    "nuts3_code": "BE322"
+  },
+  {
+    "id": "Salzburg, AT",
+    "iso-region": "AT-5",
+    "nuts2_code": "AT32",
+    "nuts3_code": "AT323"
+  },
+  {
+    "id": "Comiso, IT",
+    "iso-region": "IT-82",
+    "nuts2_code": "ITG1",
+    "nuts3_code": "ITG18"
+  },
+  {
+    "id": "Colmar, FR",
+    "iso-region": "FR-GES",
+    "nuts2_code": "FRF1",
+    "nuts3_code": "FRF12"
+  },
+  {
+    "id": "Sečovlje, SI",
+    "iso-region": "SI-090",
+    "nuts2_code": "SI04",
+    "nuts3_code": "SI044"
+  },
+  {
+    "id": "Ibiza (Eivissa), ES",
+    "iso-region": "ES-IB",
+    "nuts2_code": "ES53",
+    "nuts3_code": "ES532"
+  },
+  {
+    "id": "Feldkirchen bei Graz, AT",
+    "iso-region": "AT-6",
+    "nuts2_code": "AT22",
+    "nuts3_code": "AT221"
+  },
+  {
+    "id": "Rotterdam, NL",
+    "iso-region": "NL-ZH",
+    "nuts2_code": "NL33",
+    "nuts3_code": "NL33C"
+  },
+  {
+    "id": "Wurster Nordseeküste, DE",
+    "iso-region": "DE-NI",
+    "nuts2_code": "DE93",
+    "nuts3_code": "DE932"
+  },
+  {
+    "id": "Vilnius, LT",
+    "iso-region": "LT-VL",
+    "nuts2_code": "LT01",
+    "nuts3_code": "LT011"
+  },
+  {
+    "id": "Hamburg, DE",
+    "iso-region": "DE-HH",
+    "nuts2_code": "DE60",
+    "nuts3_code": "DE600"
+  },
+  {
+    "id": "Shannon, IE",
+    "iso-region": "IE-CE",
+    "nuts2_code": "IE05",
+    "nuts3_code": "IE051"
+  },
+  {
+    "id": "Tallinn, EE",
+    "iso-region": "EE-37",
+    "nuts2_code": "EE00",
+    "nuts3_code": "EE001"
+  },
+  {
+    "id": "Manching, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE21",
+    "nuts3_code": "DE21P"
+  },
+  {
+    "id": "Vienna, AT",
+    "iso-region": "AT-9",
+    "nuts2_code": "AT13",
+    "nuts3_code": "AT130"
+  },
+  {
+    "id": "Sta Cruz de la Palma, La Palma Island, ES",
+    "iso-region": "ES-CN",
+    "nuts2_code": "ES70",
+    "nuts3_code": "ES707"
+  },
+  {
+    "id": "Wilhelmshaven, DE",
+    "iso-region": "DE-NI",
+    "nuts2_code": "DE94",
+    "nuts3_code": "DE945"
+  },
+  {
+    "id": "Köln (Cologne), DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA2",
+    "nuts3_code": "DEA23"
+  },
+  {
+    "id": "Bastia, FR",
+    "iso-region": "FR-COR",
+    "nuts2_code": "FRM0",
+    "nuts3_code": "FRM02"
+  },
+  {
+    "id": "Prague, CZ",
+    "iso-region": "CZ-PR",
+    "nuts2_code": "CZ01",
+    "nuts3_code": "CZ010"
+  },
+  {
+    "id": "Venezia (VE), IT",
+    "iso-region": "IT-34",
+    "nuts2_code": "ITH3",
+    "nuts3_code": "ITH35"
+  },
+  {
+    "id": "Kuopio / Siilinjärvi, FI",
+    "iso-region": "FI-15",
+    "nuts2_code": "FI1D",
+    "nuts3_code": "FI1D2"
+  },
+  {
+    "id": "Mošnov, CZ",
+    "iso-region": "CZ-MO",
+    "nuts2_code": "CZ08",
+    "nuts3_code": "CZ080"
+  },
+  {
+    "id": "Ängelholm, SE",
+    "iso-region": "SE-M",
+    "nuts2_code": "SE22",
+    "nuts3_code": "SE224"
+  },
+  {
+    "id": "Ronchi dei Legionari/Trieste, IT",
+    "iso-region": "IT-36",
+    "nuts2_code": "ITH4",
+    "nuts3_code": "ITH43"
+  },
+  {
+    "id": "Figari, FR",
+    "iso-region": "FR-COR",
+    "nuts2_code": "FRM0",
+    "nuts3_code": "FRM01"
+  },
+  {
+    "id": "Bologna, IT",
+    "iso-region": "IT-45",
+    "nuts2_code": "ITH5",
+    "nuts3_code": "ITH55"
+  },
+  {
+    "id": "Trabzon, TR",
+    "iso-region": "TR-61",
+    "nuts2_code": "TR90",
+    "nuts3_code": "TR901"
+  },
+  {
+    "id": "Bremen, DE",
+    "iso-region": "DE-HB",
+    "nuts2_code": "DE50",
+    "nuts3_code": "DE501"
+  },
+  {
+    "id": "Arvidsjaur, SE",
+    "iso-region": "SE-BD",
+    "nuts2_code": "SE33",
+    "nuts3_code": "SE332"
+  },
+  {
+    "id": "Balice, PL",
+    "iso-region": "PL-MA",
+    "nuts2_code": "PL21",
+    "nuts3_code": "PL214"
+  },
+  {
+    "id": "Nuremberg, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE25",
+    "nuts3_code": "DE254"
+  },
+  {
+    "id": "Funchal, PT",
+    "iso-region": "PT-30",
+    "nuts2_code": "PT30",
+    "nuts3_code": "PT300"
+  },
+  {
+    "id": "Timişoara, RO",
+    "iso-region": "RO-TM",
+    "nuts2_code": "RO42",
+    "nuts3_code": "RO424"
+  },
+  {
+    "id": "Saint-Jacques-de-la-Lande, Ille-et-Vilaine, FR",
+    "iso-region": "FR-BRE",
+    "nuts2_code": "FRH0",
+    "nuts3_code": "FRH03"
+  },
+  {
+    "id": "Augsburg, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE27",
+    "nuts3_code": "DE271"
+  },
+  {
+    "id": "Marignane, Bouches-du-Rhône, FR",
+    "iso-region": "FR-PAC",
+    "nuts2_code": "FRL0",
+    "nuts3_code": "FRL04"
+  },
+  {
+    "id": "Łódź, PL",
+    "iso-region": "PL-LD",
+    "nuts2_code": "PL71",
+    "nuts3_code": "PL711"
+  },
+  {
+    "id": "Katowice, PL",
+    "iso-region": "PL-SL",
+    "nuts2_code": "PL22",
+    "nuts3_code": "PL22A"
+  },
+  {
+    "id": "Alicante, ES",
+    "iso-region": "ES-VC",
+    "nuts2_code": "ES52",
+    "nuts3_code": "ES521"
+  },
+  {
+    "id": "Seville, ES",
+    "iso-region": "ES-AN",
+    "nuts2_code": "ES61",
+    "nuts3_code": "ES618"
+  },
+  {
+    "id": "Siljansnäs, SE",
+    "iso-region": "SE-W",
+    "nuts2_code": "SE31",
+    "nuts3_code": "SE312"
+  },
+  {
+    "id": "Stockholm, SE",
+    "iso-region": "SE-AB",
+    "nuts2_code": "SE11",
+    "nuts3_code": "SE110"
+  },
+  {
+    "id": "Palermo, IT",
+    "iso-region": "IT-82",
+    "nuts2_code": "ITG1",
+    "nuts3_code": "ITG12"
+  },
+  {
+    "id": "Zaragoza, ES",
+    "iso-region": "ES-AR",
+    "nuts2_code": "ES24",
+    "nuts3_code": "ES243"
+  },
+  {
+    "id": "Eskişehir, TR",
+    "iso-region": "TR-26",
+    "nuts2_code": "TR41",
+    "nuts3_code": "TR412"
+  },
+  {
+    "id": "Colombier-Saugnieu, Rhône, FR",
+    "iso-region": "FR-ARA",
+    "nuts2_code": "FRK2",
+    "nuts3_code": "FRK26"
+  },
+  {
+    "id": "Spata-Artemida, GR",
+    "iso-region": "GR-I",
+    "nuts2_code": "EL30",
+    "nuts3_code": "EL304"
+  },
+  {
+    "id": "Wrocław, PL",
+    "iso-region": "PL-DS",
+    "nuts2_code": "PL51",
+    "nuts3_code": "PL514"
+  },
+  {
+    "id": "Capua, IT",
+    "iso-region": "IT-72",
+    "nuts2_code": "ITF1",
+    "nuts3_code": "ITF11"
+  },
+  {
+    "id": "Nice, Alpes-Maritimes, FR",
+    "iso-region": "FR-PAC",
+    "nuts2_code": "FRL0",
+    "nuts3_code": "FRL06"
+  },
+  {
+    "id": "Alajero, La Gomera Island, ES",
+    "iso-region": "ES-CN",
+    "nuts2_code": "ES70",
+    "nuts3_code": "ES706"
+  },
+  {
+    "id": "Orio al Serio (BG), IT",
+    "iso-region": "IT-25",
+    "nuts2_code": "ITC4",
+    "nuts3_code": "ITC46"
+  },
+  {
+    "id": "Mannheim, DE",
+    "iso-region": "DE-BW",
+    "nuts2_code": "DE12",
+    "nuts3_code": "DE122"
+  },
+  {
+    "id": "Göteborg, SE",
+    "iso-region": "SE-Q",
+    "nuts2_code": "SE23",
+    "nuts3_code": "SE232"
+  },
+  {
+    "id": "Perpignan/Rivesaltes, FR",
+    "iso-region": "FR-OCC",
+    "nuts2_code": "FRJ1",
+    "nuts3_code": "FRJ15"
+  },
+  {
+    "id": "Weeze, DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA1",
+    "nuts3_code": "DEA1B"
+  },
+  {
+    "id": "Braunschweig, DE",
+    "iso-region": "DE-NI",
+    "nuts2_code": "DE91",
+    "nuts3_code": "DE911"
+  },
+  {
+    "id": "Villanova d'Albenga (SV), IT",
+    "iso-region": "IT-42",
+    "nuts2_code": "ITC3",
+    "nuts3_code": "ITC32"
+  },
+  {
+    "id": "Charlestown, IE",
+    "iso-region": "IE-MO",
+    "nuts2_code": "IE04",
+    "nuts3_code": "IE042"
+  },
+  {
+    "id": "Segrate (MI), IT",
+    "iso-region": "IT-25",
+    "nuts2_code": "ITC4",
+    "nuts3_code": "ITC4C"
+  },
+  {
+    "id": "Nantes, FR",
+    "iso-region": "FR-PDL",
+    "nuts2_code": "FRG0",
+    "nuts3_code": "FRG01"
+  },
+  {
+    "id": "Velika Gorica, HR",
+    "iso-region": "HR-01",
+    "nuts2_code": "HR02",
+    "nuts3_code": "HR021"
+  },
+  {
+    "id": "Treviso (TV), IT",
+    "iso-region": "IT-34",
+    "nuts2_code": "ITH3",
+    "nuts3_code": "ITH34"
+  },
+  {
+    "id": "Antalya, TR",
+    "iso-region": "TR-07",
+    "nuts2_code": "TR61",
+    "nuts3_code": "TR611"
+  },
+  {
+    "id": "Girona, ES",
+    "iso-region": "ES-CT",
+    "nuts2_code": "ES51",
+    "nuts3_code": "ES512"
+  },
+  {
+    "id": "Palma de Mallorca, ES",
+    "iso-region": "ES-IB",
+    "nuts2_code": "ES53",
+    "nuts3_code": "ES531"
+  },
+  {
+    "id": "Stuttgart, DE",
+    "iso-region": "DE-BW",
+    "nuts2_code": "DE11",
+    "nuts3_code": "DE111"
+  },
+  {
+    "id": "Wevelgem, BE",
+    "iso-region": "BE-VWV",
+    "nuts2_code": "BE25",
+    "nuts3_code": "BE256"
+  },
+  {
+    "id": "Lesquin, FR",
+    "iso-region": "FR-HDF",
+    "nuts2_code": "FRE1",
+    "nuts3_code": "FRE11"
+  },
+  {
+    "id": "Düsseldorf, DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA1",
+    "nuts3_code": "DEA11"
+  },
+  {
+    "id": "Samsun, TR",
+    "iso-region": "TR-55",
+    "nuts2_code": "TR83",
+    "nuts3_code": "TR831"
+  },
+  {
+    "id": "Rome, IT",
+    "iso-region": "IT-62",
+    "nuts2_code": "ITI4",
+    "nuts3_code": "ITI43"
+  },
+  {
+    "id": "Mytilene, GR",
+    "iso-region": "GR-K",
+    "nuts2_code": "EL41",
+    "nuts3_code": "EL411"
+  },
+  {
+    "id": "Alexandroupolis, GR",
+    "iso-region": "GR-A",
+    "nuts2_code": "EL51",
+    "nuts3_code": "EL511"
+  },
+  {
+    "id": "Jyväskylän Maalaiskunta, FI",
+    "iso-region": "FI-08",
+    "nuts2_code": "FI19",
+    "nuts3_code": "FI193"
+  },
+  {
+    "id": "Santiago de Compostela, ES",
+    "iso-region": "ES-GA",
+    "nuts2_code": "ES11",
+    "nuts3_code": "ES111"
+  },
+  {
+    "id": "Uherské Hradiště, CZ",
+    "iso-region": "CZ-ZL",
+    "nuts2_code": "CZ07",
+    "nuts3_code": "CZ072"
+  },
+  {
+    "id": "Rota, ES",
+    "iso-region": "ES-AN",
+    "nuts2_code": "ES61",
+    "nuts3_code": "ES612"
+  },
+  {
+    "id": "Maastricht, NL",
+    "iso-region": "NL-LI",
+    "nuts2_code": "NL42",
+    "nuts3_code": "NL423"
+  },
+  {
+    "id": "Laage, DE",
+    "iso-region": "DE-MV",
+    "nuts2_code": "DE80",
+    "nuts3_code": "DE803"
+  },
+  {
+    "id": "Paris, FR",
+    "iso-region": "FR-HDF",
+    "nuts2_code": "FR10",
+    "nuts3_code": "FR101"
+  },
+  {
+    "id": "Burbach, DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA5",
+    "nuts3_code": "DEA5A"
+  },
+  {
+    "id": "Hannover, DE",
+    "iso-region": "DE-NI",
+    "nuts2_code": "DE92",
+    "nuts3_code": "DE929"
+  },
+  {
+    "id": "Rhodes, GR",
+    "iso-region": "GR-L",
+    "nuts2_code": "EL42",
+    "nuts3_code": "EL421"
+  },
+  {
+    "id": "Lelystad, NL",
+    "iso-region": "NL-FL",
+    "nuts2_code": "NL23",
+    "nuts3_code": "NL230"
+  },
+  {
+    "id": "Bucharest, RO",
+    "iso-region": "RO-B",
+    "nuts2_code": "RO32",
+    "nuts3_code": "RO321"
+  },
+  {
+    "id": "Berlin, DE",
+    "iso-region": "DE-BR",
+    "nuts2_code": "DE30",
+    "nuts3_code": "DE300"
+  },
+  {
+    "id": "Cascais, PT",
+    "iso-region": "PT-11",
+    "nuts2_code": "PT17",
+    "nuts3_code": "PT170"
+  },
+  {
+    "id": "Lamezia Terme (CZ), IT",
+    "iso-region": "IT-78",
+    "nuts2_code": "ITF6",
+    "nuts3_code": "ITF63"
+  },
+  {
+    "id": "Bolzano (BZ), IT",
+    "iso-region": "IT-32",
+    "nuts2_code": "ITH1",
+    "nuts3_code": "ITH10"
+  },
+  {
+    "id": "Strasbourg, FR",
+    "iso-region": "FR-GES",
+    "nuts2_code": "FRF1",
+    "nuts3_code": "FRF11"
+  },
+  {
+    "id": "Ronneby, SE",
+    "iso-region": "SE-K",
+    "nuts2_code": "SE22",
+    "nuts3_code": "SE221"
+  },
+  {
+    "id": "Gdańsk, PL",
+    "iso-region": "PL-PM",
+    "nuts2_code": "PL63",
+    "nuts3_code": "PL634"
+  },
+  {
+    "id": "Istanbul, TR",
+    "iso-region": "TR-34",
+    "nuts2_code": "TR10",
+    "nuts3_code": "TR100"
+  },
+  {
+    "id": "Bratislava, SK",
+    "iso-region": "SK-BL",
+    "nuts2_code": "SK01",
+    "nuts3_code": "SK010"
+  },
+  {
+    "id": "Rheinmünster, DE",
+    "iso-region": "DE-BW",
+    "nuts2_code": "DE12",
+    "nuts3_code": "DE124"
+  },
+  {
+    "id": "Barcelona, ES",
+    "iso-region": "ES-CT",
+    "nuts2_code": "ES51",
+    "nuts3_code": "ES511"
+  },
+  {
+    "id": "Sønderborg, DK",
+    "iso-region": "DK-83",
+    "nuts2_code": "DK03",
+    "nuts3_code": "DK032"
+  },
+  {
+    "id": "Aalborg, DK",
+    "iso-region": "DK-81",
+    "nuts2_code": "DK05",
+    "nuts3_code": "DK050"
+  },
+  {
+    "id": "Valletta, MT",
+    "iso-region": "MT-25",
+    "nuts2_code": "MT00",
+    "nuts3_code": "MT001"
+  },
+  {
+    "id": "Billund, DK",
+    "iso-region": "DK-83",
+    "nuts2_code": "DK03",
+    "nuts3_code": "DK032"
+  },
+  {
+    "id": "Luxembourg, LU",
+    "iso-region": "LU-L",
+    "nuts2_code": "LU00",
+    "nuts3_code": "LU000"
+  },
+  {
+    "id": "Firenze (FI), IT",
+    "iso-region": "IT-52",
+    "nuts2_code": "ITI1",
+    "nuts3_code": "ITI14"
+  },
+  {
+    "id": "Poprad, SK",
+    "iso-region": "SK-PV",
+    "nuts2_code": "SK04",
+    "nuts3_code": "SK041"
+  },
+  {
+    "id": "Innsbruck, AT",
+    "iso-region": "AT-7",
+    "nuts2_code": "AT33",
+    "nuts3_code": "AT332"
+  },
+  {
+    "id": "Groningen, NL",
+    "iso-region": "NL-DR",
+    "nuts2_code": "NL11",
+    "nuts3_code": "NL110"
+  },
+  {
+    "id": "Chambéry, FR",
+    "iso-region": "FR-ARA",
+    "nuts2_code": "FRK2",
+    "nuts3_code": "FRK27"
+  },
+  {
+    "id": "Linz, AT",
+    "iso-region": "AT-4",
+    "nuts2_code": "AT31",
+    "nuts3_code": "AT312"
+  },
+  {
+    "id": "Biarritz, FR",
+    "iso-region": "FR-NAQ",
+    "nuts2_code": "FRI1",
+    "nuts3_code": "FRI15"
+  },
+  {
+    "id": "Pescara, IT",
+    "iso-region": "IT-65",
+    "nuts2_code": "ITF1",
+    "nuts3_code": "ITF13"
+  },
+  {
+    "id": "Farranfore, IE",
+    "iso-region": "IE-KY",
+    "nuts2_code": "IE05",
+    "nuts3_code": "IE052"
+  },
+  {
+    "id": "Angers, FR",
+    "iso-region": "FR-PDL",
+    "nuts2_code": "FRG0",
+    "nuts3_code": "FRG02"
+  },
+  {
+    "id": "Zaventem, BE",
+    "iso-region": "BE-VBR",
+    "nuts2_code": "BE24",
+    "nuts3_code": "BE242"
+  },
+  {
+    "id": "Büren, DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA4",
+    "nuts3_code": "DEA47"
+  },
+  {
+    "id": "Lisbon, PT",
+    "iso-region": "PT-11",
+    "nuts2_code": "PT17",
+    "nuts3_code": "PT170"
+  },
+  {
+    "id": "Toulouse/Blagnac, FR",
+    "iso-region": "FR-OCC",
+    "nuts2_code": "FRJ2",
+    "nuts3_code": "FRJ23"
+  },
+  {
+    "id": "Hof, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE24",
+    "nuts3_code": "DE244"
+  },
+  {
+    "id": "Linköping, SE",
+    "iso-region": "SE-E",
+    "nuts2_code": "SE12",
+    "nuts3_code": "SE123"
+  },
+  {
+    "id": "Grâce-Hollogne, BE",
+    "iso-region": "BE-WLG",
+    "nuts2_code": "BE33",
+    "nuts3_code": "BE332"
+  },
+  {
+    "id": "Beauvais, FR",
+    "iso-region": "FR-HDF",
+    "nuts2_code": "FRE2",
+    "nuts3_code": "FRE22"
+  },
+  {
+    "id": "Toussus-le-Noble, Yvelines, FR",
+    "iso-region": "FR-IDF",
+    "nuts2_code": "FR10",
+    "nuts3_code": "FR103"
+  },
+  {
+    "id": "Cannes, FR",
+    "iso-region": "FR-PAC",
+    "nuts2_code": "FRL0",
+    "nuts3_code": "FRL06"
+  },
+  {
+    "id": "Budapest, HU",
+    "iso-region": "HU-BU",
+    "nuts2_code": "HU11",
+    "nuts3_code": "HU110"
+  },
+  {
+    "id": "Dortmund, DE",
+    "iso-region": "DE-NW",
+    "nuts2_code": "DEA5",
+    "nuts3_code": "DEA52"
+  },
+  {
+    "id": "Edremit, TR",
+    "iso-region": "TR-10",
+    "nuts2_code": "TR22",
+    "nuts3_code": "TR221"
+  },
+  {
+    "id": "Poznań, PL",
+    "iso-region": "PL-WP",
+    "nuts2_code": "PL41",
+    "nuts3_code": "PL411"
+  },
+  {
+    "id": "Vila Baleira, PT",
+    "iso-region": "PT-30",
+    "nuts2_code": "PT30",
+    "nuts3_code": "PT300"
+  },
+  {
+    "id": "Cork, IE",
+    "iso-region": "IE-CO",
+    "nuts2_code": "IE05",
+    "nuts3_code": "IE053"
+  },
+  {
+    "id": "Nowy Dwór Mazowiecki, PL",
+    "iso-region": "PL-MZ",
+    "nuts2_code": "PL92",
+    "nuts3_code": "PL921"
+  },
+  {
+    "id": "Porto, PT",
+    "iso-region": "PT-13",
+    "nuts2_code": "PT11",
+    "nuts3_code": "PT11A"
+  },
+  {
+    "id": "Culleredo, ES",
+    "iso-region": "ES-GA",
+    "nuts2_code": "ES11",
+    "nuts3_code": "ES111"
+  },
+  {
+    "id": "Örebro, SE",
+    "iso-region": "SE-T",
+    "nuts2_code": "SE12",
+    "nuts3_code": "SE124"
+  },
+  {
+    "id": "Alghero, IT",
+    "iso-region": "IT-88",
+    "nuts2_code": "ITG2",
+    "nuts3_code": "ITG25"
+  },
+  {
+    "id": "Maribor, SI",
+    "iso-region": "SI-160",
+    "nuts2_code": "SI03",
+    "nuts3_code": "SI032"
+  },
+  {
+    "id": "Malmö, SE",
+    "iso-region": "SE-M",
+    "nuts2_code": "SE22",
+    "nuts3_code": "SE224"
+  },
+  {
+    "id": "Bydgoszcz, PL",
+    "iso-region": "PL-KP",
+    "nuts2_code": "PL61",
+    "nuts3_code": "PL613"
+  },
+  {
+    "id": "Bodrum, TR",
+    "iso-region": "TR-48",
+    "nuts2_code": "TR32",
+    "nuts3_code": "TR321"
+  },
+  {
+    "id": "Amsterdam, NL",
+    "iso-region": "NL-NH",
+    "nuts2_code": "NL32",
+    "nuts3_code": "NL329"
+  },
+  {
+    "id": "Turku, FI",
+    "iso-region": "FI-19",
+    "nuts2_code": "FI19",
+    "nuts3_code": "FI197"
+  },
+  {
+    "id": "Frankfurt am Main, DE",
+    "iso-region": "DE-HE",
+    "nuts2_code": "DE71",
+    "nuts3_code": "DE712"
+  },
+  {
+    "id": "Limnos Island, GR",
+    "iso-region": "GR-K",
+    "nuts2_code": "EL41",
+    "nuts3_code": "EL411"
+  },
+  {
+    "id": "Calais, FR",
+    "iso-region": "FR-HDF",
+    "nuts2_code": "FRE1",
+    "nuts3_code": "FRE12"
+  },
+  {
+    "id": "Valladolid, ES",
+    "iso-region": "ES-CL",
+    "nuts2_code": "ES41",
+    "nuts3_code": "ES418"
+  },
+  {
+    "id": "Saint-Denis-de-l'Hôtel, Loiret, FR",
+    "iso-region": "FR-CVL",
+    "nuts2_code": "FRB0",
+    "nuts3_code": "FRB06"
+  },
+  {
+    "id": "Portimão, PT",
+    "iso-region": "PT-08",
+    "nuts2_code": "PT15",
+    "nuts3_code": "PT150"
+  },
+  {
+    "id": "Vila Real, PT",
+    "iso-region": "PT-17",
+    "nuts2_code": "PT11",
+    "nuts3_code": "PT11D"
+  },
+  {
+    "id": "La Baule-Escoublac, FR",
+    "iso-region": "FR-PDL",
+    "nuts2_code": "FRG0",
+    "nuts3_code": "FRG01"
+  },
+  {
+    "id": "Trento (TN), IT",
+    "iso-region": "IT-32",
+    "nuts2_code": "ITH2",
+    "nuts3_code": "ITH20"
+  },
+  {
+    "id": "Šiauliai, LT",
+    "iso-region": "LT-SA",
+    "nuts2_code": "LT02",
+    "nuts3_code": "LT024"
+  },
+  {
+    "id": "Tartu, EE",
+    "iso-region": "EE-7B",
+    "nuts2_code": "EE00",
+    "nuts3_code": "EE008"
+  },
+  {
+    "id": "Selçuk, TR",
+    "iso-region": "TR-35",
+    "nuts2_code": "TR31",
+    "nuts3_code": "TR310"
+  },
+  {
+    "id": "Pécs, HU",
+    "iso-region": "HU-BA",
+    "nuts2_code": "HU23",
+    "nuts3_code": "HU231"
+  },
+  {
+    "id": "Skiros Island, GR",
+    "iso-region": "GR-H",
+    "nuts2_code": "EL64",
+    "nuts3_code": "EL642"
+  },
+  {
+    "id": "Pardubice, CZ",
+    "iso-region": "CZ-PA",
+    "nuts2_code": "CZ05",
+    "nuts3_code": "CZ053"
+  },
+  {
+    "id": "Kalymnos Island, GR",
+    "iso-region": "GR-L",
+    "nuts2_code": "EL42",
+    "nuts3_code": "EL422"
+  },
+  {
+    "id": "Chalons en Champagne, FR",
+    "iso-region": "FR-GES",
+    "nuts2_code": "FRF2",
+    "nuts3_code": "FRF23"
+  },
+  {
+    "id": "Atting, DE",
+    "iso-region": "DE-BY",
+    "nuts2_code": "DE22",
+    "nuts3_code": "DE223"
+  }
+]

@@ -1,5 +1,5 @@
 import json
-from graph_creation.domain.graph import Graph, Node, Edge, FlightInEdge, FlightNumber
+from graph_creation.domain.graph import Graph, Node, Edge, FlightInEdge, FlightNumber, GraphType
 
 class GraphJsonLoader:
 
@@ -27,14 +27,17 @@ class GraphJsonLoader:
                     weight=e.get("weight", 0),
                     flights=flights_list,
                     distance=e.get("distance", 0.0),
+                    embeddings=e.get("embeddings", None),
                 )
             )
 
         return Graph(
             nodes=nodes,
             edges=edges,
+            graph_type=data.get("graph_type", GraphType.DIRECTED),
             unknown_or_non_eu_dep=data.get("unknown_or_non_eu_dep", 0),
             unknown_or_non_eu_arr=data.get("unknown_or_non_eu_arr", 0),
+            edge_embedding_columns=data.get("edge_embedding_columns", None),
             countries=data.get("countries", []),
             begin=data.get("begin"),
             end=data.get("end"),

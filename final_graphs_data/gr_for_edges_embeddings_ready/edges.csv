@@ -1,0 +1,895 @@
+id1,id2,weight,distance
+"Aberdeen, GB","Stavanger, NO",35,497.01
+"Aberdeen, GB","London, GB",135,648.13
+"Aberdeen, GB","Amsterdam, NL",55,703.2699999999999
+"Aberdeen, GB","Bergen, NO",22,548.27
+"Aberdeen, GB","Dublin, IE",24,491.91
+"Aberdeen, GB","Birmingham, West Midlands, GB",25,528.74
+"Aberdeen, GB","Manchester, Greater Manchester, GB",33,428.41
+"Alicante, ES","London, GB",141,1471.3299999999997
+"Alicante, ES","Köln (Cologne), DE",21,1524.41
+"Alicante, ES","Liverpool, GB",46,1682.9500000000003
+"Alicante, ES","Newcastle upon Tyne, Tyne and Wear, GB",27,1865.09
+"Alicante, ES","Rotterdam, NL",27,1569.31
+"Alicante, ES","Amsterdam, NL",53,1613.15
+"Alicante, ES","Dublin, IE",25,1739.79
+"Alicante, ES","Barcelona, ES",77,403.84999999999997
+"Alicante, ES","Copenhagen, DK",30,2164.54
+"Alicante, ES","Paris, FR",46,1245.77
+"Alicante, ES","Zaventem, BE",37,1458.0099999999998
+"Alicante, ES","Edinburgh, GB",26,1975.6799999999998
+"Alicante, ES","Eindhoven, NL",47,1535.7599999999998
+"Alicante, ES","Manchester, Greater Manchester, GB",84,1680.5700000000002
+"Alicante, ES","Luton, Luton, GB",41,1511.49
+"Alicante, ES","Belfast, GB",32,1865.1600000000003
+"Alicante, ES","Madrid, ES",67,359.3
+"Alicante, ES","Bristol, GB",53,1466.4
+"Alicante, ES","Palma de Mallorca, ES",44,318.2300000000001
+"Alicante, ES","Birmingham, West Midlands, GB",41,1578.5
+"Alicante, ES","Nottingham, Leicestershire, GB",26,1618.8499999999997
+"Alicante, ES","Stockholm, SE",29,2698.53
+"Alicante, ES","Warsaw, PL",26,2271.35
+"Alicante, ES","Charleroi, BE",36,1410.9900000000002
+"Alicante, ES","Oslo (Gardermoen), NO",40,2570.41
+"Alicante, ES","Glasgow, GB",21,1977.0
+"Alicante, ES","Ferno (VA), IT",24,1119.8
+"Almería, ES","Madrid, ES",44,414.84
+"Almería, ES","Seville, ES",22,318.75
+"Almería, ES","Barcelona, ES",21,626.44
+"Amsterdam, NL","Dublin, IE",171,749.71
+"Amsterdam, NL","Oslo (Gardermoen), NO",95,959.18
+"Amsterdam, NL","Munich, DE",138,664.17
+"Amsterdam, NL","Madrid, ES",144,1468.5799999999997
+"Amsterdam, NL","Liverpool, GB",24,523.89
+"Amsterdam, NL","Bergen, NO",51,888.31
+"Amsterdam, NL","London, GB",494,341.41
+"Amsterdam, NL","Caselle Torinese (TO), IT",23,818.0
+"Amsterdam, NL","Bremen, DE",38,283.48
+"Amsterdam, NL","Copenhagen, DK",156,633.38
+"Amsterdam, NL","Frankfurt am Main, DE",125,366.48
+"Amsterdam, NL","Kristiansand(Kjevik), NO",23,688.31
+"Amsterdam, NL","Seville, ES",33,1852.07
+"Amsterdam, NL","Bucharest, RO",66,1786.58
+"Amsterdam, NL","Tallinn, EE",28,1471.8700000000001
+"Amsterdam, NL","Stuttgart, DE",51,511.01
+"Amsterdam, NL","Luxembourg, LU",49,314.94999999999993
+"Amsterdam, NL","Warsaw, PL",102,1098.43
+"Amsterdam, NL","Toulouse/Blagnac, FR",42,997.47
+"Amsterdam, NL","Valencia, ES",32,1481.12
+"Amsterdam, NL","Velika Gorica, HR",23,1098.85
+"Amsterdam, NL","Geneva, CH",104,681.99
+"Amsterdam, NL","Paris, FR",187,378.01
+"Amsterdam, NL","Porto, PT",53,1594.97
+"Amsterdam, NL","Salzburg, AT",29,772.63
+"Amsterdam, NL","Billund, DK",68,477.25
+"Amsterdam, NL","Vilnius, LT",24,1377.4399999999998
+"Amsterdam, NL","Istanbul, TR",133,2213.33
+"Amsterdam, NL","Luton, Luton, GB",85,353.85
+"Amsterdam, NL","Zurich, CH",145,603.4699999999999
+"Amsterdam, NL","Göteborg, SE",54,760.16
+"Amsterdam, NL","Belfast, GB",27,759.8099999999998
+"Amsterdam, NL","Bordeaux, FR",39,923.65
+"Amsterdam, NL","Stockholm, SE",117,1142.3699999999997
+"Amsterdam, NL","Lisbon, PT",58,1846.2999999999997
+"Amsterdam, NL","Southampton, GB",32,448.49
+"Amsterdam, NL","Vienna, AT",83,959.4800000000001
+"Amsterdam, NL","Newcastle upon Tyne, Tyne and Wear, GB",61,521.9799999999999
+"Amsterdam, NL","Barcelona, ES",146,1241.14
+"Amsterdam, NL","Manchester, Greater Manchester, GB",132,486.92
+"Amsterdam, NL","Riga, LV",34,1337.18
+"Amsterdam, NL","Helsinki (Vantaa), FI",66,1521.36
+"Amsterdam, NL","Hamburg, DE",68,372.79
+"Amsterdam, NL","Colombier-Saugnieu, Rhône, FR",52,732.34
+"Amsterdam, NL","Ferno (VA), IT",31,796.6399999999999
+"Amsterdam, NL","Birmingham, West Midlands, GB",83,442.13000000000005
+"Amsterdam, NL","Zaventem, BE",38,157.65999999999997
+"Amsterdam, NL","Düsseldorf, DE",70,178.33999999999997
+"Amsterdam, NL","Cork, IE",28,906.11
+"Amsterdam, NL","Rome, IT",81,1302.7699999999998
+"Amsterdam, NL","Málaga, ES",91,1883.6599999999999
+"Amsterdam, NL","Edinburgh, GB",79,666.36
+"Amsterdam, NL","Marignane, Bouches-du-Rhône, FR",34,986.92
+"Amsterdam, NL","Balice, PL",55,1073.59
+"Amsterdam, NL","Segrate (MI), IT",139,831.08
+"Amsterdam, NL","Nuremberg, DE",54,541.6
+"Amsterdam, NL","Hannover, DE",40,334.36
+"Amsterdam, NL","Gdańsk, PL",33,936.62
+"Amsterdam, NL","Bristol, GB",71,523.83
+"Amsterdam, NL","Nantes, FR",40,733.2700000000001
+"Amsterdam, NL","Prague, CZ",92,705.0
+"Amsterdam, NL","Budapest, HU",44,1156.58
+"Amsterdam, NL","Berlin, DE",80,593.4
+"Amsterdam, NL","Bologna, IT",39,988.46
+"Amsterdam, NL","Trondheim, NO",25,1290.68
+"Amsterdam, NL","Stavanger, NO",43,732.3800000000001
+"Amsterdam, NL","Glasgow, GB",48,717.96
+"Amsterdam, NL","Firenze (FI), IT",30,1058.4
+"Amsterdam, NL","Faro, PT",24,1969.82
+"Amsterdam, NL","Spata-Artemida, GR",51,2181.75
+"Amsterdam, NL","Innsbruck, AT",35,733.08
+"Antalya, TR","Istanbul, TR",323,488.2
+"Antalya, TR","Düsseldorf, DE",29,2478.71
+"Antalya, TR","London, GB",32,2913.1099999999997
+"Balice, PL","London, GB",83,1398.3299999999997
+"Balice, PL","Dublin, IE",26,1820.41
+"Balice, PL","Luton, Luton, GB",36,1420.3800000000003
+"Balice, PL","Valletta, MT",25,1639.0
+"Balice, PL","Vienna, AT",29,320.34999999999997
+"Balice, PL","Orio al Serio (BG), IT",31,896.0899999999999
+"Balice, PL","Sandefjord(Torp), NO",21,1181.42
+"Balice, PL","Warsaw, PL",91,251.13000000000002
+"Balice, PL","Oslo (Gardermoen), NO",28,1250.58
+"Balice, PL","Copenhagen, DK",32,779.35
+"Balice, PL","Munich, DE",23,611.42
+"Balice, PL","Frankfurt am Main, DE",52,800.8
+"Balice, PL","Birmingham, West Midlands, GB",31,1515.37
+"Balice, PL","Paris, FR",45,1261.5099999999998
+"Balice, PL","Barcelona, ES",40,1679.8399999999997
+"Balice, PL","Manchester, Greater Manchester, GB",33,1556.24
+"Balice, PL","Edinburgh, GB",28,1670.98
+"Balice, PL","Bristol, GB",28,1584.06
+"Balice, PL","Rome, IT",45,1080.87
+"Balice, PL","Liverpool, GB",22,1593.86
+"Barcelona, ES","Manchester, Greater Manchester, GB",61,1379.16
+"Barcelona, ES","Caselle Torinese (TO), IT",22,625.83
+"Barcelona, ES","Bordeaux, FR",25,453.49
+"Barcelona, ES","Paris, FR",286,890.3400000000001
+"Barcelona, ES","Orio al Serio (BG), IT",44,783.84
+"Barcelona, ES","Vienna, AT",53,1369.69
+"Barcelona, ES","Munich, DE",102,1094.6299999999999
+"Barcelona, ES","Porto, PT",78,898.6600000000001
+"Barcelona, ES","London, GB",350,1146.99
+"Barcelona, ES","Dublin, IE",79,1485.69
+"Barcelona, ES","Seville, ES",122,809.28
+"Barcelona, ES","Zurich, CH",85,855.9000000000001
+"Barcelona, ES","Köln (Cologne), DE",40,1132.75
+"Barcelona, ES","Palma de Mallorca, ES",267,201.97
+"Barcelona, ES","Istanbul, TR",75,2240.68
+"Barcelona, ES","Madrid, ES",261,493.49
+"Barcelona, ES","Ibiza (Eivissa), ES",116,276.15
+"Barcelona, ES","Copenhagen, DK",58,1768.57
+"Barcelona, ES","Zaventem, BE",50,1083.78
+"Barcelona, ES","Rome, IT",175,862.19
+"Barcelona, ES","Geneva, CH",67,637.45
+"Barcelona, ES","Ferno (VA), IT",177,720.79
+"Barcelona, ES","Frankfurt am Main, DE",80,1092.54
+"Barcelona, ES","Spata-Artemida, GR",39,1904.51
+"Barcelona, ES","Bucharest, RO",31,1981.7699999999998
+"Barcelona, ES","Schkeuditz, DE",27,1366.29
+"Barcelona, ES","Málaga, ES",113,765.97
+"Barcelona, ES","Bologna, IT",45,831.32
+"Barcelona, ES","Stuttgart, DE",33,994.6600000000001
+"Barcelona, ES","Budapest, HU",54,1514.6
+"Barcelona, ES","Düsseldorf, DE",38,1167.41
+"Barcelona, ES","Berlin, DE",73,1502.44
+"Barcelona, ES","Bristol, GB",31,1179.64
+"Barcelona, ES","Prague, CZ",45,1358.0299999999997
+"Barcelona, ES","Nowy Dwór Mazowiecki, PL",22,1869.31
+"Barcelona, ES","Valencia, ES",22,295.6
+"Barcelona, ES","Warsaw, PL",42,1871.0999999999997
+"Barcelona, ES","Luxembourg, LU",26,980.33
+"Barcelona, ES","Luton, Luton, GB",34,1190.76
+"Barcelona, ES","Valletta, MT",25,1235.97
+"Barcelona, ES","Edinburgh, GB",26,1676.5800000000002
+"Barcelona, ES","Santiago de Compostela, ES",37,883.25
+"Barcelona, ES","Hamburg, DE",23,1485.59
+"Barcelona, ES","Lisbon, PT",115,994.0
+"Barcelona, ES","Birmingham, West Midlands, GB",38,1273.75
+"Barcelona, ES","Segrate (MI), IT",21,741.9700000000001
+"Barcelona, ES","Colombier-Saugnieu, Rhône, FR",28,549.0
+"Barcelona, ES","Nantes, FR",39,714.2400000000001
+"Barcelona, ES","Stockholm, SE",21,2301.82
+"Belfast, GB","London, GB",323,530.49
+"Belfast, GB","Liverpool, GB",77,254.15
+"Belfast, GB","Nottingham, Leicestershire, GB",77,369.44999999999993
+"Belfast, GB","Manchester, Greater Manchester, GB",143,284.7
+"Belfast, GB","Málaga, ES",22,2000.87
+"Belfast, GB","Edinburgh, GB",116,223.36999999999998
+"Belfast, GB","Newcastle upon Tyne, Tyne and Wear, GB",41,282.33
+"Belfast, GB","Bristol, GB",53,424.87
+"Belfast, GB","Paris, FR",24,820.25
+"Belfast, GB","Birmingham, West Midlands, GB",139,373.43
+"Belfast, GB","Glasgow, GB",67,171.03
+"Belfast, GB","Luton, Luton, GB",64,486.52
+"Belfast, GB","Southampton, GB",28,516.92
+"Bergen, NO","Stavanger, NO",180,159.29
+"Bergen, NO","Sandefjord(Torp), NO",60,307.98
+"Bergen, NO","Frankfurt am Main, DE",22,1160.78
+"Bergen, NO","Kristiansand(Kjevik), NO",62,283.74
+"Bergen, NO","London, GB",28,1029.54
+"Bergen, NO","Trondheim, NO",107,461.45000000000005
+"Bergen, NO","Oslo (Gardermoen), NO",246,324.71
+"Bergen, NO","Copenhagen, DK",66,679.5
+"Berlin, DE","Vienna, AT",80,520.53
+"Berlin, DE","Zaventem, BE",21,642.78
+"Berlin, DE","Copenhagen, DK",63,366.26
+"Berlin, DE","Frankfurt am Main, DE",195,431.24000000000007
+"Berlin, DE","Budapest, HU",31,674.12
+"Berlin, DE","Stuttgart, DE",29,508.0
+"Berlin, DE","Zurich, CH",136,650.17
+"Berlin, DE","Paris, FR",177,859.28
+"Berlin, DE","Düsseldorf, DE",22,477.81
+"Berlin, DE","Köln (Cologne), DE",52,469.36
+"Berlin, DE","Segrate (MI), IT",28,828.43
+"Berlin, DE","Madrid, ES",45,1860.57
+"Berlin, DE","Istanbul, TR",113,1716.58
+"Berlin, DE","Edinburgh, GB",24,1165.38
+"Berlin, DE","Munich, DE",131,461.96
+"Berlin, DE","Orio al Serio (BG), IT",27,793.64
+"Berlin, DE","London, GB",228,932.04
+"Berlin, DE","Dublin, IE",51,1326.82
+"Berlin, DE","Palma de Mallorca, ES",53,1645.61
+"Berlin, DE","Geneva, CH",24,865.7000000000002
+"Berlin, DE","Warsaw, PL",26,505.71
+"Berlin, DE","Rome, IT",48,1177.03
+"Berlin, DE","Spata-Artemida, GR",26,1796.72
+"Berlin, DE","Manchester, Greater Manchester, GB",41,1063.11
+"Berlin, DE","Oslo (Gardermoen), NO",30,883.2800000000001
+"Berlin, DE","Helsinki (Vantaa), FI",46,1128.86
+"Berlin, DE","Málaga, ES",34,2240.8699999999994
+"Berlin, DE","Stockholm, SE",43,840.09
+"Billund, DK","Stockholm, SE",21,668.53
+"Billund, DK","Frankfurt am Main, DE",37,636.5899999999999
+"Billund, DK","Copenhagen, DK",62,219.77
+"Billund, DK","Paris, FR",29,853.9799999999999
+"Billund, DK","London, GB",31,766.69
+"Birmingham, West Midlands, GB","Munich, DE",22,1059.84
+"Birmingham, West Midlands, GB","Frankfurt am Main, DE",47,765.72
+"Birmingham, West Midlands, GB","Dublin, IE",146,321.25
+"Birmingham, West Midlands, GB","Faro, PT",23,1783.96
+"Birmingham, West Midlands, GB","Glasgow, GB",29,418.26000000000005
+"Birmingham, West Midlands, GB","Geneva, CH",41,894.3
+"Birmingham, West Midlands, GB","Istanbul, TR",34,2632.65
+"Birmingham, West Midlands, GB","Málaga, ES",40,1767.69
+"Birmingham, West Midlands, GB","Edinburgh, GB",47,402.83
+"Birmingham, West Midlands, GB","Bucharest, RO",25,2215.29
+"Birmingham, West Midlands, GB","Paris, FR",65,448.56
+"Bologna, IT","Munich, DE",41,426.2900000000001
+"Bologna, IT","Madrid, ES",59,1307.07
+"Bologna, IT","London, GB",62,1142.85
+"Bologna, IT","Zurich, CH",21,387.8
+"Bologna, IT","Vienna, AT",24,567.61
+"Bologna, IT","Paris, FR",67,866.49
+"Bologna, IT","Rome, IT",33,317.59999999999997
+"Bologna, IT","Bucharest, RO",27,1172.58
+"Bologna, IT","Frankfurt am Main, DE",46,644.29
+"Bologna, IT","Istanbul, TR",46,1489.44
+"Bologna, IT","Lamezia Terme (CZ), IT",21,748.71
+"Bordeaux, FR","Madrid, ES",36,545.59
+"Bordeaux, FR","Marignane, Bouches-du-Rhône, FR",42,497.57
+"Bordeaux, FR","Paris, FR",119,545.72
+"Bordeaux, FR","Geneva, CH",27,553.97
+"Bordeaux, FR","Colombier-Saugnieu, Rhône, FR",67,464.97
+"Bordeaux, FR","London, GB",37,744.5099999999999
+"Bordeaux, FR","Rome, IT",23,1113.54
+"Bremen, DE","Frankfurt am Main, DE",50,336.2
+"Bremen, DE","Munich, DE",57,562.78
+"Bremen, DE","London, GB",23,624.25
+"Bremen, DE","Istanbul, TR",24,2015.78
+"Bristol, GB","Edinburgh, GB",67,509.75
+"Bristol, GB","Paris, FR",46,421.23
+"Bristol, GB","Dublin, IE",71,331.03
+"Bristol, GB","Málaga, ES",43,1641.46
+"Bristol, GB","Glasgow, GB",47,511.84999999999997
+"Bristol, GB","Newcastle upon Tyne, Tyne and Wear, GB",28,412.19
+"Bristol, GB","Geneva, CH",65,861.98
+"Bristol, GB","Madrid, ES",23,1219.86
+"Bristol, GB","Faro, PT",26,1650.3900000000003
+"Bucharest, RO","London, GB",89,2079.32
+"Bucharest, RO","Rome, IT",53,1148.7699999999998
+"Bucharest, RO","Istanbul, TR",73,452.33000000000004
+"Bucharest, RO","Zurich, CH",30,1391.11
+"Bucharest, RO","Warsaw, PL",61,934.75
+"Bucharest, RO","Prague, CZ",22,1084.12
+"Bucharest, RO","Luton, Luton, GB",50,2109.67
+"Bucharest, RO","Charleroi, BE",34,1746.3399999999997
+"Bucharest, RO","Vienna, AT",43,832.0800000000002
+"Bucharest, RO","Madrid, ES",37,2470.1499999999996
+"Bucharest, RO","Frankfurt am Main, DE",42,1452.81
+"Bucharest, RO","Paris, FR",84,1878.6899999999998
+"Bucharest, RO","Orio al Serio (BG), IT",52,1290.56
+"Bucharest, RO","Ferno (VA), IT",23,1366.83
+"Bucharest, RO","Budapest, HU",28,631.06
+"Bucharest, RO","Munich, DE",34,1173.94
+"Budapest, HU","Paris, FR",71,1259.07
+"Budapest, HU","Valletta, MT",23,1350.06
+"Budapest, HU","Dublin, IE",33,1901.87
+"Budapest, HU","Málaga, ES",24,2276.47
+"Budapest, HU","Madrid, ES",50,1976.99
+"Budapest, HU","Warsaw, PL",75,541.4399999999999
+"Budapest, HU","Luton, Luton, GB",38,1478.9800000000002
+"Budapest, HU","London, GB",116,1449.2
+"Budapest, HU","Copenhagen, DK",38,1007.11
+"Budapest, HU","Ferno (VA), IT",46,820.26
+"Budapest, HU","Vienna, AT",34,202.5
+"Budapest, HU","Istanbul, TR",80,1059.84
+"Budapest, HU","Prague, CZ",24,459.11000000000007
+"Budapest, HU","Orio al Serio (BG), IT",29,746.67
+"Budapest, HU","Spata-Artemida, GR",32,1132.6
+"Budapest, HU","Manchester, Greater Manchester, GB",31,1642.0
+"Budapest, HU","Rome, IT",56,824.45
+"Budapest, HU","Charleroi, BE",30,1117.63
+"Budapest, HU","Munich, DE",48,554.58
+"Budapest, HU","Frankfurt am Main, DE",63,823.04
+"Budapest, HU","Zurich, CH",57,793.92
+"Budapest, HU","Eindhoven, NL",24,1084.21
+"Caselle (VR), IT","Munich, DE",26,336.02000000000004
+"Caselle (VR), IT","London, GB",51,1052.57
+"Caselle (VR), IT","Paris, FR",23,781.8600000000001
+"Caselle (VR), IT","Frankfurt am Main, DE",28,543.63
+"Caselle Torinese (TO), IT","Munich, DE",25,471.18
+"Caselle Torinese (TO), IT","Paris, FR",41,611.49
+"Caselle Torinese (TO), IT","Rome, IT",49,539.38
+"Caselle Torinese (TO), IT","London, GB",92,901.82
+"Caselle Torinese (TO), IT","Frankfurt am Main, DE",24,540.91
+"Caselle Torinese (TO), IT","Madrid, ES",31,1063.91
+"Caselle Torinese (TO), IT","Lamezia Terme (CZ), IT",23,995.73
+"Charleroi, BE","Orio al Serio (BG), IT",38,660.06
+"Charleroi, BE","Manchester, Greater Manchester, GB",34,562.5
+"Charleroi, BE","Marignane, Bouches-du-Rhône, FR",28,783.1
+"Charleroi, BE","Istanbul, TR",36,2155.26
+"Charleroi, BE","Warsaw, PL",22,1158.49
+"Charleroi, BE","Málaga, ES",25,1691.54
+"Charleroi, BE","Rome, IT",30,1140.44
+"Charleroi, BE","Porto, PT",24,1440.03
+"Colombier-Saugnieu, Rhône, FR","Paris, FR",101,451.34000000000003
+"Colombier-Saugnieu, Rhône, FR","Frankfurt am Main, DE",40,543.55
+"Colombier-Saugnieu, Rhône, FR","Istanbul, TR",49,1989.08
+"Colombier-Saugnieu, Rhône, FR","London, GB",115,745.1499999999999
+"Colombier-Saugnieu, Rhône, FR","Munich, DE",38,585.22
+"Colombier-Saugnieu, Rhône, FR","Rome, IT",31,732.46
+"Colombier-Saugnieu, Rhône, FR","Madrid, ES",59,923.0199999999999
+"Colombier-Saugnieu, Rhône, FR","Toulouse/Blagnac, FR",59,375.65999999999997
+"Colombier-Saugnieu, Rhône, FR","Nantes, FR",64,537.23
+"Colombier-Saugnieu, Rhône, FR","Porto, PT",37,1215.38
+"Copenhagen, DK","Stockholm, SE",230,534.1
+"Copenhagen, DK","Vienna, AT",68,876.6400000000001
+"Copenhagen, DK","Helsinki (Vantaa), FI",117,892.1999999999999
+"Copenhagen, DK","Prague, CZ",54,622.8
+"Copenhagen, DK","Frankfurt am Main, DE",94,679.66
+"Copenhagen, DK","Göteborg, SE",53,236.27999999999997
+"Copenhagen, DK","Geneva, CH",55,1138.25
+"Copenhagen, DK","London, GB",251,953.01
+"Copenhagen, DK","Paris, FR",124,993.1600000000001
+"Copenhagen, DK","Tallinn, EE",57,838.9600000000002
+"Copenhagen, DK","Oslo (Gardermoen), NO",220,517.02
+"Copenhagen, DK","Schkeuditz, DE",21,467.55
+"Copenhagen, DK","Rome, IT",33,1536.3899999999999
+"Copenhagen, DK","Manchester, Greater Manchester, GB",71,995.05
+"Copenhagen, DK","Warsaw, PL",80,660.4300000000001
+"Copenhagen, DK","Trondheim, NO",55,877.13
+"Copenhagen, DK","Ferno (VA), IT",45,1144.1100000000001
+"Copenhagen, DK","Vilnius, LT",29,809.2399999999999
+"Copenhagen, DK","Zurich, CH",95,950.35
+"Copenhagen, DK","Düsseldorf, DE",44,618.9900000000001
+"Copenhagen, DK","Málaga, ES",61,2471.5399999999995
+"Copenhagen, DK","Dublin, IE",43,1240.78
+"Copenhagen, DK","Riga, LV",38,716.23
+"Copenhagen, DK","Orio al Serio (BG), IT",30,1125.3100000000002
+"Copenhagen, DK","Istanbul, TR",88,2008.2799999999997
+"Copenhagen, DK","Munich, DE",80,809.9100000000001
+"Copenhagen, DK","Stuttgart, DE",36,804.94
+"Copenhagen, DK","Hamburg, DE",63,287.09
+"Copenhagen, DK","Poznań, PL",28,447.53000000000003
+"Copenhagen, DK","Zaventem, BE",51,754.38
+"Copenhagen, DK","Stavanger, NO",70,555.88
+"Copenhagen, DK","Edinburgh, GB",25,1000.6299999999999
+"Copenhagen, DK","Madrid, ES",43,2068.98
+"Copenhagen, DK","Gdańsk, PL",51,395.27
+"Copenhagen, DK","Kristiansand(Kjevik), NO",33,399.44000000000005
+"Copenhagen, DK","Hannover, DE",24,400.97
+"Copenhagen, DK","Spata-Artemida, GR",30,2139.45
+"Cork, IE","London, GB",113,583.4000000000001
+"Cork, IE","Manchester, Greater Manchester, GB",24,451.64000000000004
+"Dublin, IE","London, GB",577,472.06
+"Dublin, IE","Manchester, Greater Manchester, GB",188,264.22
+"Dublin, IE","Newcastle upon Tyne, Tyne and Wear, GB",42,346.7900000000001
+"Dublin, IE","Frankfurt am Main, DE",74,1086.12
+"Dublin, IE","Southampton, GB",30,433.15
+"Dublin, IE","Glasgow, GB",93,296.03000000000003
+"Dublin, IE","Prague, CZ",28,1454.3099999999997
+"Dublin, IE","Munich, DE",55,1381.02
+"Dublin, IE","Köln (Cologne), DE",21,956.34
+"Dublin, IE","Zurich, CH",50,1237.6
+"Dublin, IE","Zaventem, BE",35,784.05
+"Dublin, IE","Istanbul, TR",49,2952.8000000000006
+"Dublin, IE","Orio al Serio (BG), IT",35,1434.08
+"Dublin, IE","Málaga, ES",61,1867.9299999999998
+"Dublin, IE","Paris, FR",139,747.1500000000001
+"Dublin, IE","Stockholm, SE",24,1620.64
+"Dublin, IE","Luton, Luton, GB",54,433.34
+"Dublin, IE","Madrid, ES",70,1458.1599999999999
+"Dublin, IE","Edinburgh, GB",134,336.25
+"Dublin, IE","Vienna, AT",24,1702.09
+"Dublin, IE","Düsseldorf, DE",27,914.7299999999999
+"Dublin, IE","Rome, IT",53,1895.46
+"Dublin, IE","Liverpool, GB",79,226.55
+"Dublin, IE","Faro, PT",36,1829.78
+"Dublin, IE","Nottingham, Leicestershire, GB",22,335.75
+"Dublin, IE","Hamburg, DE",23,1067.46
+"Dublin, IE","Geneva, CH",31,1191.38
+"Düsseldorf, DE","Ferno (VA), IT",41,645.5800000000002
+"Düsseldorf, DE","Munich, DE",107,485.81999999999994
+"Düsseldorf, DE","London, GB",106,472.85
+"Düsseldorf, DE","Zurich, CH",74,445.0899999999999
+"Düsseldorf, DE","Paris, FR",73,389.5199999999999
+"Düsseldorf, DE","Istanbul, TR",122,2040.59
+"Düsseldorf, DE","Frankfurt am Main, DE",60,188.84000000000003
+"Düsseldorf, DE","Vienna, AT",60,787.82
+"Düsseldorf, DE","Palma de Mallorca, ES",65,1341.97
+"Düsseldorf, DE","Helsinki (Vantaa), FI",28,1507.8700000000001
+"Düsseldorf, DE","Warsaw, PL",38,979.2700000000001
+"Düsseldorf, DE","Madrid, ES",48,1450.0600000000002
+"Düsseldorf, DE","Hamburg, DE",27,332.33
+"Düsseldorf, DE","Segrate (MI), IT",27,675.69
+"Düsseldorf, DE","Salzburg, AT",25,594.3500000000001
+"Edinburgh, GB","Istanbul, TR",30,2860.0
+"Edinburgh, GB","Madrid, ES",29,1725.68
+"Edinburgh, GB","London, GB",366,540.05
+"Edinburgh, GB","Rome, IT",24,1941.95
+"Edinburgh, GB","Paris, FR",71,830.13
+"Edinburgh, GB","Luton, Luton, GB",52,493.92
+"Edinburgh, GB","Frankfurt am Main, DE",29,1032.74
+"Edinburgh, GB","Geneva, CH",37,1264.18
+"Edinburgh, GB","Orio al Serio (BG), IT",22,1461.82
+"Edinburgh, GB","Southampton, GB",32,571.69
+"Eindhoven, NL","Faro, PT",22,1918.6
+"Eindhoven, NL","Innsbruck, AT",23,635.2
+"Eindhoven, NL","Málaga, ES",40,1818.7
+"Eindhoven, NL","London, GB",42,375.12
+"Faro, PT","London, GB",107,1728.37
+"Faro, PT","Manchester, Greater Manchester, GB",28,1868.69
+"Faro, PT","Porto, PT",22,474.57
+"Faro, PT","Luton, Luton, GB",28,1756.66
+"Ferno (VA), IT","Frankfurt am Main, DE",84,488.99
+"Ferno (VA), IT","Helsinki (Vantaa), FI",26,1950.22
+"Ferno (VA), IT","Luxembourg, LU",41,482.62999999999994
+"Ferno (VA), IT","London, GB",180,917.3399999999999
+"Ferno (VA), IT","Madrid, ES",110,1160.4799999999998
+"Ferno (VA), IT","Lamezia Terme (CZ), IT",54,969.52
+"Ferno (VA), IT","Zurich, CH",78,203.67
+"Ferno (VA), IT","Paris, FR",223,635.25
+"Ferno (VA), IT","Prague, CZ",42,645.67
+"Ferno (VA), IT","Munich, DE",63,381.35999999999996
+"Ferno (VA), IT","Istanbul, TR",56,1707.93
+"Ferno (VA), IT","Oslo (Gardermoen), NO",24,1626.9000000000003
+"Ferno (VA), IT","Manchester, Greater Manchester, GB",32,1167.39
+"Ferno (VA), IT","Warsaw, PL",39,1151.56
+"Ferno (VA), IT","Schkeuditz, DE",28,693.42
+"Ferno (VA), IT","Valletta, MT",22,1190.63
+"Ferno (VA), IT","Hannover, DE",21,762.69
+"Ferno (VA), IT","Málaga, ES",43,1485.77
+"Ferno (VA), IT","Rome, IT",52,518.99
+"Ferno (VA), IT","Palermo, IT",34,910.56
+"Ferno (VA), IT","Spata-Artemida, GR",62,1520.35
+"Ferno (VA), IT","Luton, Luton, GB",39,961.31
+"Ferno (VA), IT","Seville, ES",36,1517.71
+"Firenze (FI), IT","Munich, DE",25,507.40000000000003
+"Firenze (FI), IT","Paris, FR",49,916.55
+"Firenze (FI), IT","London, GB",23,1198.49
+"Frankfurt am Main, DE","Zurich, CH",164,285.62
+"Frankfurt am Main, DE","Oslo (Gardermoen), NO",61,1141.83
+"Frankfurt am Main, DE","Göteborg, SE",49,885.54
+"Frankfurt am Main, DE","Toulouse/Blagnac, FR",28,896.6999999999999
+"Frankfurt am Main, DE","Rome, IT",64,961.88
+"Frankfurt am Main, DE","Salzburg, AT",48,408.8399999999999
+"Frankfurt am Main, DE","Luxembourg, LU",57,174.06
+"Frankfurt am Main, DE","Valletta, MT",27,1647.8100000000002
+"Frankfurt am Main, DE","Istanbul, TR",139,1866.94
+"Frankfurt am Main, DE","Paris, FR",162,461.09000000000003
+"Frankfurt am Main, DE","Zgornji Brnik, SI",25,608.37
+"Frankfurt am Main, DE","Nuremberg, DE",60,190.25999999999996
+"Frankfurt am Main, DE","Poznań, PL",36,633.69
+"Frankfurt am Main, DE","Schkeuditz, DE",68,301.48
+"Frankfurt am Main, DE","Marignane, Bouches-du-Rhône, FR",31,775.52
+"Frankfurt am Main, DE","London, GB",263,626.5200000000001
+"Frankfurt am Main, DE","Geneva, CH",66,458.75
+"Frankfurt am Main, DE","Hannover, DE",59,281.82
+"Frankfurt am Main, DE","Riga, LV",32,1275.91
+"Frankfurt am Main, DE","Tallinn, EE",34,1469.63
+"Frankfurt am Main, DE","Hamburg, DE",187,406.21
+"Frankfurt am Main, DE","Manchester, Greater Manchester, GB",51,832.31
+"Frankfurt am Main, DE","Munich, DE",204,299.33
+"Frankfurt am Main, DE","Wrocław, PL",37,599.64
+"Frankfurt am Main, DE","Katowice, PL",25,749.18
+"Frankfurt am Main, DE","Stuttgart, DE",65,156.22
+"Frankfurt am Main, DE","Vienna, AT",190,620.93
+"Frankfurt am Main, DE","Stockholm, SE",64,1210.58
+"Frankfurt am Main, DE","Palma de Mallorca, ES",43,1251.07
+"Frankfurt am Main, DE","Warsaw, PL",84,896.37
+"Frankfurt am Main, DE","Thessaloniki, GR",22,1540.8299999999997
+"Frankfurt am Main, DE","Prague, CZ",82,406.96000000000004
+"Frankfurt am Main, DE","Madrid, ES",121,1430.42
+"Frankfurt am Main, DE","Segrate (MI), IT",112,512.27
+"Frankfurt am Main, DE","Zaventem, BE",46,304.27
+"Frankfurt am Main, DE","Velika Gorica, HR",38,734.5899999999999
+"Frankfurt am Main, DE","Helsinki (Vantaa), FI",72,1539.13
+"Frankfurt am Main, DE","Vilnius, LT",25,1242.79
+"Frankfurt am Main, DE","Porto, PT",30,1651.62
+"Funchal, PT","London, GB",56,2493.04
+"Funchal, PT","Porto, PT",77,1190.77
+"Funchal, PT","Lisbon, PT",126,965.15
+"Gdańsk, PL","Warsaw, PL",51,290.92
+"Gdańsk, PL","Oslo (Gardermoen), NO",21,782.7100000000002
+"Geneva, CH","Toulouse/Blagnac, FR",24,472.81
+"Geneva, CH","Paris, FR",172,446.44000000000005
+"Geneva, CH","Lisbon, PT",72,1495.67
+"Geneva, CH","Porto, PT",97,1308.6099999999997
+"Geneva, CH","London, GB",451,738.3299999999999
+"Geneva, CH","Madrid, ES",93,1020.17
+"Geneva, CH","Warsaw, PL",31,1261.93
+"Geneva, CH","Zurich, CH",122,229.79000000000002
+"Geneva, CH","Spata-Artemida, GR",35,1731.2899999999997
+"Geneva, CH","Rome, IT",53,705.48
+"Geneva, CH","Luton, Luton, GB",114,783.94
+"Geneva, CH","Munich, DE",58,488.33
+"Geneva, CH","Nice, Alpes-Maritimes, FR",30,299.78
+"Geneva, CH","Zaventem, BE",44,532.1
+"Geneva, CH","Stockholm, SE",37,1669.18
+"Geneva, CH","Málaga, ES",29,1380.3
+"Geneva, CH","Vienna, AT",33,816.92
+"Geneva, CH","Liverpool, GB",33,1016.42
+"Geneva, CH","Luxembourg, LU",27,376.89
+"Geneva, CH","Istanbul, TR",81,1918.9599999999998
+"Geneva, CH","Nantes, FR",31,597.22
+"Geneva, CH","Manchester, Greater Manchester, GB",87,992.49
+"Glasgow, GB","London, GB",285,564.45
+"Glasgow, GB","Luton, Luton, GB",44,518.02
+"Glasgow, GB","Paris, FR",25,857.72
+"Göteborg, SE","Munich, DE",35,1041.51
+"Göteborg, SE","Stockholm, SE",102,392.85
+"Göteborg, SE","Helsinki (Vantaa), FI",69,790.7
+"Göteborg, SE","London, GB",46,1039.2
+"Göteborg, SE","Paris, FR",38,1136.8
+"Hamburg, DE","Palma de Mallorca, ES",47,1651.71
+"Hamburg, DE","Istanbul, TR",85,1988.9400000000003
+"Hamburg, DE","Vienna, AT",47,766.6299999999999
+"Hamburg, DE","London, GB",103,710.8099999999998
+"Hamburg, DE","Stuttgart, DE",27,546.19
+"Hamburg, DE","Zurich, CH",88,687.7999999999998
+"Hamburg, DE","Munich, DE",152,596.01
+"Hamburg, DE","Helsinki (Vantaa), FI",34,1175.98
+"Hamburg, DE","Toulouse/Blagnac, FR",26,1270.7400000000002
+"Hamburg, DE","Paris, FR",58,712.45
+"Hamburg, DE","Warsaw, PL",36,754.11
+"Hamburg, DE","Madrid, ES",28,1782.3500000000001
+"Hannover, DE","Paris, FR",44,628.42
+"Hannover, DE","Munich, DE",66,480.31
+"Hannover, DE","Istanbul, TR",54,1929.6099999999997
+"Hannover, DE","London, GB",29,673.99
+"Hannover, DE","Zurich, CH",27,562.21
+"Hannover, DE","Palma de Mallorca, ES",27,1530.69
+"Hannover, DE","Vienna, AT",25,687.41
+"Helsinki (Vantaa), FI","Stockholm, SE",197,401.99
+"Helsinki (Vantaa), FI","Istanbul, TR",38,2160.1400000000003
+"Helsinki (Vantaa), FI","Riga, LV",95,377.82
+"Helsinki (Vantaa), FI","Warsaw, PL",43,934.02
+"Helsinki (Vantaa), FI","London, GB",84,1823.5799999999997
+"Helsinki (Vantaa), FI","Zurich, CH",29,1778.9599999999998
+"Helsinki (Vantaa), FI","Oslo (Gardermoen), NO",76,763.4900000000001
+"Helsinki (Vantaa), FI","Paris, FR",86,1885.36
+"Helsinki (Vantaa), FI","Rome, IT",24,2228.87
+"Helsinki (Vantaa), FI","Munich, DE",58,1574.64
+"Helsinki (Vantaa), FI","Málaga, ES",37,3352.7199999999993
+"Helsinki (Vantaa), FI","Vienna, AT",29,1460.34
+"Helsinki (Vantaa), FI","Vilnius, LT",38,632.35
+"Helsinki (Vantaa), FI","Zaventem, BE",25,1646.58
+"Helsinki (Vantaa), FI","Manchester, Greater Manchester, GB",26,1812.07
+"Ibiza (Eivissa), ES","Valencia, ES",24,173.88
+"Ibiza (Eivissa), ES","Madrid, ES",89,465.85999999999996
+"Innsbruck, AT","London, GB",91,948.5300000000001
+"Innsbruck, AT","Vienna, AT",41,402.35
+"Innsbruck, AT","Rotterdam, NL",24,720.78
+"Istanbul, TR","Stuttgart, DE",93,1764.67
+"Istanbul, TR","Köln (Cologne), DE",107,1996.9100000000003
+"Istanbul, TR","Marignane, Bouches-du-Rhône, FR",41,1965.59
+"Istanbul, TR","Rome, IT",92,1378.74
+"Istanbul, TR","Zgornji Brnik, SI",30,1298.23
+"Istanbul, TR","Munich, DE",112,1576.2400000000002
+"Istanbul, TR","Warsaw, PL",61,1382.6299999999999
+"Istanbul, TR","Vienna, AT",108,1253.8800000000003
+"Istanbul, TR","Madrid, ES",87,2734.0999999999995
+"Istanbul, TR","London, GB",268,2490.8999999999996
+"Istanbul, TR","Vilnius, LT",23,1534.7299999999998
+"Istanbul, TR","Málaga, ES",27,2918.77
+"Istanbul, TR","Stockholm, SE",59,2189.48
+"Istanbul, TR","Paris, FR",194,2270.2900000000004
+"Istanbul, TR","Thessaloniki, GR",25,507.2300000000001
+"Istanbul, TR","Spata-Artemida, GR",103,551.74
+"Istanbul, TR","Schkeuditz, DE",28,1720.18
+"Istanbul, TR","Riga, LV",26,1803.89
+"Istanbul, TR","Valletta, MT",34,1383.74
+"Istanbul, TR","Manchester, Greater Manchester, GB",63,2696.0499999999997
+"Istanbul, TR","Prague, CZ",77,1518.73
+"Istanbul, TR","Zaventem, BE",51,2170.47
+"Istanbul, TR","Porto, PT",26,3126.32
+"Istanbul, TR","Zurich, CH",97,1767.86
+"Istanbul, TR","Oslo (Gardermoen), NO",39,2455.6099999999997
+"Istanbul, TR","Seville, ES",25,3008.24
+"Istanbul, TR","Nuremberg, DE",42,1678.49
+"Istanbul, TR","Orio al Serio (BG), IT",38,1633.86
+"Katowice, PL","Warsaw, PL",52,232.62000000000003
+"Katowice, PL","London, GB",25,1339.48
+"Kristiansand(Kjevik), NO","Oslo (Gardermoen), NO",47,279.98
+"Köln (Cologne), DE","Munich, DE",64,435.70000000000005
+"Köln (Cologne), DE","Orio al Serio (BG), IT",30,608.14
+"Köln (Cologne), DE","London, GB",102,505.65
+"Köln (Cologne), DE","Palma de Mallorca, ES",63,1303.9200000000003
+"Köln (Cologne), DE","Vienna, AT",48,745.99
+"Köln (Cologne), DE","Nottingham, Leicestershire, GB",38,621.08
+"Köln (Cologne), DE","Rome, IT",23,1085.68
+"Köln (Cologne), DE","Schkeuditz, DE",32,360.32
+"Köln (Cologne), DE","Paris, FR",39,389.97
+"Lamezia Terme (CZ), IT","Rome, IT",38,456.59
+"Lamezia Terme (CZ), IT","Segrate (MI), IT",27,925.7799999999999
+"Lamezia Terme (CZ), IT","Orio al Serio (BG), IT",37,923.7999999999998
+"Larnaca, CY","London, GB",66,3252.31
+"Larnaca, CY","Spata-Artemida, GR",140,930.2199999999999
+"Larnaca, CY","Thessaloniki, GR",32,1126.84
+"Larnaca, CY","Warsaw, PL",22,2175.43
+"Larnaca, CY","Munich, DE",22,2339.52
+"Düsseldorf, DE","Lisbon, PT",21,1861.7300000000002
+"Lisbon, PT","Paris, FR",191,1478.72
+"Frankfurt am Main, DE","Lisbon, PT",58,1872.71
+"Lisbon, PT","Munich, DE",50,1983.6100000000001
+"Lisbon, PT","Porto, PT",130,277.01
+"Lisbon, PT","Madrid, ES",198,502.13999999999993
+"Lisbon, PT","Zurich, CH",60,1723.08
+"Berlin, DE","Lisbon, PT",28,2303.19
+"Lisbon, PT","Zaventem, BE",25,1717.4699999999998
+"Lisbon, PT","Rome, IT",66,1854.0400000000002
+"Lisbon, PT","Toulouse/Blagnac, FR",24,1029.41
+"Lisbon, PT","London, GB",176,1581.9700000000003
+"Lisbon, PT","Marignane, Bouches-du-Rhône, FR",24,1306.64
+"Ferno (VA), IT","Lisbon, PT",60,1651.71
+"Lisbon, PT","Manchester, Greater Manchester, GB",32,1702.15
+"Lisbon, PT","Málaga, ES",27,470.18
+"Dublin, IE","Lisbon, PT",52,1643.37
+"Colombier-Saugnieu, Rhône, FR","Lisbon, PT",29,1399.35
+"Lisbon, PT","Luton, Luton, GB",22,1606.45
+"Faro, PT","Lisbon, PT",38,221.32
+"Lisbon, PT","Warsaw, PL",23,2749.1
+"Copenhagen, DK","Lisbon, PT",25,2471.7999999999997
+"Lisbon, PT","Vienna, AT",23,2305.01
+"Istanbul, TR","Lisbon, PT",22,3232.59
+"Lisbon, PT","Luxembourg, LU",34,1711.6
+"Liverpool, GB","Málaga, ES",25,1856.91
+"London, GB","Porto, PT",88,1317.39
+"London, GB","Stockholm, SE",182,1431.46
+"London, GB","Málaga, ES",199,1686.65
+"London, GB","Stuttgart, DE",50,730.7
+"London, GB","Segrate (MI), IT",241,961.1899999999999
+"London, GB","Luxembourg, LU",118,488.62
+"London, GB","Prague, CZ",126,1015.4900000000001
+"London, GB","Marignane, Bouches-du-Rhône, FR",68,979.9100000000001
+"London, GB","Zaventem, BE",67,322.49
+"London, GB","Nice, Alpes-Maritimes, FR",44,1027.67
+"London, GB","Vienna, AT",143,1247.34
+"London, GB","Munich, DE",229,915.1500000000001
+"London, GB","Paris, FR",367,294.11000000000007
+"London, GB","Valletta, MT",104,2089.07
+"London, GB","Toulouse/Blagnac, FR",62,882.51
+"London, GB","Seville, ES",84,1632.89
+"London, GB","Palma de Mallorca, ES",62,1346.89
+"London, GB","Madrid, ES",370,1262.96
+"London, GB","Rome, IT",227,1434.95
+"London, GB","Valencia, ES",40,1337.0
+"London, GB","Nantes, FR",46,497.48
+"London, GB","Warsaw, PL",91,1437.7300000000002
+"London, GB","Manchester, Greater Manchester, GB",128,254.66999999999993
+"London, GB","Rotterdam, NL",46,312.45
+"London, GB","Zurich, CH",347,766.0399999999998
+"London, GB","Orio al Serio (BG), IT",64,966.03
+"London, GB","Spata-Artemida, GR",129,2403.5
+"London, GB","Oslo (Gardermoen), NO",166,1186.72
+"London, GB","Thessaloniki, GR",25,2142.06
+"London, GB","Riga, LV",46,1666.4399999999998
+"London, GB","Newcastle upon Tyne, Tyne and Wear, GB",84,407.34
+"London, GB","Wrocław, PL",39,1174.74
+"London, GB","Salzburg, AT",82,1024.28
+"London, GB","Nuremberg, DE",27,816.72
+"London, GB","Poznań, PL",26,1157.3
+"Luton, Luton, GB","Wrocław, PL",22,1194.62
+"Luton, Luton, GB","Prague, CZ",23,1040.86
+"Luton, Luton, GB","Paris, FR",77,340.35
+"Luton, Luton, GB","Málaga, ES",32,1721.12
+"Luton, Luton, GB","Warsaw, PL",38,1452.28
+"Luton, Luton, GB","Zurich, CH",23,807.12
+"Luton, Luton, GB","Segrate (MI), IT",21,1004.8600000000001
+"Luxembourg, LU","Munich, DE",46,430.51
+"Luxembourg, LU","Porto, PT",68,1484.81
+"Luxembourg, LU","Zurich, CH",24,296.16
+"Luxembourg, LU","Vienna, AT",32,775.44
+"Luxembourg, LU","Madrid, ES",27,1282.01
+"Luxembourg, LU","Segrate (MI), IT",22,518.6799999999998
+"Luxembourg, LU","Paris, FR",39,288.7
+"Madrid, ES","Paris, FR",330,1090.58
+"Madrid, ES","Vienna, AT",57,1816.55
+"Madrid, ES","Zaventem, BE",80,1323.8600000000001
+"Madrid, ES","Zurich, CH",105,1249.91
+"Madrid, ES","Prague, CZ",52,1760.57
+"Madrid, ES","Málaga, ES",132,423.82000000000005
+"Madrid, ES","Manchester, Greater Manchester, GB",43,1440.1999999999998
+"Madrid, ES","Rome, IT",211,1355.46
+"Madrid, ES","Porto, PT",146,430.45
+"Madrid, ES","Palma de Mallorca, ES",271,555.27
+"Madrid, ES","Oslo (Gardermoen), NO",22,2422.28
+"Madrid, ES","Orio al Serio (BG), IT",32,1231.66
+"Madrid, ES","Seville, ES",79,386.0
+"Madrid, ES","Munich, DE",106,1507.29
+"Madrid, ES","Segrate (MI), IT",55,1190.88
+"Madrid, ES","Spata-Artemida, GR",40,2387.1199999999994
+"Madrid, ES","Marignane, Bouches-du-Rhône, FR",42,807.2899999999998
+"Madrid, ES","Toulouse/Blagnac, FR",44,547.38
+"Madrid, ES","Santiago de Compostela, ES",41,479.3399999999999
+"Madrid, ES","Warsaw, PL",28,2281.93
+"Madrid, ES","Valletta, MT",27,1665.34
+"Madrid, ES","Nantes, FR",37,765.49
+"Madrid, ES","Valencia, ES",64,291.99
+"Manchester, Greater Manchester, GB","Prague, CZ",53,1191.92
+"Manchester, Greater Manchester, GB","Paris, FR",120,548.7400000000001
+"Manchester, Greater Manchester, GB","Munich, DE",38,1130.1300000000003
+"Manchester, Greater Manchester, GB","Rome, IT",40,1686.03
+"Manchester, Greater Manchester, GB","Valletta, MT",30,2343.31
+"Manchester, Greater Manchester, GB","Oslo (Gardermoen), NO",28,1111.5200000000002
+"Manchester, Greater Manchester, GB","Zurich, CH",48,1007.0599999999998
+"Manchester, Greater Manchester, GB","Málaga, ES",54,1862.0800000000002
+"Marignane, Bouches-du-Rhône, FR","Paris, FR",186,690.55
+"Marignane, Bouches-du-Rhône, FR","Nantes, FR",48,674.48
+"Marignane, Bouches-du-Rhône, FR","Toulouse/Blagnac, FR",21,310.95
+"Marignane, Bouches-du-Rhône, FR","Munich, DE",24,746.16
+"Munich, DE","Paris, FR",140,705.65
+"Munich, DE","Poznań, PL",24,576.01
+"Munich, DE","Stuttgart, DE",46,192.5
+"Munich, DE","Oslo (Gardermoen), NO",51,1317.29
+"Munich, DE","Thessaloniki, GR",24,1241.52
+"Munich, DE","Toulouse/Blagnac, FR",28,960.12
+"Munich, DE","Palma de Mallorca, ES",49,1215.74
+"Munich, DE","Spata-Artemida, GR",78,1517.68
+"Munich, DE","Warsaw, PL",81,778.4
+"Munich, DE","Segrate (MI), IT",48,375.39000000000004
+"Munich, DE","Wrocław, PL",32,476.95
+"Munich, DE","Zurich, CH",85,261.08000000000004
+"Munich, DE","Valletta, MT",38,1408.3600000000001
+"Munich, DE","Stockholm, SE",54,1301.9600000000003
+"Munich, DE","Velika Gorica, HR",37,435.28
+"Munich, DE","Zaventem, BE",43,596.98
+"Munich, DE","Vienna, AT",58,355.29
+"Munich, DE","Rome, IT",81,730.2800000000001
+"Munich, DE","Prague, CZ",35,264.56
+"Málaga, ES","Warsaw, PL",36,2633.16
+"Málaga, ES","Vienna, AT",30,2135.47
+"Málaga, ES","Oslo (Gardermoen), NO",36,2840.53
+"Málaga, ES","Stockholm, SE",55,3004.0800000000004
+"Málaga, ES","Rotterdam, NL",23,1838.7300000000002
+"Málaga, ES","Palma de Mallorca, ES",41,709.1299999999999
+"Málaga, ES","Zurich, CH",30,1607.35
+"Málaga, ES","Zaventem, BE",26,1735.4800000000002
+"Málaga, ES","Rome, IT",26,1561.62
+"Málaga, ES","Paris, FR",96,1506.12
+"Málaga, ES","Prague, CZ",39,2116.15
+"Nantes, FR","Paris, FR",89,372.54
+"Nantes, FR","Porto, PT",29,864.62
+"Nantes, FR","Toulouse/Blagnac, FR",39,455.44999999999993
+"Newcastle upon Tyne, Tyne and Wear, GB","Paris, FR",49,691.63
+"Newcastle upon Tyne, Tyne and Wear, GB","Southampton, GB",26,455.07
+"Nottingham, Leicestershire, GB","Schkeuditz, DE",49,937.4599999999999
+"Nottingham, Leicestershire, GB","Paris, FR",23,464.97
+"Nowy Dwór Mazowiecki, PL","Valletta, MT",26,1908.98
+"Nowy Dwór Mazowiecki, PL","Orio al Serio (BG), IT",40,1095.25
+"Nuremberg, DE","Paris, FR",39,638.96
+"Nuremberg, DE","Palma de Mallorca, ES",24,1286.76
+"Orio al Serio (BG), IT","Palermo, IT",22,884.87
+"Orio al Serio (BG), IT","Warsaw, PL",26,1094.42
+"Orio al Serio (BG), IT","Stockholm, SE",22,1632.4699999999998
+"Orio al Serio (BG), IT","Prague, CZ",29,598.07
+"Orio al Serio (BG), IT","Vienna, AT",24,587.48
+"Oslo (Gardermoen), NO","Stavanger, NO",202,340.88
+"Oslo (Gardermoen), NO","Trondheim, NO",234,363.05000000000007
+"Oslo (Gardermoen), NO","Stockholm, SE",169,389.25
+"Oslo (Gardermoen), NO","Zurich, CH",28,1425.76
+"Oslo (Gardermoen), NO","Paris, FR",79,1334.9200000000003
+"Oslo (Gardermoen), NO","Riga, LV",34,829.35
+"Oslo (Gardermoen), NO","Warsaw, PL",27,1073.11
+"Palma de Mallorca, ES","Vienna, AT",33,1457.75
+"Palma de Mallorca, ES","Paris, FR",25,1085.01
+"Palma de Mallorca, ES","Zurich, CH",43,995.51
+"Palma de Mallorca, ES","Valencia, ES",48,276.25
+"Palma de Mallorca, ES","Seville, ES",54,787.51
+"Palma de Mallorca, ES","Stuttgart, DE",29,1139.3
+"Paris, FR","Stockholm, SE",94,1514.5899999999997
+"Nice, Alpes-Maritimes, FR","Paris, FR",128,733.56
+"Paris, FR","Valencia, ES",41,1112.4
+"Paris, FR","Zurich, CH",117,508.3
+"Paris, FR","Rome, IT",280,1148.49
+"Paris, FR","Segrate (MI), IT",241,680.82
+"Paris, FR","Toulouse/Blagnac, FR",357,634.54
+"Paris, FR","Zaventem, BE",23,238.78000000000003
+"Paris, FR","Warsaw, PL",103,1349.75
+"Paris, FR","Vienna, AT",107,1057.63
+"Paris, FR","Prague, CZ",108,867.45
+"Paris, FR","Seville, ES",74,1474.33
+"Paris, FR","Porto, PT",164,1235.96
+"Paris, FR","Valletta, MT",25,1796.14
+"Paris, FR","Stuttgart, DE",28,513.15
+"Paris, FR","Schkeuditz, DE",22,745.67
+"Paris, FR","Spata-Artemida, GR",68,2143.15
+"Porto, PT","Rome, IT",27,1753.6199999999997
+"Porto, PT","Zurich, CH",58,1529.51
+"Poznań, PL","Warsaw, PL",58,280.49
+"Prague, CZ","Spata-Artemida, GR",21,1555.64
+"Prague, CZ","Rome, IT",57,933.61
+"Prague, CZ","Zurich, CH",54,511.1600000000001
+"Prague, CZ","Warsaw, PL",71,521.4700000000001
+"Prague, CZ","Zaventem, BE",25,696.5699999999999
+"Prague, CZ","Vienna, AT",34,277.93
+"Riga, LV","Warsaw, PL",37,563.02
+"Riga, LV","Tallinn, EE",57,277.33000000000004
+"Riga, LV","Stockholm, SE",50,454.8399999999999
+"Riga, LV","Vienna, AT",27,1103.76
+"Riga, LV","Vilnius, LT",50,269.96
+"Palermo, IT","Rome, IT",72,411.87
+"Rome, IT","Segrate (MI), IT",180,477.7099999999999
+"Rome, IT","Seville, ES",38,1639.35
+"Rome, IT","Valencia, ES",28,1117.53
+"Rome, IT","Vienna, AT",44,773.35
+"Rome, IT","Valletta, MT",70,685.9800000000001
+"Rome, IT","Zaventem, BE",49,1179.6
+"Rome, IT","Zurich, CH",78,699.5300000000001
+"Nice, Alpes-Maritimes, FR","Rome, IT",36,472.7099999999999
+"Rome, IT","Warsaw, PL",51,1323.8299999999997
+"Rome, IT","Spata-Artemida, GR",74,1071.91
+"Rotterdam, NL","Salzburg, AT",29,768.09
+"Sandefjord(Torp), NO","Stavanger, NO",25,266.57
+"Santiago de Compostela, ES","Seville, ES",22,645.6799999999998
+"Segrate (MI), IT","Vienna, AT",58,629.1099999999999
+"Segrate (MI), IT","Zaventem, BE",51,702.77
+"Palermo, IT","Segrate (MI), IT",27,874.14
+"Seville, ES","Valencia, ES",33,524.41
+"Düsseldorf, DE","Spata-Artemida, GR",21,2003.4200000000003
+"Frankfurt am Main, DE","Spata-Artemida, GR",77,1815.7899999999997
+"Spata-Artemida, GR","Thessaloniki, GR",201,299.2099999999999
+"Spata-Artemida, GR","Vienna, AT",47,1278.8899999999999
+"Spata-Artemida, GR","Zaventem, BE",28,2101.43
+"Bucharest, RO","Spata-Artemida, GR",32,755.7900000000001
+"Spata-Artemida, GR","Warsaw, PL",28,1605.0800000000002
+"Spata-Artemida, GR","Zurich, CH",51,1639.14
+"Stavanger, NO","Trondheim, NO",26,582.5200000000001
+"Stockholm, SE","Vilnius, LT",24,699.4300000000002
+"Stockholm, SE","Zaventem, BE",27,1277.08
+"Stockholm, SE","Zurich, CH",65,1472.9
+"Stockholm, SE","Tallinn, EE",59,389.7
+"Stockholm, SE","Warsaw, PL",33,831.11
+"Stockholm, SE","Vienna, AT",23,1269.74
+"Stuttgart, DE","Vienna, AT",38,546.05
+"Tallinn, EE","Vilnius, LT",30,532.1200000000001
+"Tallinn, EE","Warsaw, PL",34,835.9699999999999
+"Valletta, MT","Warsaw, PL",22,1890.09
+"Valletta, MT","Vienna, AT",25,1374.37
+"Velika Gorica, HR","Vienna, AT",25,265.96999999999997
+"Velika Gorica, HR","Zurich, CH",22,605.11
+"Barcelona, ES","Venezia (VE), IT",46,951.75
+"Rome, IT","Venezia (VE), IT",44,411.87
+"Frankfurt am Main, DE","Venezia (VE), IT",32,577.01
+"Paris, FR","Venezia (VE), IT",97,868.79
+"London, GB","Venezia (VE), IT",97,1128.68
+"Amsterdam, NL","Venezia (VE), IT",26,936.9100000000001
+"Istanbul, TR","Venezia (VE), IT",31,1429.3100000000002
+"Madrid, ES","Venezia (VE), IT",60,1417.85
+"Venezia (VE), IT","Zurich, CH",26,363.21
+"Venezia (VE), IT","Vienna, AT",26,432.25999999999993
+"Munich, DE","Venezia (VE), IT",24,319.64
+"Vienna, AT","Zaventem, BE",39,924.88
+"Vienna, AT","Zurich, CH",106,603.4300000000001
+"Vienna, AT","Warsaw, PL",86,552.36
+"Vilnius, LT","Warsaw, PL",64,393.86
+"Warsaw, PL","Zurich, CH",66,1032.15
+"Warsaw, PL","Zaventem, BE",45,1144.23
+"Warsaw, PL","Wrocław, PL",82,305.84
+"Zgornji Brnik, SI","Zurich, CH",28,469.83
+"Nice, Alpes-Maritimes, FR","Zurich, CH",26,435.03
+"Zaventem, BE","Zurich, CH",34,483.41999999999996
+"Copenhagen, DK","Salzburg, AT",25,870.38
+"Lisbon, PT","Seville, ES",28,321.68000000000006
+"London, GB","Schkeuditz, DE",27,849.42
+"Schkeuditz, DE","Zaventem, BE",28,543.14

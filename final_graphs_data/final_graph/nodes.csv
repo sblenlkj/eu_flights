@@ -1,0 +1,372 @@
+id,name,iso_country,iso_region,latitude,longitude,airports,airports_count,node_degree,node_type,weighted_degree
+"Tymbou (Kirklar), CY",Tymbou (Kirklar),CY,CY-02,35.153064,33.507352,LCEN,1,6,medium,367
+"Warsaw, PL",Warsaw,PL,PL-MZ,52.217449,20.9371515,"EPBC, EPWA",2,101,large,2552
+"Saint-Nazaire/Montoir, FR",Saint-Nazaire/Montoir,FR,FR-PDL,47.31142,-2.152634,LFRZ,1,3,small,29
+"Skellefteå, SE",Skellefteå,SE,SE-AC,64.62480163574219,21.076900482177734,ESNS,1,5,medium,55
+"Memmingen, DE",Memmingen,DE,DE-BY,47.988092,10.238248,EDJA,1,40,medium,158
+"Blackpool, GB",Blackpool,GB,GB-ENG,53.771702,-3.02861,EGNH,1,12,small,16
+"Southend-on-Sea, Essex, GB","Southend-on-Sea, Essex",GB,GB-ENG,51.570562,0.693627,EGMC,1,24,medium,91
+"Staverton, Gloucestershire, GB","Staverton, Gloucestershire",GB,GB-ENG,51.894199,-2.16722,EGBJ,1,14,small,19
+"Foggia (FG), IT",Foggia (FG),IT,IT-75,41.433596,15.534566,LIBF,1,4,small,22
+"Brno, CZ",Brno,CZ,CZ-JM,49.151276,16.693972,LKTB,1,21,medium,52
+"Pisa (PI), IT",Pisa (PI),IT,IT-52,43.683899,10.3927,LIRP,1,56,medium,312
+"Akrotiri, CY",Akrotiri,CY,CY-XX,34.590401,32.9879,LCRA,1,5,small,33
+"Chassieu, Lyon, FR","Chassieu, Lyon",FR,FR-ARA,45.727947,4.943991,LFLY,1,41,medium,69
+"Capannori (LU), IT",Capannori (LU),IT,IT-52,43.825825,10.577928,LIQL,1,20,small,51
+"Napoli, IT",Napoli,IT,IT-72,40.886002,14.2908,LIRN,1,38,medium,139
+"Riga, LV",Riga,LV,LV-062,56.955926000000005,24.022856,"EVRA, EVRS",2,63,large,846
+"Oslo (Gardermoen), NO",Oslo (Gardermoen),NO,NO-32,60.193901,11.1004,ENGM,1,83,large,2555
+"Győr, HU",Győr,HU,HU-GS,47.628436,17.804718,LHPR,1,9,small,10
+"Palanga, LT",Palanga,LT,LT-KL,55.973202,21.093901,EYPA,1,8,small,60
+"Ponta Delgada, PT",Ponta Delgada,PT,PT-20,37.7411994934,-25.6979007721,LPPD,1,7,medium,35
+"Hradec Králové, CZ",Hradec Králové,CZ,CZ-KR,50.253201,15.8452,LKHK,1,6,small,6
+"Faro, PT",Faro,PT,PT-08,37.015909,-7.970939,LPFR,1,79,large,675
+"Newcastle upon Tyne, Tyne and Wear, GB","Newcastle upon Tyne, Tyne and Wear",GB,GB-ENG,55.037958,-1.689577,EGNT,1,63,large,535
+"Caselle Torinese (TO), IT",Caselle Torinese (TO),IT,IT-21,45.200802,7.64963,LIMF,1,70,large,608
+"London, GB",London,GB,GB-ENG,51.50920626285,-0.042626875149012505,"EGKB, EGKK, EGLC, EGLL, EGML, EGSG, EGSS, EGWU",8,205,large,11694
+"Beja, PT",Beja,PT,PT-02,38.078899,-7.9324,LPBJ,1,2,small,3
+"Genova (GE), IT",Genova (GE),IT,IT-42,44.412039,8.840732,LIMJ,1,33,medium,171
+"Cardiff, GB",Cardiff,GB,GB-WLS,51.396702,-3.34333,EGFF,1,29,medium,155
+"Reggio Calabria, IT",Reggio Calabria,IT,IT-78,38.071201,15.6516,LICR,1,17,medium,116
+"Leirvik, NO",Leirvik,NO,NO-46,59.791901,5.34085,ENSO,1,1,small,28
+"Almería, ES",Almería,ES,ES-AN,36.843899,-2.3701,LEAM,1,16,medium,122
+"Norwich, Norfolk, GB","Norwich, Norfolk",GB,GB-ENG,52.6758,1.28278,EGSH,1,19,medium,91
+"Glasgow, GB",Glasgow,GB,GB-SCT,55.871899,-4.43306,EGPF,1,57,large,865
+"Sylt, DE",Sylt,DE,DE-SH,54.9132,8.34047,EDXW,1,16,small,24
+"Dresden, DE",Dresden,DE,DE-SN,51.134123,13.767831,EDDC,1,32,medium,140
+"Rimini (RN), IT",Rimini (RN),IT,IT-45,44.020024,12.612198,LIPR,1,9,small,11
+"Dole, FR",Dole,FR,FR-BFC,47.038955,5.427589,LFGJ,1,7,small,10
+"Ordu, TR",Ordu,TR,TR-52,40.966872,38.085995,LTCB,1,4,small,43
+"Dublin, IE",Dublin,IE,IE-D,53.428713,-6.262121,EIDW,1,123,large,3432
+"Inverness, GB",Inverness,GB,GB-SCT,57.5425,-4.0475,EGPE,1,11,medium,119
+"Kokkola / Kruunupyy, FI",Kokkola / Kruunupyy,FI,FI-07,63.721199,23.143101,EFKK,1,1,small,22
+"Montpellier/Méditerranée, FR",Montpellier/Méditerranée,FR,FR-OCC,43.576199,3.96301,LFMT,1,28,medium,163
+"Ranón, ES",Ranón,ES,ES-AS,43.563599,-6.03462,LEAS,1,20,medium,108
+"Falconara Marittima (AN), IT",Falconara Marittima (AN),IT,IT-57,43.616299,13.3623,LIPY,1,13,medium,65
+"Lübeck, DE",Lübeck,DE,DE-SH,53.805401,10.7192,EDHL,1,16,small,29
+"Madrid, ES",Madrid,ES,ES-MD,40.432053999999994,-3.6786944999999998,"LECU, LEMD",2,136,large,5069
+"Retford, Nottinghamshire, GB","Retford, Nottinghamshire",GB,GB-ENG,53.280602,-0.951389,EGNE,1,8,small,8
+"Leeds, West Yorkshire, GB","Leeds, West Yorkshire",GB,GB-ENG,53.865898,-1.66057,EGNM,1,40,large,358
+"Prestwick, South Ayrshire, GB","Prestwick, South Ayrshire",GB,GB-SCT,55.501499,-4.577182,EGPK,1,28,medium,62
+"Bordeaux, FR",Bordeaux,FR,FR-NAQ,44.82865,-0.715356,LFBD,1,56,large,642
+"Forlì (FC), IT",Forlì (FC),IT,IT-45,44.194801,12.0701,LIPK,1,7,small,14
+"Brest, FR",Brest,FR,FR-BRE,48.447899,-4.41854,LFRB,1,16,medium,124
+"Melilla, ES",Melilla,ES,ES-ML,35.2798,-2.95626,GEML,1,12,medium,83
+"Bacău, RO",Bacău,RO,RO-BC,46.5219,26.910299,LRBC,1,10,small,28
+"L'Hôpital-le-Mercier, Saône-et-Loire, FR","L'Hôpital-le-Mercier, Saône-et-Loire",FR,FR-BFC,46.414019,4.014177,LFLN,1,7,small,12
+"Le Mans, Sarthe, FR","Le Mans, Sarthe",FR,FR-PDL,47.948604,0.201702,LFRM,1,4,small,10
+"Valencia, ES",Valencia,ES,ES-VC,39.489162,-0.480961,LEVC,1,71,large,624
+"Alava, ES",Alava,ES,ES-PV,42.882801,-2.72447,LEVT,1,16,medium,36
+"Frankfurt am Main (Lautzenhausen), DE",Frankfurt am Main (Lautzenhausen),DE,DE-RP,49.946353,7.261734,EDFH,1,32,medium,125
+"Copenhagen, DK",Copenhagen,DK,DK-84,55.617900848389,12.656000137329,EKCH,1,98,large,3688
+"Saint-Tropez, FR",Saint-Tropez,FR,FR-PAC,43.205399,6.482,LFTZ,1,19,medium,31
+"Málaga, ES",Málaga,ES,ES-AN,36.6749,-4.49911,LEMG,1,138,large,2343
+"Oostende, BE",Oostende,BE,BE-VWV,51.1998,2.874673,EBOS,1,24,medium,55
+"Weert, NL",Weert,NL,NL-NB,51.255299,5.60139,EHBD,1,10,small,10
+"Caen, FR",Caen,FR,FR-NOR,49.17678,-0.454883,LFRK,1,8,medium,33
+"Wiener Neustadt, AT",Wiener Neustadt,AT,AT-3,47.8401165,16.2409685,"LOAN, LOXN",2,7,small,11
+"Kos Island, GR",Kos Island,GR,GR-L,36.794523,27.09115,LGKO,1,3,medium,56
+"Weßling, DE",Weßling,DE,DE-BY,48.081402,11.2831,EDMO,1,48,medium,69
+"Kiruna, SE",Kiruna,SE,SE-BD,67.821999,20.3368,ESNQ,1,5,small,16
+"King's Lynn, Norfolk, GB","King's Lynn, Norfolk",GB,GB-ENG,52.648395,0.550692,EGYM,1,3,small,3
+"Montichiari (BS), IT",Montichiari (BS),IT,IT-25,45.428902,10.3306,LIPO,1,21,small,33
+"Tarbes/Lourdes/Pyrénées, FR",Tarbes/Lourdes/Pyrénées,FR,FR-OCC,43.178699,-0.006439,LFBT,1,13,medium,41
+"Pau/Pyrénées (Uzein), FR",Pau/Pyrénées (Uzein),FR,FR-NAQ,43.380001,-0.418611,LFBP,1,5,medium,83
+"Rodez/Marcillac, FR",Rodez/Marcillac,FR,FR-OCC,44.407902,2.48267,LFCR,1,3,small,28
+"Egelsbach, DE",Egelsbach,DE,DE-HE,49.96,8.643043,EDFE,1,14,small,20
+"Szymany, PL",Szymany,PL,PL-WN,53.481899,20.9377,EPSY,1,8,small,17
+"Donegal, IE",Donegal,IE,IE-DL,55.0442008972168,-8.340999603271484,EIDL,1,2,small,10
+"Kavala, GR",Kavala,GR,GR-A,40.9133,24.6192,LGKV,1,1,small,17
+"Paphos, CY",Paphos,CY,CY-06,34.717999,32.485699,LCPH,1,35,medium,110
+"Agno, CH",Agno,CH,CH-TI,46.004299,8.91058,LSZA,1,16,small,22
+"Thessaloniki, GR",Thessaloniki,GR,GR-B,40.51928,22.970009,LGTS,1,52,large,639
+"Kittilä, FI",Kittilä,FI,FI-10,67.700996,24.8468,EFKT,1,17,medium,36
+"Ferno (VA), IT",Ferno (VA),IT,IT-25,45.6306,8.72811,LIMC,1,111,large,2379
+"Farnborough, Hampshire, GB","Farnborough, Hampshire",GB,GB-ENG,51.275799,-0.776333,EGLF,1,91,medium,313
+"Visby, SE",Visby,SE,SE-I,57.6628,18.346201,ESSV,1,1,small,20
+"Antwerp, BE",Antwerp,BE,BE-VAN,51.190667,4.463153,EBAW,1,47,medium,100
+"Vigo, ES",Vigo,ES,ES-GA,42.2318,-8.62677,LEVX,1,12,medium,75
+"Lahr/Schwarzwald, DE",Lahr/Schwarzwald,DE,DE-BW,48.369301,7.82772,EDTL,1,4,small,5
+"Rørvik, NO",Rørvik,NO,NO-50,64.838302612305,11.14610004425,ENRM,1,1,small,7
+"Nottingham, Nottinghamshire, GB","Nottingham, Nottinghamshire",GB,GB-ENG,52.919998,-1.07917,EGBN,1,2,small,4
+"Jerez de la Frontera, ES",Jerez de la Frontera,ES,ES-AN,36.744598,-6.06011,LEJR,1,19,medium,64
+"Greven, DE",Greven,DE,DE-NW,52.133816,7.688482,EDDG,1,41,medium,126
+"Gaziemir, TR",Gaziemir,TR,TR-35,38.2924,27.157,LTBJ,1,27,medium,169
+"Cambridge, Cambridgeshire, GB","Cambridge, Cambridgeshire",GB,GB-ENG,52.205002,0.175,EGSC,1,9,small,14
+"Helsinki (Vantaa), FI",Helsinki (Vantaa),FI,FI-18,60.318363,24.963341,EFHK,1,73,large,1838
+"Halmstad, SE",Halmstad,SE,SE-N,56.69110107421875,12.820199966430664,ESMT,1,3,small,35
+"Schkeuditz, DE",Schkeuditz,DE,DE-SN,51.420657,12.232705,EDDP,1,80,large,752
+"Clermont-Ferrand, FR",Clermont-Ferrand,FR,FR-ARA,45.786701,3.16917,LFLC,1,10,medium,39
+"Nowe Kramsko, PL",Nowe Kramsko,PL,PL-LB,52.1385,15.7986,EPZG,1,4,small,16
+"Tampere / Pirkkala, FI",Tampere / Pirkkala,FI,FI-11,61.414101,23.604401,EFTP,1,6,medium,35
+"Kiel, DE",Kiel,DE,DE-SH,54.37957,10.145266,EDHK,1,10,small,15
+"Caselle (VR), IT",Caselle (VR),IT,IT-34,45.394955,10.887303,LIPX,1,54,medium,317
+"Luleå, SE",Luleå,SE,SE-BD,65.5438,22.122,ESPA,1,15,medium,157
+"Jönköping, SE",Jönköping,SE,SE-F,57.757598876953125,14.068699836730955,ESGJ,1,7,small,11
+"Hyères, Var, FR","Hyères, Var",FR,FR-PAC,43.097301,6.14603,LFTH,1,8,small,25
+"Saarbrücken, DE",Saarbrücken,DE,DE-SL,49.217562,7.111667,EDDR,1,7,small,27
+"Nîmes/Garons, FR",Nîmes/Garons,FR,FR-OCC,43.757401,4.41635,LFTW,1,18,medium,33
+"Oulu / Oulunsalo, FI",Oulu / Oulunsalo,FI,FI-14,64.930099,25.354601,EFOU,1,2,medium,108
+"Ajaccio, FR",Ajaccio,FR,FR-COR,41.923599,8.80292,LFKJ,1,12,medium,150
+"Stockholm / Västerås, SE",Stockholm / Västerås,SE,SE-U,59.589401,16.6336,ESOW,1,5,small,14
+"Annecy, FR",Annecy,FR,FR-ARA,45.928947,6.0987,LFLP,1,32,medium,54
+"Mönchengladbach, DE",Mönchengladbach,DE,DE-NW,51.230278,6.504444,EDLN,1,29,medium,45
+"Friedrichshafen, DE",Friedrichshafen,DE,DE-BW,47.671299,9.51149,EDNY,1,48,medium,101
+"Castres, FR",Castres,FR,FR-OCC,43.556301,2.28918,LFCK,1,1,small,22
+"Jasionka, PL",Jasionka,PL,PL-PK,50.109791,22.024155,EPRZ,1,39,medium,144
+"Grenoble, FR",Grenoble,FR,FR-ARA,45.3629,5.32937,LFLS,1,66,medium,238
+"Eindhoven, NL",Eindhoven,NL,NL-NB,51.4500999451,5.37452983856,EHEH,1,48,medium,489
+"Recea, RO",Recea,RO,RO-MS,46.467701,24.4125,LRTM,1,3,small,11
+"Sandefjord(Torp), NO",Sandefjord(Torp),NO,NO-39,59.186699,10.2586,ENTO,1,21,medium,244
+"Košice, SK",Košice,SK,SK-KI,48.663101,21.2411,LZKZ,1,14,medium,96
+"Mahón (Maó), ES",Mahón (Maó),ES,ES-IB,39.862598,4.21865,LEMH,1,6,medium,46
+"Lincoln, Lincolnshire, GB","Lincoln, Lincolnshire",GB,GB-ENG,53.191966,-0.34651566666666667,"EGNW, EGXC, EGXW",3,5,small,11
+"El Matorral, ES",El Matorral,ES,ES-CN,28.4527,-13.8638,GCFV,1,13,small,18
+"Busevec, HR",Busevec,HR,HR-01,45.647499,16.124399,LDZB,1,10,small,27
+"Zgornji Brnik, SI",Zgornji Brnik,SI,SI-012,46.223701,14.4576,LJLJ,1,36,medium,224
+"Munich, DE",Munich,DE,DE-BY,48.353802,11.7861,EDDM,1,122,large,3815
+"Catania, IT",Catania,IT,IT-82,37.466801,15.0664,LICC,1,25,medium,57
+"Szczecin(Glewice), PL",Szczecin(Glewice),PL,PL-ZP,53.584702,14.9022,EPSC,1,3,small,17
+"Kaunas, LT",Kaunas,LT,LT-KU,54.963965,24.08582,EYKA,1,25,medium,129
+"Roskilde, DK",Roskilde,DK,DK-85,55.585602,12.1314,EKRK,1,37,medium,85
+"Aarhus, DK",Aarhus,DK,DK-82,56.303331,10.618286,EKAH,1,12,medium,38
+"Pamplona, ES",Pamplona,ES,ES-NC,42.77,-1.64633,LEPP,1,9,small,26
+"Larnaca, CY",Larnaca,CY,CY-04,34.875099,33.624901,LCLK,1,59,medium,491
+"Charleroi, BE",Charleroi,BE,BE-WHT,50.461963,4.459562,EBCI,1,79,large,811
+"Salzburg, AT",Salzburg,AT,AT-5,47.793301,13.0043,LOWS,1,100,large,511
+"Comiso, IT",Comiso,IT,IT-82,36.99583,14.60889,LICB,1,5,medium,46
+"Colmar, FR",Colmar,FR,FR-GES,48.109901,7.35901,LFGA,1,3,small,3
+"Sečovlje, SI",Sečovlje,SI,SI-090,45.47201,13.615951,LJPZ,1,7,small,14
+"Ibiza (Eivissa), ES",Ibiza (Eivissa),ES,ES-IB,38.872898,1.37312,LEIB,1,39,medium,351
+"Feldkirchen bei Graz, AT",Feldkirchen bei Graz,AT,AT-6,46.9911,15.4396,LOWG,1,26,medium,143
+"Rotterdam, NL",Rotterdam,NL,NL-ZH,51.956902,4.43722,EHRD,1,55,medium,283
+"Wurster Nordseeküste, DE",Wurster Nordseeküste,DE,DE-NI,53.767689,8.659201,ETMN,1,3,small,4
+"Vilnius, LT",Vilnius,LT,LT-VL,54.634102,25.285801,EYVI,1,52,large,538
+"Hamburg, DE",Hamburg,DE,DE-HH,53.58284016015625,9.91189301513672,"EDDH, EDHI",2,105,large,1452
+"Shannon, IE",Shannon,IE,IE-CE,52.702,-8.92482,EINN,1,43,medium,241
+"Tallinn, EE",Tallinn,EE,EE-37,59.413246,24.83264,EETN,1,39,medium,466
+"Manching, DE",Manching,DE,DE-BY,48.7156982421875,11.534000396728516,ETSI,1,6,small,17
+"Vienna, AT",Vienna,AT,AT-9,48.110298,16.5697,LOWW,1,107,large,2499
+"Sta Cruz de la Palma, La Palma Island, ES","Sta Cruz de la Palma, La Palma Island",ES,ES-CN,28.626499,-17.7556,GCLA,1,16,medium,49
+"Wilhelmshaven, DE",Wilhelmshaven,DE,DE-NI,53.50222,8.052222,EDWI,1,2,small,4
+"Turweston, GB",Turweston,GB,GB-ENG,52.040798,-1.09556,EGBT,1,4,small,4
+"Köln (Cologne), DE",Köln (Cologne),DE,DE-NW,50.865898,7.14274,EDDK,1,98,large,1133
+"Bristol, GB",Bristol,GB,GB-ENG,51.382326,-2.716453,EGGD,1,72,large,1008
+"Bastia, FR",Bastia,FR,FR-COR,42.5527,9.48373,LFKB,1,7,medium,55
+"Prague, CZ",Prague,CZ,CZ-PR,50.100874,14.259911,LKPR,1,116,large,1668
+"Exeter, Devon, GB","Exeter, Devon",GB,GB-ENG,50.734261,-3.413984,EGTE,1,18,medium,61
+"Venezia (VE), IT",Venezia (VE),IT,IT-34,45.505299,12.3519,LIPZ,1,77,large,759
+"Kuopio / Siilinjärvi, FI",Kuopio / Siilinjärvi,FI,FI-15,63.007099,27.7978,EFKU,1,7,medium,68
+"La Virgen Del Camino, ES",La Virgen Del Camino,ES,ES-CL,42.590709,-5.653406,LELN,1,5,small,18
+"Grimsby, Lincolnshire, GB","Grimsby, Lincolnshire",GB,GB-ENG,53.576152,-0.34954,EGNJ,1,21,medium,70
+"Mošnov, CZ",Mošnov,CZ,CZ-MO,49.696301,18.111099,LKMT,1,21,medium,54
+"Ängelholm, SE",Ängelholm,SE,SE-M,56.29610061645508,12.847100257873535,ESTA,1,6,medium,60
+"Ronchi dei Legionari/Trieste, IT",Ronchi dei Legionari/Trieste,IT,IT-36,45.827499,13.4722,LIPQ,1,27,medium,148
+"Figari, FR",Figari,FR,FR-COR,41.50185,9.097092,LFKF,1,7,medium,49
+"Bologna, IT",Bologna,IT,IT-45,44.5354,11.2887,LIPE,1,73,large,884
+"Trabzon, TR",Trabzon,TR,TR-61,40.995098,39.7897,LTCG,1,14,medium,178
+"Charmeil, Allier, FR","Charmeil, Allier",FR,FR-ARA,46.16969,3.403637,LFLV,1,3,small,21
+"Trondheim, NO",Trondheim,NO,NO-50,63.457802,10.924,ENVA,1,19,large,672
+"Bremen, DE",Bremen,DE,DE-HB,53.046786,8.78932,EDDW,1,30,medium,259
+"Arvidsjaur, SE",Arvidsjaur,SE,SE-BD,65.59030151367188,19.28190040588379,ESNX,1,16,small,40
+"Balice, PL",Balice,PL,PL-MA,50.077702,19.7848,EPKK,1,94,large,1334
+"Nuremberg, DE",Nuremberg,DE,DE-BY,49.498699,11.078056,EDDN,1,68,medium,408
+"Darlington, Durham, GB","Darlington, Durham",GB,GB-ENG,54.509201,-1.42941,EGNV,1,17,medium,67
+"Funchal, PT",Funchal,PT,PT-30,32.697812,-16.774613,LPMA,1,58,large,539
+"Timişoara, RO",Timişoara,RO,RO-TM,45.809898,21.3379,LRTR,1,24,medium,93
+"Stavanger, NO",Stavanger,NO,NO-11,58.876701,5.63778,ENZV,1,25,large,659
+"Bern, CH",Bern,CH,CH-BE,46.912736,7.498819,LSZB,1,61,medium,140
+"Nottingham, Leicestershire, GB","Nottingham, Leicestershire",GB,GB-ENG,52.8311,-1.32806,EGNX,1,59,medium,466
+"Saint-Jacques-de-la-Lande, Ille-et-Vilaine, FR","Saint-Jacques-de-la-Lande, Ille-et-Vilaine",FR,FR-BRE,48.0695,-1.73479,LFRN,1,30,medium,140
+"Augsburg, DE",Augsburg,DE,DE-BY,48.425278,10.931667,EDMA,1,26,small,50
+"Bergen, NO",Bergen,NO,NO-46,60.2934,5.21814,ENBR,1,35,large,962
+"Marignane, Bouches-du-Rhône, FR","Marignane, Bouches-du-Rhône",FR,FR-PAC,43.438088,5.2125,LFML,1,76,large,1046
+"Liverpool, GB",Liverpool,GB,GB-ENG,53.334863,-2.849637,EGGP,1,67,large,513
+"Badajoz, ES",Badajoz,ES,ES-EX,38.8913,-6.82133,LEBZ,1,4,small,17
+"Southampton, GB",Southampton,GB,GB-ENG,50.950298,-1.3568,EGHI,1,32,medium,227
+"Łódź, PL",Łódź,PL,PL-LD,51.721901,19.3981,EPLL,1,9,medium,53
+"Barrow-in-Furness, GB",Barrow-in-Furness,GB,GB-ENG,54.1286111,-3.2675,EGNL,1,4,small,27
+"Katowice, PL",Katowice,PL,PL-SL,50.476015,19.080705,EPKT,1,61,medium,404
+"Alicante, ES",Alicante,ES,ES-VC,38.2822,-0.558156,LEAL,1,112,large,1794
+"Woking, Surrey, GB","Woking, Surrey",GB,GB-ENG,51.348099,-0.558889,EGTF,1,14,small,22
+"Seville, ES",Seville,ES,ES-AN,37.417999,-5.89311,LEZL,1,77,large,1060
+"Dundee, GB",Dundee,GB,GB-SCT,56.452499,-3.02583,EGPN,1,10,small,27
+"Siljansnäs, SE",Siljansnäs,SE,SE-W,60.785099,14.8272,ESVS,1,4,small,7
+"Stockholm, SE",Stockholm,SE,SE-AB,59.5014455,17.935264500000002,"ESSA, ESSB",2,112,large,2690
+"Palermo, IT",Palermo,IT,IT-82,38.145959,13.202185,"LICJ, LICP",2,42,medium,346
+"Zaragoza, ES",Zaragoza,ES,ES-AR,41.666199,-1.04155,LEZG,1,38,medium,103
+"Eskişehir, TR",Eskişehir,TR,TR-26,39.811644,30.519268,LTBY,1,4,small,4
+"Derry, Derry and Strabane, GB","Derry, Derry and Strabane",GB,GB-NIR,55.042801,-7.16111,EGAE,1,6,small,12
+"Colombier-Saugnieu, Rhône, FR","Colombier-Saugnieu, Rhône",FR,FR-ARA,45.725996,5.090139,LFLL,1,82,large,1184
+"Spata-Artemida, GR",Spata-Artemida,GR,GR-I,37.936401,23.9445,LGAV,1,83,large,1957
+"Wrocław, PL",Wrocław,PL,PL-DS,51.103719,16.882096,EPWR,1,58,large,521
+"Birmingham, West Midlands, GB","Birmingham, West Midlands",GB,GB-ENG,52.453899,-1.74803,EGBB,1,79,large,1203
+"Capua, IT",Capua,IT,IT-72,41.116001,14.178,LIAU,1,8,small,11
+"Nice, Alpes-Maritimes, FR","Nice, Alpes-Maritimes",FR,FR-PAC,43.658401,7.21587,LFMN,1,87,large,629
+"Alajero, La Gomera Island, ES","Alajero, La Gomera Island",ES,ES-CN,28.0296,-17.2146,GCGM,1,19,medium,33
+"Lublin, PL",Lublin,PL,PL-LU,51.240157,22.713461,EPLB,1,6,small,19
+"Granada, ES",Granada,ES,ES-AN,37.188702,-3.77736,LEGR,1,7,small,21
+"Orio al Serio (BG), IT",Orio al Serio (BG),IT,IT-25,45.669362,9.708851,LIME,1,100,large,1117
+"Nyköping, SE",Nyköping,SE,SE-D,58.789656,16.911479,ESKN,1,6,small,18
+"Calden, DE",Calden,DE,DE-HE,51.418395,9.391638,EDVK,1,14,small,14
+"Lossiemouth, Moray, GB","Lossiemouth, Moray",GB,GB-SCT,57.7052,-3.33917,EGQS,1,3,small,6
+"Newquay, GB",Newquay,GB,GB-ENG,50.440601,-4.99541,EGHQ,1,18,medium,74
+"Mannheim, DE",Mannheim,DE,DE-BW,49.473057,8.514167,EDFM,1,26,small,42
+"Göteborg, SE",Göteborg,SE,SE-Q,57.71875,12.075099999999999,"ESGG, ESGP",2,62,large,684
+"Kuressaare, EE",Kuressaare,EE,EE-74,58.22990036010742,22.50950050354004,EEKE,1,1,small,13
+"Perpignan/Rivesaltes, FR",Perpignan/Rivesaltes,FR,FR-OCC,42.740398,2.87067,LFMP,1,10,medium,38
+"Weeze, DE",Weeze,DE,DE-NW,51.601362,6.141228,EDLV,1,26,medium,113
+"Braunschweig, DE",Braunschweig,DE,DE-NI,52.319199,10.5561,EDVE,1,26,medium,47
+"Villanova d'Albenga (SV), IT",Villanova d'Albenga (SV),IT,IT-42,44.050598,8.12743,LIMG,1,6,small,6
+"Charlestown, IE",Charlestown,IE,IE-MO,53.910439,-8.817002,EIKN,1,9,medium,97
+"Segrate (MI), IT",Segrate (MI),IT,IT-25,45.445099,9.27674,LIML,1,104,large,1759
+"Nantes, FR",Nantes,FR,FR-PDL,47.153198,-1.61073,LFRS,1,43,large,668
+"Velika Gorica, HR",Velika Gorica,HR,HR-01,45.742901,16.0688,LDZA,1,47,medium,323
+"Luton, Luton, GB","Luton, Luton",GB,GB-ENG,51.874699,-0.368333,EGGW,1,120,large,1548
+"Treviso (TV), IT",Treviso (TV),IT,IT-34,45.648399,12.1944,LIPH,1,39,medium,102
+"Antalya, TR",Antalya,TR,TR-07,36.898701,30.800501,LTAI,1,57,large,731
+"Girona, ES",Girona,ES,ES-CT,41.904639,2.761774,LEGE,1,15,medium,40
+"Palma de Mallorca, ES",Palma de Mallorca,ES,ES-IB,39.551701,2.73881,LEPA,1,107,large,1689
+"Stuttgart, DE",Stuttgart,DE,DE-BW,48.689899,9.22196,EDDS,1,80,large,769
+"Wevelgem, BE",Wevelgem,BE,BE-VWV,50.818878,3.209551,EBKT,1,33,small,39
+"Lesquin, FR",Lesquin,FR,FR-HDF,50.566564,3.102429,LFQQ,1,29,medium,103
+"Düsseldorf, DE",Düsseldorf,DE,DE-NW,51.289501,6.76678,EDDL,1,95,large,1501
+"Samsun, TR",Samsun,TR,TR-55,41.253988,36.567546,LTFH,1,1,small,6
+"Rome, IT",Rome,IT,IT-62,41.8016505,12.423664500000001,"LIRA, LIRF",2,133,large,3639
+"Zurich, CH",Zurich,CH,CH-ZH,47.458056,8.548056,LSZH,1,126,large,3257
+"Manchester, Greater Manchester, GB","Manchester, Greater Manchester",GB,GB-ENG,53.349375,-2.279521,EGCC,1,107,large,2338
+"Mytilene, GR",Mytilene,GR,GR-K,39.057406,26.598629,LGMT,1,3,medium,82
+"Alexandroupolis, GR",Alexandroupolis,GR,GR-A,40.8559,25.956301,LGAL,1,2,small,53
+"Broughton, GB",Broughton,GB,GB-WLS,53.178101,-2.97778,EGNR,1,22,small,41
+"Klagenfurt am Wörthersee, AT",Klagenfurt am Wörthersee,AT,AT-2,46.642502,14.3377,LOWK,1,8,small,11
+"Jyväskylän Maalaiskunta, FI",Jyväskylän Maalaiskunta,FI,FI-08,62.399502,25.678301,EFJY,1,4,medium,33
+"Santiago de Compostela, ES",Santiago de Compostela,ES,ES-GA,42.896301,-8.41514,LEST,1,18,medium,162
+"Uherské Hradiště, CZ",Uherské Hradiště,CZ,CZ-ZL,49.0294,17.439699,LKKU,1,4,small,6
+"Rota, ES",Rota,ES,ES-AN,36.645198822,-6.34946012497,LERT,1,3,small,9
+"Maastricht, NL",Maastricht,NL,NL-LI,50.911087,5.769401,EHBK,1,23,medium,40
+"Kidlington, Oxfordshire, GB","Kidlington, Oxfordshire",GB,GB-ENG,51.836899,-1.32,EGTK,1,40,medium,68
+"Laage, DE",Laage,DE,DE-MV,53.918201,12.2783,ETNL,1,18,small,29
+"Paris, FR",Paris,FR,FR-HDF,49.3032125,2.247938,"LFAT, LFPB, LFPG, LFPO",4,180,large,7877
+"Burbach, DE",Burbach,DE,DE-NW,50.707699,8.08297,EDGS,1,5,small,5
+"Hannover, DE",Hannover,DE,DE-NI,52.461102,9.68508,EDDV,1,62,large,569
+"Rhodes, GR",Rhodes,GR,GR-L,36.405399,28.086201,LGRP,1,12,medium,82
+"Lelystad, NL",Lelystad,NL,NL-FL,52.453188,5.514622,EHLE,1,10,small,11
+"Bucharest, RO",Bucharest,RO,RO-B,44.537462500000004,26.1031145,"LRBS, LROP",2,101,large,1388
+"St. Gallen, CH",St. Gallen,CH,CH-SG,47.485001,9.56077,LSZR,1,55,medium,134
+"Samos Island, GR",Samos Island,GR,GR-K,37.689999,26.911699,LGSM,1,3,small,12
+"Berlin, DE",Berlin,DE,DE-BR,52.361738,13.502341,EDDB,1,123,large,2423
+"Cascais, PT",Cascais,PT,PT-11,38.724998,-9.35523,LPCS,1,33,medium,68
+"Lamezia Terme (CZ), IT",Lamezia Terme (CZ),IT,IT-78,38.906214,16.246007,LICA,1,26,medium,297
+"Erfurt, DE",Erfurt,DE,DE-TH,50.978281,10.960713,EDDE,1,9,small,14
+"Bolzano (BZ), IT",Bolzano (BZ),IT,IT-32,46.459245,11.326125,LIPB,1,35,medium,61
+"Strasbourg, FR",Strasbourg,FR,FR-GES,48.5383,7.62823,LFST,1,25,medium,132
+"Ronneby, SE",Ronneby,SE,SE-K,56.266701,15.265,ESDF,1,3,small,48
+"Gdańsk, PL",Gdańsk,PL,PL-PM,54.377602,18.4662,EPGD,1,67,medium,404
+"Istanbul, TR",Istanbul,TR,TR-34,41.048463,28.955016666666666,"LTBA, LTFJ, LTFM",3,115,large,4849
+"Bratislava, SK",Bratislava,SK,SK-BL,48.1702,17.2127,LZIB,1,56,medium,296
+"Rheinmünster, DE",Rheinmünster,DE,DE-BW,48.7794,8.0805,EDSB,1,23,medium,83
+"Barcelona, ES",Barcelona,ES,ES-CT,41.2971,2.07846,LEBL,1,131,large,4621
+"Sønderborg, DK",Sønderborg,DK,DK-83,54.96440124511719,9.791729927062988,EKSB,1,13,medium,59
+"Aalborg, DK",Aalborg,DK,DK-81,57.094763,9.84993,EKYT,1,19,medium,270
+"Valletta, MT",Valletta,MT,MT-25,35.845932,14.491546,LMML,1,91,large,1029
+"Mehamn, NO",Mehamn,NO,NO-56,71.029701,27.8267,ENMH,1,1,small,3
+"Billund, DK",Billund,DK,DK-83,55.740335,9.157019,EKBI,1,55,medium,414
+"Luxembourg, LU",Luxembourg,LU,LU-L,49.626845,6.212134,ELLX,1,73,large,891
+"Firenze (FI), IT",Firenze (FI),IT,IT-52,43.808558,11.202822,LIRQ,1,34,medium,261
+"Albert, FR",Albert,FR,FR-HDF,49.970049,2.693939,LFAQ,1,2,small,3
+"Poprad, SK",Poprad,SK,SK-PV,49.070994,20.241394,LZTT,1,8,small,18
+"Innsbruck, AT",Innsbruck,AT,AT-7,47.260201,11.344,LOWI,1,57,medium,369
+"Camberley, Surrey, GB","Camberley, Surrey",GB,GB-ENG,51.323898,-0.8475,EGLK,1,7,small,7
+"Buochs, CH",Buochs,CH,CH-NW,46.974444,8.396944,LSZC,1,8,small,9
+"Belfast, GB",Belfast,GB,GB-NIR,54.63780011035,-6.0441649246199995,"EGAA, EGAC",2,46,large,1391
+"Warton, GB",Warton,GB,GB-ENG,53.745098,-2.88306,EGNO,1,7,small,21
+"Groningen, NL",Groningen,NL,NL-DR,53.119107,6.577652,EHGG,1,27,small,41
+"Carterton, Oxfordshire, GB","Carterton, Oxfordshire",GB,GB-ENG,51.75,-1.58362,EGVN,1,8,medium,37
+"Chambéry, FR",Chambéry,FR,FR-ARA,45.6381,5.88023,LFLB,1,72,medium,249
+"Aberdeen, GB",Aberdeen,GB,GB-SCT,57.2019,-2.19778,EGPD,1,28,medium,439
+"Linz, AT",Linz,AT,AT-4,48.267703,14.260867000000001,"LOLO, LOWL",2,35,medium,75
+"Biarritz, FR",Biarritz,FR,FR-NAQ,43.468372,-1.523223,LFBZ,1,8,medium,101
+"Locarno, CH",Locarno,CH,CH-TI,46.160801,8.87861,LSZL,1,6,small,6
+"Pescara, IT",Pescara,IT,IT-65,42.431079,14.182981,LIBP,1,18,medium,104
+"San Javier, ES",San Javier,ES,ES-MC,37.775002,-0.812389,LELC,1,2,small,13
+"Farranfore, IE",Farranfore,IE,IE-KY,52.180901,-9.52378,EIKY,1,8,medium,66
+"Angers, FR",Angers,FR,FR-PDL,47.560299,-0.312222,LFJR,1,7,small,8
+"Zaventem, BE",Zaventem,BE,BE-VBR,50.901402,4.48444,EBBR,1,86,large,1293
+"Büren, DE",Büren,DE,DE-NW,51.612527,8.617459,EDLP,1,18,medium,39
+"Lisbon, PT",Lisbon,PT,PT-11,38.7813,-9.13592,LPPT,1,80,large,2190
+"Avignon, FR",Avignon,FR,FR-PAC,43.907299,4.90183,LFMV,1,18,small,23
+"Geneva, CH",Geneva,CH,CH-GE,46.238098,6.10895,LSGG,1,133,large,2723
+"Toulouse/Blagnac, FR",Toulouse/Blagnac,FR,FR-OCC,43.629101,1.36382,LFBO,1,69,large,1027
+"Hof, DE",Hof,DE,DE-BY,50.288544,11.852876,EDQM,1,5,small,5
+"Aix en Provence, FR",Aix en Provence,FR,FR-PAC,43.506294,5.366426,LFMA,1,8,small,10
+"Linköping, SE",Linköping,SE,SE-E,58.404909,15.684499,ESSL,1,3,medium,33
+"Grâce-Hollogne, BE",Grâce-Hollogne,BE,BE-WLG,50.638574,5.443897,EBLG,1,36,medium,193
+"Osijek(Klisa), HR",Osijek(Klisa),HR,HR-14,45.462355,18.811278,LDOS,1,5,small,11
+"Samedan, CH",Samedan,CH,CH-GR,46.5341,9.88411,LSZS,1,23,small,33
+"Constanța, RO",Constanța,RO,RO-CT,44.362202,28.4883,LRCK,1,5,small,14
+"Beauvais, FR",Beauvais,FR,FR-HDF,49.454399,2.11278,LFOB,1,44,medium,347
+"Cranfield, Central Bedfordshire, GB","Cranfield, Central Bedfordshire",GB,GB-ENG,52.072201,-0.616667,EGTC,1,5,small,6
+"Toussus-le-Noble, Yvelines, FR","Toussus-le-Noble, Yvelines",FR,FR-IDF,48.7519,2.10619,LFPN,1,24,small,35
+"Cannes, FR",Cannes,FR,FR-PAC,43.547998,6.955176,LFMD,1,34,medium,77
+"Budapest, HU",Budapest,HU,HU-BU,47.4908415,19.1193895,"LHBP, LHHH",2,117,large,1658
+"Dortmund, DE",Dortmund,DE,DE-NW,51.518299,7.61224,EDLW,1,41,medium,145
+"Edremit, TR",Edremit,TR,TR-10,39.552533,27.010192,LTFD,1,1,small,19
+"Poznań, PL",Poznań,PL,PL-WP,52.421598,16.823359,EPPO,1,50,medium,352
+"Vila Baleira, PT",Vila Baleira,PT,PT-30,33.0733985901,-16.3500003815,LPPS,1,4,small,7
+"Cork, IE",Cork,IE,IE-CO,51.841301,-8.49111,EICK,1,35,medium,326
+"Nowy Dwór Mazowiecki, PL",Nowy Dwór Mazowiecki,PL,PL-MZ,52.451099,20.6518,EPMO,1,36,medium,239
+"Porto, PT",Porto,PT,PT-13,41.2481002808,-8.68138980865,LPPR,1,84,large,1640
+"Chabeuil, Drôme, FR","Chabeuil, Drôme",FR,FR-ARA,44.9216,4.9699,LFLU,1,12,small,17
+"Karmøy, NO",Karmøy,NO,NO-11,59.345299,5.20836,ENHD,1,2,small,28
+"Kristiansand(Kjevik), NO",Kristiansand(Kjevik),NO,NO-42,58.204201,8.08537,ENCN,1,6,medium,169
+"Culleredo, ES",Culleredo,ES,ES-GA,43.302101,-8.37726,LECO,1,15,medium,183
+"Örebro, SE",Örebro,SE,SE-T,59.22370147705078,15.038000106811523,ESOE,1,10,small,37
+"Røros, NO",Røros,NO,NO-50,62.578399658203,11.342300415039,ENRO,1,1,small,11
+"Alghero, IT",Alghero,IT,IT-88,40.632099,8.29077,LIEA,1,10,medium,123
+"Edinburgh, GB",Edinburgh,GB,GB-SCT,55.950145,-3.372288,EGPH,1,89,large,1665
+"Parma (PR), IT",Parma (PR),IT,IT-45,44.826351,10.29705,LIMP,1,11,small,15
+"Zirchow, DE",Zirchow,DE,DE-MV,53.8787,14.1523,EDAH,1,2,small,3
+"Maribor, SI",Maribor,SI,SI-160,46.4799,15.6861,LJMB,1,7,small,9
+"Malmö, SE",Malmö,SE,SE-M,55.535564,13.376327,ESMS,1,25,medium,142
+"Bodø, NO",Bodø,NO,NO-18,67.269203,14.3653,ENBO,1,13,medium,286
+"Bydgoszcz, PL",Bydgoszcz,PL,PL-KP,53.096802,17.977699,EPBY,1,10,medium,51
+"Bodrum, TR",Bodrum,TR,TR-48,37.194706499999995,27.6668555,"LTBV, LTFE",2,7,medium,69
+"Amsterdam, NL",Amsterdam,NL,NL-NH,52.308601,4.76389,EHAM,1,152,large,5915
+"Perugia (PG), IT",Perugia (PG),IT,IT-55,43.095901,12.5132,LIRZ,1,14,small,27
+"Turku, FI",Turku,FI,FI-19,60.514099,22.2628,EFTU,1,11,medium,48
+"Bournemouth, GB",Bournemouth,GB,GB-ENG,50.780483,-1.839576,EGHH,1,23,medium,83
+"Leixlip, IE",Leixlip,IE,IE-D,53.351622,-6.490357,EIWT,1,7,small,11
+"Frankfurt am Main, DE",Frankfurt am Main,DE,DE-HE,50.026706,8.55835,EDDF,1,127,large,4705
+"Tenerife, ES",Tenerife,ES,ES-CN,28.263626000000002,-16.457103500000002,"GCTS, GCXO",2,54,large,301
+"Romney Marsh, Kent, GB","Romney Marsh, Kent",GB,GB-ENG,50.956246,0.939074,EGMD,1,5,small,5
+"Limnos Island, GR",Limnos Island,GR,GR-K,39.917098999,25.236299514799995,LGLM,1,3,small,32
+"Calais, FR",Calais,FR,FR-HDF,50.962101,1.95476,LFAC,1,3,small,3
+"Wolverhampton, Staffordshire, GB","Wolverhampton, Staffordshire",GB,GB-ENG,52.517502,-2.25944,EGBO,1,3,small,4
+"Valladolid, ES",Valladolid,ES,ES-CL,41.7061,-4.85194,LEVD,1,3,small,3
+"Saint-Denis-de-l'Hôtel, Loiret, FR","Saint-Denis-de-l'Hôtel, Loiret",FR,FR-CVL,47.897758,2.164478,LFOZ,1,5,small,5
+"San Bartolomé, ES",San Bartolomé,ES,ES-CN,28.945499,-13.6052,GCRR,1,16,small,25
+"Portimão, PT",Portimão,PT,PT-08,37.1493,-8.58396,LPPM,1,2,small,5
+"Vila Real, PT",Vila Real,PT,PT-17,41.2743,-7.72047,LPVR,1,1,small,6
+"Cluj-Napoca, RO",Cluj-Napoca,RO,RO-CJ,46.786042,23.685733,LRCL,1,14,small,22
+"La Baule-Escoublac, FR",La Baule-Escoublac,FR,FR-PDL,47.289398,-2.34639,LFRE,1,2,small,3
+"Waterford, IE",Waterford,IE,IE-WD,52.187199,-7.08696,EIWF,1,3,small,3
+"Trento (TN), IT",Trento (TN),IT,IT-32,46.023333,11.125,LIDT,1,30,small,56
+"Sion, CH",Sion,CH,CH-VS,46.219166,7.326944,LSGS,1,3,small,3
+"Šiauliai, LT",Šiauliai,LT,LT-SA,55.89390182495117,23.395000457763672,EYSA,1,4,small,4
+"Växjö, SE",Växjö,SE,SE-G,56.929100036621094,14.727999687194824,ESMX,1,7,small,10
+"Tartu, EE",Tartu,EE,EE-7B,58.307438,26.686473,EETU,1,1,small,4
+"Le Castellet, Var, FR","Le Castellet, Var",FR,FR-PAC,43.252499,5.78519,LFMQ,1,10,small,14
+"Selçuk, TR",Selçuk,TR,TR-35,37.950699,27.329,LTFB,1,5,medium,73
+"Pécs, HU",Pécs,HU,HU-BA,45.988891,18.242044,LHPP,1,2,small,3
+"Zakynthos, GR",Zakynthos,GR,GR-F,37.7509,20.8843,LGZA,1,3,small,15
+"Skiros Island, GR",Skiros Island,GR,GR-H,38.9676017761,24.4871997833,LGSY,1,1,small,3
+"Coventry, West Midlands, GB","Coventry, West Midlands",GB,GB-ENG,52.369701,-1.47972,EGBE,1,3,small,4
+"Arad, RO",Arad,RO,RO-AR,46.176136,21.264322,LRAR,1,2,small,3
+"Dalaman, TR",Dalaman,TR,TR-48,36.7131,28.7925,LTBS,1,2,small,10
+"Pardubice, CZ",Pardubice,CZ,CZ-PA,50.015049,15.73981,LKPD,1,2,small,8
+"Kalymnos Island, GR",Kalymnos Island,GR,GR-L,36.9632987976,26.9405994415,LGKY,1,1,small,3
+"Hondarribia, ES",Hondarribia,ES,ES-PV,43.356499,-1.79061,LESO,1,2,small,10
+"Chalons en Champagne, FR",Chalons en Champagne,FR,FR-GES,48.77333,4.20611,LFOK,1,3,small,4
+"Atting, DE",Atting,DE,DE-BY,48.900833,12.516667,EDMS,1,2,small,3
+"Giebelstadt, DE",Giebelstadt,DE,DE-BY,49.6480560303,9.966388702390002,EDQG,1,3,small,3
+"Evenes, NO",Evenes,NO,NO-18,68.491302,16.678101,ENEV,1,6,small,26

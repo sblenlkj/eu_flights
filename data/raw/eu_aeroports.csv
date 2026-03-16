@@ -184,7 +184,6 @@ EGNV,Teesside International Airport,medium_airport,GB,GB-ENG,"Darlington, Durham
 EGNW,Wickenby Aerodrome,small_airport,GB,GB-ENG,"Lincoln, Lincolnshire",53.3167,-0.349722
 EGNX,East Midlands Airport,large_airport,GB,GB-ENG,"Nottingham, Leicestershire",52.8311,-1.32806
 EGOS,RAF Shawbury,medium_airport,GB,GB-ENG,"Shrewsbury, Shropshire",52.798199,-2.66804
-EGOV,Anglesey Airport,medium_airport,GB,GB-WLS,Angelsey,53.2481,-4.53534
 EGOW,RAF Woodvale,small_airport,GB,GB-ENG,"Southport, Sefton",53.5816,-3.05552
 EGPA,Kirkwall Airport,medium_airport,GB,GB-SCT,"Kirkwall, Orkney Islands",58.957903,-2.905077
 EGPB,Sumburgh Airport,medium_airport,GB,GB-SCT,"Lerwick, Shetland",59.878899,-1.29556
@@ -201,7 +200,6 @@ EGPO,Stornoway Airport,medium_airport,GB,GB-SCT,"Stornoway, Western Isles",58.21
 EGPR,Barra Airport,medium_airport,GB,GB-SCT,Eoligarry,57.0228,-7.44306
 EGPT,Perth/Scone Airport,small_airport,GB,GB-SCT,"Perth, Perth and Kinross",56.439201,-3.37222
 EGPU,Tiree Airport,medium_airport,GB,GB-SCT,"Balemartine, Argyll and Bute",56.499199,-6.86917
-EGQS,RAF Lossiemouth,medium_airport,GB,GB-SCT,"Lossiemouth, Moray",57.7052,-3.33917
 EGSC,Cambridge City Airport,medium_airport,GB,GB-ENG,"Cambridge, Cambridgeshire",52.205002,0.175
 EGSD,Great Yarmouth - North Denes Airport,small_airport,GB,GB-ENG,"Great Yarmouth, Norfolk",52.635576,1.723016
 EGSF,Peterborough Business Airport,small_airport,GB,GB-ENG,"Peterborough, Cambridgeshire",52.468102,-0.251111
@@ -221,7 +219,6 @@ EGUB,RAF Benson,medium_airport,GB,GB-ENG,"Wallingford, Oxfordshire",51.614366,-1
 EGUL,RAF Lakenheath,medium_airport,GB,GB-ENG,"Brandon, Suffolk",52.40954,0.561161
 EGUN,RAF Mildenhall,medium_airport,GB,GB-ENG,"Bury Saint Edmunds, Suffolk",52.3619,0.486406
 EGVA,RAF Fairford,medium_airport,GB,GB-ENG,"Fairford, Gloucestershire",51.683568,-1.789172
-EGVN,RAF Brize Norton,medium_airport,GB,GB-ENG,"Carterton, Oxfordshire",51.75,-1.58362
 EGVO,RAF Odiham,medium_airport,GB,GB-ENG,"Hook, Hampshire",51.2341,-0.942825
 EGWN,RAF Halton,small_airport,GB,GB-ENG,"Halton, Buckinghamshire",51.790699,-0.737972
 EGWU,RAF Northolt,medium_airport,GB,GB-ENG,London,51.553001,-0.418167
@@ -233,7 +230,6 @@ EGXW,RAF Waddington,medium_airport,GB,GB-ENG,"Lincoln, Lincolnshire",53.166199,-
 EGXY,RAF Syerston,small_airport,GB,GB-ENG,"Newark on Trent, Nottinghamshire",53.0228,-0.911111
 EGYD,RAF Cranwell,medium_airport,GB,GB-ENG,"Sleaford, Lincolnshire",53.027308,-0.493104
 EGYE,RAF Barkston Heath,medium_airport,GB,GB-ENG,"Grantham, Lincolnshire",52.960616,-0.559428
-EGYM,RAF Marham,medium_airport,GB,GB-ENG,"King's Lynn, Norfolk",52.648395,0.550692
 EHAL,Ameland Airport Ballum,small_airport,NL,NL-FR,Ballum,53.453612,5.678396
 EHAM,Amsterdam Airport Schiphol,large_airport,NL,NL-NH,Amsterdam,52.308601,4.76389
 EHBD,Kempen Airport Budel,medium_airport,NL,NL-NB,Weert,51.255299,5.60139
@@ -389,7 +385,6 @@ ESOW,Stockholm Västerås Airport,large_airport,SE,SE-U,Stockholm / Västerås,5
 ESPA,Luleå Airport,large_airport,SE,SE-BD,Luleå,65.5438,22.122
 ESSA,Stockholm-Arlanda Airport,large_airport,SE,SE-AB,Stockholm,59.64849,17.928829
 ESSB,Stockholm-Bromma Airport,medium_airport,SE,SE-AB,Stockholm,59.354401,17.9417
-ESSD,Dala Airport,medium_airport,SE,SE-W,Borlange,60.422001,15.5152
 ESSF,Hultsfred Airport,small_airport,SE,SE-H,Hultsfred,57.525799,15.8233
 ESSK,Gävle Sandviken Airport,medium_airport,SE,SE-X,Gävle / Sandviken,60.5933,16.951401
 ESSL,Linköping City Airport,large_airport,SE,SE-E,Linköping,58.404909,15.684499
@@ -405,8 +400,6 @@ ESUP,Pajala Airport,small_airport,SE,SE-BD,Pajala,67.244569,23.074894
 ESUT,Hemavan Airport,small_airport,SE,SE-AC,Hemavan,65.806099,15.0828
 ESVS,Siljansnäs Air Park,small_airport,SE,SE-W,Siljansnäs,60.785099,14.8272
 ETIC,Grafenwöhr Army Air Field,medium_airport,DE,DE-BY,Grafenwöhr,49.6987,11.9402
-ETMN,Sea-Airport Cuxhaven/Nordholz / Nordholz Naval Airbase,medium_airport,DE,DE-NI,Wurster Nordseeküste,53.767689,8.659201
-ETNL,Rostock-Laage Airport,medium_airport,DE,DE-MV,Laage,53.918201,12.2783
 ETSI,Ingolstadt Manching Airport,medium_airport,DE,DE-BY,Manching,48.7156982421875,11.534000396728516
 EVLA,Liepāja International Airport,large_airport,LV,LV-112,Liepāja,56.517502,21.096901
 EVRA,Riga International Airport,large_airport,LV,LV-062,Riga,56.920752,23.970711
@@ -482,7 +475,6 @@ LEPP,Pamplona Airport,medium_airport,ES,ES-NC,Pamplona,42.77,-1.64633
 LERL,Ciudad Real International Airport,medium_airport,ES,ES-CM,Ciudad Real,38.856479,-3.969944
 LERP,Aeródromo de Herrera de Pisuerga,small_airport,ES,ES-CL,Herrera de Pisuerga,42.5923,-4.2902
 LERS,Reus Airport,large_airport,ES,ES-CT,Reus,41.147509,1.168354
-LERT,Rota Naval Station Airport,medium_airport,ES,ES-AN,Rota,36.645198822,-6.34946012497
 LESA,Salamanca Airport,medium_airport,ES,ES-CL,Salamanca,40.952099,-5.50199
 LESO,San Sebastián Airport,medium_airport,ES,ES-PV,Hondarribia,43.356499,-1.79061
 LEST,Santiago-Rosalía de Castro Airport,large_airport,ES,ES-GA,Santiago de Compostela,42.896301,-8.41514
@@ -498,7 +490,6 @@ LEZL,Seville Airport,large_airport,ES,ES-AN,Seville,37.417999,-5.89311
 LFAB,Dieppe-Saint-Aubin Airport,small_airport,FR,FR-NOR,Saint-Aubin-sur-Scie,49.884662,1.08101
 LFAC,Calais Marck Airport,medium_airport,FR,FR-HDF,Calais,50.962101,1.95476
 LFAI,Nangis-Les Loges Aerodrome,small_airport,FR,FR-IDF,Clos-Fontaine,48.596199,3.00679
-LFAQ,Albert Bray airport,small_airport,FR,FR-HDF,Albert,49.970049,2.693939
 LFAT,Le Touquet-Côte d'Opale Airport,medium_airport,FR,FR-HDF,Paris,50.518284,1.621656
 LFAU,Aérodrome de Vauville,small_airport,FR,FR-NOR,La Hague,49.622775,-1.830688
 LFAW,Villerupt Aerodrome,small_airport,FR,FR-GES,"Errouville, Meurthe-et-Moselle",49.410424,5.889301
@@ -524,7 +515,6 @@ LFCR,Rodez–Aveyron Airport,medium_airport,FR,FR-OCC,Rodez/Marcillac,44.407902,
 LFCY,Royan-Médis Airport,medium_airport,FR,FR-NAQ,Royan/Médis,45.628101,-0.9725
 LFDB,Aérodrome Morin - Védrines,small_airport,FR,FR-OCC,Montauban,44.0257,1.37804
 LFDG,Aérodrome de Gaillac - Lisle-sur-Tarn,small_airport,FR,FR-OCC,Gaillac,43.8839,1.87556
-LFDN,Rochefort-Saint-Agnant (BA 721) Airport,medium_airport,FR,FR-NAQ,Rochefort/Saint-Agnant,45.887798,-0.983056
 LFEA,Aérodrome de Belle Île,small_airport,FR,FR-BRE,Bangor,47.325256,-3.201255
 LFEC,Ouessant Airport,small_airport,FR,FR-BRE,Ushant,48.4632,-5.06358
 LFEY,Île d'Yeu Airport,small_airport,FR,FR-PDL,Île d'Yeu,46.717641,-2.392544
@@ -802,7 +792,6 @@ LSYR,Rosa Blanche Mountain Landing Site,small_airport,CH,CH-VS,Grat südlich Gip
 LSYX,Glacier du Trient Mountain Landing Site,small_airport,CH,CH-VS,Firnrand,45.9883,7.0425
 LSZA,Lugano Airport,medium_airport,CH,CH-TI,Agno,46.004299,8.91058
 LSZB,Bern Airport,medium_airport,CH,CH-BE,Bern,46.912736,7.498819
-LSZC,Buochs Airport,small_airport,CH,CH-NW,Buochs,46.974444,8.396944
 LSZH,Zürich Airport,large_airport,CH,CH-ZH,Zurich,47.458056,8.548056
 LSZL,Locarno Airport,small_airport,CH,CH-TI,Locarno,46.160801,8.87861
 LSZR,Sankt Gallen Altenrhein Airport,medium_airport,CH,CH-SG,St. Gallen,47.485001,9.56077

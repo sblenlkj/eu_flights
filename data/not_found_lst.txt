@@ -1,90 +1,52 @@
-Zgornji Brnik, SI
-Antwerp, BE
-Szymany, PL
-Turku, FI
-Edremit, TR
-Kefallinia Island, GR
-Ampugnano (SI), IT
-Siljansnäs, SE
-Sečovlje, SI
-Rørvik, NO
-Farranfore, IE
-El Matorral, ES
-Limnos Island, GR
-Timişoara, RO
-Oulu / Oulunsalo, FI
+Tymbou (Kirklar), CY
+Warsaw, PL
+Palanga, LT
+Dublin, IE
+Ranón, ES
 Copenhagen, DK
-Larnaca, CY
-Trabzon, TR
+Oostende, BE
+Szymany, PL
+Paphos, CY
+Antwerp, BE
+Gaziemir, TR
+Helsinki (Vantaa), FI
+Nowe Kramsko, PL
+Tampere / Pirkkala, FI
+Oulu / Oulunsalo, FI
 Jasionka, PL
+Mahón (Maó), ES
+Zgornji Brnik, SI
+Munich, DE
+Kaunas, LT
+Larnaca, CY
+Sečovlje, SI
 Vilnius, LT
 Vienna, AT
-Paphos, CY
-Kokkola / Kruunupyy, FI
-Jyväskylän Maalaiskunta, FI
-Busevec, HR
-Warsaw, PL
-Istanbul, TR
 Prague, CZ
-Palanga, LT
-Samsun, TR
-Leirvik, NO
-Visby, SE
-Munich, DE
-Erzurum, TR
-Helsinki (Vantaa), FI
-Alexandroupolis, GR
-Zurich, CH
-Kithira Island, GR
-Bacău, RO
-Mehamn, NO
-Rhodes, GR
-Valletta, MT
-Vila Baleira, PT
-Kaunas, LT
-Palma de Mallorca, ES
-Kuressaare, EE
-Gaziemir, TR
-Tymbou (Kirklar), CY
-Eskişehir, TR
+Trabzon, TR
 Balice, PL
-Tampere / Pirkkala, FI
-Mytilene, GR
-Antalya, TR
-Geneva, CH
-Lisbon, PT
-Bucharest, RO
-Constanța, RO
-Mahón (Maó), ES
-Levaldigi (CN), IT
-Dublin, IE
-Spata-Artemida, GR
-La Virgen Del Camino, ES
-Vaasa, FI
 Nuremberg, DE
-Pamplona, ES
-Aix en Provence, FR
-Ranón, ES
-Nowe Kramsko, PL
+Timişoara, RO
+Siljansnäs, SE
+Eskişehir, TR
+Spata-Artemida, GR
 Charlestown, IE
-Oostende, BE
-Bazan, BG
-Hoeven, NL
-Skiros Island, GR
-Borlange, SE
-Enontekio, FI
-Pori, FI
-Çanakkale, TR
-Lappeenranta, FI
-Savonlinna, FI
-Sindal, DK
+Antalya, TR
+Palma de Mallorca, ES
+Samsun, TR
+Mytilene, GR
+Alexandroupolis, GR
+Jyväskylän Maalaiskunta, FI
+Rhodes, GR
+Bucharest, RO
+Istanbul, TR
+Valletta, MT
+Farranfore, IE
+Lisbon, PT
+Edremit, TR
+Vila Baleira, PT
+Turku, FI
+Limnos Island, GR
 Šiauliai, LT
-Kajaani, FI
-Mikkeli, FI
-Sofia, BG
+Skiros Island, GR
 Chalons en Champagne, FR
-Babięta, PL
-Florø, NO
-Astypalaia Island, GR
-Île d'Yeu, FR
-Yenişehir, TR
